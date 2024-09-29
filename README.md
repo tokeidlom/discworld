@@ -1,5 +1,5 @@
 # Discworld
-An Uuofficial FoundryVTT system for Modiphius' Discworld: Adventures in Ankh-Morpork. Shared with their kind permission.
+An Unofficial FoundryVTT system for Modiphius' Discworld: Adventures in Ankh-Morpork. Shared with their kind permission.
 
 This system is more cobbled together than the streets of Ankh-Morpork. It is intended for occasional use. As the Modiphius description of their game, the system is intended to be played as a one shot providing respite between sessions of a more serious system. As such the rules are light and easy to follow. in that spirit this VTT system is little more than an online character sheet for you to use to assist your play sessions.
 
