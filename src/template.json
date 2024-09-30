@@ -1,0 +1,22 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "character": {
+      "pronouns": "",
+      "luck": 4,
+      "organisation": "",
+      "background": "",
+      "description": "",
+      "consequences": "",
+      "notes": ""
+    }
+  },
+  "Item": {
+    "types": ["item", "quirk", "core", "niche"],
+    "item": {},
+    "quirk": {},
+    "core": {},
+    "niche": {}
+  }
+}
+

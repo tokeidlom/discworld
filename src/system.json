@@ -1,0 +1,36 @@
+{
+	"id": "discworld",
+	"title": "Discworld Adventures in Ankh Morpork",
+	"description": "An unofficial rendition of the Modiphius tabletop role playing game system.",
+	"version": "0.0.1",
+	"compatibility": {
+		"verified": "12",
+		"minimum": "9"
+	},
+	"authors": [
+		{
+			"name": "CalinStar",
+			"discord": "CalinStar"
+		}
+	],
+	"esmodules": ["module/discworld.js"],
+	"socket": false,
+	"styles": ["discworld.css"],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json",
+			"flags": {}
+		}
+	],
+	"grid": {
+		"distance": 5,
+		"units": "m"
+	},
+	"primaryTokenAttribute": "luck",
+	"secondaryTokenAttribute": "health",
+	"url": "https://github.com/tokeidlom/discworld",
+	"manifest": "https://raw.githubusercontent.com/tokeidlom/discworld/main/src/system.json",
+	"download": "tbd"
+}

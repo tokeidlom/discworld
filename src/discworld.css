@@ -1,0 +1,168 @@
+.discworld-actor .dice-roll-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80%;
+}
+
+.discworld-actor .dice-roll-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.discworld-actor .roll-button {
+  flex: 1;
+  min-width: 80px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.discworld-actor .luck-field {
+  display: flex;
+  align-items: center;
+  flex-basis: 10%;
+}
+
+.discworld-actor .luck-input {
+  width: 50px;
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+.discworld-actor .luck-max {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.discworld-actor .name-field {
+  flex-basis: 80%;
+}
+
+.discworld-actor .name-field .name-input {
+  font-size: 2rem;
+  height: 3rem;
+}
+
+.discworld-actor .pronouns-field {
+  flex-basis: 10%;
+}
+
+.discworld-actor .organisation-field {
+  flex: 5;
+}
+
+.discworld-actor .background-field {
+  flex: 5;
+}
+
+.discworld-actor .split-row {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.discworld-actor .left-column {
+  flex: 0 0 70%;
+  padding-right: 10px;
+}
+
+.discworld-actor .right-column {
+  flex: 0 0 20%;
+  padding-left: 10px;
+}
+
+.discworld-actor .field-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.discworld-actor label {
+  margin-top: 5px;
+}
+
+.discworld-actor .form-group-notes {
+  display: flex;
+  flex-direction: column;
+}
+
+.discworld-actor .form-group-notes label {
+  font-weight: bold;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+  max-height: 250px;
+  min-height: 80px;
+}
+
+.discworld-actor .profile-img {
+  height: 150px;
+  width: auto;
+}
+
+/* item row styling from here */
+/* Style the entire form group */
+.discworld-actor .form-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Style the label and create button */
+.discworld-actor .field-group label,
+.discworld-actor .form-group label {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.discworld-actor .form-group .control.create {
+  color: #28a745;
+  cursor: pointer;
+}
+
+/* Style the list of items */
+.discworld-actor ul.item-list {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style each individual item entry */
+.discworld-actor li.row.entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the item name */
+.discworld-actor .one-column-no-roll.list-entry {
+  flex-grow: 1;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* Style the control buttons */
+.discworld-actor .control a {
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.discworld-actor .control a.edit:hover {
+  color: #ffc107;
+}
+
+.discworld-actor .control a.delete:hover {
+  color: #dc3545;
+}
+
+.discworld-actor li.row.entry:hover {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
