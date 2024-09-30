@@ -7,6 +7,8 @@ This system is currently in its early development phase, and as such it is less 
 
 However, just as the fair streets of Ankh-Morpork themselves, it is ugly, yet, it somehow works anyway. Maybe only because no one told it that it shouldn't!
 
+Add this manifest to your FoundryVTT: https://raw.githubusercontent.com/tokeidlom/discworld/main/src/system.json
+
 ![v0 0 1](https://github.com/user-attachments/assets/c817d1e6-8aa2-4973-a692-177152f9ffba)
 
 It terms of collaboration or support, I'm open to suggestions for improvement, code submissions, PRs and generally anything that makes this better for everyone! If you do want to PR, please do that onto the develop branch.
