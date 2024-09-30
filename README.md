@@ -5,7 +5,7 @@ This system is more cobbled together than the streets of Ankh-Morpork. It is int
 
 This system is currently in its early development phase, and as such it is less attractive than a pair of Rincewind's old long johns. It is actively being worked on, and should get better over time.
 
-However, just as Ankh-Morpork itself, despite being ugly, it somehow manages to defy logic, and works anyway. Maybe only because no one told it that it shouldn't!
+However, just as Ankh-Morpork itself, despite being ugly it somehow manages to defy logic and works anyway. Maybe only because no one told it that it shouldn't!
 
 Add this manifest to your FoundryVTT: https://raw.githubusercontent.com/tokeidlom/discworld/main/src/system.json
 
