@@ -1,0 +1,30 @@
+{
+	"character": {
+		"name": "Nombre",
+		"pronouns": "Pronombres",
+		"outcomedice": "Dados de Resultado",
+		"luck": "Suerte",
+		"organisation": "Organización",
+		"background": "Antecedentes",
+		"role": "Rol",
+		"niche": "Nicho",
+		"core": "Esencia",
+		"quirks": "Peculiaridades",
+		"traits": "Rasgos",
+		"description": "Descripción",
+		"consequences": "Consecuencias",
+		"notes": "Notas"
+	},
+	"application": {
+		"createitem": "Crear Ítem",
+		"edititem": "Editar Ítem",
+		"deleteitem": "Eliminar Ítem",
+		"deleteconfirm": "¿Estás seguro de que quieres eliminar este ítem?",
+		"yes": "Sí",
+		"no": "No",
+		"discworlddiceroller": "Lanzador de Dados Discworld",
+		"roll": "Lanzar",
+		"rolling": "Lanzando",
+		"close": "Cerrar"
+	}		
+}

@@ -49,11 +49,15 @@
 }
 
 .discworld-actor .organisation-field {
-  flex: 5;
+  flex: 50%;
 }
 
 .discworld-actor .background-field {
-  flex: 5;
+  flex: 50%;
+}
+
+.discworld-actor .role-field {
+  flex: 80%;
 }
 
 .discworld-actor .split-row {
