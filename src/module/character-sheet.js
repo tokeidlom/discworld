@@ -2,12 +2,16 @@ export class DiscworldCharacterSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["discworld", "sheet", "character"],
-      template: "systems/discworld/templates/actors/character.hbs",
       width: 800,
       height: 860,
     });
   }
-
+  
+  // If the player is not a GM and has limited permissions - send them to the limited sheet, otherwise, continue as usual.
+  get template() {
+    if ( !game.user.isGM && this.actor.limited) return 'systems/discworld/templates/actors/limited-sheet.hbs';
+    return `systems/discworld/templates/actors/character.hbs`;
+  }
   getData() {
     const data = super.getData();
     return data;

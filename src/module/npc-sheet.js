@@ -2,12 +2,16 @@ export class DiscworldNPCSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["discworld", "sheet", "npc"],
-      template: "systems/discworld/templates/actors/npc.hbs",
       width: 800,
       height: 500,
     });
   }
 
+  // If the player is not a GM and has limited permissions - send them to the limited sheet, otherwise, continue as usual.
+  get template() {
+    if ( !game.user.isGM && this.actor.limited) return 'systems/discworld/templates/actors/limited-sheet.hbs';
+    return `systems/discworld/templates/actors/npc.hbs`;
+  }
   getData() {
     const data = super.getData();
     return data;

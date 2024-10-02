@@ -13,9 +13,15 @@
 .discworld-actor .roll-button {
   flex: 1;
   min-width: 80px;
-  text-align: center;
+  text-align: left;
   padding: 10px;
   cursor: pointer;
+  font-family: cursive;
+  background-image: url('/systems/discworld/assets/dice/dice.png');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  border: none;
 }
 
 .discworld-actor .luck-field {
@@ -27,6 +33,8 @@
 .discworld-actor .luck-input {
   width: 50px;
   font-size: 1.5rem;
+  border: none;
+  text-align: right;
 }
 
 .discworld-actor .luck-max {
@@ -128,6 +136,12 @@ textarea {
   overflow: hidden;
 }
 
+.limited-sheet {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
 .profile-img {
   width: 100%;
   height: 100%;
@@ -169,4 +183,12 @@ textarea {
 
 .discworld-actor .control a.delete:hover {
   color: #dc3545;
+}
+
+/*Discworld roller button styling here*/
+.roll-button img.dice-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  border: none;
 }
