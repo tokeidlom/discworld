@@ -26,7 +26,6 @@
 
 .discworld-actor .luck-input {
   width: 50px;
-  margin-right: 5px;
   font-size: 1.5rem;
 }
 
@@ -42,18 +41,28 @@
 .discworld-actor .name-field .name-input {
   font-size: 2rem;
   height: 3rem;
+  border: none;
+  font-family: cursive;
 }
 
 .discworld-actor .pronouns-field {
   flex-basis: 10%;
 }
 
+.discworld-actor .role-field .role-input,
+.discworld-actor .background-field .background-input,
+.discworld-actor .organisation-field .organisation-input,
+.discworld-actor .pronouns-field .pronouns-input {
+  border: none;
+  font-family: cursive;
+}
+
 .discworld-actor .organisation-field {
-  flex: 50%;
+  flex: 45%;
 }
 
 .discworld-actor .background-field {
-  flex: 50%;
+  flex: 45%;
 }
 
 .discworld-actor .role-field {
@@ -90,50 +99,46 @@
   flex-direction: column;
 }
 
-.discworld-actor .form-group-notes label {
-  font-weight: bold;
-}
-
-textarea {
-  height: 150px;
-  resize: vertical;
-  max-height: 250px;
-  min-height: 80px;
-}
-
-.discworld-actor .profile-img {
-  height: 150px;
-  width: auto;
-}
-
-/* item row styling from here */
-/* Style the entire form group */
-.discworld-actor .form-group {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-/* Style the label and create button */
+.discworld-actor .form-group-notes label,
 .discworld-actor .field-group label,
 .discworld-actor .form-group label {
   margin-right: 0.5rem;
   font-weight: bold;
 }
 
-.discworld-actor .form-group .control.create {
-  color: #28a745;
-  cursor: pointer;
+
+textarea {
+  height: 150px;
+  resize: vertical;
+  max-height: 250px;
+  min-height: 80px;
+  border: none;
+  font-family: cursive;
 }
 
-/* Style the list of items */
-.discworld-actor ul.item-list {
-  list-style-type: none;
-  padding: 10px;
-  margin: 0;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+.image-field {
+  width: 200px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.npc-image-field {
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* item row styling from here */
+/* Style the label and create button */
+.discworld-actor .form-group .control.create {
+  color: #191813;
+  cursor: pointer;
 }
 
 /* Style each individual item entry */
@@ -141,19 +146,19 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 /* Style the item name */
 .discworld-actor .one-column-no-roll.list-entry {
   flex-grow: 1;
   margin-right: 0.5rem;
-  font-size: 1rem;
-  font-weight: normal;
+  font-family: cursive;
 }
 
 /* Style the control buttons */
 .discworld-actor .control a {
-  color: #007bff;
+  color: #191813;
   cursor: pointer;
   margin-left: 0.5rem;
 }
@@ -164,9 +169,4 @@ textarea {
 
 .discworld-actor .control a.delete:hover {
   color: #dc3545;
-}
-
-.discworld-actor li.row.entry:hover {
-  background-color: #f9f9f9;
-  transition: background-color 0.3s ease;
 }
