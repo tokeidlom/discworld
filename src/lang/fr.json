@@ -1,0 +1,30 @@
+{
+	"character": {
+		"name": "Nom",
+		"pronouns": "Pronoms",
+		"outcomedice": "Dés de Résultat",
+		"luck": "Chance",
+		"organisation": "Organisation",
+		"background": "Historique",
+		"role": "Rôle",
+		"niche": "Niche",
+		"core": "Essence",
+		"quirks": "Particularités",
+		"traits": "Traits",
+		"description": "Description",
+		"consequences": "Conséquences",
+		"notes": "Notes"
+	},
+	"application": {
+		"createitem": "Créer un Objet",
+		"edititem": "Modifier un Objet",
+		"deleteitem": "Supprimer un Objet",
+		"deleteconfirm": "Êtes-vous sûr de vouloir supprimer cet objet ?",
+		"yes": "Oui",
+		"no": "Non",
+		"discworlddiceroller": "Lanceur de Dés Discworld",
+		"roll": "Lancer",
+		"rolling": "Lancement",
+		"close": "Fermer"
+	}		
+}

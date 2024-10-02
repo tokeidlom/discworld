@@ -1,30 +1,29 @@
 <form class="discworld-actor">
   <div class="form-group split-row">
     <div class="field-group name-field">
-      <label for="name">Name:</label>
+      <label for="name">{{localize 'character.name'}}:</label>
       <input type="text" name="name" value="{{actor.name}}" class="name-input">
     </div>
     
     <div class="field-group pronouns-field">
-      <label for="pronouns">Pronouns:</label>
+      <label for="pronouns">{{localize 'character.pronouns'}}:</label>
       <input type="text" name="system.pronouns" value="{{actor.system.pronouns}}" class="pronouns-input">
     </div>
   </div>
 
   <div class="form-group split-row">
     <div class="dice-roll-container">
-      <label for="dice-rolls">Outcome Dice :</label>
+      <label for="dice-rolls">{{localize 'character.outcomedice'}}:</label>
       <div class="dice-roll-buttons">
-        <button type="button" class="roll-button" data-dice="d4">Roll d4</button>
-        <button type="button" class="roll-button" data-dice="d6">Roll d6</button>
-        <button type="button" class="roll-button" data-dice="d8">Roll d8</button>
-        <button type="button" class="roll-button" data-dice="d10">Roll d10</button>
-        <button type="button" class="roll-button" data-dice="d12">Roll d12</button>
+        <button type="button" class="roll-button" data-dice="d4">{{localize 'application.roll'}} d4</button>
+        <button type="button" class="roll-button" data-dice="d6">{{localize 'application.roll'}} d6</button>
+        <button type="button" class="roll-button" data-dice="d10">{{localize 'application.roll'}} d10</button>
+        <button type="button" class="roll-button" data-dice="d12">{{localize 'application.roll'}} d12</button>
       </div>
     </div>
 
     <div class="field-group luck-field">
-      <label for="luck">Luck:</label>
+      <label for="luck">{{localize 'character.luck'}}:</label>
       <input type="number" name="system.luck" value="{{actor.system.luck}}" min="0" max="4" class="luck-input">
     </div>
     <label for="luck" class="luck-max">/4</label>
@@ -32,20 +31,20 @@
 
   <div class="form-group split-row">
     <div class="field-group organisation-field">
-      <label for="organisation">Organisation:</label>
-      <input type="text" name="system.organisation" value="{{actor.system.organisation}}">
+      <label for="organisation">{{localize 'character.organisation'}}:</label>
+      <input type="text" name="system.organisation" value="{{actor.system.organisation}}" class="organisation-input">
     </div>
 
     <div class="field-group background-field">
-      <label for="background">Background:</label>
-      <input type="text" name="system.background" value="{{actor.system.background}}">
+      <label for="background">{{localize 'character.background'}}:</label>
+      <input type="text" name="system.background" value="{{actor.system.background}}" class="background-input">
     </div>
   </div>
 
   <div class="form-group split-row">
     <div class="left-column">
-      <label for="niche">Niche:</label>
-      <a class="control create" title="Create item" data-type="niche">
+      <label for="niche">{{localize 'character.niche'}}:</label>
+      <a class="control create" title="{{localize 'application.createitem'}}" data-type="niche">
         <i class="fas fa-plus"></i>
       </a>
       {{#each items as |item id|}}
@@ -53,14 +52,14 @@
           <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
             <h4 class="one-column-no-roll list-entry">{{item.name}}</h4>
             <div class="control">
-              <a class="edit" title="Edit Item"><i class="fas fa-edit"></i></a>
-              <a class="delete" title="Delete Item"><i class="fas fa-trash"></i></a>
+              <a class="edit" title="{{localize 'application.edititem'}}"><i class="fas fa-edit"></i></a>
+              <a class="delete" title="{{localize 'application.deleteitem'}}"><i class="fas fa-trash"></i></a>
             </div>
           </li>
         {{/if}}
       {{/each}}
 
-      <label for="core">Core:</label>
+      <label for="core">{{localize 'character.core'}}:</label>
       <a class="control create" title="Create item" data-type="core">
         <i class="fas fa-plus"></i>
       </a>
@@ -76,7 +75,7 @@
         {{/if}}
       {{/each}}
 
-      <label for="quirks">Quirks:</label>
+      <label for="quirks">{{localize 'character.quirks'}}:</label>
       <a class="control create" title="Create item" data-type="quirk">
         <i class="fas fa-plus"></i>
       </a>
@@ -93,7 +92,7 @@
       {{/each}}
 
       <div class="form-group-notes">
-        <label for="description">Description:</label>
+        <label for="description">{{localize 'character.description'}}:</label>
         <textarea name="system.description">{{actor.system.description}}</textarea>
       </div>
     </div>
@@ -107,12 +106,12 @@
 
   <div class="form-group split-row">
     <div class="form-group-notes">
-      <label for="consequences">Consequences:</label>
+      <label for="consequences">{{localize 'character.consequences'}}:</label>
       <textarea name="system.consequences">{{actor.system.consequences}}</textarea>
     </div>
 
     <div class="form-group-notes">
-      <label for="notes">Notes:</label>
+      <label for="notes">{{localize 'character.notes'}}:</label>
       <textarea name="system.notes">{{actor.system.notes}}</textarea>
     </div>
   </div>

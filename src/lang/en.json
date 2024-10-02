@@ -1,2 +1,30 @@
 {
+	"character": {
+		"name": "Name",
+		"pronouns": "Pronouns",
+		"outcomedice": "Outcome Dice",
+		"luck": "Luck",
+		"organisation": "Organisation",
+		"background": "Background",
+		"role": "Role",
+		"niche": "Niche",
+		"core": "Core",
+		"quirks": "Quirks",
+		"traits": "Traits",
+		"description": "Description",
+		"consequences": "Consequences",
+		"notes": "Notes"
+	},
+	"application": {
+		"createitem": "Create Item",
+		"edititem": "Edit Item",
+		"deleteitem": "Delete Item",
+		"deleteconfirm": "Are you sure you want to delete this item?",
+		"yes": "Yes",
+		"no": "No",
+		"discworlddiceroller": "Discworld Dice Roller",
+		"roll": "Roll",
+		"rolling": "Rolling",
+		"close": "Close"
+	}		
 }

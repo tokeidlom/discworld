@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["character"],
+    "types": ["character", "NPC"],
     "character": {
       "pronouns": "",
       "luck": 4,
@@ -9,11 +9,17 @@
       "description": "",
       "consequences": "",
       "notes": ""
-    }
+    },
+	"NPC": {
+      "pronouns": "",
+	  "role": "",
+	  "traits": "",
+	  "notes": ""
+	}
   },
   "Item": {
-    "types": ["item", "quirk", "core", "niche"],
-    "item": {},
+    "types": ["trait", "quirk", "core", "niche"],
+    "trait": {},
     "quirk": {},
     "core": {},
     "niche": {}
