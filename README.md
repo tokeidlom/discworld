@@ -33,6 +33,7 @@ By using the item menu, and clicking on "Create Item" you can create one of core
 
 ## Dice Roller
 At the end of the left hand menu bar you will find a button to launch the dice roller
+
 ![image](https://github.com/user-attachments/assets/7c6db09a-640c-4bb4-b5b8-19f8a2d730ac)
 
 The roller will let you make any of the rolls that you need to play this system.
