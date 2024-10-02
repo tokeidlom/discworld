@@ -12,3 +12,5 @@ Add this manifest to your FoundryVTT: https://raw.githubusercontent.com/tokeidlo
 ![v0 0 1](https://github.com/user-attachments/assets/c817d1e6-8aa2-4973-a692-177152f9ffba)
 
 It terms of collaboration or support, I'm open to suggestions for improvement, code submissions, PRs and generally anything that makes this better for everyone! If you do want to PR, please do that onto the develop branch.
+
+([https://github.com/user-attachments/assets/12271d24-2e1d-4c2e-9278-1a0f17ba6fd7](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshot.png))
