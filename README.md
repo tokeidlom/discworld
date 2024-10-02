@@ -9,6 +9,6 @@ However, just as Ankh-Morpork itself, despite being ugly it somehow manages to d
 
 Add this manifest to your FoundryVTT: https://raw.githubusercontent.com/tokeidlom/discworld/main/src/system.json
 
-![screenshot](https://github.com/user-attachments/assets/b6e80dcc-4b33-43ff-b07e-884c9e6f8fb5)
+![screenshot](https://github.com/user-attachments/assets/bef2e0b4-3135-43bd-94f7-e515da2cd2cf)
 
 It terms of collaboration or support, I'm open to suggestions for improvement, code submissions, PRs and generally anything that makes this better for everyone! If you do want to PR, please do that onto the develop branch.
