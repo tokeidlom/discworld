@@ -1,3 +1,4 @@
+/* Character sheet roll button styling*/
 .discworld-actor .dice-roll-container {
   display: flex;
   flex-direction: column;
@@ -24,6 +25,7 @@
   border: none;
 }
 
+/*Luck field styling*/
 .discworld-actor .luck-field {
   display: flex;
   align-items: center;
@@ -35,6 +37,8 @@
   font-size: 1.5rem;
   border: none;
   text-align: right;
+  font-family: cursive;
+  height: 3rem;
 }
 
 .discworld-actor .luck-max {
@@ -42,6 +46,7 @@
   font-size: 1.5rem;
 }
 
+/*Input box and field stylings*/
 .discworld-actor .name-field {
   flex-basis: 80%;
 }
@@ -123,6 +128,7 @@ textarea {
   font-family: cursive;
 }
 
+/*Image fields styling*/
 .image-field {
   width: 200px;
   height: 350px;
@@ -185,7 +191,7 @@ textarea {
   color: #dc3545;
 }
 
-/*Discworld roller button styling here*/
+/*Side bar roller button styling here*/
 .roll-button img.dice-icon {
   width: 50px;
   height: 50px;
