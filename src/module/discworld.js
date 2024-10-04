@@ -1,9 +1,9 @@
 import {
   DiscRoller
-} from './discroller.js';
+} from './apps/discroller.js';
 import {
   DiscworldCharacterSheet
-} from './character-sheet.js';
+} from './actors/character-sheet.js';
 import {
   DiscworldNPCSheet
-} from './npc-sheet.js';
+} from './actors/npc-sheet.js';
