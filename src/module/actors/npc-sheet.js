@@ -1,17 +1,20 @@
-export class DiscworldCharacterSheet extends ActorSheet {
+export class DiscworldNPCSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["discworld", "sheet", "character"],
+      classes: ["discworld", "sheet", "npc"],
       width: 800,
-      height: 860,
+      height: 500,
     });
   }
-  
+
   // If the player is not a GM and has limited permissions - send them to the limited sheet, otherwise, continue as usual.
   get template() {
-    if ( !game.user.isGM && this.actor.limited) return 'systems/discworld/templates/actors/limited-sheet.hbs';
-    return `systems/discworld/templates/actors/character.hbs`;
+    if (!game.user.isGM && this.actor.limited) {
+      return 'systems/discworld/templates/actors/limited-sheet.hbs';
+    }
+    return `systems/discworld/templates/actors/npc.hbs`;
   }
+
   getData() {
     const data = super.getData();
     return data;
@@ -21,11 +24,11 @@ export class DiscworldCharacterSheet extends ActorSheet {
     super.activateListeners(html);
 
     // Create new items
-    html.find('.control.create').click((ev) => {
+    html.find('.control.create').click(async (ev) => {
       ev.preventDefault();
       const header = ev.currentTarget;
       const type = header.dataset.type;
-      const data = Object.assign({}, header.dataset); // Convert dataset into a regular object
+      const data = Object.assign({}, header.dataset);
       const name = `New ${type.capitalize()}`;
 
       const itemData = {
@@ -35,7 +38,8 @@ export class DiscworldCharacterSheet extends ActorSheet {
       };
       delete itemData.data['type'];
 
-      return this.actor.createEmbeddedDocuments('Item', [itemData]);
+      const newItem = await this.actor.createEmbeddedDocuments('Item', [itemData]);
+      newItem[0].sheet.render(true);
     });
 
     // Edit items
@@ -67,31 +71,18 @@ export class DiscworldCharacterSheet extends ActorSheet {
         default: "no"
       }).render(true);
     });
-
-    html.find('.roll-button').click(async (ev) => {
-      const button = ev.currentTarget;
-      const diceType = button.dataset.dice;
-      const formula = `1${diceType}`;
-      const roll = new Roll(formula);
-
-      await roll.evaluate({ async: true });
-
-      roll.toMessage({
-        speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-        flavor: `${game.i18n.localize('application.rolling')} ${formula}`
-      });
-    });
   }
 }
+
 Hooks.once('init', async function() {
-  console.log("Discworld | Registering custom character sheet");
+  console.log("Discworld | Registering custom NPC sheet");
 
   await loadTemplates([
-    "systems/discworld/templates/actors/character.hbs"
+    "systems/discworld/templates/actors/npc.hbs"
   ]);
 
-  Actors.registerSheet("core", DiscworldCharacterSheet, {
-    types: ["character"],
+  Actors.registerSheet("core", DiscworldNPCSheet, {
+    types: ["NPC"],
     makeDefault: true
   });
 });
