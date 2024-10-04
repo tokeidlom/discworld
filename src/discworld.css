@@ -187,8 +187,15 @@ textarea {
 
 /*Discworld roller button styling here*/
 .roll-button img.dice-icon {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   vertical-align: middle;
+  border: none;
+}
+
+.roll-button {
+  text-align: middle;
+  cursor: pointer;
+  font-family: cursive;
   border: none;
 }
