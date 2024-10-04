@@ -114,7 +114,6 @@
   font-weight: bold;
 }
 
-
 textarea {
   height: 150px;
   resize: vertical;
@@ -143,9 +142,10 @@ textarea {
 }
 
 .profile-img {
-  width: 100%;
+  width: auto;
   height: 100%;
   object-fit: cover;
+  object-position: top;
 }
 
 /* item row styling from here */
