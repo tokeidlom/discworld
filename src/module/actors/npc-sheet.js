@@ -9,9 +9,12 @@ export class DiscworldNPCSheet extends ActorSheet {
 
   // If the player is not a GM and has limited permissions - send them to the limited sheet, otherwise, continue as usual.
   get template() {
-    if ( !game.user.isGM && this.actor.limited) return 'systems/discworld/templates/actors/limited-sheet.hbs';
+    if (!game.user.isGM && this.actor.limited) {
+      return 'systems/discworld/templates/actors/limited-sheet.hbs';
+    }
     return `systems/discworld/templates/actors/npc.hbs`;
   }
+
   getData() {
     const data = super.getData();
     return data;
@@ -21,11 +24,11 @@ export class DiscworldNPCSheet extends ActorSheet {
     super.activateListeners(html);
 
     // Create new items
-    html.find('.control.create').click((ev) => {
+    html.find('.control.create').click(async (ev) => {
       ev.preventDefault();
       const header = ev.currentTarget;
       const type = header.dataset.type;
-      const data = Object.assign({}, header.dataset); // Convert dataset into a regular object
+      const data = Object.assign({}, header.dataset);
       const name = `New ${type.capitalize()}`;
 
       const itemData = {
@@ -35,7 +38,8 @@ export class DiscworldNPCSheet extends ActorSheet {
       };
       delete itemData.data['type'];
 
-      return this.actor.createEmbeddedDocuments('Item', [itemData]);
+      const newItem = await this.actor.createEmbeddedDocuments('Item', [itemData]);
+      newItem[0].sheet.render(true);
     });
 
     // Edit items
@@ -69,6 +73,7 @@ export class DiscworldNPCSheet extends ActorSheet {
     });
   }
 }
+
 Hooks.once('init', async function() {
   console.log("Discworld | Registering custom NPC sheet");
 

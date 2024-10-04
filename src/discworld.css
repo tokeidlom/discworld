@@ -211,3 +211,9 @@ textarea {
   font-family: cursive;
   border: none;
 }
+
+/*Traits item sheet styling*/
+.discworld-trait .name-input {
+  border: none;
+  font-family: cursive;
+}
