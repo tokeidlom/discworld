@@ -5,7 +5,7 @@ This system is more cobbled together than the streets of Ankh-Morpork. It is int
 
 Add this manifest to your FoundryVTT: https://raw.githubusercontent.com/tokeidlom/discworld/main/src/system.json
 
-![screenshot](https://github.com/user-attachments/assets/bef2e0b4-3135-43bd-94f7-e515da2cd2cf)
+![Screenshot](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshot.png)
 
 It terms of collaboration or support, I'm open to suggestions for improvement, code submissions, PRs and generally anything that makes this better for everyone! If you do want to PR, please do that onto the develop branch.
 
