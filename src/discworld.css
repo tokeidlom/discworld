@@ -26,12 +26,6 @@
 }
 
 /*Luck field styling*/
-.discworld-actor .luck-field {
-  display: flex;
-  align-items: center;
-  flex-basis: 10%;
-}
-
 .discworld-actor .luck-input {
   width: 50px;
   font-size: 1.5rem;
