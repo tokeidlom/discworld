@@ -85,11 +85,14 @@
 .discworld-actor .left-column {
   flex: 0 0 70%;
   padding-right: 10px;
+  align-self: flex-start;
 }
 
 .discworld-actor .right-column {
   flex: 0 0 20%;
   padding-left: 10px;
+  padding-top: 10px;
+  align-self: flex-start;
 }
 
 .discworld-actor .field-group {
@@ -139,6 +142,7 @@ textarea {
   display: flex;
   justify-content: center;
   height: 100%;
+  padding-top: 10px;
 }
 
 .profile-img {
@@ -150,6 +154,14 @@ textarea {
 
 /* item row styling from here */
 /* Style the label and create button */
+.discworld-actor .newline {
+  display: block;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 .discworld-actor .form-group .control.create {
   color: #191813;
   cursor: pointer;
