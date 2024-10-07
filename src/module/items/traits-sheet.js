@@ -17,22 +17,3 @@ Hooks.once('init', async function() {
     makeDefault: true
   });
 });
-Hooks.on("preCreateItem", (item, options, userId) => {
-  if ((!item.img || item.img === "icons/svg/item-bag.svg") && (item.type === "niche")) {
-    item.updateSource({
-      img: "systems/discworld/assets/items/niches.webp"
-    });
-  } else if ((!item.img || item.img === "icons/svg/item-bag.svg") && (item.type === "core")) {
-    item.updateSource({
-      img: "systems/discworld/assets/items/core.webp"
-    });
-  } else if ((!item.img || item.img === "icons/svg/item-bag.svg") && (item.type === "quirk")) {
-    item.updateSource({
-      img: "systems/discworld/assets/items/quirks.webp"
-    });
-  } else if ((!item.img || item.img === "icons/svg/item-bag.svg") && (item.type === "trait")) {
-    item.updateSource({
-      img: "systems/discworld/assets/items/traits.webp"
-    });
-  }
-});

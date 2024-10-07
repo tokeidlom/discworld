@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
 /* Character sheet roll button styling*/
 .discworld-actor .dice-roll-container {
   display: flex;
@@ -17,7 +19,8 @@
   text-align: left;
   padding: 10px;
   cursor: pointer;
-  font-family: cursive;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
   background-image: url('/systems/discworld/assets/dice/dice.png');
   background-size: contain;
   background-position: right;
@@ -28,11 +31,11 @@
 /*Luck field styling*/
 .discworld-actor .luck-input {
   width: 50px;
-  font-size: 1.5rem;
+  height: 3rem;
   border: none;
   text-align: right;
-  font-family: cursive;
-  height: 3rem;
+  font-family: "Kalam", cursive;
+  font-size: 1.5rem;
 }
 
 .discworld-actor .luck-max {
@@ -40,16 +43,16 @@
   font-size: 1.5rem;
 }
 
-/*Input box and field stylings*/
+/*Input text box and field stylings*/
 .discworld-actor .name-field {
   flex-basis: 80%;
 }
 
 .discworld-actor .name-field .name-input {
-  font-size: 2rem;
   height: 3rem;
   border: none;
-  font-family: cursive;
+  font-family: "Kalam", cursive;
+  font-size: 2rem;
 }
 
 .discworld-actor .pronouns-field {
@@ -61,13 +64,11 @@
 .discworld-actor .organisation-field .organisation-input,
 .discworld-actor .pronouns-field .pronouns-input {
   border: none;
-  font-family: cursive;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
 }
 
-.discworld-actor .organisation-field {
-  flex: 45%;
-}
-
+.discworld-actor .organisation-field,
 .discworld-actor .background-field {
   flex: 45%;
 }
@@ -122,19 +123,20 @@ textarea {
   max-height: 250px;
   min-height: 80px;
   border: none;
-  font-family: cursive;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
 }
 
 /*Image fields styling*/
 .image-field {
   width: 200px;
-  height: 350px;
+  height: 410px;
   overflow: hidden;
 }
 
 .npc-image-field {
   width: 200px;
-  height: 250px;
+  height: 325px;
   overflow: hidden;
 }
 
@@ -179,7 +181,8 @@ textarea {
 .discworld-actor .one-column-no-roll.list-entry {
   flex-grow: 1;
   margin-right: 0.5rem;
-  font-family: cursive;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
 }
 
 /* Style the control buttons */
@@ -208,12 +211,14 @@ textarea {
 .roll-button {
   text-align: middle;
   cursor: pointer;
-  font-family: cursive;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
   border: none;
 }
 
 /*Traits item sheet styling*/
 .discworld-trait .name-input {
   border: none;
-  font-family: cursive;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
 }
