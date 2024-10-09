@@ -88,16 +88,3 @@ export class DiscworldCharacterSheet extends ActorSheet {
     });
   }
 }
-
-Hooks.once('init', async function() {
-  console.log("Discworld | Registering custom character sheet");
-
-  await loadTemplates([
-    "systems/discworld/templates/actors/character.hbs"
-  ]);
-
-  Actors.registerSheet("core", DiscworldCharacterSheet, {
-    types: ["character"],
-    makeDefault: true
-  });
-});

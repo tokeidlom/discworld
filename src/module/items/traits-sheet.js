@@ -8,12 +8,3 @@ export class DiscworldTraitsItem extends ItemSheet {
     });
   }
 }
-
-Hooks.once('init', async function() {
-  console.log("Discworld | Registering custom Core-Item sheet");
-
-  Items.registerSheet("discworld", DiscworldTraitsItem, {
-    types: ["core", "trait", "quirk", "niche"],
-    makeDefault: true
-  });
-});
