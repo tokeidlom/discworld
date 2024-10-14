@@ -10,12 +10,12 @@
       "consequences": "",
       "notes": ""
     },
-	"NPC": {
+    "NPC": {
       "pronouns": "",
-	  "role": "",
-	  "traits": "",
-	  "notes": ""
-	}
+      "role": "",
+      "traits": "",
+      "notes": ""
+    }
   },
   "Item": {
     "types": ["trait", "quirk", "core", "niche"],
@@ -25,4 +25,3 @@
     "niche": {}
   }
 }
-
