@@ -29,20 +29,26 @@
     },
     {
       "lang": "es",
-      "name": "Spanish",
+      "name": "Español",
       "path": "lang/es.json",
       "flags": {}
     },
     {
       "lang": "de",
-      "name": "German",
+      "name": "Deutsch",
       "path": "lang/de.json",
       "flags": {}
     },
     {
       "lang": "fr",
-      "name": "French",
+      "name": "Français",
       "path": "lang/fr.json",
+      "flags": {}
+    },
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json",
       "flags": {}
     },
     {
