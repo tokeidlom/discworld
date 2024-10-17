@@ -1,0 +1,30 @@
+{
+	"character": {
+		"name": "Imię",
+		"pronouns": "Zaimek",
+		"outcomedice": "Kości Wyniku",
+		"luck": "Szczęście",
+		"organisation": "Organizacja",
+		"background": "Tło",
+		"role": "Rola",
+		"niche": "Specjalizacja",
+		"core": "Rdzeń",
+		"quirks": "Dziwactwa",
+		"traits": "Cechy",
+		"description": "Opis",
+		"consequences": "Konsekwencje",
+		"notes": "Notatki"
+	},
+	"application": {
+		"createitem": "Utwórz Przedmiot",
+		"edititem": "Edytuj Przedmiot",
+		"deleteitem": "Usuń Przedmiot",
+		"deleteconfirm": "Czy na pewno chcesz usunąć ten przedmiot?",
+		"yes": "Tak",
+		"no": "Nie",
+		"discworlddiceroller": "Rzucanie Kości Discworld",
+		"roll": "Rzucaj",
+		"rolling": "Rzucanie",
+		"close": "Zamknij"
+	}		
+}

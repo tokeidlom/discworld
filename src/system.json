@@ -1,60 +1,70 @@
 {
-	"id": "discworld",
-	"title": "Discworld: Adventures in Ankh-Morpork (Unofficial)",
-	"description": "An unofficial rendition of the Modiphius tabletop role playing game system.",
-	"version": "0.1.2",
-	"compatibility": {
-		"verified": "12",
-		"minimum": "10"
-	},
-	"authors": [
-		{
-			"name": "CalinStar",
-			"discord": "CalinStar"
-		}
-	],
-	"esmodules": ["module/discworld.js"],
-	"socket": false,
-	"styles": ["discworld.css"],
-	"languages": [
-		{
-			"lang": "en",
-			"name": "English",
-			"path": "lang/en.json",
-			"flags": {}
-		},
-		{
-			"lang": "es",
-			"name": "Spanish",
-			"path": "lang/es.json",
-			"flags": {}
-		},
-		{
-			"lang": "de",
-			"name": "German",
-			"path": "lang/de.json",
-			"flags": {}
-		},
-		{
-			"lang": "fr",
-			"name": "French",
-			"path": "lang/fr.json",
-			"flags": {}
-		},
-		{
-			"lang": "pt-BR",
-			"name": "Português (Brasil)",
-			"path": "lang/pt.json",
-			"flags": {}
-		}
-	],
-	"grid": {
-		"distance": 5,
-		"units": "m"
-	},
-	"primaryTokenAttribute": "luck",
-	"secondaryTokenAttribute": "luck",
-	"url": "https://github.com/tokeidlom/discworld",
-	"manifest": "https://raw.githubusercontent.com/tokeidlom/discworld/main/src/system.json",
-	"download": "https://raw.githubusercontent.com/tokeidlom/discworld/main/package/discworld-v0.1.2.zip"
+  "id": "discworld",
+  "title": "Discworld: Adventures in Ankh-Morpork (Unofficial)",
+  "description": "An unofficial rendition of the Modiphius tabletop role playing game system.",
+  "version": "0.1.3",
+  "compatibility": {
+    "verified": "12",
+    "minimum": "10"
+  },
+  "authors": [
+    {
+      "name": "CalinStar",
+      "discord": "CalinStar"
+    }
+  ],
+  "esmodules": [
+    "module/discworld.js"
+  ],
+  "socket": false,
+  "styles": [
+    "discworld.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json",
+      "flags": {}
+    },
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json",
+      "flags": {}
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt.json",
+      "flags": {}
+    }
+  ],
+  "grid": {
+    "distance": 5,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "luck",
+  "secondaryTokenAttribute": "luck",
+  "url": "https://github.com/tokeidlom/discworld",
+  "manifest": "https://raw.githubusercontent.com/tokeidlom/discworld/main/src/system.json",
+  "download": "https://raw.githubusercontent.com/tokeidlom/discworld/main/package/discworld-v0.1.3.zip"
 }

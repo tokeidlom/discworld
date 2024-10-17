@@ -11,6 +11,20 @@ import {
   DiscworldTraitsItem
 } from './items/traits-sheet.js';
 
+//Register sheets
+  Actors.unregisterSheet('core', ActorSheet);
+  Items.unregisterSheet('core', ItemSheet);
+  Actors.registerSheet("core", DiscworldCharacterSheet, {
+    types: ["character"],
+    makeDefault: true
+  });
+  Actors.registerSheet("core", DiscworldNPCSheet, {
+    types: ["NPC"],
+  });
+  Items.registerSheet("discworld", DiscworldTraitsItem, {
+    types: ["core", "trait", "quirk", "niche"],
+  });
+
 //Item type hooks
 Hooks.on("preCreateItem", (item, options, userId) => {
 

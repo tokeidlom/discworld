@@ -1,7 +1,7 @@
 export class DiscworldNPCSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["discworld", "sheet", "npc"],
+      classes: ["discworld", "sheet", "discworld-actor"],
       width: 800,
       height: 525,
     });
@@ -73,16 +73,3 @@ export class DiscworldNPCSheet extends ActorSheet {
     });
   }
 }
-
-Hooks.once('init', async function() {
-  console.log("Discworld | Registering custom NPC sheet");
-
-  await loadTemplates([
-    "systems/discworld/templates/actors/npc.hbs"
-  ]);
-
-  Actors.registerSheet("core", DiscworldNPCSheet, {
-    types: ["NPC"],
-    makeDefault: true
-  });
-});

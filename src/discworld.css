@@ -39,7 +39,7 @@
 }
 
 .discworld-actor .luck-max {
-  margin-top: 2rem;
+  margin-top: 30px;
   font-size: 1.5rem;
 }
 
@@ -113,7 +113,7 @@
 .discworld-actor .form-group-notes label,
 .discworld-actor .field-group label,
 .discworld-actor .form-group label {
-  margin-right: 0.5rem;
+  margin-right: 5px;
   font-weight: bold;
 }
 
@@ -180,7 +180,7 @@ textarea {
 /* Style the item name */
 .discworld-actor .one-column-no-roll.list-entry {
   flex-grow: 1;
-  margin-right: 0.5rem;
+  margin-right: 5px;
   font-family: "Kalam", cursive;
   font-size: 1rem;
 }
@@ -189,7 +189,7 @@ textarea {
 .discworld-actor .control a {
   color: #191813;
   cursor: pointer;
-  margin-left: 0.5rem;
+  margin-left: 5px;
 }
 
 .discworld-actor .control a.edit:hover {

@@ -1,7 +1,7 @@
 export class DiscworldCharacterSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["discworld", "sheet", "character"],
+      classes: ["discworld", "sheet", "discworld-actor"],
       width: 800,
       height: 890,
     });
@@ -88,16 +88,3 @@ export class DiscworldCharacterSheet extends ActorSheet {
     });
   }
 }
-
-Hooks.once('init', async function() {
-  console.log("Discworld | Registering custom character sheet");
-
-  await loadTemplates([
-    "systems/discworld/templates/actors/character.hbs"
-  ]);
-
-  Actors.registerSheet("core", DiscworldCharacterSheet, {
-    types: ["character"],
-    makeDefault: true
-  });
-});
