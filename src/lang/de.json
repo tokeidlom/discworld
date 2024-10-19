@@ -25,6 +25,7 @@
 		"discworlddiceroller": "Discworld Würfelwerfer",
 		"roll": "Würfeln",
 		"rolling": "Würfeln...",
-		"close": "Schließen"
+		"close": "Schließen",
+		"actorcannothold": "{actor} kann keine {item}-Gegenstände halten."
 	}		
 }

@@ -25,6 +25,7 @@
 		"discworlddiceroller": "Rolador de Dados Discworld",
 		"roll": "Rolar",
 		"rolling": "Rolando",
-		"close": "Fechar"
+		"close": "Fechar",
+		"actorcannothold": "{actor} não pode segurar itens do tipo {item}."
 	}		
 }

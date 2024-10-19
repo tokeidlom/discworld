@@ -25,6 +25,7 @@
 		"discworlddiceroller": "Lanzador de Dados Discworld",
 		"roll": "Lanzar",
 		"rolling": "Lanzando",
-		"close": "Cerrar"
+		"close": "Cerrar",
+		"actorcannothold": "{actor} no puede sostener objetos de tipo {item}."
 	}		
 }

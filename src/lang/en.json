@@ -25,6 +25,7 @@
 		"discworlddiceroller": "Discworld Dice Roller",
 		"roll": "Roll",
 		"rolling": "Rolling",
-		"close": "Close"
+		"close": "Close",
+		"actorcannothold": "{actor} cannot hold {item} items."
 	}		
 }
