@@ -152,6 +152,7 @@ textarea {
   height: 100%;
   object-fit: cover;
   object-position: top;
+  border: none;
 }
 
 /* item row styling from here */
