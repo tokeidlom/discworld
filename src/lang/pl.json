@@ -28,6 +28,7 @@
 		"close": "Zamknij",
 		"actorcannothold": "{actor} nie może trzymać przedmiotów typu {item}.",
 		"exceededmaxluck": "Szczęście nie może przekroczyć maksymalnego limitu {maxLuck}.",
+		"exceededminluck": "Szczęście nie może być mniejsze niż 0.",
 		"luckadded": "Pani przyznała {actorName} dodatkowe {luckAmount} szczęścia.",
 		"luckspent": "{actorName} wydał {luckAmount} szczęścia."
 	}		

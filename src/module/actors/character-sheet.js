@@ -94,12 +94,19 @@ export class DiscworldCharacterSheet extends ActorSheet {
     html.find('.luck-decrease').click(() => handleLuckChange(-1));
 
     html.find('input[name="system.luck"]').change((ev) => {
-      const newLuck = parseInt(ev.target.value);
+      let newLuck = parseInt(ev.target.value);
       const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
 
       if (newLuck > maxLuck) {
         ev.target.value = maxLuck;
         ui.notifications.warn(game.i18n.format("application.exceededmaxluck", { maxLuck: maxLuck }));
+        newLuck = maxLuck;
+      }
+
+      if (newLuck < 0) {
+        ev.target.value = 0;
+        ui.notifications.warn(game.i18n.format("application.exceededminluck"));
+        newLuck = 0;
       }
 
       clearTimeout(luckTimeout);

@@ -28,6 +28,7 @@
 		"close": "Close",
 		"actorcannothold": "{actor} cannot hold {item} items.",
 		"exceededmaxluck": "Luck cannot exceed the maximum of {maxLuck}.",
+		"exceededminluck": "Luck cannot be less than 0.",
 		"luckadded": "The Lady has granted {actorName} an extra {luckAmount} luck.",
 		"luckspent": "{actorName} has spent {luckAmount} luck."
 	}		
