@@ -29,18 +29,34 @@
 }
 
 /*Luck field styling*/
+.discworld-actor .luck-controls {
+  display: flex;
+  align-items: center;
+}
+
+.discworld-actor .buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.discworld-actor .luck-increase, .luck-decrease {
+  border: none;
+  height: 1.5rem;
+}
+
 .discworld-actor .luck-input {
   width: 50px;
+  margin-right: 5px;
   height: 3rem;
   border: none;
   text-align: right;
   font-family: "Kalam", cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .discworld-actor .luck-max {
-  margin-top: 30px;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-right: 15px;
 }
 
 /*Input text box and field stylings*/
@@ -152,6 +168,7 @@ textarea {
   height: 100%;
   object-fit: cover;
   object-position: top;
+  border: none;
 }
 
 /* item row styling from here */

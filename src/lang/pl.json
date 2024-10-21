@@ -1,8 +1,8 @@
 {
 	"character": {
 		"name": "Imię",
-		"pronouns": "Zaimek",
-		"outcomedice": "Kości Wyniku",
+		"pronouns": "Zaimek Osobowy",
+		"outcomedice": "Wynik Kości",
 		"luck": "Szczęście",
 		"organisation": "Organizacja",
 		"background": "Tło",
@@ -19,12 +19,17 @@
 		"createitem": "Utwórz Przedmiot",
 		"edititem": "Edytuj Przedmiot",
 		"deleteitem": "Usuń Przedmiot",
-		"deleteconfirm": "Czy na pewno chcesz usunąć ten przedmiot?",
+		"deleteconfirm": "Potwierdź Usunięcie?",
 		"yes": "Tak",
 		"no": "Nie",
 		"discworlddiceroller": "Rzucanie Kości Discworld",
 		"roll": "Rzucaj",
 		"rolling": "Rzucanie",
-		"close": "Zamknij"
+		"close": "Zamknij",
+		"actorcannothold": "{actor} nie może trzymać przedmiotów typu {item}.",
+		"exceededmaxluck": "Szczęście nie może przekroczyć maksymalnego limitu {maxLuck}.",
+		"exceededminluck": "Szczęście nie może być mniejsze niż 0.",
+		"luckadded": "Pani przyznała {actorName} dodatkowe {luckAmount} szczęścia.",
+		"luckspent": "{actorName} wydał {luckAmount} szczęścia."
 	}		
 }

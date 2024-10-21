@@ -25,6 +25,11 @@
 		"discworlddiceroller": "Discworld Würfelwerfer",
 		"roll": "Würfeln",
 		"rolling": "Würfeln...",
-		"close": "Schließen"
+		"close": "Schließen",
+		"actorcannothold": "{actor} kann keine {item}-Gegenstände halten.",
+		"exceededmaxluck": "Das Glück kann das Maximum von {maxLuck} nicht überschreiten.",
+		"exceededminluck": "Das Glück kann nicht weniger als 0 sein.",
+		"luckadded": "Die Dame hat {actorName} {luckAmount} zusätzliches Glück gewährt.",
+		"luckspent": "{actorName} hat {luckAmount} Glück ausgegeben."
 	}		
 }

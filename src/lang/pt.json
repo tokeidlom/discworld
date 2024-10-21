@@ -25,6 +25,11 @@
 		"discworlddiceroller": "Rolador de Dados Discworld",
 		"roll": "Rolar",
 		"rolling": "Rolando",
-		"close": "Fechar"
+		"close": "Fechar",
+		"actorcannothold": "{actor} não pode segurar itens do tipo {item}.",
+		"exceededmaxluck": "A sorte não pode exceder o máximo de {maxLuck}.",
+		"exceededminluck": "A sorte não pode ser menor que 0.",
+		"luckadded": "A Senhora concedeu a {actorName} {luckAmount} de sorte extra.",
+		"luckspent": "{actorName} gastou {luckAmount} de sorte."
 	}		
 }
