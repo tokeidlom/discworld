@@ -26,6 +26,9 @@
 		"roll": "Roll",
 		"rolling": "Rolling",
 		"close": "Close",
-		"actorcannothold": "{actor} cannot hold {item} items."
+		"actorcannothold": "{actor} cannot hold {item} items.",
+		"exceededmaxluck": "Luck cannot exceed the maximum of {maxLuck}.",
+		"luckadded": "The Lady has granted {actorName} an extra {luckAmount} luck.",
+		"luckspent": "{actorName} has spent {luckAmount} luck."
 	}		
 }

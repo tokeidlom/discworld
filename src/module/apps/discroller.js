@@ -68,7 +68,7 @@ export class DiscRoller {
           const formula = `1${diceType}`;
           const roll = new Roll(formula);
 
-          await roll.evaluate({ async: true });
+          await roll.evaluate();
 
           roll.toMessage({
             speaker: ChatMessage.getSpeaker({ actor: game.user.character }),

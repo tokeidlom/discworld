@@ -26,6 +26,9 @@
 		"roll": "Lancer",
 		"rolling": "Lancement",
 		"close": "Fermer",
-		"actorcannothold": "{actor} ne peut pas porter des objets de type {item}."
+		"actorcannothold": "{actor} ne peut pas porter des objets de type {item}.",
+		"exceededmaxluck": "La chance ne peut pas dépasser le maximum de {maxLuck}.",
+		"luckadded": "La Dame a accordé à {actorName} {luckAmount} chance supplémentaire.",
+		"luckspent": "{actorName} a dépensé {luckAmount} de chance."
 	}		
 }

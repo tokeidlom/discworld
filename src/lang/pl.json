@@ -26,6 +26,9 @@
 		"roll": "Rzucaj",
 		"rolling": "Rzucanie",
 		"close": "Zamknij",
-		"actorcannothold": "{actor} nie może trzymać przedmiotów typu {item}."
+		"actorcannothold": "{actor} nie może trzymać przedmiotów typu {item}.",
+		"exceededmaxluck": "Szczęście nie może przekroczyć maksymalnego limitu {maxLuck}.",
+		"luckadded": "Pani przyznała {actorName} dodatkowe {luckAmount} szczęścia.",
+		"luckspent": "{actorName} wydał {luckAmount} szczęścia."
 	}		
 }

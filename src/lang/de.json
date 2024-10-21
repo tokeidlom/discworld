@@ -26,6 +26,9 @@
 		"roll": "Würfeln",
 		"rolling": "Würfeln...",
 		"close": "Schließen",
-		"actorcannothold": "{actor} kann keine {item}-Gegenstände halten."
+		"actorcannothold": "{actor} kann keine {item}-Gegenstände halten.",
+		"exceededmaxluck": "Das Glück kann das Maximum von {maxLuck} nicht überschreiten.",
+		"luckadded": "Die Dame hat {actorName} {luckAmount} zusätzliches Glück gewährt.",
+		"luckspent": "{actorName} hat {luckAmount} Glück ausgegeben."
 	}		
 }

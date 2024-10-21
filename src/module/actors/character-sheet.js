@@ -6,10 +6,10 @@ export class DiscworldCharacterSheet extends ActorSheet {
       height: 890,
     });
   }
-  
+
   // If the player is not a GM and has limited permissions - send them to the limited sheet, otherwise, continue as usual.
   get template() {
-    if ( !game.user.isGM && this.actor.limited) {
+    if (!game.user.isGM && this.actor.limited) {
       return 'systems/discworld/templates/actors/limited-sheet.hbs';
     }
     return `systems/discworld/templates/actors/character.hbs`;
@@ -17,6 +17,7 @@ export class DiscworldCharacterSheet extends ActorSheet {
 
   getData() {
     const data = super.getData();
+    data.maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
     return data;
   }
 
@@ -72,6 +73,52 @@ export class DiscworldCharacterSheet extends ActorSheet {
       }).render(true);
     });
 
+    // Luck update functions
+    let luckTimeout;
+    let oldLuck = parseInt(this.actor.system.luck);
+
+    function updateLuck(input, newLuck, maxLuck) {
+      newLuck = Math.max(0, Math.min(newLuck, maxLuck));
+      input.value = newLuck;
+      input.dispatchEvent(new Event('change'));
+    }
+
+    function handleLuckChange(delta) {
+      const input = html.find('input[name="system.luck"]')[0];
+      let currentLuck = parseInt(input.value) || 0;
+      const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
+      updateLuck(input, currentLuck + delta, maxLuck);
+    }
+
+    html.find('.luck-increase').click(() => handleLuckChange(1));
+    html.find('.luck-decrease').click(() => handleLuckChange(-1));
+
+    html.find('input[name="system.luck"]').change((ev) => {
+      const newLuck = parseInt(ev.target.value);
+      const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
+
+      if (newLuck > maxLuck) {
+        ev.target.value = maxLuck;
+        ui.notifications.warn(game.i18n.format("application.exceededmaxluck", { maxLuck: maxLuck }));
+      }
+
+      clearTimeout(luckTimeout);
+
+      luckTimeout = setTimeout(() => {
+        if (newLuck !== oldLuck) {
+          let messageContent = newLuck > oldLuck 
+            ? game.i18n.format("application.luckadded", { actorName: this.actor.name, luckAmount: newLuck - oldLuck }) 
+            : game.i18n.format("application.luckspent", { actorName: this.actor.name, luckAmount: oldLuck - newLuck });
+
+          oldLuck = newLuck;
+
+          ChatMessage.create({
+            content: messageContent,
+          });
+        }
+      }, 1000);
+    });
+
     // Roll dice
     html.find('.roll-button').click(async (ev) => {
       const button = ev.currentTarget;
@@ -79,7 +126,7 @@ export class DiscworldCharacterSheet extends ActorSheet {
       const formula = `1${diceType}`;
       const roll = new Roll(formula);
 
-      await roll.evaluate({ async: true });
+      await roll.evaluate();
 
       roll.toMessage({
         speaker: ChatMessage.getSpeaker({ actor: this.actor }),
