@@ -1,8 +1,8 @@
 {
 	"character": {
 		"name": "Imię",
-		"pronouns": "Zaimek",
-		"outcomedice": "Kości Wyniku",
+		"pronouns": "Zaimek Osobowy",
+		"outcomedice": "Wynik Kości",
 		"luck": "Szczęście",
 		"organisation": "Organizacja",
 		"background": "Tło",
@@ -19,7 +19,7 @@
 		"createitem": "Utwórz Przedmiot",
 		"edititem": "Edytuj Przedmiot",
 		"deleteitem": "Usuń Przedmiot",
-		"deleteconfirm": "Czy na pewno chcesz usunąć ten przedmiot?",
+		"deleteconfirm": "Potwierdź Usunięcie?",
 		"yes": "Tak",
 		"no": "Nie",
 		"discworlddiceroller": "Rzucanie Kości Discworld",
