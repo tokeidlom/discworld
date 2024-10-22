@@ -67,7 +67,7 @@ Hooks.on('getSceneControlButtons', controls => {
   controls.DiscRoller = {
     name: "DiscRoller",
     title: game.i18n.localize('application.discworlddiceroller'),
-    icon: "systems/discworld/assets/dice/fancy-dice.png",
+    icon: "fa-sharp-duotone fa-solid fa-turtle",
     onChange: (event, active) => {
       DiscRoller.CreateDiceRoller(event);
     },
