@@ -237,6 +237,16 @@ textarea {
   margin-right: 8px;
 }
 
+.discworld-dice-icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-image: url('/systems/discworld/assets/dice/fancy-dice.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /*Traits item sheet styling*/
 .discworld-trait .name-input {
   border: none;
