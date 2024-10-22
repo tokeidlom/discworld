@@ -42,6 +42,7 @@
 .discworld-actor .luck-increase, .luck-decrease {
   border: none;
   height: 1.5rem;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .discworld-actor .luck-input {
@@ -141,6 +142,7 @@ textarea {
   border: none;
   font-family: "Kalam", cursive;
   font-size: 1rem;
+  color: #191813;
 }
 
 /*Image fields styling*/
