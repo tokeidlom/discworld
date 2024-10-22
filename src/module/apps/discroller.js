@@ -64,12 +64,14 @@ export class DiscRoller {
 }
 
 Hooks.on('getSceneControlButtons', controls => {
-  controls.DiscRoller = {
-    name: "DiscRoller",
-    title: game.i18n.localize('application.discworlddiceroller'),
+  controls.discRoller = {
+    name: "discRoller",
+    title: game.i18n.localize('application.discworld-rbdiceroller'),
     icon: "discworld-dice-icon",
     onChange: (event, active) => {
-      DiscRoller.CreateDiceRoller(event);
+      if ( active ) {
+        DiscRoller.CreateDiceRoller(event);
+      }
     },
     button: true
   };
