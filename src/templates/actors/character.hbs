@@ -57,7 +57,7 @@
       {{#each items as |item id|}}
         {{#if (eq item.type "niche")}}
           <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
-            <h4 class="one-column-no-roll list-entry">{{item.name}}</h4>
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
             <div class="control">
               <a class="edit" title="{{localize 'application.edititem'}}"><i class="fas fa-edit"></i></a>
               <a class="delete" title="{{localize 'application.deleteitem'}}"><i class="fas fa-trash"></i></a>
@@ -74,7 +74,7 @@
       {{#each items as |item id|}}
         {{#if (eq item.type "core")}}
           <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
-            <h4 class="one-column-no-roll list-entry">{{item.name}}</h4>
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
             <div class="control">
               <a class="edit" title="Edit Item"><i class="fas fa-edit"></i></a>
               <a class="delete" title="Delete Item"><i class="fas fa-trash"></i></a>
@@ -91,7 +91,7 @@
       {{#each items as |item id|}}
         {{#if (eq item.type "quirk")}}
           <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
-            <h4 class="one-column-no-roll list-entry">{{item.name}}</h4>
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
             <div class="control">
               <a class="edit" title="Edit Item"><i class="fas fa-edit"></i></a>
               <a class="delete" title="Delete Item"><i class="fas fa-trash"></i></a>

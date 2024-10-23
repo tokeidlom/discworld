@@ -42,6 +42,7 @@
 .discworld-actor .luck-increase, .luck-decrease {
   border: none;
   height: 1.5rem;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .discworld-actor .luck-input {
@@ -141,6 +142,7 @@ textarea {
   border: none;
   font-family: "Kalam", cursive;
   font-size: 1rem;
+  color: #191813;
 }
 
 /*Image fields styling*/
@@ -191,18 +193,23 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.05);
 }
 
 /* Style the item name */
-.discworld-actor .one-column-no-roll.list-entry {
+.discworld-actor .item-name {
   flex-grow: 1;
   margin-right: 5px;
   font-family: "Kalam", cursive;
   font-size: 1rem;
+  border: none;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 /* Style the control buttons */
+.discworld-actor .row.entry .control {
+  display: flex;
+}
+
 .discworld-actor .control a {
   color: #191813;
   cursor: pointer;
@@ -218,6 +225,10 @@ textarea {
 }
 
 /*Side bar roller button styling here*/
+.dice-roll-container {
+  width: 200px;
+}
+
 .roll-button img.dice-icon {
   width: 50px;
   height: 50px;
