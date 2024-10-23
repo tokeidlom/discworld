@@ -67,9 +67,9 @@ export class DiscRoller {
 }
 
 Hooks.on('getSceneControlButtons', controls => {
-  controls.discRoller = {
+  controls.tokens.tools.discRoller = {
     name: "discRoller",
-    title: game.i18n.localize('application.discworld-rbdiceroller'),
+    title: game.i18n.localize('application.discworlddiceroller'),
     icon: "discworld-dice-icon",
     onChange: (event, active) => {
       if ( active ) {
