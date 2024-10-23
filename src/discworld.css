@@ -226,7 +226,7 @@ textarea {
 
 /*Side bar roller button styling here*/
 .dice-roll-container {
-  width: 200px;
+  width: 100%;
 }
 
 .roll-button img.dice-icon {
