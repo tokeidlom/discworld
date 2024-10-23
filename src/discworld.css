@@ -193,18 +193,23 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.05);
 }
 
 /* Style the item name */
-.discworld-actor .one-column-no-roll.list-entry {
+.discworld-actor .item-name {
   flex-grow: 1;
   margin-right: 5px;
   font-family: "Kalam", cursive;
   font-size: 1rem;
+  border: none;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 /* Style the control buttons */
+.discworld-actor .row.entry .control {
+  display: flex;
+}
+
 .discworld-actor .control a {
   color: #191813;
   cursor: pointer;
