@@ -20,31 +20,31 @@ export class DiscRoller {
       title: `${game.i18n.localize('application.discworlddiceroller')}`,
       content: `
         <form class="dice-roll-container">
-          <button type="button" class="roll-button" data-dice="d4">
+          <button type="button" class="roller-button" data-dice="d4">
             <img src="/systems/discworld/assets/dice/dice.png" alt="d4" class="dice-icon">
             ${game.i18n.localize('application.roll')} d4
           </button>
-          <button type="button" class="roll-button" data-dice="d6">
+          <button type="button" class="roller-button" data-dice="d6">
             <img src="/systems/discworld/assets/dice/dice.png" alt="d6" class="dice-icon">
             ${game.i18n.localize('application.roll')} d6
           </button>
-          <button type="button" class="roll-button" data-dice="d8">
+          <button type="button" class="roller-button" data-dice="d8">
             <img src="/systems/discworld/assets/dice/fancy-dice.png" alt="d8" class="dice-icon">
             ${game.i18n.localize('application.roll')} d8
           </button>
-          <button type="button" class="roll-button" data-dice="d10">
+          <button type="button" class="roller-button" data-dice="d10">
             <img src="/systems/discworld/assets/dice/dice.png" alt="d10" class="dice-icon">
             ${game.i18n.localize('application.roll')} d10
           </button>
-          <button type="button" class="roll-button" data-dice="d12">
+          <button type="button" class="roller-button" data-dice="d12">
             <img src="/systems/discworld/assets/dice/dice.png" alt="d12" class="dice-icon">
             ${game.i18n.localize('application.roll')} d12
           </button>
-          <button type="button" class="roll-button" data-dice="d20">
+          <button type="button" class="roller-button" data-dice="d20">
             <img src="/systems/discworld/assets/dice/dice.png" alt="d20" class="dice-icon">
             ${game.i18n.localize('application.roll')} d20
           </button>
-          <button type="button" class="roll-button" data-dice="d100">
+          <button type="button" class="roller-button" data-dice="d100">
             <img src="/systems/discworld/assets/dice/dice.png" alt="d100" class="dice-icon">
             ${game.i18n.localize('application.roll')} d100
           </button>
@@ -58,7 +58,7 @@ export class DiscRoller {
         }
       },
       render: html => {
-        html.find('.roll-button').click(async (ev) => {
+        html.find('.roller-button').click(async (ev) => {
           const button = ev.currentTarget;
           const diceType = button.dataset.dice;
           const formula = `1${diceType}`;
