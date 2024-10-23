@@ -1,10 +1,25 @@
 export class DiscRoller {
+  static async Init(controls, html) {
+    // Create the main dice roll button
+    const diceRollbtn = $(`
+      <li class="scene-control discworld-roller" data-control="DiscRoller" title="${game.i18n.localize('application.discworlddiceroller')}">
+        <img src="/systems/discworld/assets/dice/fancy-dice.png" alt="${game.i18n.localize('application.discworlddiceroller')}" class="custom-icon">
+        <ol class="nested-buttons sub-controls control-tools"></ol>
+      </li>
+    `);
+
+    html.find('.main-controls').append(diceRollbtn);
+
+    diceRollbtn.on('click', (ev) => {
+      this.CreateDiceRoller(ev);
+    });
+  }
 
   static async CreateDiceRoller(event) {
     const dialog = new Dialog({
       title: `${game.i18n.localize('application.discworlddiceroller')}`,
       content: `
-        <form>
+        <form class="dice-roll-container">
           <button type="button" class="roll-button" data-dice="d4">
             <img src="/systems/discworld/assets/dice/dice.png" alt="d4" class="dice-icon">
             ${game.i18n.localize('application.roll')} d4
@@ -58,21 +73,15 @@ export class DiscRoller {
         });
       },
       default: "close"
+	},
+	{
+	width: 220
     });
     dialog.render(true);
   }
 }
 
-Hooks.on('getSceneControlButtons', controls => {
-  controls.discRoller = {
-    name: "discRoller",
-    title: game.i18n.localize('application.discworld-rbdiceroller'),
-    icon: "discworld-dice-icon",
-    onChange: (event, active) => {
-      if ( active ) {
-        DiscRoller.CreateDiceRoller(event);
-      }
-    },
-    button: true
-  };
+Hooks.on('renderSceneControls', (controls, html) => {
+  console.log('DiscRoller here', html);
+  DiscRoller.Init(controls, html);
 });

@@ -23,6 +23,18 @@ export class DiscworldNPCSheet extends ActorSheet {
   activateListeners(html) {
     super.activateListeners(html);
 
+    // Listen for changes in the item name input field
+    html.find('.item-name').on('change', event => {
+      const input = event.currentTarget;
+      const itemId = input.dataset.itemId;
+      const item = this.actor.items.get(itemId);
+      const newName = input.value.trim();
+
+      if (item && newName) {
+        item.update({ name: newName });
+      }
+    });
+
     // Create new items
     html.find('.control.create').click(async (ev) => {
       ev.preventDefault();
@@ -39,7 +51,6 @@ export class DiscworldNPCSheet extends ActorSheet {
       delete itemData.data['type'];
 
       const newItem = await this.actor.createEmbeddedDocuments('Item', [itemData]);
-      newItem[0].sheet.render(true);
     });
 
     // Edit items

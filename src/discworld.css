@@ -193,18 +193,23 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.05);
 }
 
 /* Style the item name */
-.discworld-actor .one-column-no-roll.list-entry {
+.discworld-actor .item-name {
   flex-grow: 1;
   margin-right: 5px;
   font-family: "Kalam", cursive;
   font-size: 1rem;
+  border: none;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 /* Style the control buttons */
+.discworld-actor .row.entry .control {
+  display: flex;
+}
+
 .discworld-actor .control a {
   color: #191813;
   cursor: pointer;
@@ -220,13 +225,8 @@ textarea {
 }
 
 /*Side bar roller button styling here*/
-.roll-button {
-  cursor: pointer;
-  font-family: "Kalam", cursive;
-  font-size: 1rem;
-  border: none;
-  display: flex;
-  align-items: center;
+.dice-roll-container {
+  width: 100%;
 }
 
 .roll-button img.dice-icon {
@@ -234,17 +234,14 @@ textarea {
   height: 50px;
   vertical-align: middle;
   border: none;
-  margin-right: 8px;
 }
 
-.discworld-dice-icon {
-  width: 32px;
-  height: 32px;
-  display: inline-block;
-  background-image: url('/systems/discworld/assets/dice/fancy-dice.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.roll-button {
+  text-align: middle;
+  cursor: pointer;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
+  border: none;
 }
 
 /*Traits item sheet styling*/
