@@ -75,7 +75,7 @@ export class DiscRoller {
       default: "close"
 	},
 	{
-	width: "auto"
+	width: 220
     });
     dialog.render(true);
   }
