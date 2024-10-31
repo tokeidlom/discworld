@@ -3,7 +3,7 @@ export class DiscworldNPCSheet extends ActorSheet {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["discworld", "sheet", "discworld-actor"],
       width: 800,
-      height: 525,
+      height: 500,
     });
   }
 
