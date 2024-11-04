@@ -3,7 +3,7 @@ export class DiscworldTraitsItem extends ItemSheet {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["discworld", "sheet", "discworld-trait"],
       width: 550,
-      height: 80,
+      height: 265,
       template: "systems/discworld/templates/items/traits.hbs",
     });
   }

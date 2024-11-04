@@ -31,5 +31,8 @@
 		"exceededminluck": "Luck cannot be less than 0.",
 		"luckadded": "The Lady has granted {actorName} an extra {luckAmount} luck.",
 		"luckspent": "{actorName} has spent {luckAmount} luck."
-	}		
+	},
+	"item": {
+		"description": "Description"
+	}
 }

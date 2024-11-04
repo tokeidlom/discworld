@@ -31,5 +31,8 @@
 		"exceededminluck": "A sorte não pode ser menor que 0.",
 		"luckadded": "A Senhora concedeu a {actorName} {luckAmount} de sorte extra.",
 		"luckspent": "{actorName} gastou {luckAmount} de sorte."
-	}		
+	},
+	"item": {
+		"description": "Descrição"
+	}
 }
