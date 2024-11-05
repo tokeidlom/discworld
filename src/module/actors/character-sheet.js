@@ -84,6 +84,57 @@ export class DiscworldCharacterSheet extends ActorSheet {
       }).render(true);
     });
 
+    // Item popout tooltip of description
+    html.find('.item-name').on('mouseover', event => {
+      const input = event.currentTarget;
+      const itemId = input.dataset.itemId;
+      const item = this.actor.items.get(itemId);
+
+      if (item) {
+        const description = item.system.description?.trim().replace(/\n/g, '<br>');
+
+        if (description) {
+          input._tooltipTimeout = setTimeout(() => {
+            let tooltip = document.querySelector('.item-tooltip');
+            if (!tooltip) {
+              tooltip = document.createElement('div');
+              tooltip.classList.add('item-tooltip');
+              document.body.appendChild(tooltip);
+            }
+
+            tooltip.innerHTML = `${description}`;
+
+            const { clientX: mouseX, clientY: mouseY } = event;
+            tooltip.style.left = `${mouseX + 10}px`;
+            tooltip.style.top = `${mouseY + 10}px`;
+
+            document.body.appendChild(tooltip);
+            const tooltipRect = tooltip.getBoundingClientRect();
+
+            if (tooltipRect.bottom > window.innerHeight) {
+              tooltip.style.top = `${window.innerHeight - tooltipRect.height - 20}px`;
+            }
+
+            input._tooltip = tooltip;
+          }, 1000);
+        }
+      }
+    });
+
+    html.find('.item-name').on('mouseout', event => {
+      const input = event.currentTarget;
+
+      if (input._tooltipTimeout) {
+        clearTimeout(input._tooltipTimeout);
+        delete input._tooltipTimeout;
+      }
+
+      if (input._tooltip) {
+        document.body.removeChild(input._tooltip);
+        delete input._tooltip;
+      }
+    });
+
     // Luck update functions
     let luckTimeout;
     let oldLuck = parseInt(this.actor.system.luck);

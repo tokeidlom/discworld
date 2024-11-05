@@ -31,5 +31,8 @@
 		"exceededminluck": "La chance ne peut pas être inférieure à 0.",
 		"luckadded": "La Dame a accordé à {actorName} {luckAmount} chance supplémentaire.",
 		"luckspent": "{actorName} a dépensé {luckAmount} de chance."
-	}		
+	},
+	"item": {
+		"description": "Description"
+	}
 }

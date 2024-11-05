@@ -31,5 +31,8 @@
 		"exceededminluck": "Szczęście nie może być mniejsze niż 0.",
 		"luckadded": "Pani przyznała {actorName} dodatkowe {luckAmount} szczęścia.",
 		"luckspent": "{actorName} wydał {luckAmount} szczęścia."
-	}		
+	},
+	"item": {
+		"description": "Opis"
+	}
 }

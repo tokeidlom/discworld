@@ -31,5 +31,8 @@
 		"exceededminluck": "La suerte no puede ser menor que 0.",
 		"luckadded": "La Dama ha concedido a {actorName} {luckAmount} de suerte extra.",
 		"luckspent": "{actorName} ha gastado {luckAmount} de suerte."
-	}		
+	},
+	"item": {
+		"description": "Descripción"
+	}
 }

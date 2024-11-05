@@ -43,6 +43,9 @@
   border: none;
   height: 1.5rem;
   background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .discworld-actor .luck-input {
@@ -118,15 +121,18 @@
   flex-direction: column;
 }
 
+.discworld-trait label,
 .discworld-actor label {
   margin-top: 5px;
 }
 
+.discworld-trait .form-group-notes,
 .discworld-actor .form-group-notes {
   display: flex;
   flex-direction: column;
 }
 
+.discworld-trait .form-group-notes label,
 .discworld-actor .form-group-notes label,
 .discworld-actor .field-group label,
 .discworld-actor .form-group label {
@@ -135,7 +141,7 @@
 }
 
 textarea {
-  height: 150px;
+  height: 165px;
   resize: vertical;
   max-height: 250px;
   min-height: 80px;
@@ -148,13 +154,13 @@ textarea {
 /*Image fields styling*/
 .image-field {
   width: 200px;
-  height: 410px;
+  height: 390px;
   overflow: hidden;
 }
 
 .npc-image-field {
   width: 200px;
-  height: 325px;
+  height: 290px;
   overflow: hidden;
 }
 
@@ -177,9 +183,9 @@ textarea {
 /* Style the label and create button */
 .discworld-actor .newline {
   display: block;
-  height: 0;
-  margin: 0;
-  padding: 0;
+  height: none;
+  margin: none;
+  padding: none;
   border: none;
 }
 
@@ -225,23 +231,40 @@ textarea {
 }
 
 /*Side bar roller button styling here*/
-.dice-roll-container {
+.dice-roller-container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.roll-button img.dice-icon {
-  width: 50px;
-  height: 50px;
-  vertical-align: middle;
-  border: none;
-}
-
-.roll-button {
-  text-align: middle;
+.roller-button {
   cursor: pointer;
   font-family: "Kalam", cursive;
   font-size: 1rem;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.roller-button img.dice-icon {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  border: none;
+  margin-right: 5px;
+}
+
+.discworld-dice-icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-image: url('/systems/discworld/assets/dice/fancy-dice.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*Traits item sheet styling*/
@@ -249,4 +272,20 @@ textarea {
   border: none;
   font-family: "Kalam", cursive;
   font-size: 1rem;
+}
+
+/*Item tooltop styling*/
+.item-tooltip {
+  position: absolute;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 1000;
+  white-space: normal;
+  overflow-wrap: break-word;
+  max-width: 550px;
+  font-family: "Kalam", cursive;
+  font-size: 0.9rem;
 }
