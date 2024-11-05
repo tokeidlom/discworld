@@ -231,7 +231,21 @@ textarea {
 }
 
 /*Side bar roller button styling here*/
-.dice-roll-container {
+.dice-roller-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roller-button {
+  cursor: pointer;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
@@ -240,14 +254,17 @@ textarea {
   height: 50px;
   vertical-align: middle;
   border: none;
+  margin-right: 5px;
 }
 
-.roller-button {
-  text-align: middle;
-  cursor: pointer;
-  font-family: "Kalam", cursive;
-  font-size: 1rem;
-  border: none;
+.discworld-dice-icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-image: url('/systems/discworld/assets/dice/fancy-dice.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*Traits item sheet styling*/
