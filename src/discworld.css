@@ -230,6 +230,22 @@ textarea {
   color: #dc3545;
 }
 
+/*Item tooltop styling*/
+.item-tooltip {
+  position: absolute;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 1000;
+  white-space: normal;
+  overflow-wrap: break-word;
+  max-width: 550px;
+  font-family: "Kalam", cursive;
+  font-size: 0.9rem;
+}
+
 /*Side bar roller button styling here*/
 .dice-roller-container {
   width: 100%;
@@ -272,20 +288,4 @@ textarea {
   border: none;
   font-family: "Kalam", cursive;
   font-size: 1rem;
-}
-
-/*Item tooltop styling*/
-.item-tooltip {
-  position: absolute;
-  padding: 5px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 4px;
-  pointer-events: none;
-  z-index: 1000;
-  white-space: normal;
-  overflow-wrap: break-word;
-  max-width: 550px;
-  font-family: "Kalam", cursive;
-  font-size: 0.9rem;
 }
