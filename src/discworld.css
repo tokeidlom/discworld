@@ -16,17 +16,24 @@
 .discworld-actor .roll-button {
   flex: 1;
   min-width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: left;
-  padding: 10px;
+  padding: 5px;
   cursor: pointer;
   font-family: "Kalam", cursive;
   font-size: 1rem;
-  background-image: url('/systems/discworld/assets/dice/dice.png');
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
   border: none;
 }
+
+.roll-button img.dice-icon {
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin: 0;
+}
+
 
 /*Luck field styling*/
 .discworld-actor .luck-controls {
@@ -266,8 +273,8 @@ textarea {
 }
 
 .roller-button img.dice-icon {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   vertical-align: middle;
   border: none;
   margin-right: 5px;
