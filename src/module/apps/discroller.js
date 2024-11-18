@@ -1,6 +1,27 @@
 export class DiscRoller {
 
-  // V12 and lower dice append
+  // V13 and higher versions dice button hovers next to the scene menu
+  static async DiceRollerButtonV13(event) {
+    let diceForm = document.querySelector('.disc-roller-form');
+    if (!diceForm) {
+      diceForm = document.createElement('div');
+      diceForm.classList.add('disc-roller-form');
+      diceForm.innerHTML = `
+        <form>
+          <button type="button" class="roller-button" title="${game.i18n.localize('application.discworlddiceroller')}">
+            <img src="/systems/discworld/assets/dice/fancy-dice.png" alt="${game.i18n.localize('application.discworlddiceroller')}">
+          </button>
+        </form>
+      `;
+      document.body.appendChild(diceForm);
+
+      diceForm.querySelector('.roller-button').addEventListener('click', (ev) => {
+        this.CreateDiceRoller(ev);
+      });
+    }
+  }
+
+  // V12 and lower versions dice append to scene controls menu
   static async Init(controls, html) {
     if (html.find('.scene-control.discworld-roller').length === 0) {
       const diceRollbtn = $(`
@@ -84,17 +105,7 @@ export class DiscRoller {
 
 Hooks.on('getSceneControlButtons', controls => {
   if (isVersion13OrHigher()) {
-    controls.tokens.tools.discRoller = {
-      name: "discRoller",
-      title: game.i18n.localize('application.discworlddiceroller'),
-      icon: "discworld-dice-icon",
-      onChange: (event, active) => {
-        if (active) {
-          DiscRoller.CreateDiceRoller(event);
-        }
-      },
-      button: true
-    };
+    DiscRoller.DiceRollerButtonV13();
   } else {
     Hooks.on('renderSceneControls', (controls, html) => {
       DiscRoller.Init(controls, html);
