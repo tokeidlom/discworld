@@ -181,9 +181,11 @@ export class DiscworldCharacterSheet extends ActorSheet {
 
           oldLuck = newLuck;
 
-          ChatMessage.create({
-            content: messageContent,
-          });
+          if (game.settings.get('discworld', 'sendLuckToChat')) {
+            ChatMessage.create({
+              content: messageContent,
+            });
+          }
         }
       }, 1000);
     });
