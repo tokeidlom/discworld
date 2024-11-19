@@ -298,16 +298,15 @@ textarea {
   border-radius: 5px;
   position: fixed;
   top: 535px;
-  right: 15px;
   z-index: 1000;
   transition: right 0.15s linear;
 }
 
-.disc-roller-form.moveout-right {
+.disc-roller-form.moveout-left {
   right: 315px;
 }
 
-.disc-roller-form.moveout-left {
+.disc-roller-form.moveout-right {
   right: 15px;
 }
 

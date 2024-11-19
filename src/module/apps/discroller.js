@@ -21,11 +21,24 @@ export class DiscRoller {
   }
 
   static DiscRollerWithSidebar() {
-    const sidebarToggle = document.querySelector('.collapse');
     const buttonContainer = document.querySelector('.disc-roller-form');
+    const expandButtonSelectors = ['.ui-control[data-action="tab"]'];
+    const collapseButtonSelector = '.collapse';
+    buttonContainer.classList.add('moveout-right');
 
-    if (sidebarToggle) {
-      sidebarToggle.addEventListener('click', () => {
+    expandButtonSelectors.forEach((selector) => {
+      const expandButtons = document.querySelectorAll(selector);
+      expandButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          buttonContainer.classList.remove('moveout-right');
+          buttonContainer.classList.add('moveout-left');
+        });
+      });
+    });
+
+    const collapseButton = document.querySelector(collapseButtonSelector);
+    if (collapseButton) {
+      collapseButton.addEventListener('click', () => {
         if (buttonContainer && buttonContainer.classList.contains('moveout-right')) {
           buttonContainer.classList.remove('moveout-right');
           buttonContainer.classList.add('moveout-left');
