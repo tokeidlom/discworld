@@ -35,7 +35,7 @@ By using the item menu, and clicking on "Create Item" you can create one of core
 ![image](https://github.com/user-attachments/assets/260988c5-54b5-4c0f-868a-eebcb56ad163)
 
 ## Dice Roller
-At the end of the left hand menu bar you will find a button to launch the dice roller (this will be in the token menu for Foundry V13)
+At the end of the left hand menu bar you will find a button to launch the dice roller (this will be in the right hand side menu for Foundry V13)
 
 ![image](https://github.com/user-attachments/assets/7c6db09a-640c-4bb4-b5b8-19f8a2d730ac) ![image](https://github.com/user-attachments/assets/cd45f6d1-d8bc-4371-b26f-86ff0641428f)
 
