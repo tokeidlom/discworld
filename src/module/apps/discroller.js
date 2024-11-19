@@ -1,5 +1,4 @@
 export class DiscRoller {
-
   // V13 and higher versions dice button hovers next to the scene menu
   static async DiceRollerButtonV13(event) {
     let diceForm = document.querySelector('.disc-roller-form');
@@ -17,6 +16,23 @@ export class DiscRoller {
 
       diceForm.querySelector('.roller-button').addEventListener('click', (ev) => {
         this.CreateDiceRoller(ev);
+      });
+    }
+  }
+
+  static DiscRollerWithSidebar() {
+    const sidebarToggle = document.querySelector('.collapse');
+    const buttonContainer = document.querySelector('.disc-roller-form');
+
+    if (sidebarToggle) {
+      sidebarToggle.addEventListener('click', () => {
+        if (buttonContainer && buttonContainer.classList.contains('moveout-right')) {
+          buttonContainer.classList.remove('moveout-right');
+          buttonContainer.classList.add('moveout-left');
+        } else {
+          buttonContainer.classList.remove('moveout-left');
+          buttonContainer.classList.add('moveout-right');
+        }
       });
     }
   }
@@ -80,7 +96,7 @@ export class DiscRoller {
           callback: () => {}
         }
       },
-      render: html => {
+      render: (html) => {
         html.find('.roller-button').click(async (ev) => {
           const button = ev.currentTarget;
           const diceType = button.dataset.dice;
@@ -103,9 +119,10 @@ export class DiscRoller {
   }
 }
 
-Hooks.on('getSceneControlButtons', controls => {
+Hooks.on('ready', (controls) => {
   if (isVersion13OrHigher()) {
     DiscRoller.DiceRollerButtonV13();
+    DiscRoller.DiscRollerWithSidebar();
   } else {
     Hooks.on('renderSceneControls', (controls, html) => {
       DiscRoller.Init(controls, html);

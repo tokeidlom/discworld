@@ -307,9 +307,18 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   position: fixed;
-  top: 15px;
-  left: 380px;
+  top: 535px;
+  right: 15px;
   z-index: 1000;
+  transition: right 0.15s linear;
+}
+
+.disc-roller-form.moveout-right {
+  right: 315px;
+}
+
+.disc-roller-form.moveout-left {
+  right: 15px;
 }
 
 .disc-roller-form .roller-button {
