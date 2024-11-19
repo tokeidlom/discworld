@@ -1,5 +1,5 @@
 export class DiscRoller {
-  // V13 and higher versions dice button hovers next to the scene menu
+  // V13 and higher versions dice button appears below the sidebar menu
   static async DiceRollerButtonV13(event) {
     let diceForm = document.querySelector('.disc-roller-form');
     if (!diceForm) {
