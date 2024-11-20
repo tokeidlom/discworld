@@ -67,6 +67,14 @@ Hooks.on("preCreateItem", (item, options, userId) => {
 
   // Register system settings
 Hooks.once('init', async function() {
+  game.settings.register('discworld', 'sendLuckToChat', {
+    name: 'See Luck Updates in Chat:',
+    hint: 'Uncheck this if you do not want to see luck update messages in chat.',
+    scope: 'world',
+    type: Boolean,
+    default: true,
+    config: true
+  });
   game.settings.register('discworld', 'maxNumberOfLuck', {
     name: 'Maximum amount of Luck:',
     hint: 'Maximum amount of Luck the players can have at a time (4 is default).',
