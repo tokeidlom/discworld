@@ -17,7 +17,7 @@ Click on to the character tab and select "Create Actor" you will be able to make
 Once you have your character or NPC sheet you can fill it up with your character's details from the campaign.
 
 ## Character Sheet
-![image](https://github.com/user-attachments/assets/f7490162-8950-452f-a23c-45f8df0f13b4)
+![image](https://github.com/user-attachments/assets/1f8a373f-27e0-4e1e-985b-e587352045b4)
 
 ## NPC Sheet
 ![image](https://github.com/user-attachments/assets/9f3df202-148d-4a5e-8af4-2ce034a46614)
@@ -37,6 +37,7 @@ By using the item menu, and clicking on "Create Item" you can create one of core
 ## Dice Roller
 At the end of the left hand menu bar you will find a button to launch the dice roller (this will be in the right hand side menu for Foundry V13)
 
-![image](https://github.com/user-attachments/assets/7c6db09a-640c-4bb4-b5b8-19f8a2d730ac) ![image](https://github.com/user-attachments/assets/cd45f6d1-d8bc-4371-b26f-86ff0641428f)
+![image](https://github.com/user-attachments/assets/7c6db09a-640c-4bb4-b5b8-19f8a2d730ac) ![image](https://github.com/user-attachments/assets/a827bf94-9366-468a-8c3d-dcce4c049fb7)
+
 
 And, that is it!
