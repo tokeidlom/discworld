@@ -298,7 +298,6 @@ textarea {
   border-radius: 5px;
   position: fixed;
   top: 535px;
-  z-index: 1000;
   transition: right 0.15s linear;
 }
 
