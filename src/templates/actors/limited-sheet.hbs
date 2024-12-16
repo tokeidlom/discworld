@@ -1,11 +1,17 @@
 <form class="{{cssClass}}">
-  <div class="field-group name-field">
-    <label for="name">{{localize 'character.name'}}:</label>
-    <input type="text" name="name" value="{{actor.name}}" class="name-input">
-  </div>
-  <div class="limited-sheet">
-    <div class="form-group npc-image-field">
-    <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
+  <div class="form-group split-row">
+    <div class="left-column">
+      <div class="field-group name-field">
+        <label for="name">{{localize 'character.name'}}:</label>
+        <input type="text" name="name" value="{{actor.name}}" class="name-input">
+      </div>
+    </div>
+    <div class="right-column">
+      <div class="limited-sheet">
+        <div class="form-group npc-image-field">
+          <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
+        </div>
+      </div>
     </div>
   </div>
 </form>
