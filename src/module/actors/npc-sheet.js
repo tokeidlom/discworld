@@ -15,6 +15,13 @@ export class DiscworldNPCSheet extends ActorSheet {
     return `systems/discworld/templates/actors/npc.hbs`;
   }
 
+  render(force = false, options = {}) {
+    if (!game.user.isGM && this.actor.limited) {
+      options = foundry.utils.mergeObject(options, { width: 700, height: 430 });
+    }
+    return super.render(force, options);
+  }
+
   getData() {
     const data = super.getData();
     return data;

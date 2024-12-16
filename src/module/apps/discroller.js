@@ -9,7 +9,7 @@ export class DiscRoller {
         <form>
           <button type="button" class="roller-button" title="${game.i18n.localize('application.discworlddiceroller')}">
             <img src="/systems/discworld/assets/dice/fancy-dice.png" alt="${game.i18n.localize('application.discworlddiceroller')}">
-          </button>
+            </button>
         </form>
       `;
       document.body.appendChild(diceForm);
@@ -18,37 +18,26 @@ export class DiscRoller {
         this.CreateDiceRoller(ev);
       });
     }
+    this.startPositionUpdater(diceForm);
   }
 
-  static DiscRollerWithSidebar() {
-    const buttonContainer = document.querySelector('.disc-roller-form');
-    const expandButtonSelectors = ['.ui-control[data-action="tab"]'];
-    const collapseButtonSelector = '.collapse';
-    buttonContainer.classList.add('moveout-right');
-
-    expandButtonSelectors.forEach((selector) => {
-      const expandButtons = document.querySelectorAll(selector);
-      expandButtons.forEach((button) => {
-        button.addEventListener('click', () => {
-          buttonContainer.classList.remove('moveout-right');
-          buttonContainer.classList.add('moveout-left');
-        });
-      });
-    });
-
-    const collapseButton = document.querySelector(collapseButtonSelector);
-    if (collapseButton) {
-      collapseButton.addEventListener('click', () => {
-        if (buttonContainer && buttonContainer.classList.contains('moveout-right')) {
-          buttonContainer.classList.remove('moveout-right');
-          buttonContainer.classList.add('moveout-left');
-        } else {
-          buttonContainer.classList.remove('moveout-left');
-          buttonContainer.classList.add('moveout-right');
-        }
-      });
-    }
+  static positionDiceRoller(diceForm) {
+    const targetButton = document.querySelector(
+      'button.collapse.ui-control.plain.icon[class*="fa-caret-"]'
+    );
+    const buttonRect = targetButton.getBoundingClientRect();
+    diceForm.style.position = 'absolute';
+    diceForm.style.top = `${buttonRect.bottom + 10}px`;
+    diceForm.style.left = `${buttonRect.left}px`;
   }
+
+  static startPositionUpdater(diceForm) {
+    const updatePosition = () => {
+      this.positionDiceRoller(diceForm);
+      requestAnimationFrame(updatePosition);
+    };
+    requestAnimationFrame(updatePosition);
+}
 
   // V12 and lower versions dice append to scene controls menu
   static async Init(controls, html) {
@@ -68,6 +57,7 @@ export class DiscRoller {
     }
   }
 
+  // Core functions from here
   static async CreateDiceRoller(event) {
     const dialog = new Dialog({
       title: `${game.i18n.localize('application.discworlddiceroller')}`,
@@ -135,7 +125,7 @@ export class DiscRoller {
 Hooks.on('ready', (controls) => {
   if (isVersion13OrHigher()) {
     DiscRoller.DiceRollerButtonV13();
-    DiscRoller.DiscRollerWithSidebar();
+	
   } else {
     Hooks.on('renderSceneControls', (controls, html) => {
       DiscRoller.Init(controls, html);

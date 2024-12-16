@@ -77,7 +77,7 @@ Hooks.once('init', async function() {
   });
   game.settings.register('discworld', 'maxNumberOfLuck', {
     name: 'Maximum amount of Luck:',
-    hint: 'Maximum amount of Luck the players can have at a time (4 is default).',
+    hint: 'Maximum amount of Luck each player can have at a time (4 is default).',
     scope: 'world',
     type: Number,
     default: 4,

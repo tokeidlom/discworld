@@ -15,6 +15,13 @@ export class DiscworldCharacterSheet extends ActorSheet {
     return `systems/discworld/templates/actors/character.hbs`;
   }
 
+  render(force = false, options = {}) {
+    if (!game.user.isGM && this.actor.limited) {
+      options = foundry.utils.mergeObject(options, { width: 700, height: 430 });
+    }
+    return super.render(force, options);
+  }
+
   getData() {
     const data = super.getData();
     data.maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
