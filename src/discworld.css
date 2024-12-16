@@ -288,25 +288,15 @@ textarea {
 }
 
 .disc-roller-form {
-  width: 35px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.8);
   border: 1px solid #ccc;
   border-radius: 5px;
-  position: fixed;
-  top: 535px;
   transition: right 0.15s linear;
-}
-
-.disc-roller-form.moveout-left {
-  right: 315px;
-}
-
-.disc-roller-form.moveout-right {
-  right: 15px;
 }
 
 .disc-roller-form .roller-button {
