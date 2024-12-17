@@ -27,7 +27,7 @@ export class DiscRoller {
     );
     const buttonRect = targetButton.getBoundingClientRect();
     diceForm.style.position = 'absolute';
-    diceForm.style.top = `${buttonRect.bottom + 10}px`;
+    diceForm.style.top = `${buttonRect.bottom + 8}px`;
     diceForm.style.left = `${buttonRect.left}px`;
   }
 
