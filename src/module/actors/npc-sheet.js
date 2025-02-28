@@ -17,7 +17,7 @@ export class DiscworldNPCSheet extends ActorSheet {
 
   render(force = false, options = {}) {
     if (!game.user.isGM && this.actor.limited) {
-      options = foundry.utils.mergeObject(options, { width: 700, height: 430 });
+      options = foundry.utils.mergeObject(options, { width: 800, height: 370 });
     }
     return super.render(force, options);
   }
