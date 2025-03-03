@@ -31,7 +31,7 @@ export class DiscworldNPCSheet extends api.HandlebarsApplicationMixin(sheets.Act
   };
 
   get title() {
-    return `${this.actor.name} - Character (1e)`;
+    return `${this.actor.name}`;
   }
 
   _configureRenderOptions(options) {
@@ -47,7 +47,6 @@ export class DiscworldNPCSheet extends api.HandlebarsApplicationMixin(sheets.Act
     const context = {
       actor: this.actor,
       items: this.actor.items?.contents || [],
-      enrichedNotes: await TextEditor.enrichHTML(this.actor.system.notes),
     };
 
     return context;
@@ -90,23 +89,35 @@ export class DiscworldNPCSheet extends api.HandlebarsApplicationMixin(sheets.Act
   static async _onItemDelete(event) {
     const entry = event.target.closest('.entry');
     const itemId = entry.dataset.itemId;
-    new Dialog({
-      title: game.i18n.localize('application.deleteitem'),
+    new api.DialogV2({
+      window: {
+        title: game.i18n.localize('application.deleteitem')
+      },
       content: `<p>${game.i18n.localize('application.deleteconfirm')}</p>`,
-      buttons: {
-        yes: {
-          icon: '<i class="fas fa-check"></i>',
-          label: game.i18n.localize('application.yes'),
-          callback: async () => {
-            await this.actor.deleteEmbeddedDocuments('Item', [itemId]);
-          },
-        },
-        no: {
-          icon: '<i class="fas fa-times"></i>',
-          label: game.i18n.localize('application.no'),
+      position: {
+        height: "auto",
+        width: 350
+      },
+      buttons: [{
+        action: "yes",
+        default: false,
+		icon: '<i class="fas fa-check"></i>',
+        label: game.i18n.localize('application.yes'),
+        callback: async () => {
+          await this.actor.deleteEmbeddedDocuments('Item', [itemId]);
         },
       },
-      default: 'no',
+      {
+        action: "no",
+        default: true,
+		icon: '<i class="fas fa-times"></i>',
+        label: game.i18n.localize('application.no'),
+        callback: (event, button, htmlElement) => {
+          const form = htmlElement.querySelector("form");
+          return form ? new FormData(form) : null;
+        },
+      },],
+      close: () => null,
     }).render(true);
   }
 
@@ -200,33 +211,9 @@ export class DiscworldNPCSheet extends api.HandlebarsApplicationMixin(sheets.Act
 
   _onDragOver(event) {}
 
-  async _onDrop(event) {
-    const data = TextEditor.getDragEventData(event);
-    const actor = this.actor;
-    const allowed = Hooks.call('dropActorSheetData', actor, this, data);
-    if (allowed === false) return;
-    await this._onDropItem(event, data);
-  }
-
   async _onDropItem(event, data) {
     if (!this.actor.isOwner) return false;
     const item = await Item.implementation.fromDropData(data);
-    const allowedSubtypes = [
-      "trait",
-      "quirk",
-      "core",
-      "niche",
-    ];
-
-    if (!allowedSubtypes.includes(item.type)) {
-      ui.notifications.warn(`${this.actor.name} ` + game.i18n.localize(`sta.notifications.actoritem`) + ` ${item.type}`);
-      return false;
-    }
-
-    if (this.actor.uuid === item.parent?.uuid) {
-      return await this._onSortItem(event, item);
-    }
-
     return await this._onDropItemCreate(item, event);
   }
 

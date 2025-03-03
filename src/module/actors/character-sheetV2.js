@@ -17,6 +17,9 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       onItemCreate: DiscworldCharacterSheet._onItemCreate,
       onItemEdit: DiscworldCharacterSheet._onItemEdit,
       onItemDelete: DiscworldCharacterSheet._onItemDelete,
+      onIncreaseLuck: this.prototype._onIncreaseLuck,
+      onDecreaseLuck: this.prototype._onDecreaseLuck,
+      onRollDice: this.prototype._onRollDice,
     },
     classes: ["discworld", "sheet", "discworld-actor"],
     form: {
@@ -31,7 +34,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
   };
 
   get title() {
-    return `${this.actor.name} - Character (1e)`;
+    return `${this.actor.name}`;
   }
 
   _configureRenderOptions(options) {
@@ -47,10 +50,75 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     const context = {
       actor: this.actor,
       items: this.actor.items?.contents || [],
-      enrichedNotes: await TextEditor.enrichHTML(this.actor.system.notes),
+	  maxLuck: game.settings.get('discworld', 'maxNumberOfLuck'),
     };
 
     return context;
+  }
+
+  async _onIncreaseLuck(event) {
+    const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
+    let oldLuck = parseInt(this.actor.system.luck) || 0;
+    let newLuck = Math.max(0, Math.min(oldLuck + 1, maxLuck));
+    await this.actor.update({ "system.luck": newLuck });
+  }
+
+  async _onDecreaseLuck(event) {
+    const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
+    let oldLuck = parseInt(this.actor.system.luck) || 0;
+    let newLuck = Math.max(0, Math.min(oldLuck - 1, maxLuck));
+    await this.actor.update({ "system.luck": newLuck });
+  }
+
+  async _onLuckQuantityChange(event) {
+    let oldLuck = parseInt(this.actor.system.luck);
+    let newLuck = parseInt(event.target.value);
+    const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
+
+    if (newLuck > maxLuck) {
+      event.target.value = maxLuck;
+      ui.notifications.warn(game.i18n.format("application.exceededmaxluck", { maxLuck: maxLuck }));
+      newLuck = maxLuck;
+    }
+
+    if (newLuck < 0) {
+      event.target.value = 0;
+      ui.notifications.warn(game.i18n.format("application.exceededminluck"));
+      newLuck = 0;
+    }
+
+    clearTimeout(this.luckTimeout);
+
+    this.luckTimeout = setTimeout(() => {
+      if (newLuck !== oldLuck) {
+        let messageContent = newLuck > oldLuck 
+          ? game.i18n.format("application.luckadded", { actorName: this.actor.name, luckAmount: newLuck - oldLuck }) 
+          : game.i18n.format("application.luckspent", { actorName: this.actor.name, luckAmount: oldLuck - newLuck });
+
+        oldLuck = newLuck;
+
+        if (game.settings.get('discworld', 'sendLuckToChat')) {
+          ChatMessage.create({
+            content: messageContent,
+          });
+        }
+      }
+    }, 1000);
+  }
+
+  async _onRollDice(event) {
+    event.preventDefault();
+    const button = event.target.closest("button");
+    const diceType = button.dataset.dice;
+    const formula = `1${diceType}`;
+    const roll = new Roll(formula);
+
+    await roll.evaluate();
+
+    roll.toMessage({
+      speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+      flavor: `${game.i18n.localize('application.rolling')} ${formula}`
+    });
   }
 
   async _onItemNameChange(event) {
@@ -90,23 +158,35 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
   static async _onItemDelete(event) {
     const entry = event.target.closest('.entry');
     const itemId = entry.dataset.itemId;
-    new Dialog({
-      title: game.i18n.localize('application.deleteitem'),
+    new api.DialogV2({
+      window: {
+        title: game.i18n.localize('application.deleteitem')
+      },
       content: `<p>${game.i18n.localize('application.deleteconfirm')}</p>`,
-      buttons: {
-        yes: {
-          icon: '<i class="fas fa-check"></i>',
-          label: game.i18n.localize('application.yes'),
-          callback: async () => {
-            await this.actor.deleteEmbeddedDocuments('Item', [itemId]);
-          },
-        },
-        no: {
-          icon: '<i class="fas fa-times"></i>',
-          label: game.i18n.localize('application.no'),
+      position: {
+        height: "auto",
+        width: 350
+      },
+      buttons: [{
+        action: "yes",
+        default: false,
+		icon: '<i class="fas fa-check"></i>',
+        label: game.i18n.localize('application.yes'),
+        callback: async () => {
+          await this.actor.deleteEmbeddedDocuments('Item', [itemId]);
         },
       },
-      default: 'no',
+      {
+        action: "no",
+        default: true,
+		icon: '<i class="fas fa-times"></i>',
+        label: game.i18n.localize('application.no'),
+        callback: (event, button, htmlElement) => {
+          const form = htmlElement.querySelector("form");
+          return form ? new FormData(form) : null;
+        },
+      },],
+      close: () => null,
     }).render(true);
   }
 
@@ -156,6 +236,10 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
   _onRender(context, options) {
     if (this.document.limited) return;
 
+    document.querySelectorAll('.luck-input').forEach(input => {
+      input.addEventListener('change', this._onLuckQuantityChange.bind(this));
+    });
+
     document.querySelectorAll('.item-name').forEach(input => {
       input.addEventListener('change', this._onItemNameChange.bind(this));
     });
@@ -176,6 +260,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
   constructor(...args) {
     super(...args);
     this.#dragDrop = this.#createDragDropHandlers();
+	this.luckTimeout = null;
   }
 
   get dragDrop() {
@@ -211,22 +296,6 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
   async _onDropItem(event, data) {
     if (!this.actor.isOwner) return false;
     const item = await Item.implementation.fromDropData(data);
-    const allowedSubtypes = [
-      "trait",
-      "quirk",
-      "core",
-      "niche",
-    ];
-
-    if (!allowedSubtypes.includes(item.type)) {
-      ui.notifications.warn(`${this.actor.name} ` + game.i18n.localize(`sta.notifications.actoritem`) + ` ${item.type}`);
-      return false;
-    }
-
-    if (this.actor.uuid === item.parent?.uuid) {
-      return await this._onSortItem(event, item);
-    }
-
     return await this._onDropItemCreate(item, event);
   }
 

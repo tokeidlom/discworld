@@ -15,25 +15,24 @@
     <div class="dice-roll-container">
       <label for="dice-rolls">{{localize 'character.outcomedice'}}:</label>
       <div class="dice-roll-buttons">
-        <button type="button" class="roll-button" data-dice="d4">{{localize 'application.roll'}} d4 <img src="/systems/discworld/assets/dice/d4.png" alt="d4" class="dice-icon"></button>
-        <button type="button" class="roll-button" data-dice="d6">{{localize 'application.roll'}} d6 <img src="/systems/discworld/assets/dice/d6.png" alt="d4" class="dice-icon"></button>
-        <button type="button" class="roll-button" data-dice="d10">{{localize 'application.roll'}} d10 <img src="/systems/discworld/assets/dice/d10.png" alt="d4" class="dice-icon"></button>
-        <button type="button" class="roll-button" data-dice="d12">{{localize 'application.roll'}} d12 <img src="/systems/discworld/assets/dice/d12.png" alt="d4" class="dice-icon"></button>
+        <button type="button" class="roll-button" data-dice="d4" data-action="onRollDice">{{localize 'application.roll'}} d4 <img src="/systems/discworld/assets/dice/d4.png" alt="d4" class="dice-icon"></button>
+        <button type="button" class="roll-button" data-dice="d6" data-action="onRollDice">{{localize 'application.roll'}} d6 <img src="/systems/discworld/assets/dice/d6.png" alt="d4" class="dice-icon"></button>
+        <button type="button" class="roll-button" data-dice="d10" data-action="onRollDice">{{localize 'application.roll'}} d10 <img src="/systems/discworld/assets/dice/d10.png" alt="d4" class="dice-icon"></button>
+        <button type="button" class="roll-button" data-dice="d12" data-action="onRollDice">{{localize 'application.roll'}} d12 <img src="/systems/discworld/assets/dice/d12.png" alt="d4" class="dice-icon"></button>
       </div>
     </div>
 
-<div class="field-group">
-  <label for="luck">{{localize 'character.luck'}}:</label>
-  <div class="luck-controls">
-    <div class="buttons">
-      <button type="button" class="luck-increase">+</button>
-      <button type="button" class="luck-decrease">-</button>
+    <div class="field-group">
+      <label for="luck">{{localize 'character.luck'}}:</label>
+      <div class="luck-controls">
+        <div class="buttons">
+          <button type="button" class="luck-increase" data-action="onIncreaseLuck">+</button>
+          <button type="button" class="luck-decrease" data-action="onDecreaseLuck">-</button>
+        </div>
+        <input type="number" name="system.luck" value="{{actor.system.luck}}" min="0" max="{{maxLuck}}" class="luck-input">
+        <div class="luck-max">/{{maxLuck}}</div>
+      </div>
     </div>
-    <input type="number" name="system.luck" value="{{actor.system.luck}}" min="0" max="{{maxLuck}}" class="luck-input">
-    <div class="luck-max">/{{maxLuck}}</div>
-  </div>
-</div>
-
   </div>
 
   <div class="form-group split-row">
@@ -59,7 +58,7 @@
           <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
             <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
             <div class="control">
-              <a class="edit" title="{{localize 'application.edititem'}}"><i class="fas fa-edit"></i></a>
+              <a class="edit" title="{{localize 'application.edititem'}}" data-action="onItemEdit"><i class="fas fa-edit"></i></a>
               <a class="delete" title="{{localize 'application.deleteitem'}}" data-action="onItemDelete"><i class="fas fa-trash"></i></a>
             </div>
           </li>

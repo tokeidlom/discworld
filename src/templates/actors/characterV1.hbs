@@ -22,18 +22,17 @@
       </div>
     </div>
 
-<div class="field-group">
-  <label for="luck">{{localize 'character.luck'}}:</label>
-  <div class="luck-controls">
-    <div class="buttons">
-      <button type="button" class="luck-increase">+</button>
-      <button type="button" class="luck-decrease">-</button>
+    <div class="field-group">
+      <label for="luck">{{localize 'character.luck'}}:</label>
+      <div class="luck-controls">
+        <div class="buttons">
+          <button type="button" class="luck-increase">+</button>
+          <button type="button" class="luck-decrease">-</button>
+        </div>
+        <input type="number" name="system.luck" value="{{actor.system.luck}}" min="0" max="{{maxLuck}}" class="luck-input">
+        <div class="luck-max">/{{maxLuck}}</div>
+      </div>
     </div>
-    <input type="number" name="system.luck" value="{{actor.system.luck}}" min="0" max="{{maxLuck}}" class="luck-input">
-    <div class="luck-max">/{{maxLuck}}</div>
-  </div>
-</div>
-
   </div>
 
   <div class="form-group split-row">
