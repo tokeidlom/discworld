@@ -60,24 +60,28 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
     let oldLuck = parseInt(this.actor.system.luck) || 0;
     let newLuck = Math.max(0, Math.min(oldLuck + 1, maxLuck));
+
     await this.actor.update({ "system.luck": newLuck });
+    this._onLuckChange(1);
   }
 
   async _onDecreaseLuck(event) {
     const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
     let oldLuck = parseInt(this.actor.system.luck) || 0;
     let newLuck = Math.max(0, Math.min(oldLuck - 1, maxLuck));
+
     await this.actor.update({ "system.luck": newLuck });
+    this._onLuckChange(-1);
   }
 
-  async _onLuckQuantityChange(event) {
+  async _onLuckEntry(event) {
     let oldLuck = parseInt(this.actor.system.luck);
     let newLuck = parseInt(event.target.value);
     const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
 
     if (newLuck > maxLuck) {
       event.target.value = maxLuck;
-      ui.notifications.warn(game.i18n.format("application.exceededmaxluck", { maxLuck: maxLuck }));
+      ui.notifications.warn(game.i18n.format("application.exceededmaxluck", { maxLuck }));
       newLuck = maxLuck;
     }
 
@@ -87,21 +91,26 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       newLuck = 0;
     }
 
+    let delta = newLuck - oldLuck;
+    await this.actor.update({ "system.luck": newLuck });
+    this._onLuckChange(delta);
+  }
+
+  async _onLuckChange(delta) {
+    this.luckDelta += delta;
+
     clearTimeout(this.luckTimeout);
-
     this.luckTimeout = setTimeout(() => {
-      if (newLuck !== oldLuck) {
-        let messageContent = newLuck > oldLuck 
-          ? game.i18n.format("application.luckadded", { actorName: this.actor.name, luckAmount: newLuck - oldLuck }) 
-          : game.i18n.format("application.luckspent", { actorName: this.actor.name, luckAmount: oldLuck - newLuck });
-
-        oldLuck = newLuck;
+      if (this.luckDelta !== 0) {
+        let messageContent = this.luckDelta > 0
+          ? game.i18n.format("application.luckadded", { actorName: this.actor.name, luckAmount: this.luckDelta })
+          : game.i18n.format("application.luckspent", { actorName: this.actor.name, luckAmount: Math.abs(this.luckDelta) });
 
         if (game.settings.get('discworld', 'sendLuckToChat')) {
-          ChatMessage.create({
-            content: messageContent,
-          });
+          ChatMessage.create({ content: messageContent });
         }
+
+        this.luckDelta = 0;
       }
     }, 1000);
   }
@@ -237,7 +246,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     if (this.document.limited) return;
 
     document.querySelectorAll('.luck-input').forEach(input => {
-      input.addEventListener('change', this._onLuckQuantityChange.bind(this));
+      input.addEventListener('change', this._onLuckEntry.bind(this));
     });
 
     document.querySelectorAll('.item-name').forEach(input => {
@@ -260,7 +269,8 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
   constructor(...args) {
     super(...args);
     this.#dragDrop = this.#createDragDropHandlers();
-	this.luckTimeout = null;
+    this.luckTimeout = null;
+    this.luckDelta = 0;
   }
 
   get dragDrop() {
