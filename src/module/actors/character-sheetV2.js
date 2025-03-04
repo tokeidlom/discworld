@@ -60,8 +60,10 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     let oldLuck = parseInt(this.actor.system.luck) || 0;
     let newLuck = Math.max(0, Math.min(oldLuck + 1, maxLuck));
 
-    await this.actor.update({ "system.luck": newLuck });
-    this._onLuckChange(1);
+    if (newLuck > oldLuck) {
+      await this.actor.update({ "system.luck": newLuck });
+      this._onLuckChange(1);
+    }
   }
 
   async _onDecreaseLuck(event) {
@@ -69,8 +71,10 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     let oldLuck = parseInt(this.actor.system.luck) || 0;
     let newLuck = Math.max(0, Math.min(oldLuck - 1, maxLuck));
 
-    await this.actor.update({ "system.luck": newLuck });
-    this._onLuckChange(-1);
+    if (newLuck < oldLuck) {
+      await this.actor.update({ "system.luck": newLuck });
+      this._onLuckChange(-1);
+    }
   }
 
   async _onLuckEntry(event) {
