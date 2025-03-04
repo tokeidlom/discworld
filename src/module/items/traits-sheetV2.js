@@ -9,7 +9,6 @@ export class DiscworldTraitsItem extends api.HandlebarsApplicationMixin(sheets.I
   };
 
   static DEFAULT_OPTIONS = {
-    classes: ["discworld", "sheet", "discworld-trait"],
     actions: {},
     form: {
       submitOnChange: true,

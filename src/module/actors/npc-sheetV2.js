@@ -18,7 +18,6 @@ export class DiscworldNPCSheet extends api.HandlebarsApplicationMixin(sheets.Act
       onItemEdit: DiscworldNPCSheet._onItemEdit,
       onItemDelete: DiscworldNPCSheet._onItemDelete,
     },
-    classes: ["discworld", "sheet", "discworld-actor"],
     form: {
       submitOnChange: true,
       closeOnSubmit: false,

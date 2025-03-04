@@ -1,7 +1,6 @@
 export class DiscworldCharacterSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["discworld", "sheet", "discworld-actor"],
       width: 800,
       height: 890,
     });

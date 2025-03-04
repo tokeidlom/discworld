@@ -21,7 +21,6 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       onDecreaseLuck: this.prototype._onDecreaseLuck,
       onRollDice: this.prototype._onRollDice,
     },
-    classes: ["discworld", "sheet", "discworld-actor"],
     form: {
       submitOnChange: true,
       closeOnSubmit: false,
