@@ -158,8 +158,8 @@ export class DiscworldCharacterSheet extends ActorSheet {
       updateLuck(input, currentLuck + delta, maxLuck);
     }
 
-    html.find('.luck-increase').click(() => handleLuckChange(1));
-    html.find('.luck-decrease').click(() => handleLuckChange(-1));
+    html.find('.luck-increaseV1').click(() => handleLuckChange(1));
+    html.find('.luck-decreaseV1').click(() => handleLuckChange(-1));
 
     html.find('input[name="system.luck"]').change((ev) => {
       let newLuck = parseInt(ev.target.value);
