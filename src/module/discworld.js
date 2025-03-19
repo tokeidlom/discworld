@@ -41,16 +41,16 @@ Hooks.once("init", async () => {
   console.log("Loaded DiscworldTraitsItem:", DiscworldTraitsItem);
 
   // Register sheets
-  Actors.unregisterSheet('core', ActorSheet);
-  Items.unregisterSheet('core', ItemSheet);
-  Actors.registerSheet("core", DiscworldCharacterSheet, {
+  foundry.documents.collections.Actors.unregisterSheet('core', foundry.appv1.sheets.ActorSheet);
+  foundry.documents.collections.Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
+  foundry.documents.collections.Actors.registerSheet("core", DiscworldCharacterSheet, {
     types: ["character"],
     makeDefault: true
   });
-  Actors.registerSheet("core", DiscworldNPCSheet, {
+  foundry.documents.collections.Actors.registerSheet("core", DiscworldNPCSheet, {
     types: ["NPC"],
   });
-  Items.registerSheet("discworld", DiscworldTraitsItem, {
+  foundry.documents.collections.Items.registerSheet("discworld", DiscworldTraitsItem, {
     types: ["core", "trait", "quirk", "niche"],
   });
 });
