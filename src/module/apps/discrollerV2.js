@@ -82,6 +82,6 @@ export class DiscRoller {
   }
 }
 
-Hooks.on('ready', (controls) => {
+Hooks.on('renderSidebar', (controls) => {
     DiscRoller.DiceRollerButtonV13();
 });
