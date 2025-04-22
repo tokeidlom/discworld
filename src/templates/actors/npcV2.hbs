@@ -1,0 +1,54 @@
+<div class="discworld-actor">
+  <div class="field-group name-field">
+    <label for="name">{{localize 'character.name'}}:</label>
+    <input type="text" name="name" value="{{actor.name}}" class="name-input">
+  </div>
+
+  <div class="form-group split-row">
+    <div class="field-group role-field">
+      <label for="role">{{localize 'character.role'}}:</label>
+      <input type="text" name="system.role" value="{{actor.system.role}}" class="role-input">
+    </div>
+
+    <div class="field-group pronouns-field">
+      <label for="pronouns">{{localize 'character.pronouns'}}:</label>
+      <input type="text" name="system.pronouns" value="{{actor.system.pronouns}}" class="pronouns-input">
+    </div>
+  </div>
+
+  <div class="form-group split-row">
+    <div class="left-column">
+      <label for="core">{{localize 'character.traits'}}:</label>
+      <a class="control create" title="{{localize 'application.createitem'}}" data-action="onItemCreate" data-type="trait">
+        <i class="fas fa-plus"></i>
+      </a>
+
+      {{#each items as |item id|}}
+        {{#if (eq item.type "trait")}}
+          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
+            <div class="control">
+              <a class="edit" title="{{localize 'application.edititem'}}" data-action="onItemEdit">
+                <i class="fas fa-edit"></i>
+              </a>
+              <a class="delete" title="{{localize 'application.deleteitem'}}" data-action="onItemDelete">
+                <i class="fas fa-trash"></i>
+              </a>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
+
+      <div class="form-group-notes">
+        <label for="notes">{{localize 'character.notes'}}:</label>
+        <textarea name="system.notes">{{actor.system.notes}}</textarea>
+      </div>
+    </div>
+
+    <div class="right-column">
+      <div class="form-group npc-image-field">
+        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" data-action="editImage"/>
+      </div>
+    </div>
+  </div>
+</div>

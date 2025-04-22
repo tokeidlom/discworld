@@ -1,45 +1,5 @@
 export class DiscRoller {
-  // V13 and higher versions dice button appears below the sidebar menu
-  static async DiceRollerButtonV13(event) {
-    let diceForm = document.querySelector('.disc-roller-form');
-    if (!diceForm) {
-      diceForm = document.createElement('div');
-      diceForm.classList.add('disc-roller-form');
-      diceForm.innerHTML = `
-        <form>
-          <button type="button" class="roller-button" title="${game.i18n.localize('application.discworlddiceroller')}">
-            <img src="/systems/discworld/assets/dice/fancy-dice.png" alt="${game.i18n.localize('application.discworlddiceroller')}">
-            </button>
-        </form>
-      `;
-      document.body.appendChild(diceForm);
 
-      diceForm.querySelector('.roller-button').addEventListener('click', (ev) => {
-        this.CreateDiceRoller(ev);
-      });
-    }
-    this.startPositionUpdater(diceForm);
-  }
-
-  static positionDiceRoller(diceForm) {
-    const targetButton = document.querySelector(
-      'button.collapse.ui-control.plain.icon[class*="fa-caret-"]'
-    );
-    const buttonRect = targetButton.getBoundingClientRect();
-    diceForm.style.position = 'absolute';
-    diceForm.style.top = `${buttonRect.bottom + 8}px`;
-    diceForm.style.left = `${buttonRect.left}px`;
-  }
-
-  static startPositionUpdater(diceForm) {
-    const updatePosition = () => {
-      this.positionDiceRoller(diceForm);
-      requestAnimationFrame(updatePosition);
-    };
-    requestAnimationFrame(updatePosition);
-}
-
-  // V12 and lower versions dice append to scene controls menu
   static async Init(controls, html) {
     if (html.find('.scene-control.discworld-roller').length === 0) {
       const diceRollbtn = $(`
@@ -57,7 +17,6 @@ export class DiscRoller {
     }
   }
 
-  // Core functions from here
   static async CreateDiceRoller(event) {
     const dialog = new Dialog({
       title: `${game.i18n.localize('application.discworlddiceroller')}`,
@@ -122,18 +81,6 @@ export class DiscRoller {
   }
 }
 
-Hooks.on('ready', (controls) => {
-  if (isVersion13OrHigher()) {
-    DiscRoller.DiceRollerButtonV13();
-	
-  } else {
-    Hooks.on('renderSceneControls', (controls, html) => {
-      DiscRoller.Init(controls, html);
-    });
-  }
+Hooks.on('renderSceneControls', (controls, html) => {
+  DiscRoller.Init(controls, html);
 });
-
-function isVersion13OrHigher() {
-  const version = game.version || game.data.version;
-  return parseInt(version.split('.')[0]) >= 13;
-}

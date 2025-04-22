@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
+.window-content:has(.dice-roller-container),
+.window-content:has(.discworld-actor) {
+  padding: 0;
+}
+
+.discworld-actor {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-left: 10px;
+}
+
 /* Character sheet roll button styling*/
 .discworld-actor .dice-roll-container {
   display: flex;
@@ -20,11 +31,11 @@
   justify-content: space-between;
   align-items: center;
   text-align: left;
-  padding: 5px;
   cursor: pointer;
   font-family: "Kalam", cursive;
   font-size: 1rem;
   border: none;
+  height: 3rem;
 }
 
 .roll-button img.dice-icon {
@@ -47,6 +58,14 @@
 }
 
 .discworld-actor .luck-increase, .luck-decrease {
+  border: none;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.discworld-actor .luck-increaseV1, .luck-decreaseV1 {
   border: none;
   height: 1.5rem;
   background: rgba(0, 0, 0, 0.05);
@@ -72,7 +91,8 @@
 
 /*Input text box and field stylings*/
 .discworld-actor .name-field {
-  flex-basis: 80%;
+  flex-basis: 81%;
+  padding-right: 10px;
 }
 
 .discworld-actor .name-field .name-input {
@@ -83,7 +103,8 @@
 }
 
 .discworld-actor .pronouns-field {
-  flex-basis: 10%;
+  flex-basis: 17%;
+  padding-right: 10px;
 }
 
 .discworld-actor .role-field .role-input,
@@ -95,9 +116,13 @@
   font-size: 1rem;
 }
 
-.discworld-actor .organisation-field,
+.discworld-actor .organisation-field {
+  flex: 45%;
+}
+
 .discworld-actor .background-field {
   flex: 45%;
+  padding-right: 10px;
 }
 
 .discworld-actor .role-field {
@@ -107,7 +132,7 @@
 .discworld-actor .split-row {
   display: flex;
   width: 100%;
-  gap: 20px;
+  gap: 10px;
 }
 
 .discworld-actor .left-column {
@@ -137,6 +162,14 @@
 .discworld-actor .form-group-notes {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+.discworld-actor .form-group-notes-notes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 10px;
 }
 
 .discworld-trait .form-group-notes label,
@@ -155,7 +188,6 @@ textarea {
   border: none;
   font-family: "Kalam", cursive;
   font-size: 1rem;
-  color: #191813;
 }
 
 /*Image fields styling*/
@@ -196,10 +228,7 @@ textarea {
   border: none;
 }
 
-.discworld-actor .form-group .control.create {
-  color: #191813;
-  cursor: pointer;
-}
+
 
 /* Style each individual item entry */
 .discworld-actor li.row.entry {
@@ -215,7 +244,7 @@ textarea {
   font-family: "Kalam", cursive;
   font-size: 1rem;
   border: none;
-  background: rgba(0, 0, 0, 0.05);
+
 }
 
 /* Style the control buttons */
@@ -224,7 +253,6 @@ textarea {
 }
 
 .discworld-actor .control a {
-  color: #191813;
   cursor: pointer;
   margin-left: 5px;
 }

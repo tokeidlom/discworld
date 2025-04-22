@@ -1,20 +1,73 @@
-import { DiscRoller } from './apps/discroller.js';
-import { DiscworldCharacterSheet } from './actors/character-sheet.js';
-import { DiscworldNPCSheet } from './actors/npc-sheet.js';
-import { DiscworldTraitsItem } from './items/traits-sheet.js';
+Hooks.once("init", async () => {
+  function isVersion13OrHigher() {
+    const version = game?.version || game?.data?.version;
+    return version ? parseInt(version.split('.')[0]) >= 13 : false;
+  }
 
-// Register sheets
-Actors.unregisterSheet('core', ActorSheet);
-Items.unregisterSheet('core', ItemSheet);
-Actors.registerSheet("core", DiscworldCharacterSheet, {
-  types: ["character"],
-  makeDefault: true
-});
-Actors.registerSheet("core", DiscworldNPCSheet, {
-  types: ["NPC"],
-});
-Items.registerSheet("discworld", DiscworldTraitsItem, {
-  types: ["core", "trait", "quirk", "niche"],
+  async function loadDiscRoller() {
+    const modulePath = isVersion13OrHigher() ? './apps/discrollerV2.js' : './apps/discrollerV1.js';
+    const module = await import(modulePath);
+    return module.DiscRoller;
+  }
+
+  async function loadCharacterSheet() {
+    const modulePath = isVersion13OrHigher() ? './actors/character-sheetV2.js' : './actors/character-sheetV1.js';
+    const module = await import(modulePath);
+    return module.DiscworldCharacterSheet;
+  }
+
+  async function loadNPCSheet() {
+    const modulePath = isVersion13OrHigher() ? './actors/npc-sheetV2.js' : './actors/npc-sheetV1.js';
+    const module = await import(modulePath);
+    return module.DiscworldNPCSheet;
+  }
+
+  async function loadTraitSheet() {
+    const modulePath = isVersion13OrHigher() ? './items/traits-sheetV2.js' : './items/traits-sheetV1.js';
+    const module = await import(modulePath);
+    return module.DiscworldTraitsItem;
+  }
+
+  const DiscRoller = await loadDiscRoller();
+  console.log("Loaded DiscRoller:", DiscRoller);
+
+  const DiscworldCharacterSheet = await loadCharacterSheet();
+  console.log("Loaded DiscworldCharacterSheet:", DiscworldCharacterSheet);
+
+  const DiscworldNPCSheet = await loadNPCSheet();
+  console.log("Loaded DiscworldNPCSheet:", DiscworldNPCSheet);
+
+  const DiscworldTraitsItem = await loadTraitSheet();
+  console.log("Loaded DiscworldTraitsItem:", DiscworldTraitsItem);
+
+  // Register sheets
+  if (isVersion13OrHigher()) {
+    foundry.documents.collections.Actors.unregisterSheet('core', foundry.appv1.sheets.ActorSheet);
+    foundry.documents.collections.Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
+    foundry.documents.collections.Actors.registerSheet("core", DiscworldCharacterSheet, {
+      types: ["character"],
+      makeDefault: true
+    });
+    foundry.documents.collections.Actors.registerSheet("core", DiscworldNPCSheet, {
+      types: ["NPC"],
+    });
+    foundry.documents.collections.Items.registerSheet("discworld", DiscworldTraitsItem, {
+      types: ["core", "trait", "quirk", "niche"],
+    });
+  } else {
+    Actors.unregisterSheet('core', ActorSheet);
+    Items.unregisterSheet('core', ItemSheet);
+    Actors.registerSheet("core", DiscworldCharacterSheet, {
+      types: ["character"],
+      makeDefault: true
+    });
+    Actors.registerSheet("core", DiscworldNPCSheet, {
+      types: ["NPC"],
+    });
+    Items.registerSheet("discworld", DiscworldTraitsItem, {
+      types: ["core", "trait", "quirk", "niche"],
+    });
+  }
 });
 
 // Item type hooks

@@ -1,18 +1,17 @@
-export class DiscworldNPCSheet extends ActorSheet {
+export class DiscworldCharacterSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["discworld", "sheet", "discworld-actor"],
       width: 800,
-      height: 490,
+      height: 890,
     });
   }
 
   // If the player is not a GM and has limited permissions - send them to the limited sheet, otherwise, continue as usual.
   get template() {
     if (!game.user.isGM && this.actor.limited) {
-      return 'systems/discworld/templates/actors/limited-sheet.hbs';
+      return 'systems/discworld/templates/actors/limited-sheetV1.hbs';
     }
-    return `systems/discworld/templates/actors/npc.hbs`;
+    return `systems/discworld/templates/actors/characterV1.hbs`;
   }
 
   render(force = false, options = {}) {
@@ -24,6 +23,7 @@ export class DiscworldNPCSheet extends ActorSheet {
 
   getData() {
     const data = super.getData();
+    data.maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
     return data;
   }
 
@@ -139,6 +139,76 @@ export class DiscworldNPCSheet extends ActorSheet {
         document.body.removeChild(input._tooltip);
         delete input._tooltip;
       }
+    });
+
+    // Luck update functions
+    let luckTimeout;
+    let oldLuck = parseInt(this.actor.system.luck);
+
+    function updateLuck(input, newLuck, maxLuck) {
+      newLuck = Math.max(0, Math.min(newLuck, maxLuck));
+      input.value = newLuck;
+      input.dispatchEvent(new Event('change'));
+    }
+
+    function handleLuckChange(delta) {
+      const input = html.find('input[name="system.luck"]')[0];
+      let currentLuck = parseInt(input.value) || 0;
+      const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
+      updateLuck(input, currentLuck + delta, maxLuck);
+    }
+
+    html.find('.luck-increaseV1').click(() => handleLuckChange(1));
+    html.find('.luck-decreaseV1').click(() => handleLuckChange(-1));
+
+    html.find('input[name="system.luck"]').change((ev) => {
+      let newLuck = parseInt(ev.target.value);
+      const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
+
+      if (newLuck > maxLuck) {
+        ev.target.value = maxLuck;
+        ui.notifications.warn(game.i18n.format("application.exceededmaxluck", { maxLuck: maxLuck }));
+        newLuck = maxLuck;
+      }
+
+      if (newLuck < 0) {
+        ev.target.value = 0;
+        ui.notifications.warn(game.i18n.format("application.exceededminluck"));
+        newLuck = 0;
+      }
+
+      clearTimeout(luckTimeout);
+
+      luckTimeout = setTimeout(() => {
+        if (newLuck !== oldLuck) {
+          let messageContent = newLuck > oldLuck 
+            ? game.i18n.format("application.luckadded", { actorName: this.actor.name, luckAmount: newLuck - oldLuck }) 
+            : game.i18n.format("application.luckspent", { actorName: this.actor.name, luckAmount: oldLuck - newLuck });
+
+          oldLuck = newLuck;
+
+          if (game.settings.get('discworld', 'sendLuckToChat')) {
+            ChatMessage.create({
+              content: messageContent,
+            });
+          }
+        }
+      }, 1000);
+    });
+
+    // Roll dice
+    html.find('.roll-button').click(async (ev) => {
+      const button = ev.currentTarget;
+      const diceType = button.dataset.dice;
+      const formula = `1${diceType}`;
+      const roll = new Roll(formula);
+
+      await roll.evaluate();
+
+      roll.toMessage({
+        speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+        flavor: `${game.i18n.localize('application.rolling')} ${formula}`
+      });
     });
   }
 }

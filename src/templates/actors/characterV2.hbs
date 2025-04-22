@@ -1,0 +1,126 @@
+<div class="discworld-actor">
+  <div class="form-group split-row">
+    <div class="field-group name-field">
+      <label for="name">{{localize 'character.name'}}:</label>
+      <input type="text" name="name" value="{{actor.name}}" class="name-input">
+    </div>
+    
+    <div class="field-group pronouns-field">
+      <label for="pronouns">{{localize 'character.pronouns'}}:</label>
+      <input type="text" name="system.pronouns" value="{{actor.system.pronouns}}" class="pronouns-input">
+    </div>
+  </div>
+
+  <div class="form-group split-row">
+    <div class="dice-roll-container">
+      <label for="dice-rolls">{{localize 'character.outcomedice'}}:</label>
+      <div class="dice-roll-buttons">
+        <button type="button" class="roll-button" data-dice="d4" data-action="onRollDice">{{localize 'application.roll'}} d4 <img src="/systems/discworld/assets/dice/d4.png" alt="d4" class="dice-icon"></button>
+        <button type="button" class="roll-button" data-dice="d6" data-action="onRollDice">{{localize 'application.roll'}} d6 <img src="/systems/discworld/assets/dice/d6.png" alt="d4" class="dice-icon"></button>
+        <button type="button" class="roll-button" data-dice="d10" data-action="onRollDice">{{localize 'application.roll'}} d10 <img src="/systems/discworld/assets/dice/d10.png" alt="d4" class="dice-icon"></button>
+        <button type="button" class="roll-button" data-dice="d12" data-action="onRollDice">{{localize 'application.roll'}} d12 <img src="/systems/discworld/assets/dice/d12.png" alt="d4" class="dice-icon"></button>
+      </div>
+    </div>
+
+    <div class="field-group">
+      <label for="luck">{{localize 'character.luck'}}:</label>
+      <div class="luck-controls">
+        <div class="buttons">
+          <button type="button" class="luck-increase" data-action="onIncreaseLuck">+</button>
+          <button type="button" class="luck-decrease" data-action="onDecreaseLuck">-</button>
+        </div>
+        <input type="number" name="system.luck" value="{{actor.system.luck}}" min="0" max="{{maxLuck}}" class="luck-input">
+        <div class="luck-max">/{{maxLuck}}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group split-row">
+    <div class="field-group organisation-field">
+      <label for="organisation">{{localize 'character.organisation'}}:</label>
+      <input type="text" name="system.organisation" value="{{actor.system.organisation}}" class="organisation-input">
+    </div>
+
+    <div class="field-group background-field">
+      <label for="background">{{localize 'character.background'}}:</label>
+      <input type="text" name="system.background" value="{{actor.system.background}}" class="background-input">
+    </div>
+  </div>
+
+  <div class="form-group split-row">
+    <div class="left-column">
+      <label for="niche">{{localize 'character.niche'}}:</label>
+      <a class="control create" title="{{localize 'application.createitem'}}" data-type="niche" data-action="onItemCreate">
+        <i class="fas fa-plus"></i>
+      </a>
+      {{#each items as |item id|}}
+        {{#if (eq item.type "niche")}}
+          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
+            <div class="control">
+              <a class="edit" title="{{localize 'application.edititem'}}" data-action="onItemEdit"><i class="fas fa-edit"></i></a>
+              <a class="delete" title="{{localize 'application.deleteitem'}}" data-action="onItemDelete"><i class="fas fa-trash"></i></a>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
+     <div class="newline"></div>
+
+      <label for="core">{{localize 'character.core'}}:</label>
+      <a class="control create" title="{{localize 'application.createitem'}}" data-type="core" data-action="onItemCreate">
+        <i class="fas fa-plus"></i>
+      </a>
+      {{#each items as |item id|}}
+        {{#if (eq item.type "core")}}
+          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
+            <div class="control">
+              <a class="edit" title="{{localize 'application.edititem'}}" data-action="onItemEdit"><i class="fas fa-edit"></i></a>
+              <a class="delete" title="{{localize 'application.deleteitem'}}" data-action="onItemDelete"><i class="fas fa-trash"></i></a>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
+     <div class="newline"></div>
+
+      <label for="quirks">{{localize 'character.quirks'}}:</label>
+      <a class="control create" title="{{localize 'application.createitem'}}" data-type="quirk" data-action="onItemCreate">
+        <i class="fas fa-plus"></i>
+      </a>
+      {{#each items as |item id|}}
+        {{#if (eq item.type "quirk")}}
+          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
+            <div class="control">
+              <a class="edit" title="{{localize 'application.edititem'}}" data-action="onItemEdit"><i class="fas fa-edit"></i></a>
+              <a class="delete" title="{{localize 'application.deleteitem'}}" data-action="onItemDelete"><i class="fas fa-trash"></i></a>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
+
+      <div class="form-group-notes">
+        <label for="description">{{localize 'character.description'}}:</label>
+        <textarea name="system.description">{{actor.system.description}}</textarea>
+      </div>
+    </div>
+
+    <div class="right-column">
+      <div class="form-group image-field">
+        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" data-action="editImage"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group split-row">
+    <div class="form-group-notes">
+      <label for="consequences">{{localize 'character.consequences'}}:</label>
+      <textarea name="system.consequences">{{actor.system.consequences}}</textarea>
+    </div>
+
+    <div class="form-group-notes-notes">
+      <label for="notes">{{localize 'character.notes'}}:</label>
+      <textarea name="system.notes">{{actor.system.notes}}</textarea>
+    </div>
+  </div>
+</div>
