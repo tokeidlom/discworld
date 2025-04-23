@@ -36,7 +36,6 @@ export class DiscworldTraitsItem extends api.HandlebarsApplicationMixin(sheets.I
   async _prepareContext(options) {
     const context = {
       item: this.item,
-      enrichedNotes: await TextEditor.enrichHTML(this.item.system.description),
     };
     return context;
   }
