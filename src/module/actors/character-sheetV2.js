@@ -298,14 +298,6 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
 
   _onDragOver(event) {}
 
-  async _onDrop(event) {
-    const data = TextEditor.getDragEventData(event);
-    const actor = this.actor;
-    const allowed = Hooks.call('dropActorSheetData', actor, this, data);
-    if (allowed === false) return;
-    await this._onDropItem(event, data);
-  }
-
   async _onDropItem(event, data) {
     if (!this.actor.isOwner) return false;
     const item = await Item.implementation.fromDropData(data);

@@ -10,7 +10,7 @@ export class DiscRoller {
       diceForm.innerHTML = `
         <form>
           <button type="button" class="roller-button" title="${game.i18n.localize('application.discworlddiceroller')}">
-            <img src="/systems/discworld/assets/dice/fancy-dice.png" alt="${game.i18n.localize('application.discworlddiceroller')}">
+            <img src="systems/discworld/assets/dice/fancy-dice.png" alt="${game.i18n.localize('application.discworlddiceroller')}">
             </button>
         </form>
       `;
