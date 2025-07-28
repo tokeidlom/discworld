@@ -11,9 +11,12 @@
 		"core": "Core",
 		"quirks": "Quirks",
 		"traits": "Traits",
-		"description": "Description",
 		"consequences": "Consequences",
-		"notes": "Notes"
+		"notes": "Notes",
+		"species": "Species",
+		"mannerism": "Mannerism",
+		"party": "Party",
+		"storyprompt": "Story Prompt"
 	},
 	"application": {
 		"createitem": "Create Item",
@@ -33,6 +36,11 @@
 		"luckspent": "{actorName} has spent {luckAmount} luck."
 	},
 	"item": {
-		"description": "Description"
+		"name": "Party Name",
+		"description": "Description",
+		"organisation": "Organisation",
+		"goal": "Party Goal",
+		"partypast": "Party Past",
+		"partypresent": "Party Present"
 	}
 }

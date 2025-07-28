@@ -28,6 +28,12 @@ Hooks.once("init", async () => {
     return module.DiscworldTraitsItem;
   }
 
+  async function loadPartySheet() {
+    const modulePath = isVersion13OrHigher() ? './items/party-sheetV2.js' : './items/party-sheetV1.js';
+    const module = await import(modulePath);
+    return module.DiscworldPartyItem;
+  }
+
   const DiscRoller = await loadDiscRoller();
   console.log("Loaded DiscRoller:", DiscRoller);
 
@@ -39,6 +45,9 @@ Hooks.once("init", async () => {
 
   const DiscworldTraitsItem = await loadTraitSheet();
   console.log("Loaded DiscworldTraitsItem:", DiscworldTraitsItem);
+
+  const DiscworldPartyItem = await loadPartySheet();
+  console.log("Loaded DiscworldPartyItem:", DiscworldPartyItem);
 
   // Register sheets
   if (isVersion13OrHigher()) {
@@ -54,7 +63,56 @@ Hooks.once("init", async () => {
     foundry.documents.collections.Items.registerSheet("discworld", DiscworldTraitsItem, {
       types: ["core", "trait", "quirk", "niche"],
     });
+    foundry.documents.collections.Items.registerSheet("discworld", DiscworldPartyItem, {
+      types: ["party"],
+    });
+
+    // Change role field into a nice item for NPC
+    Hooks.on('renderDiscworldNPCSheet', async (actorSheet, html, data) => {
+      const actor = actorSheet.actor;
+      if (actor.system.role && actor.system.role.trim()) {
+        const roleName = actor.system.role.trim();
+        const existingNiche = actor.items.find((niche) => niche.name === roleName && niche.type === 'niche');
+        if (!existingNiche) {
+          const nicheItemData = {
+            name: roleName,
+            type: 'niche',
+          };
+          try {
+            await actor.createEmbeddedDocuments('Item', [nicheItemData]);
+            await actor.update({
+              'system.role': ''
+            });
+          } catch (err) {
+            console.error(`Error creating niche item for actor ${actor.name}:`, err);
+          }
+        }
+      }
+    });
+
+    // Merge background and description into background field
+    Hooks.on('renderDiscworldCharacterSheet', async (actorSheet, html, data) => {
+      const actor = actorSheet.actor;
+      const background = String(actor.system.background ?? '').trim();
+      const description = String(actor.system.description ?? '').trim();
+      if (description && !background.includes(description)) {
+        const newBackground = background
+          ? `${background}\n${description}`
+          : description;
+        try {
+          await actor.update({
+            'system.background': newBackground,
+            'system.description': ''
+          });
+          console.log(`[Discworld] Merged description into background for "${actor.name}"`);
+        } catch (err) {
+          console.error(`[Discworld] Failed to merge background/description for "${actor.name}":`, err);
+        }
+      }
+    });
+
   } else {
+
     Actors.unregisterSheet('core', ActorSheet);
     Items.unregisterSheet('core', ItemSheet);
     Actors.registerSheet("core", DiscworldCharacterSheet, {
@@ -66,6 +124,48 @@ Hooks.once("init", async () => {
     });
     Items.registerSheet("discworld", DiscworldTraitsItem, {
       types: ["core", "trait", "quirk", "niche"],
+    });
+    Items.registerSheet("discworld", DiscworldPartyItem, {
+      types: ["party"],
+    });
+
+    // Change role field into a nice item for NPC & Merge background and description into background field
+    Hooks.on('renderActorSheet', async (actorSheet, html, data) => {
+      const actor = actorSheet.object;
+      if (actor.system.role && actor.system.role.trim()) {
+        const roleName = actor.system.role.trim();
+        const existingNiche = actor.items.find((niche) => niche.name === roleName && niche.type === 'niche');
+        if (!existingNiche) {
+          const nicheItemData = {
+            name: roleName,
+            type: 'niche',
+          };
+          try {
+            await actor.createEmbeddedDocuments('Item', [nicheItemData]);
+            await actor.update({
+              'system.role': ''
+            });
+          } catch (err) {
+            console.error(`Error creating niche item for actor ${actor.name}:`, err);
+          }
+        }
+      }
+      const background = String(actor.system.background ?? '').trim();
+      const description = String(actor.system.description ?? '').trim();
+      if (description && !background.includes(description)) {
+        const newBackground = background
+          ? `${background}\n${description}`
+          : description;
+        try {
+          await actor.update({
+            'system.background': newBackground,
+            'system.description': ''
+          });
+          console.log(`[Discworld] Merged description into background for "${actor.name}"`);
+        } catch (err) {
+          console.error(`[Discworld] Failed to merge background/description for "${actor.name}":`, err);
+        }
+      }
     });
   }
 });
@@ -88,6 +188,9 @@ Hooks.on("preCreateItem", (item, options, userId) => {
       case "trait":
         item.updateSource({ img: "systems/discworld/assets/items/traits.webp" });
         break;
+      case "party":
+        item.updateSource({ img: "systems/discworld/assets/items/party.png" });
+        break;
     }
   }
 
@@ -97,7 +200,7 @@ Hooks.on("preCreateItem", (item, options, userId) => {
 
   const actorType = actor.type;
   const forbiddenItemsForCharacter = ["trait"];
-  const forbiddenItemsForNPC = ["niche", "core", "quirk"];
+  const forbiddenItemsForNPC = ["core", "quirk"];
 
   if (actorType === "character" && forbiddenItemsForCharacter.includes(item.type)) {
     ui.notifications.error(game.i18n.format("application.actorcannothold", {
@@ -118,7 +221,7 @@ Hooks.on("preCreateItem", (item, options, userId) => {
   return true;
 });
 
-  // Register system settings
+// Register system settings
 Hooks.once('init', async function() {
   game.settings.register('discworld', 'sendLuckToChat', {
     name: 'See Luck Updates in Chat:',

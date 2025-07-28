@@ -2,7 +2,7 @@ export class DiscworldCharacterSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       width: 800,
-      height: 890,
+      height: "auto",
     });
   }
 
@@ -21,11 +21,20 @@ export class DiscworldCharacterSheet extends ActorSheet {
     return super.render(force, options);
   }
 
-  getData() {
-    const data = super.getData();
-    data.maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
-    return data;
-  }
+async getData(options) {
+  const data = await super.getData(options);
+
+  data.maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
+
+  data.availableParties = game.items
+    .filter((actor) => actor.type === 'party' && actor.isOwner)
+    .map((actor) => ({
+      id: actor.id,
+      name: actor.name
+    }));
+
+  return data;
+}
 
   activateListeners(html) {
     super.activateListeners(html);

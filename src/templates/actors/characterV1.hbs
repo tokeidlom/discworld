@@ -41,9 +41,11 @@
       <input type="text" name="system.organisation" value="{{actor.system.organisation}}" class="organisation-input">
     </div>
 
-    <div class="field-group background-field">
-      <label for="background">{{localize 'character.background'}}:</label>
-      <input type="text" name="system.background" value="{{actor.system.background}}" class="background-input">
+    <div class="field-group party-field">
+      <label for="party">{{localize 'character.party'}}:</label>
+      <select name="system.child" class="party-input">
+        {{selectOptions availableParties selected=actor.system.child valueAttr="id" labelAttr="name"}}
+      </select>
     </div>
   </div>
 
@@ -66,23 +68,6 @@
       {{/each}}
      <div class="newline"></div>
 
-      <label for="core">{{localize 'character.core'}}:</label>
-      <a class="control create" title="Create item" data-type="core">
-        <i class="fas fa-plus"></i>
-      </a>
-      {{#each items as |item id|}}
-        {{#if (eq item.type "core")}}
-          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
-            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
-            <div class="control">
-              <a class="edit" title="Edit Item"><i class="fas fa-edit"></i></a>
-              <a class="delete" title="Delete Item"><i class="fas fa-trash"></i></a>
-            </div>
-          </li>
-        {{/if}}
-      {{/each}}
-     <div class="newline"></div>
-
       <label for="quirks">{{localize 'character.quirks'}}:</label>
       <a class="control create" title="Create item" data-type="quirk">
         <i class="fas fa-plus"></i>
@@ -98,10 +83,27 @@
           </li>
         {{/if}}
       {{/each}}
+     <div class="newline"></div>
+
+      <label for="core">{{localize 'character.core'}}:</label>
+      <a class="control create" title="Create item" data-type="core">
+        <i class="fas fa-plus"></i>
+      </a>
+      {{#each items as |item id|}}
+        {{#if (eq item.type "core")}}
+          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
+            <div class="control">
+              <a class="edit" title="Edit Item"><i class="fas fa-edit"></i></a>
+              <a class="delete" title="Delete Item"><i class="fas fa-trash"></i></a>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
 
       <div class="form-group-notes">
-        <label for="description">{{localize 'character.description'}}:</label>
-        <textarea name="system.description">{{actor.system.description}}</textarea>
+        <label for="description">{{localize 'character.background'}}:</label>
+        <textarea name="system.background">{{actor.system.background}}</textarea>
       </div>
     </div>
 

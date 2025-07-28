@@ -6,22 +6,36 @@
       "luck": 4,
       "organisation": "",
       "background": "",
-      "description": "",
       "consequences": "",
       "notes": ""
     },
     "NPC": {
       "pronouns": "",
-      "role": "",
-      "traits": "",
+      "species": "",
+      "mannerism": "",
+      "storyprompt": "",
       "notes": ""
     }
   },
   "Item": {
-    "types": ["trait", "quirk", "core", "niche"],
-    "trait": {},
-    "quirk": {},
-    "core": {},
-    "niche": {}
+    "types": ["trait", "quirk", "core", "niche", "party"],
+    "trait": {
+      "description": ""
+    },
+    "quirk": {
+      "description": ""
+    },
+    "core": {
+      "description": ""
+    },
+    "niche": {
+      "description": ""
+    },
+    "party": {
+      "organisation": "",
+      "goal": "",
+      "partypast": "",
+      "partypresent": ""
+    }
   }
 }

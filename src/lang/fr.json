@@ -11,9 +11,12 @@
 		"core": "Essence",
 		"quirks": "Particularités",
 		"traits": "Traits",
-		"description": "Description",
 		"consequences": "Conséquences",
-		"notes": "Notes"
+		"notes": "Notes",
+		"species": "Espèce",
+		"mannerism": "Maniérisme",
+		"party": "Groupe",
+		"storyprompt": "Amorçe narratif"
 	},
 	"application": {
 		"createitem": "Créer un Objet",
@@ -33,6 +36,11 @@
 		"luckspent": "{actorName} a dépensé {luckAmount} de chance."
 	},
 	"item": {
-		"description": "Description"
+		"name": "Nom du groupe",
+		"description": "Description",
+		"organisation": "Organisation",
+		"goal": "Objectif du groupe",
+		"partypast": "Passé du groupe",
+		"partypresent": "Présent du groupe"
 	}
 }

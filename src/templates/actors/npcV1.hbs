@@ -5,9 +5,9 @@
   </div>
 
   <div class="form-group split-row">
-    <div class="field-group role-field">
-      <label for="role">{{localize 'character.role'}}:</label>
-      <input type="text" name="system.role" value="{{actor.system.role}}" class="role-input">
+    <div class="field-group species-field">
+      <label for="species">{{localize 'character.species'}}:</label>
+      <input type="text" name="system.species" value="{{actor.system.species}}" class="species-input">
     </div>
 
     <div class="field-group pronouns-field">
@@ -18,7 +18,28 @@
 
   <div class="form-group split-row">
     <div class="left-column">
-      <label for="core">{{localize 'character.traits'}}:</label>
+      <label for="niche">{{localize 'character.niche'}}:</label>
+      <a class="control create" title="{{localize 'application.createitem'}}" data-type="niche">
+        <i class="fas fa-plus"></i>
+      </a>
+
+      {{#each items as |item id|}}
+        {{#if (eq item.type "niche")}}
+          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
+            <div class="control">
+              <a class="edit" title="{{localize 'application.edititem'}}">
+                <i class="fas fa-edit"></i>
+              </a>
+              <a class="delete" title="{{localize 'application.deleteitem'}}">
+                <i class="fas fa-trash"></i>
+              </a>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
+
+      <label for="traits">{{localize 'character.traits'}}:</label>
       <a class="control create" title="{{localize 'application.createitem'}}" data-type="trait">
         <i class="fas fa-plus"></i>
       </a>
@@ -39,10 +60,21 @@
         {{/if}}
       {{/each}}
 
+    <div class="field-group mannerism-field">
+      <label for="mannerism">{{localize 'character.mannerism'}}:</label>
+      <input type="text" name="system.mannerism" value="{{actor.system.mannerism}}" class="mannerism-input">
+    </div>
+
       <div class="form-group-notes">
         <label for="notes">{{localize 'character.notes'}}:</label>
         <textarea name="system.notes">{{actor.system.notes}}</textarea>
       </div>
+
+      <div class="form-group-notes">
+        <label for="storyprompt">{{localize 'character.storyprompt'}}:</label>
+        <textarea name="system.storyprompt">{{actor.system.storyprompt}}</textarea>
+      </div>
+
     </div>
 
     <div class="right-column">

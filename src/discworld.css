@@ -45,7 +45,6 @@
   margin: 0;
 }
 
-
 /*Luck field styling*/
 .discworld-actor .luck-controls {
   display: flex;
@@ -108,8 +107,9 @@
   padding-right: 10px;
 }
 
-.discworld-actor .role-field .role-input,
-.discworld-actor .background-field .background-input,
+.discworld-actor .species-field .species-input,
+.discworld-actor .mannerism-field .mannerism-input,
+.discworld-actor .party-field .party-input,
 .discworld-actor .organisation-field .organisation-input,
 .discworld-actor .pronouns-field .pronouns-input {
   border: none;
@@ -121,15 +121,16 @@
   flex: 45%;
 }
 
-.discworld-actor .background-field {
+.discworld-actor .party-field {
   flex: 45%;
   padding-right: 10px;
 }
 
-.discworld-actor .role-field {
+.discworld-actor .species-field {
   flex: 80%;
 }
 
+.discworld-trait .split-row,
 .discworld-actor .split-row {
   display: flex;
   width: 100%;
@@ -174,6 +175,7 @@
 }
 
 .discworld-trait .form-group-notes label,
+.discworld-trait .field-group label,
 .discworld-actor .form-group-notes label,
 .discworld-actor .field-group label,
 .discworld-actor .form-group label {
@@ -229,8 +231,6 @@ textarea {
   border: none;
 }
 
-
-
 /* Style each individual item entry */
 .discworld-actor li.row.entry {
   display: flex;
@@ -245,7 +245,6 @@ textarea {
   font-family: "Kalam", cursive;
   font-size: 1rem;
   border: none;
-
 }
 
 /* Style the control buttons */
@@ -283,6 +282,7 @@ textarea {
 }
 
 /*Traits item sheet styling*/
+.discworld-trait .organisation-input,
 .discworld-trait .name-input {
   border: none;
   font-family: "Kalam", cursive;

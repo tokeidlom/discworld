@@ -11,9 +11,12 @@
 		"core": "Rdzeń",
 		"quirks": "Dziwactwa",
 		"traits": "Cechy",
-		"description": "Opis",
 		"consequences": "Konsekwencje",
-		"notes": "Notatki"
+		"notes": "Notatki",
+		"species": "Gatunek",
+		"mannerism": "Maniery",
+		"party": "Drużyna",
+		"storyprompt": "Zaczepka fabularna"
 	},
 	"application": {
 		"createitem": "Utwórz Przedmiot",
@@ -33,6 +36,11 @@
 		"luckspent": "{actorName} wydał {luckAmount} szczęścia."
 	},
 	"item": {
-		"description": "Opis"
+		"name": "Nazwa drużyny",
+		"description": "Opis",
+		"organisation": "Organizacja",
+		"goal": "Cel drużyny",
+		"partypast": "Przeszłość drużyny",
+		"partypresent": "Teraźniejszość drużyny"
 	}
 }

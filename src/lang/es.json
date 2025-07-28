@@ -11,9 +11,12 @@
 		"core": "Esencia",
 		"quirks": "Peculiaridades",
 		"traits": "Rasgos",
-		"description": "Descripción",
 		"consequences": "Consecuencias",
-		"notes": "Notas"
+		"notes": "Notas",
+		"species": "Especie",
+		"mannerism": "Manerismo",
+		"party": "Grupo",
+		"storyprompt": "Disparador de historia"
 	},
 	"application": {
 		"createitem": "Crear Ítem",
@@ -33,6 +36,11 @@
 		"luckspent": "{actorName} ha gastado {luckAmount} de suerte."
 	},
 	"item": {
-		"description": "Descripción"
+		"name": "Nombre del grupo",
+		"description": "Descripción",
+		"organisation": "Organización",
+		"goal": "Objetivo del grupo",
+		"partypast": "Pasado del grupo",
+		"partypresent": "Presente del grupo"
 	}
 }

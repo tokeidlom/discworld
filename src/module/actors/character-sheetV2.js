@@ -46,12 +46,19 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
   }
 
   async _prepareContext(options) {
+    const availableParties = game.items
+      .filter((target) => target.type === 'party' && target.isOwner)
+      .map((actor) => ({
+        id: actor.id,
+        name: actor.name
+      }));
+
     const context = {
       actor: this.actor,
       items: this.actor.items?.contents || [],
-	  maxLuck: game.settings.get('discworld', 'maxNumberOfLuck'),
+      availableParties,
+      maxLuck: game.settings.get('discworld', 'maxNumberOfLuck'),
     };
-
     return context;
   }
 

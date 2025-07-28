@@ -41,37 +41,28 @@
       <input type="text" name="system.organisation" value="{{actor.system.organisation}}" class="organisation-input">
     </div>
 
-    <div class="field-group background-field">
-      <label for="background">{{localize 'character.background'}}:</label>
-      <input type="text" name="system.background" value="{{actor.system.background}}" class="background-input">
+    <div class="field-group party-field">
+      <label for="party">{{localize 'character.party'}}:</label>
+      <select name="system.child" class="party-input">
+        {{selectOptions availableParties selected=actor.system.child valueAttr="id" labelAttr="name"}}
+      </select>
     </div>
   </div>
 
   <div class="form-group split-row">
     <div class="left-column">
+
+      <div class="form-group-notes">
+        <label for="description">{{localize 'character.background'}}:</label>
+        <textarea name="system.background">{{actor.system.background}}</textarea>
+      </div>
+
       <label for="niche">{{localize 'character.niche'}}:</label>
       <a class="control create" title="{{localize 'application.createitem'}}" data-type="niche" data-action="onItemCreate">
         <i class="fas fa-plus"></i>
       </a>
       {{#each items as |item id|}}
         {{#if (eq item.type "niche")}}
-          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
-            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
-            <div class="control">
-              <a class="edit" title="{{localize 'application.edititem'}}" data-action="onItemEdit"><i class="fas fa-edit"></i></a>
-              <a class="delete" title="{{localize 'application.deleteitem'}}" data-action="onItemDelete"><i class="fas fa-trash"></i></a>
-            </div>
-          </li>
-        {{/if}}
-      {{/each}}
-     <div class="newline"></div>
-
-      <label for="core">{{localize 'character.core'}}:</label>
-      <a class="control create" title="{{localize 'application.createitem'}}" data-type="core" data-action="onItemCreate">
-        <i class="fas fa-plus"></i>
-      </a>
-      {{#each items as |item id|}}
-        {{#if (eq item.type "core")}}
           <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
             <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
             <div class="control">
@@ -98,11 +89,23 @@
           </li>
         {{/if}}
       {{/each}}
+     <div class="newline"></div>
 
-      <div class="form-group-notes">
-        <label for="description">{{localize 'character.description'}}:</label>
-        <textarea name="system.description">{{actor.system.description}}</textarea>
-      </div>
+      <label for="core">{{localize 'character.core'}}:</label>
+      <a class="control create" title="{{localize 'application.createitem'}}" data-type="core" data-action="onItemCreate">
+        <i class="fas fa-plus"></i>
+      </a>
+      {{#each items as |item id|}}
+        {{#if (eq item.type "core")}}
+          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
+            <div class="control">
+              <a class="edit" title="{{localize 'application.edititem'}}" data-action="onItemEdit"><i class="fas fa-edit"></i></a>
+              <a class="delete" title="{{localize 'application.deleteitem'}}" data-action="onItemDelete"><i class="fas fa-trash"></i></a>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
     </div>
 
     <div class="right-column">
