@@ -6,7 +6,7 @@ This system is more cobbled together than the streets of Ankh-Morpork. It is int
 Add this manifest to your FoundryVTT: https://raw.githubusercontent.com/tokeidlom/discworld/main/src/system.json
 Or browse for Discworld in your foundry "Game Systems" section: https://foundryvtt.com/packages/discworld 
 
-![Screenshot](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshot.png)
+<img width="839" height="981" alt="image" src="https://github.com/user-attachments/assets/84a7fcb4-2b05-4d5d-b096-84e109494f54" />
 
 It terms of collaboration or support, I'm open to suggestions for improvement, code submissions, PRs and generally anything that makes this better for everyone! If you do want to PR, please do that onto the develop branch.
 
@@ -17,10 +17,10 @@ Click on to the character tab and select "Create Actor" you will be able to make
 Once you have your character or NPC sheet you can fill it up with your character's details from the campaign.
 
 ## Character Sheet
-![image](https://github.com/user-attachments/assets/1f8a373f-27e0-4e1e-985b-e587352045b4)
+<img width="804" height="823" alt="image" src="https://github.com/user-attachments/assets/e1677133-cffc-412e-949d-67aa33798399" />
 
 ## NPC Sheet
-![image](https://github.com/user-attachments/assets/9f3df202-148d-4a5e-8af4-2ce034a46614)
+<img width="814" height="703" alt="image" src="https://github.com/user-attachments/assets/3b6fdaba-93a3-4f2e-b2fb-37b96d3526ab" />
 
 The Name, Pronoun, Orgsnisation, Background, and Role fields can be directly typed into.
 The Description, Consequences, and Notes fields can also be directly edited, they can also be resized up and down a little as requred to fit your screen and the ammount of text you entered.
