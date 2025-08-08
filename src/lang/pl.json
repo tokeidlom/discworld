@@ -11,6 +11,7 @@
 		"core": "Rdzeń",
 		"quirks": "Dziwactwa",
 		"traits": "Cechy",
+		"features": "Funkcje",
 		"consequences": "Konsekwencje",
 		"notes": "Notatki",
 		"species": "Gatunek",
@@ -21,6 +22,7 @@
 	"application": {
 		"createitem": "Utwórz Przedmiot",
 		"edititem": "Edytuj Przedmiot",
+		"viewparty": "Zobacz drużynę",
 		"deleteitem": "Usuń Przedmiot",
 		"deleteconfirm": "Potwierdź Usunięcie?",
 		"yes": "Tak",

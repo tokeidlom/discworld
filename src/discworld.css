@@ -126,6 +126,24 @@
   padding-right: 10px;
 }
 
+.discworld-actor .party-field .party-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.discworld-actor .party-field .party-row .party-input {
+  flex: 85%;
+}
+
+.discworld-actor .party-field .party-row .party-eye {
+  padding-left: 10px;
+}
+
+.discworld-actor .field-group.party-field a.view:hover i {
+  color: #00FF00;
+}
+
 .discworld-actor .species-field {
   flex: 80%;
 }

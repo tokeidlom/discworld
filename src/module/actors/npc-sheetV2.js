@@ -164,18 +164,36 @@ export class DiscworldNPCSheet extends api.HandlebarsApplicationMixin(sheets.Act
   }
 
   _onRender(context, options) {
-    if (this.document.limited) return;
+    if (this.document?.limited) return;
 
-    document.querySelectorAll('.item-name').forEach(input => {
-      input.addEventListener('change', this._onItemNameChange.bind(this));
-    });
+    const actor = this.actor;
+    if (!actor) return;
 
-    document.querySelectorAll('.item-name').forEach(input => {
-      input.addEventListener('mouseover', this._onItemTooltipShow.bind(this));
-    });
+    const root = this.element?.[0] ?? document;
+    const inputEl = root.querySelector('input[name="system.role"]');
+    const roleName = String(inputEl?.value ?? actor.system?.role ?? "").trim();
+    if (!roleName) return;
 
-    document.querySelectorAll('.item-name').forEach(input => {
-      input.addEventListener('mouseout', this._onItemTooltipHide.bind(this));
+    const exists = actor.items.some(
+      i => i.type === "niche" &&
+         i.name.localeCompare(roleName, undefined, { sensitivity: "accent", usage: "search" }) === 0
+    );
+
+    try {
+      if (!exists) {
+        actor.createEmbeddedDocuments("Item", [{ name: roleName, type: "niche" }]);
+      }
+      actor.update({ "system.role": "" });
+      if (inputEl) inputEl.value = "";
+      console.log(`[Discworld] Converted role "${roleName}" into a Niche item for "${actor.name}".`);
+    } catch (err) {
+      console.error(`[Discworld] Error creating niche item for actor ${actor.name}:`, err);
+    }
+
+    root.querySelectorAll(".item-name").forEach(input => {
+      input.addEventListener("change", this._onItemNameChange.bind(this));
+      input.addEventListener("mouseover", this._onItemTooltipShow.bind(this));
+      input.addEventListener("mouseout", this._onItemTooltipHide.bind(this));
     });
 
     this.#dragDrop.forEach(d => d.bind(this.element));

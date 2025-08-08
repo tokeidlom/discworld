@@ -43,9 +43,16 @@
 
     <div class="field-group party-field">
       <label for="party">{{localize 'character.party'}}:</label>
-      <select name="system.child" class="party-input">
-        {{selectOptions availableParties selected=actor.system.child valueAttr="id" labelAttr="name"}}
-      </select>
+      <div class="party-row">
+        <select name="system.child" class="party-input">
+          {{selectOptions availableParties selected=actor.system.child valueAttr="id" labelAttr="name"}}
+        </select>
+        <div class="party-eye">
+          <a class="view" title="{{localize 'application.viewparty'}}" data-action="onPartyView" data-child="{{actor.system.child}}">
+          <i class="fa-solid fa-eye"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 

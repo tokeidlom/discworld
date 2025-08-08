@@ -11,6 +11,7 @@
 		"core": "Kern",
 		"quirks": "Macken",
 		"traits": "Eigenschaften",
+		"features": "Funktionen",
 		"consequences": "Konsequenzen",
 		"notes": "Notizen",
 		"species": "Spezies",
@@ -21,6 +22,7 @@
 	"application": {
 		"createitem": "Gegenstand erstellen",
 		"edititem": "Gegenstand bearbeiten",
+		"viewparty": "Gruppe ansehen",
 		"deleteitem": "Gegenstand löschen",
 		"deleteconfirm": "Bist du sicher, dass du diesen Gegenstand löschen möchtest?",
 		"yes": "Ja",

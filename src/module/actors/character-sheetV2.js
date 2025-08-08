@@ -17,6 +17,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       onItemCreate: DiscworldCharacterSheet._onItemCreate,
       onItemEdit: DiscworldCharacterSheet._onItemEdit,
       onItemDelete: DiscworldCharacterSheet._onItemDelete,
+      onPartyView: DiscworldCharacterSheet._onPartyView,
       onIncreaseLuck: this.prototype._onIncreaseLuck,
       onDecreaseLuck: this.prototype._onDecreaseLuck,
       onRollDice: this.prototype._onRollDice,
@@ -150,6 +151,26 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     });
   }
 
+  static async _onPartyView(event, target) {
+    event.preventDefault();
+    let childId = target?.dataset.child;
+    if (!childId) {
+      const container = target.closest('.party-field') || target.closest('.field-group');
+      const select = container?.querySelector('select.party-input');
+      childId = select?.value ?? '';
+    }
+    if (!childId) {
+      ui.notifications.warn("No party selected.");
+      return;
+    }
+    const childParty = game.items.get(childId);
+    if (!childParty) {
+      ui.notifications.error("Party not found.");
+      return;
+    }
+    childParty.sheet.render(true);
+  }
+
   static async _onItemCreate(event, target) {
     const docCls = getDocumentClass(target.dataset.documentClass || "Item");
     const type = target.dataset.type || "item";
@@ -254,6 +275,26 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
 
   _onRender(context, options) {
     if (this.document.limited) return;
+
+    // Merge background and description into background field
+    const actor = this.actor;
+    if (!actor) return;
+
+    const background = String(foundry.utils.getProperty(actor.system, "background") ?? "").trim();
+    const description = String(foundry.utils.getProperty(actor.system, "description") ?? "").trim();
+
+    if (description && !background.includes(description)) {
+      const newBackground = background ? `${background}\n${description}` : description;
+      try {
+        actor.update({
+          "system.background": newBackground,
+          "system.description": ""
+        });
+        console.log(`[Discworld] Merged description into background for "${actor.name}"`);
+      } catch (err) {
+        console.error(`[Discworld] Failed to merge background/description for "${actor.name}":`, err);
+      }
+    }
 
     document.querySelectorAll('.luck-input').forEach(input => {
       input.addEventListener('change', this._onLuckEntry.bind(this));

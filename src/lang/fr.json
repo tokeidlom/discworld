@@ -11,6 +11,7 @@
 		"core": "Essence",
 		"quirks": "Particularités",
 		"traits": "Traits",
+		"features": "Fonctionnalités",
 		"consequences": "Conséquences",
 		"notes": "Notes",
 		"species": "Espèce",
@@ -21,6 +22,7 @@
 	"application": {
 		"createitem": "Créer un Objet",
 		"edititem": "Modifier un Objet",
+		"viewparty": "Voir le groupe",
 		"deleteitem": "Supprimer un Objet",
 		"deleteconfirm": "Êtes-vous sûr de vouloir supprimer cet objet ?",
 		"yes": "Oui",

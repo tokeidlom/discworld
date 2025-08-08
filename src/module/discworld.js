@@ -67,50 +67,6 @@ Hooks.once("init", async () => {
       types: ["party"],
     });
 
-    // Change role field into a nice item for NPC
-    Hooks.on('renderDiscworldNPCSheet', async (actorSheet, html, data) => {
-      const actor = actorSheet.actor;
-      if (actor.system.role && actor.system.role.trim()) {
-        const roleName = actor.system.role.trim();
-        const existingNiche = actor.items.find((niche) => niche.name === roleName && niche.type === 'niche');
-        if (!existingNiche) {
-          const nicheItemData = {
-            name: roleName,
-            type: 'niche',
-          };
-          try {
-            await actor.createEmbeddedDocuments('Item', [nicheItemData]);
-            await actor.update({
-              'system.role': ''
-            });
-          } catch (err) {
-            console.error(`Error creating niche item for actor ${actor.name}:`, err);
-          }
-        }
-      }
-    });
-
-    // Merge background and description into background field
-    Hooks.on('renderDiscworldCharacterSheet', async (actorSheet, html, data) => {
-      const actor = actorSheet.actor;
-      const background = String(actor.system.background ?? '').trim();
-      const description = String(actor.system.description ?? '').trim();
-      if (description && !background.includes(description)) {
-        const newBackground = background
-          ? `${background}\n${description}`
-          : description;
-        try {
-          await actor.update({
-            'system.background': newBackground,
-            'system.description': ''
-          });
-          console.log(`[Discworld] Merged description into background for "${actor.name}"`);
-        } catch (err) {
-          console.error(`[Discworld] Failed to merge background/description for "${actor.name}":`, err);
-        }
-      }
-    });
-
   } else {
 
     Actors.unregisterSheet('core', ActorSheet);
@@ -129,7 +85,7 @@ Hooks.once("init", async () => {
       types: ["party"],
     });
 
-    // Change role field into a nice item for NPC & Merge background and description into background field
+    // Change role field into a niche item for NPC & Merge background and description into background field
     Hooks.on('renderActorSheet', async (actorSheet, html, data) => {
       const actor = actorSheet.object;
       if (actor.system.role && actor.system.role.trim()) {

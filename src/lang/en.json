@@ -11,6 +11,7 @@
 		"core": "Core",
 		"quirks": "Quirks",
 		"traits": "Traits",
+		"features": "Features",
 		"consequences": "Consequences",
 		"notes": "Notes",
 		"species": "Species",
@@ -21,6 +22,7 @@
 	"application": {
 		"createitem": "Create Item",
 		"edititem": "Edit Item",
+		"viewparty": "View Party",
 		"deleteitem": "Delete Item",
 		"deleteconfirm": "Are you sure you want to delete this item?",
 		"yes": "Yes",

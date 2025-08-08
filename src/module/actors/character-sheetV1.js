@@ -99,6 +99,18 @@ async getData(options) {
       }).render(true);
     });
 
+    // View party
+    html.on('click', '.party-field .view', (ev) => {
+      ev.preventDefault();
+      const $field = $(ev.currentTarget).closest('.party-field');
+      const childId = $(ev.currentTarget).data('child') || $field.find('select.party-input').val();
+      if (!childId) return ui.notifications.warn("No party selected.");
+      const childParty = game.items.get(childId);
+      if (!childParty) return ui.notifications.error("Party not found.");
+      childParty.sheet.render(true);
+    });
+
+
     // Item popout tooltip of description
     html.find('.item-name').on('mouseover', event => {
       const input = event.currentTarget;
