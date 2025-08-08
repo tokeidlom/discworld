@@ -4,7 +4,7 @@ const sheets = foundry.applications.sheets;
 export class DiscworldTraitsItem extends api.HandlebarsApplicationMixin(sheets.ItemSheetV2) {
   static PARTS = {
     itemsheet: {
-      template: "systems/discworld/templates/items/traitsV2.hbs"
+      template: "systems/discworld/templates/items/traits.hbs"
     },
   };
 

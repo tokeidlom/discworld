@@ -5,10 +5,10 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
 
   static PARTS = {
     charactersheet: {
-      template: "systems/discworld/templates/actors/characterV2.hbs"
+      template: "systems/discworld/templates/actors/character.hbs"
     },
     limitedsheet: {
-      template: "systems/discworld/templates/actors/limited-sheetV2.hbs"
+      template: "systems/discworld/templates/actors/limited-sheet.hbs"
     },
   };
 

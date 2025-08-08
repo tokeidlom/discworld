@@ -24,13 +24,31 @@ export class DiscRoller {
   }
 
   static positionDiceRoller(diceForm) {
-    const targetButton = document.querySelector(
-      'button.collapse.ui-control.plain.icon[class*="fa-caret-"]'
-    );
-    const buttonRect = targetButton.getBoundingClientRect();
+    const position = game.settings.get('discworld', 'diceButtonPosition');
     diceForm.style.position = 'absolute';
-    diceForm.style.top = `${buttonRect.bottom + 8}px`;
-    diceForm.style.left = `${buttonRect.left}px`;
+
+    let targetButton;
+    let buttonRect;
+
+    switch (position) {
+      case 'TopLeft': {
+        targetButton = document.querySelector('#scene-navigation-active');
+        buttonRect = targetButton?.getBoundingClientRect();
+        if (!buttonRect) return;
+        diceForm.style.top = `${buttonRect.top}px`;
+        diceForm.style.left = `${buttonRect.right + 36}px`;
+        break;
+      }
+      case 'BottomRight':
+      default: {
+        targetButton = document.querySelector('#sidebar button.collapse');
+        buttonRect = targetButton?.getBoundingClientRect();
+        if (!buttonRect) return;
+        diceForm.style.top = `${buttonRect.bottom + 8}px`;
+        diceForm.style.left = `${buttonRect.left}px`;
+        break;
+      }
+    }
   }
 
   static startPositionUpdater(diceForm) {
@@ -45,7 +63,7 @@ export class DiscRoller {
     const DiceRollerApp = class extends api.HandlebarsApplicationMixin(api.ApplicationV2) {
       static PARTS = {
         tracker: {
-          template: "systems/discworld/templates/apps/discrollerV2.hbs"
+          template: "systems/discworld/templates/apps/discroller.hbs"
         },
       };
 

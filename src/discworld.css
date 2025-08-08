@@ -65,15 +65,6 @@
   justify-content: center;
 }
 
-.discworld-actor .luck-increaseV1, .luck-decreaseV1 {
-  border: none;
-  height: 1.5rem;
-  background: rgba(0, 0, 0, 0.05);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .discworld-actor .luck-input {
   width: 50px;
   margin-right: 5px;

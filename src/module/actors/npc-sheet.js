@@ -5,10 +5,10 @@ export class DiscworldNPCSheet extends api.HandlebarsApplicationMixin(sheets.Act
 
   static PARTS = {
     charactersheet: {
-      template: "systems/discworld/templates/actors/npcV2.hbs"
+      template: "systems/discworld/templates/actors/npc.hbs"
     },
     limitedsheet: {
-      template: "systems/discworld/templates/actors/limited-sheetV2.hbs"
+      template: "systems/discworld/templates/actors/limited-sheet.hbs"
     },
   };
 
