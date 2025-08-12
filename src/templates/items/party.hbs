@@ -1,0 +1,28 @@
+<div class="discworld-trait">
+  <div class="field-group">
+    <label for="name">{{localize 'item.name'}}:</label>
+    <input type="text" name="name" value="{{item.name}}" class="name-input">
+  </div>
+
+  <div class="field-group">
+    <label for="organisation">{{localize 'item.organisation'}}:</label>
+    <input type="text" name="system.organisation" value="{{item.system.organisation}}" class="organisation-input">
+  </div>
+
+  <div class="form-group-notes">
+    <label for="goal">{{localize 'item.goal'}}:</label>
+    <textarea name="system.goal" class="goal-input">{{item.system.goal}}</textarea>
+  </div>
+
+  <div class="form-group split-row">
+    <div class="form-group-notes">
+      <label for="partypast">{{localize 'item.partypast'}}:</label>
+      <textarea name="system.partypast" class="partypast-input">{{item.system.partypast}}</textarea>
+    </div>
+
+    <div class="form-group-notes">
+      <label for="partypresent">{{localize 'item.partypresent'}}:</label>
+      <textarea name="system.partypresent" class="partypresent-input">{{item.system.partypresent}}</textarea>
+    </div>
+  </div>
+</div>

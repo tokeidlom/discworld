@@ -35,7 +35,9 @@
 		"exceededmaxluck": "Luck cannot exceed the maximum of {maxLuck}.",
 		"exceededminluck": "Luck cannot be less than 0.",
 		"luckadded": "The Lady has granted {actorName} an extra {luckAmount} luck.",
-		"luckspent": "{actorName} has spent {luckAmount} luck."
+		"luckspent": "{actorName} has spent {luckAmount} luck.",
+		"autogeneratenpc": "Auto Generate NPC",
+		"npcconfirmline": "Continuing will replace the existing NAME and SPECIES, it will also replace any existing MANNERISM, NICHE and FEATURES items.<p>Are you sure you wish to proceed?"
 	},
 	"item": {
 		"name": "Party Name",

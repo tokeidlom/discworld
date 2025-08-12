@@ -35,7 +35,9 @@
 		"exceededmaxluck": "Das Glück kann das Maximum von {maxLuck} nicht überschreiten.",
 		"exceededminluck": "Das Glück kann nicht weniger als 0 sein.",
 		"luckadded": "Die Dame hat {actorName} {luckAmount} zusätzliches Glück gewährt.",
-		"luckspent": "{actorName} hat {luckAmount} Glück ausgegeben."
+		"luckspent": "{actorName} hat {luckAmount} Glück ausgegeben.",
+		"autogeneratenpc": "NSC automatisch erstellen",
+		"npcconfirmline": "Fortfahren ersetzt die vorhandenen NAME und SPECIES und ersetzt außerdem alle vorhandenen NICHE, MANNERISM und FEATURES-Gegenstände.<p>Möchten Sie wirklich fortfahren?"
 	},
 	"item": {
 		"name": "Gruppenname",

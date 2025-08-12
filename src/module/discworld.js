@@ -1,129 +1,25 @@
-Hooks.once("init", async () => {
-  function isVersion13OrHigher() {
-    const version = game?.version || game?.data?.version;
-    return version ? parseInt(version.split('.')[0]) >= 13 : false;
-  }
+// Import Modules
+import { DiscRoller } from './apps/discroller.js';
+import { DiscworldCharacterSheet } from './actors/character-sheet.js';
+import { DiscworldNPCSheet } from './actors/npc-sheet.js';
+import { DiscworldTraitsItem } from './items/traits-sheet.js';
+import { DiscworldPartyItem } from './items/party-sheet.js';
 
-  async function loadDiscRoller() {
-    const modulePath = isVersion13OrHigher() ? './apps/discrollerV2.js' : './apps/discrollerV1.js';
-    const module = await import(modulePath);
-    return module.DiscRoller;
-  }
-
-  async function loadCharacterSheet() {
-    const modulePath = isVersion13OrHigher() ? './actors/character-sheetV2.js' : './actors/character-sheetV1.js';
-    const module = await import(modulePath);
-    return module.DiscworldCharacterSheet;
-  }
-
-  async function loadNPCSheet() {
-    const modulePath = isVersion13OrHigher() ? './actors/npc-sheetV2.js' : './actors/npc-sheetV1.js';
-    const module = await import(modulePath);
-    return module.DiscworldNPCSheet;
-  }
-
-  async function loadTraitSheet() {
-    const modulePath = isVersion13OrHigher() ? './items/traits-sheetV2.js' : './items/traits-sheetV1.js';
-    const module = await import(modulePath);
-    return module.DiscworldTraitsItem;
-  }
-
-  async function loadPartySheet() {
-    const modulePath = isVersion13OrHigher() ? './items/party-sheetV2.js' : './items/party-sheetV1.js';
-    const module = await import(modulePath);
-    return module.DiscworldPartyItem;
-  }
-
-  const DiscRoller = await loadDiscRoller();
-  console.log("Loaded DiscRoller:", DiscRoller);
-
-  const DiscworldCharacterSheet = await loadCharacterSheet();
-  console.log("Loaded DiscworldCharacterSheet:", DiscworldCharacterSheet);
-
-  const DiscworldNPCSheet = await loadNPCSheet();
-  console.log("Loaded DiscworldNPCSheet:", DiscworldNPCSheet);
-
-  const DiscworldTraitsItem = await loadTraitSheet();
-  console.log("Loaded DiscworldTraitsItem:", DiscworldTraitsItem);
-
-  const DiscworldPartyItem = await loadPartySheet();
-  console.log("Loaded DiscworldPartyItem:", DiscworldPartyItem);
-
-  // Register sheets
-  if (isVersion13OrHigher()) {
-    foundry.documents.collections.Actors.unregisterSheet('core', foundry.appv1.sheets.ActorSheet);
-    foundry.documents.collections.Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
-    foundry.documents.collections.Actors.registerSheet("core", DiscworldCharacterSheet, {
-      types: ["character"],
-      makeDefault: true
-    });
-    foundry.documents.collections.Actors.registerSheet("core", DiscworldNPCSheet, {
-      types: ["NPC"],
-    });
-    foundry.documents.collections.Items.registerSheet("discworld", DiscworldTraitsItem, {
-      types: ["core", "trait", "quirk", "niche"],
-    });
-    foundry.documents.collections.Items.registerSheet("discworld", DiscworldPartyItem, {
-      types: ["party"],
-    });
-
-  } else {
-
-    Actors.unregisterSheet('core', ActorSheet);
-    Items.unregisterSheet('core', ItemSheet);
-    Actors.registerSheet("core", DiscworldCharacterSheet, {
-      types: ["character"],
-      makeDefault: true
-    });
-    Actors.registerSheet("core", DiscworldNPCSheet, {
-      types: ["NPC"],
-    });
-    Items.registerSheet("discworld", DiscworldTraitsItem, {
-      types: ["core", "trait", "quirk", "niche"],
-    });
-    Items.registerSheet("discworld", DiscworldPartyItem, {
-      types: ["party"],
-    });
-
-    // Change role field into a niche item for NPC & Merge background and description into background field
-    Hooks.on('renderActorSheet', async (actorSheet, html, data) => {
-      const actor = actorSheet.object;
-      if (actor.system.role && actor.system.role.trim()) {
-        const roleName = actor.system.role.trim();
-        const existingNiche = actor.items.find((niche) => niche.name === roleName && niche.type === 'niche');
-        if (!existingNiche) {
-          const nicheItemData = {
-            name: roleName,
-            type: 'niche',
-          };
-          try {
-            await actor.createEmbeddedDocuments('Item', [nicheItemData]);
-            await actor.update({
-              'system.role': ''
-            });
-          } catch (err) {
-            console.error(`Error creating niche item for actor ${actor.name}:`, err);
-          }
-        }
-      }
-      const background = String(actor.system.background ?? '').trim();
-      const description = String(actor.system.description ?? '').trim();
-      if (description && !background.includes(description)) {
-        const newBackground = background
-          ? `${background}\n${description}`
-          : description;
-        try {
-          await actor.update({
-            'system.background': newBackground,
-            'system.description': ''
-          });
-          console.log(`[Discworld] Merged description into background for "${actor.name}"`);
-        } catch (err) {
-          console.error(`[Discworld] Failed to merge background/description for "${actor.name}":`, err);
-        }
-      }
-    });
-  }
+// Register sheets
+foundry.documents.collections.Actors.unregisterSheet('core', foundry.appv1.sheets.ActorSheet);
+foundry.documents.collections.Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
+foundry.documents.collections.Actors.registerSheet("core", DiscworldCharacterSheet, {
+  types: ["character"],
+  makeDefault: true
+});
+foundry.documents.collections.Actors.registerSheet("core", DiscworldNPCSheet, {
+  types: ["NPC"],
+});
+foundry.documents.collections.Items.registerSheet("discworld", DiscworldTraitsItem, {
+  types: ["core", "trait", "quirk", "niche", "mannerism"],
+});
+foundry.documents.collections.Items.registerSheet("discworld", DiscworldPartyItem, {
+  types: ["party"],
 });
 
 // Item type hooks
@@ -147,6 +43,9 @@ Hooks.on("preCreateItem", (item, options, userId) => {
       case "party":
         item.updateSource({ img: "systems/discworld/assets/items/party.png" });
         break;
+      case "mannerism":
+        item.updateSource({ img: "systems/discworld/assets/items/mannerism.webp" });
+        break;
     }
   }
 
@@ -155,8 +54,8 @@ Hooks.on("preCreateItem", (item, options, userId) => {
   if (!actor || actor.documentName !== "Actor") return true;
 
   const actorType = actor.type;
-  const forbiddenItemsForCharacter = ["trait"];
-  const forbiddenItemsForNPC = ["core", "quirk"];
+  const forbiddenItemsForCharacter = ["trait", "party", "mannerism"];
+  const forbiddenItemsForNPC = ["core", "quirk", "party"];
 
   if (actorType === "character" && forbiddenItemsForCharacter.includes(item.type)) {
     ui.notifications.error(game.i18n.format("application.actorcannothold", {
@@ -194,5 +93,17 @@ Hooks.once('init', async function() {
     type: Number,
     default: 4,
     config: true
+  });
+  game.settings.register('discworld', 'diceButtonPosition', {
+    name: 'Screen position of the dice button',
+    hint: 'Where on the screen should the dice button be?',
+    scope: 'world',
+    type: String,
+    default: 'BottomRight',
+    config: true,
+    choices: {
+      'BottomRight': 'Bottom Right',
+      'TopLeft': 'Top Left',
+    }
   });
 });

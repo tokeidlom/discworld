@@ -1,0 +1,102 @@
+<div class="discworld-actor">
+  <div class="field-group name-field">
+    <label for="name">{{localize 'character.name'}}:</label>
+    <input type="text" name="name" value="{{actor.name}}" class="name-input">
+  </div>
+
+  <div class="form-group split-row">
+    <div class="field-group species-field">
+      <label for="species">{{localize 'character.species'}}:</label>
+      <input type="text" name="system.species" value="{{actor.system.species}}" class="species-input">
+    </div>
+
+    <div class="field-group pronouns-field">
+      <label for="pronouns">{{localize 'character.pronouns'}}:</label>
+      <input type="text" name="system.pronouns" value="{{actor.system.pronouns}}" class="pronouns-input">
+    </div>
+  </div>
+
+  <div class="form-group split-row">
+    <div class="left-column">
+
+      <label for="niche">{{localize 'character.niche'}}:</label>
+      <a class="control create" title="{{localize 'application.createitem'}}" data-type="niche" data-action="onItemCreate">
+        <i class="fas fa-plus"></i>
+      </a>
+      {{#each items as |item id|}}
+        {{#if (eq item.type "niche")}}
+          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
+            <div class="control">
+              <a class="edit" title="{{localize 'application.edititem'}}" data-action="onItemEdit"><i class="fas fa-edit"></i></a>
+              <a class="delete" title="{{localize 'application.deleteitem'}}" data-action="onItemDelete"><i class="fas fa-trash"></i></a>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
+      <div class="newline"></div>
+
+      <label for="traits">{{localize 'character.features'}}:</label>
+      <a class="control create" title="{{localize 'application.createitem'}}" data-action="onItemCreate" data-type="trait">
+        <i class="fas fa-plus"></i>
+      </a>
+      {{#each items as |item id|}}
+        {{#if (eq item.type "trait")}}
+          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
+            <div class="control">
+              <a class="edit" title="{{localize 'application.edititem'}}" data-action="onItemEdit">
+                <i class="fas fa-edit"></i>
+              </a>
+              <a class="delete" title="{{localize 'application.deleteitem'}}" data-action="onItemDelete">
+                <i class="fas fa-trash"></i>
+              </a>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
+
+      <label for="mannerism">{{localize 'character.mannerism'}}:</label>
+      <a class="control create" title="{{localize 'application.createitem'}}" data-action="onItemCreate" data-type="mannerism">
+        <i class="fas fa-plus"></i>
+      </a>
+      {{#each items as |item id|}}
+        {{#if (eq item.type "mannerism")}}
+          <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
+            <input type="text" class="item-name" value="{{item.name}}" data-item-id="{{item._id}}">
+            <div class="control">
+              <a class="edit" title="{{localize 'application.edititem'}}" data-action="onItemEdit">
+                <i class="fas fa-edit"></i>
+              </a>
+              <a class="delete" title="{{localize 'application.deleteitem'}}" data-action="onItemDelete">
+                <i class="fas fa-trash"></i>
+              </a>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
+
+      <div class="form-group-notes">
+        <label for="notes">{{localize 'character.notes'}}:</label>
+        <textarea name="system.notes">{{actor.system.notes}}</textarea>
+      </div>
+
+      <div class="form-group-notes">
+        <label for="storyprompt">{{localize 'character.storyprompt'}}:</label>
+        <textarea name="system.storyprompt">{{actor.system.storyprompt}}</textarea>
+      </div>
+    </div>
+
+    <div class="right-column">
+      <div class="form-group npc-image-field">
+        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" data-action="editImage"/>
+      </div>
+
+      <div class="npc-auto-roll">
+        <div class="dice-roll-buttons">
+          <button type="button" class="roll-button" data-action="onAutoPopulate">{{localize 'application.autogeneratenpc'}} <img src=  "systems/discworld/assets/dice/dice.png" alt="d4" class="dice-icon"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

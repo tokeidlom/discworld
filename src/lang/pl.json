@@ -35,7 +35,9 @@
 		"exceededmaxluck": "Szczęście nie może przekroczyć maksymalnego limitu {maxLuck}.",
 		"exceededminluck": "Szczęście nie może być mniejsze niż 0.",
 		"luckadded": "Pani przyznała {actorName} dodatkowe {luckAmount} szczęścia.",
-		"luckspent": "{actorName} wydał {luckAmount} szczęścia."
+		"luckspent": "{actorName} wydał {luckAmount} szczęścia.",
+		"autogeneratenpc": "Automatycznie wygeneruj BN",
+		"npcconfirmline": "Kontynuacja spowoduje zastąpienie istniejących NAME i SPECIES oraz zastąpienie wszystkich istniejących przedmiotów MANNERISM, NICHE i FEATURES.<p>Czy na pewno chcesz kontynuować?"
 	},
 	"item": {
 		"name": "Nazwa drużyny",

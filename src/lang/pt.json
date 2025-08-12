@@ -35,7 +35,9 @@
 		"exceededmaxluck": "A sorte não pode exceder o máximo de {maxLuck}.",
 		"exceededminluck": "A sorte não pode ser menor que 0.",
 		"luckadded": "A Senhora concedeu a {actorName} {luckAmount} de sorte extra.",
-		"luckspent": "{actorName} gastou {luckAmount} de sorte."
+		"luckspent": "{actorName} gastou {luckAmount} de sorte.",
+		"autogeneratenpc": "Gerar NPC automaticamente",
+		"npcconfirmline": "Ao continuar, os NAME e SPECIES existentes serão substituídos e quaisquer itens MANNERISM, NICHE e FEATURES existentes também serão substituídos.<p>Tem certeza de que deseja continuar?"
 	},
 	"item": {
 		"name": "Nome do grupo",

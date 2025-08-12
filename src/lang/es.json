@@ -35,7 +35,9 @@
 		"exceededmaxluck": "La suerte no puede exceder el máximo de {maxLuck}.",
 		"exceededminluck": "La suerte no puede ser menor que 0.",
 		"luckadded": "La Dama ha concedido a {actorName} {luckAmount} de suerte extra.",
-		"luckspent": "{actorName} ha gastado {luckAmount} de suerte."
+		"luckspent": "{actorName} ha gastado {luckAmount} de suerte.",
+		"autogeneratenpc": "Generar PNJ automáticamente",
+		"npcconfirmline": "Al continuar se reemplazarán los NAME y SPECIES existentes, y también se reemplazarán los elementos MANNERISM, NICHE y FEATURES existentes.<p>¿Seguro que deseas continuar?"
 	},
 	"item": {
 		"name": "Nombre del grupo",

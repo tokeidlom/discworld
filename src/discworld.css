@@ -45,6 +45,10 @@
   margin: 0;
 }
 
+.discworld-actor .npc-auto-roll .roll-button {
+margin-top: 115px;
+}
+
 /*Luck field styling*/
 .discworld-actor .luck-controls {
   display: flex;
@@ -60,15 +64,6 @@
   border: none;
   height: 1.5rem;
   min-height: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.discworld-actor .luck-increaseV1, .luck-decreaseV1 {
-  border: none;
-  height: 1.5rem;
-  background: rgba(0, 0, 0, 0.05);
   display: flex;
   align-items: center;
   justify-content: center;
