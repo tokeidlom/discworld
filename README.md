@@ -41,3 +41,5 @@ At the end of the left hand menu bar you will find a button to launch the dice r
 
 
 And, that is it!
+
+I made this system for fun, and for use with my own group. I invite everyone to use it for free. I have however been requested to create a tips jar, and so if you would like to leave a tip please do so <a href="https://ko-fi.com/calinstar">HERE</a>.
