@@ -82,8 +82,6 @@
     "flags": {}
 	}
   ],
-  "primaryTokenAttribute": "luck",
-  "secondaryTokenAttribute": "luck",
   "url": "https://github.com/tokeidlom/discworld",
   "manifest": "https://raw.githubusercontent.com/tokeidlom/discworld/main/src/system.json",
   "download": "https://raw.githubusercontent.com/tokeidlom/discworld/main/package/discworld-v1.1.0.zip"
