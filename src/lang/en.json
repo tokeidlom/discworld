@@ -46,5 +46,19 @@
 		"goal": "Party Goal",
 		"partypast": "Party Past",
 		"partypresent": "Party Present"
+	},
+	"TYPES": {
+		"Actor": {
+			"character": "Character",
+			"NPC": "NPC"
+		},
+		"Item": {
+			"trait": "Feature",
+			"quirk": "Quirk",
+			"core": "Core",
+			"niche": "Niche",
+			"party": "Party",
+			"mannerism": "Mannerism"
+		}
 	}
 }

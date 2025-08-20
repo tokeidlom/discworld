@@ -46,5 +46,19 @@
 		"goal": "Objetivo del grupo",
 		"partypast": "Pasado del grupo",
 		"partypresent": "Presente del grupo"
+	},
+	"TYPES": {
+		"Actor": {
+			"character": "Personaje",
+			"NPC": "PNJ"
+		},
+		"Item": {
+			"trait": "Rasgo",
+			"quirk": "Rareza",
+			"core": "Núcleo",
+			"niche": "Especialidad",
+			"party": "Grupo",
+			"mannerism": "Manierismo"
+		}
 	}
 }

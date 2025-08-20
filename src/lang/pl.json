@@ -46,5 +46,19 @@
 		"goal": "Cel drużyny",
 		"partypast": "Przeszłość drużyny",
 		"partypresent": "Teraźniejszość drużyny"
+	},
+	"TYPES": {
+		"Actor": {
+			"character": "Postać",
+			"NPC": "BN"
+		},
+		"Item": {
+			"trait": "Cecha",
+			"quirk": "Dziwactwo",
+			"core": "Rdzeń",
+			"niche": "Specjalność",
+			"party": "Drużyna",
+			"mannerism": "Manieryzm"
+		}
 	}
 }

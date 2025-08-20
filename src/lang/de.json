@@ -46,5 +46,19 @@
 		"goal": "Gruppenziel",
 		"partypast": "Vergangenheit der Gruppe",
 		"partypresent": "Gegenwart der Gruppe"
+	},
+	"TYPES": {
+		"Actor": {
+			"character": "Charakter",
+			"NPC": "NSC"
+		},
+		"Item": {
+			"trait": "Merkmal",
+			"quirk": "Macke",
+			"core": "Kern",
+			"niche": "Nische",
+			"party": "Partei",
+			"mannerism": "Manierismus"
+		}
 	}
 }

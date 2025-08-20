@@ -10,16 +10,20 @@ foundry.documents.collections.Actors.unregisterSheet('core', foundry.appv1.sheet
 foundry.documents.collections.Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
 foundry.documents.collections.Actors.registerSheet("core", DiscworldCharacterSheet, {
   types: ["character"],
+  label: "Character",
   makeDefault: true
 });
 foundry.documents.collections.Actors.registerSheet("core", DiscworldNPCSheet, {
   types: ["NPC"],
+  label: "NPC"
 });
 foundry.documents.collections.Items.registerSheet("discworld", DiscworldTraitsItem, {
   types: ["core", "trait", "quirk", "niche", "mannerism"],
+  label: "Trait"
 });
 foundry.documents.collections.Items.registerSheet("discworld", DiscworldPartyItem, {
   types: ["party"],
+  label: "Party"
 });
 
 // Item type hooks
@@ -58,7 +62,7 @@ Hooks.on("preCreateItem", (item, options, userId) => {
   const forbiddenItemsForNPC = ["core", "quirk", "party"];
 
   if (actorType === "character" && forbiddenItemsForCharacter.includes(item.type)) {
-    ui.notifications.error(game.i18n.format("application.actorcannothold", {
+    ui.notifications.warn(game.i18n.format("application.actorcannothold", {
       actor: actor.name,
       item: item.type
     }));
@@ -66,7 +70,7 @@ Hooks.on("preCreateItem", (item, options, userId) => {
   }
 
   if (actorType === "NPC" && forbiddenItemsForNPC.includes(item.type)) {
-    ui.notifications.error(game.i18n.format("application.actorcannothold", {
+    ui.notifications.warn(game.i18n.format("application.actorcannothold", {
       actor: actor.name,
       item: item.type
     }));
