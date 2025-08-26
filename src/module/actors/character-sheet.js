@@ -274,10 +274,8 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     }
   }
 
-  _onRender(context, options) {
-    if (this.document.limited) return;
-
-    // Merge background and description into background field
+  //Merge the background and description fields
+  async _convertFields(event) {
     const actor = this.actor;
     if (!actor) return;
 
@@ -296,6 +294,15 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
         console.error(`[Discworld] Failed to merge background/description for "${actor.name}":`, err);
       }
     }
+  }
+
+  _onRender(context, options) {
+    if (this.document.limited) return;
+	
+    const form = this.element.querySelector("div");
+    if (!this.document.isOwner) form.setAttribute("inert", "");
+
+    if (this.document.isOwner) this._convertFields();
 
     document.querySelectorAll('.luck-input').forEach(input => {
       input.addEventListener('change', this._onLuckEntry.bind(this));

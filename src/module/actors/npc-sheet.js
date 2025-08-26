@@ -433,7 +433,10 @@ export class DiscworldNPCSheet extends api.HandlebarsApplicationMixin(sheets.Act
   _onRender(context, options) {
     if (this.document?.limited) return;
 
-    this._convertFields();
+    const form = this.element.querySelector("div");
+    if (!this.document.isOwner) form.setAttribute("inert", "");
+
+    if (this.document.isOwner) this._convertFields();
 
     document.querySelectorAll('.item-name').forEach(input => {
       input.addEventListener('change', this._onItemNameChange.bind(this));
