@@ -27,17 +27,6 @@ export class DiscworldNPCSheet extends api.HandlebarsApplicationMixin(sheets.Act
       height: "auto",
       width: 800
     },
-    dragDrop: [{
-      dragSelector: 'li[data-item-id]',
-      dropSelector: [
-        '.window-content',
-        '.sheet-body',
-        '.sheet',
-        '.tab',
-        'ul.items',
-        '.drop-zone'
-      ].join(', ')
-    }]
   };
 
   get title() {
@@ -463,7 +452,7 @@ export class DiscworldNPCSheet extends api.HandlebarsApplicationMixin(sheets.Act
     }
     this._dragDrop.forEach((d) => d.bind(this.element));
 
-    this.element.querySelectorAll('li[data-item-id]')?.forEach((li) => {
+    this.element.querySelectorAll('a.edit[data-action="onItemEdit"], a.delete[data-action="onItemDelete"]')?.forEach((li) => {
       li.setAttribute('draggable', 'true');
     });
   }
@@ -585,7 +574,7 @@ export class DiscworldNPCSheet extends api.HandlebarsApplicationMixin(sheets.Act
     const cfgs = Array.isArray(this.options?.dragDrop) && this.options.dragDrop.length ?
       this.options.dragDrop :
       [{
-        dragSelector: 'li[data-item-id]',
+        dragSelector: 'a.edit[data-action="onItemEdit"], a.delete[data-action="onItemDelete"]',
         dropSelector: '.window-content, .sheet-body, .tab, ul.items, .drop-zone'
       }];
 
