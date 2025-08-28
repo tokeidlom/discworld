@@ -109,6 +109,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
   }
 
   async _onLuckChange(delta) {
+    if (typeof this.luckDelta === 'undefined') {this.luckDelta = 0;}
     this.luckDelta += delta;
 
     clearTimeout(this.luckTimeout);
