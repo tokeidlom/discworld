@@ -351,3 +351,11 @@ textarea {
   width: 100%;
   height: auto;
 }
+
+/*Restricted view for observers*/
+.observer {
+  pointer-events: none !important;
+}
+.observer [data-tooltip] {
+  pointer-events: auto !important;
+}

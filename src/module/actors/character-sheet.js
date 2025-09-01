@@ -232,49 +232,6 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     }).render(true);
   }
 
-  _onItemTooltipShow(event) {
-    const input = event.currentTarget;
-    const itemId = input.dataset.itemId;
-    const item = this.actor.items.get(itemId);
-    if (item) {
-      const description = item.system.description?.trim().replace(/\n/g, '<br>');
-      if (description) {
-        input._tooltipTimeout = setTimeout(() => {
-          let tooltip = document.querySelector('.item-tooltip');
-          if (!tooltip) {
-            tooltip = document.createElement('div');
-            tooltip.classList.add('item-tooltip');
-            document.body.appendChild(tooltip);
-          }
-          tooltip.innerHTML = `${description}`;
-          const {
-            clientX: mouseX,
-            clientY: mouseY
-          } = event;
-          tooltip.style.left = `${mouseX + 10}px`;
-          tooltip.style.top = `${mouseY + 10}px`;
-          const tooltipRect = tooltip.getBoundingClientRect();
-          if (tooltipRect.bottom > window.innerHeight) {
-            tooltip.style.top = `${window.innerHeight - tooltipRect.height - 20}px`;
-          }
-          input._tooltip = tooltip;
-        }, 1000);
-      }
-    }
-  }
-
-  _onItemTooltipHide(event) {
-    const input = event.currentTarget;
-    if (input._tooltipTimeout) {
-      clearTimeout(input._tooltipTimeout);
-      delete input._tooltipTimeout;
-    }
-    if (input._tooltip) {
-      input._tooltip.remove();
-      delete input._tooltip;
-    }
-  }
-
   //Merge the background and description fields
   async _convertFields(event) {
     const actor = this.actor;
@@ -297,11 +254,27 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     }
   }
 
-  _onRender(context, options) {
+
+  // Limit to view only for observers
+  async _setObserver() {
+    const selectors = [
+      '.discworld-actor'
+    ];
+
+    for (const el of this.element.querySelectorAll(selectors)) {
+      el.classList.add('observer');
+      el.querySelectorAll('button, input, select, textarea, a, [tabindex]').forEach((ctrl) => {
+        if (ctrl.tagName === 'TEXTAREA') ctrl.readOnly = true;
+        else if ('disabled' in ctrl) ctrl.disabled = true;
+        ctrl.tabIndex = -1;
+      });
+    }
+  }
+
+  async _onRender(context, options) {
     if (this.document.limited) return;
 	
-    const form = this.element.querySelector("div");
-    if (!this.document.isOwner) form.setAttribute("inert", "");
+    if (!this.document.isOwner) this._setObserver();
 
     if (this.document.isOwner) this._convertFields();
 
@@ -313,13 +286,22 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       input.addEventListener('change', this._onItemNameChange.bind(this));
     });
 
-    document.querySelectorAll('.item-name').forEach(input => {
-      input.addEventListener('mouseover', this._onItemTooltipShow.bind(this));
-    });
+    const els = Array.from(document.querySelectorAll('.item-name[data-item-id]'));
+    for (const el of els) {
+      const item = this.actor.items.get(el.dataset.itemId);
+      const raw = (item?.system?.description ?? '').trim();
+      if (!raw) continue;
 
-    document.querySelectorAll('.item-name').forEach(input => {
-      input.addEventListener('mouseout', this._onItemTooltipHide.bind(this));
-    });
+      const enriched = await foundry.applications.ux.TextEditor.enrichHTML(raw, {
+        async: true,
+        documents: true,
+        rolls: true,
+        secrets: false
+      });
+
+      el.setAttribute('data-tooltip', enriched);
+      el.setAttribute('data-tooltip-direction', 'UP');
+    }
 
     if (!Array.isArray(this._dragDrop) || !this._dragDrop.length) {
       this._dragDrop = this._createDragDropHandlers();
