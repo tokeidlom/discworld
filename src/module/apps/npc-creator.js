@@ -51,6 +51,8 @@ export class NpcCreatorService {
   static async runOnce(actor) {
     if (!actor?.isOwner) return;
 
+    if (actor.items?.size > 0) return;
+
     await waitForSheetRender(actor);
 
     const first = await foundry.applications.api.DialogV2.confirm({

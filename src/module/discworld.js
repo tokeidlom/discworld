@@ -113,10 +113,7 @@ Hooks.once('init', async function() {
 });
 
 // NPC actor creator script
-Hooks.on('createActor', async (actor, options, userId) => {
-  if (userId !== game.user?.id) return;
+Hooks.on('createActor', async (actor) => {
   if (actor?.type !== 'NPC') return;
-  if (foundry.utils.getProperty(actor, 'flags.core.sourceId')) return;
-  if (options?.fromCompendium || options?.pack) return;
   await NpcCreatorService.runOnce(actor);
 });
