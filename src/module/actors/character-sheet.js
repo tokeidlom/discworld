@@ -2,13 +2,12 @@ const api = foundry.applications.api;
 const sheets = foundry.applications.sheets;
 
 export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(sheets.ActorSheetV2) {
-
   static PARTS = {
     charactersheet: {
-      template: "systems/discworld/templates/actors/character.hbs"
+      template: 'systems/discworld/templates/actors/character.hbs'
     },
     limitedsheet: {
-      template: "systems/discworld/templates/actors/limited-sheet.hbs"
+      template: 'systems/discworld/templates/actors/limited-sheet.hbs'
     },
   };
 
@@ -27,7 +26,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       closeOnSubmit: false,
     },
     position: {
-      height: "auto",
+      height: 'auto',
       width: 800
     },
   };
@@ -66,61 +65,63 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
 
   async _onIncreaseLuck(event) {
     const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
-    let oldLuck = parseInt(this.actor.system.luck) || 0;
-    let newLuck = Math.max(0, Math.min(oldLuck + 1, maxLuck));
+    const oldLuck = parseInt(this.actor.system.luck) || 0;
+    const newLuck = Math.max(0, Math.min(oldLuck + 1, maxLuck));
 
     if (newLuck > oldLuck) {
-      await this.actor.update({ "system.luck": newLuck });
+      await this.actor.update({'system.luck': newLuck});
       this._onLuckChange(1);
     }
   }
 
   async _onDecreaseLuck(event) {
     const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
-    let oldLuck = parseInt(this.actor.system.luck) || 0;
-    let newLuck = Math.max(0, Math.min(oldLuck - 1, maxLuck));
+    const oldLuck = parseInt(this.actor.system.luck) || 0;
+    const newLuck = Math.max(0, Math.min(oldLuck - 1, maxLuck));
 
     if (newLuck < oldLuck) {
-      await this.actor.update({ "system.luck": newLuck });
+      await this.actor.update({'system.luck': newLuck});
       this._onLuckChange(-1);
     }
   }
 
   async _onLuckEntry(event) {
-    let oldLuck = parseInt(this.actor.system.luck);
+    const oldLuck = parseInt(this.actor.system.luck);
     let newLuck = parseInt(event.target.value);
     const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
 
     if (newLuck > maxLuck) {
       event.target.value = maxLuck;
-      ui.notifications.warn(game.i18n.format("application.exceededmaxluck", { maxLuck }));
+      ui.notifications.warn(game.i18n.format('application.exceededmaxluck', {maxLuck}));
       newLuck = maxLuck;
     }
 
     if (newLuck < 0) {
       event.target.value = 0;
-      ui.notifications.warn(game.i18n.format("application.exceededminluck"));
+      ui.notifications.warn(game.i18n.format('application.exceededminluck'));
       newLuck = 0;
     }
 
-    let delta = newLuck - oldLuck;
-    await this.actor.update({ "system.luck": newLuck });
+    const delta = newLuck - oldLuck;
+    await this.actor.update({'system.luck': newLuck});
     this._onLuckChange(delta);
   }
 
   async _onLuckChange(delta) {
-    if (typeof this.luckDelta === 'undefined') {this.luckDelta = 0;}
+    if (typeof this.luckDelta === 'undefined') {
+      this.luckDelta = 0;
+    }
     this.luckDelta += delta;
 
     clearTimeout(this.luckTimeout);
     this.luckTimeout = setTimeout(() => {
       if (this.luckDelta !== 0) {
-        let messageContent = this.luckDelta > 0
-          ? game.i18n.format("application.luckadded", { actorName: this.actor.name, luckAmount: this.luckDelta })
-          : game.i18n.format("application.luckspent", { actorName: this.actor.name, luckAmount: Math.abs(this.luckDelta) });
+        const messageContent = this.luckDelta > 0 ?
+          game.i18n.format('application.luckadded', {actorName: this.actor.name, luckAmount: this.luckDelta}) :
+          game.i18n.format('application.luckspent', {actorName: this.actor.name, luckAmount: Math.abs(this.luckDelta)});
 
         if (game.settings.get('discworld', 'sendLuckToChat')) {
-          ChatMessage.create({ content: messageContent });
+          ChatMessage.create({content: messageContent});
         }
 
         this.luckDelta = 0;
@@ -130,7 +131,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
 
   async _onRollDice(event) {
     event.preventDefault();
-    const button = event.target.closest("button");
+    const button = event.target.closest('button');
     const diceType = button.dataset.dice;
     const formula = `1${diceType}`;
     const roll = new Roll(formula);
@@ -138,7 +139,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     await roll.evaluate();
 
     roll.toMessage({
-      speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+      speaker: ChatMessage.getSpeaker({actor: this.actor}),
       flavor: `${game.i18n.localize('application.rolling')} ${formula}`
     });
   }
@@ -162,27 +163,27 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       childId = select?.value ?? '';
     }
     if (!childId) {
-      ui.notifications.warn("No party selected.");
+      ui.notifications.warn('No party selected.');
       return;
     }
     const childParty = game.items.get(childId);
     if (!childParty) {
-      ui.notifications.error("Party not found.");
+      ui.notifications.error('Party not found.');
       return;
     }
     childParty.sheet.render(true);
   }
 
   static async _onItemCreate(event, target) {
-    const docCls = getDocumentClass(target.dataset.documentClass || "Item");
-    const type = target.dataset.type || "item";
+    const docCls = getDocumentClass(target.dataset.documentClass || 'Item');
+    const type = target.dataset.type || 'item';
     const docData = {
       name: `New ${type.charAt(0).toUpperCase() + type.slice(1)}`,
       type: type,
       parent: this.actor,
     };
     for (const [dataKey, value] of Object.entries(target.dataset)) {
-      if (["action", "documentClass"].includes(dataKey)) continue;
+      if (['action', 'documentClass'].includes(dataKey)) continue;
       foundry.utils.setProperty(docData, dataKey, value);
     }
     await docCls.create(docData, {
@@ -206,25 +207,25 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       },
       content: `<p>${game.i18n.localize('application.deleteconfirm')}</p>`,
       position: {
-        height: "auto",
+        height: 'auto',
         width: 350
       },
       buttons: [{
-        action: "yes",
+        action: 'yes',
         default: false,
-		icon: '<i class="fas fa-check"></i>',
+        icon: '<i class="fas fa-check"></i>',
         label: game.i18n.localize('application.yes'),
         callback: async () => {
           await this.actor.deleteEmbeddedDocuments('Item', [itemId]);
         },
       },
       {
-        action: "no",
+        action: 'no',
         default: true,
-		icon: '<i class="fas fa-times"></i>',
+        icon: '<i class="fas fa-times"></i>',
         label: game.i18n.localize('application.no'),
         callback: (event, button, htmlElement) => {
-          const form = htmlElement.querySelector("form");
+          const form = htmlElement.querySelector('form');
           return form ? new FormData(form) : null;
         },
       },],
@@ -232,20 +233,20 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     }).render(true);
   }
 
-  //Merge the background and description fields
+  // Merge the background and description fields
   async _convertFields(event) {
     const actor = this.actor;
     if (!actor) return;
 
-    const background = String(foundry.utils.getProperty(actor.system, "background") ?? "").trim();
-    const description = String(foundry.utils.getProperty(actor.system, "description") ?? "").trim();
+    const background = String(foundry.utils.getProperty(actor.system, 'background') ?? '').trim();
+    const description = String(foundry.utils.getProperty(actor.system, 'description') ?? '').trim();
 
     if (description && !background.includes(description)) {
       const newBackground = background ? `${background}\n${description}` : description;
       try {
         actor.update({
-          "system.background": newBackground,
-          "system.description": ""
+          'system.background': newBackground,
+          'system.description': ''
         });
         console.log(`[Discworld] Merged description into background for "${actor.name}"`);
       } catch (err) {
@@ -278,11 +279,11 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
 
     if (this.document.isOwner) this._convertFields();
 
-    document.querySelectorAll('.luck-input').forEach(input => {
+    document.querySelectorAll('.luck-input').forEach((input) => {
       input.addEventListener('change', this._onLuckEntry.bind(this));
     });
 
-    document.querySelectorAll('.item-name').forEach(input => {
+    document.querySelectorAll('.item-name').forEach((input) => {
       input.addEventListener('change', this._onItemNameChange.bind(this));
     });
 

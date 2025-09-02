@@ -45,10 +45,6 @@
   margin: 0;
 }
 
-.discworld-actor .npc-auto-roll .roll-button {
-margin-top: 115px;
-}
-
 /*Luck field styling*/
 .discworld-actor .luck-controls {
   display: flex;

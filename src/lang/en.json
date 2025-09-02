@@ -29,6 +29,7 @@
 		"no": "No",
 		"discworlddiceroller": "Discworld Dice Roller",
 		"roll": "Roll",
+		"reroll": "Reroll",
 		"rolling": "Rolling",
 		"close": "Close",
 		"actorcannothold": "{actor} cannot hold {item} items.",
@@ -37,7 +38,10 @@
 		"luckadded": "The Lady has granted {actorName} an extra {luckAmount} luck.",
 		"luckspent": "{actorName} has spent {luckAmount} luck.",
 		"autogeneratenpc": "Auto Generate NPC",
-		"npcconfirmline": "Continuing will replace the existing NAME and SPECIES, it will also replace any existing MANNERISM, NICHE and FEATURES items.<p>Are you sure you wish to proceed?"
+		"npcconfirmline": "Would you like to use the wizard auto fill the NPC sheet or use a blank one?",
+		"reviewgeneratednpc": "Would you like to confirm this character, reroll, or revert to a blank sheet?",
+		"wizard": "Wizzard",
+		"blank": "Blank"
 	},
 	"item": {
 		"name": "Party Name",

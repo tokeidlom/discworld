@@ -4,7 +4,7 @@ const sheets = foundry.applications.sheets;
 export class DiscworldPartyItem extends api.HandlebarsApplicationMixin(sheets.ItemSheetV2) {
   static PARTS = {
     itemsheet: {
-      template: "systems/discworld/templates/items/party.hbs"
+      template: 'systems/discworld/templates/items/party.hbs'
     },
   };
 
@@ -15,7 +15,7 @@ export class DiscworldPartyItem extends api.HandlebarsApplicationMixin(sheets.It
       closeOnSubmit: false,
     },
     position: {
-      height: "auto",
+      height: 'auto',
       width: 700,
     },
   };

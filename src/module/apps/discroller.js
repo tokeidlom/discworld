@@ -1,7 +1,6 @@
 const api = foundry.applications.api;
 
 export class DiscRoller {
-
   static async DiceRollerButtonV13(event) {
     let diceForm = document.querySelector('.disc-roller-form');
     if (!diceForm) {
@@ -31,23 +30,23 @@ export class DiscRoller {
     let buttonRect;
 
     switch (position) {
-      case 'TopLeft': {
-        targetButton = document.querySelector('#scene-navigation-active');
-        buttonRect = targetButton?.getBoundingClientRect();
-        if (!buttonRect) return;
-        diceForm.style.top = `${buttonRect.top}px`;
-        diceForm.style.left = `${buttonRect.right + 36}px`;
-        break;
-      }
-      case 'BottomRight':
-      default: {
-        targetButton = document.querySelector('#sidebar button.collapse');
-        buttonRect = targetButton?.getBoundingClientRect();
-        if (!buttonRect) return;
-        diceForm.style.top = `${buttonRect.bottom + 8}px`;
-        diceForm.style.left = `${buttonRect.left}px`;
-        break;
-      }
+    case 'TopLeft': {
+      targetButton = document.querySelector('#scene-navigation-active');
+      buttonRect = targetButton?.getBoundingClientRect();
+      if (!buttonRect) return;
+      diceForm.style.top = `${buttonRect.top}px`;
+      diceForm.style.left = `${buttonRect.right + 36}px`;
+      break;
+    }
+    case 'BottomRight':
+    default: {
+      targetButton = document.querySelector('#sidebar button.collapse');
+      buttonRect = targetButton?.getBoundingClientRect();
+      if (!buttonRect) return;
+      diceForm.style.top = `${buttonRect.bottom + 8}px`;
+      diceForm.style.left = `${buttonRect.left}px`;
+      break;
+    }
     }
   }
 
@@ -57,13 +56,13 @@ export class DiscRoller {
       requestAnimationFrame(updatePosition);
     };
     requestAnimationFrame(updatePosition);
-}
+  }
 
   static async CreateDiceRoller(event) {
     const DiceRollerApp = class extends api.HandlebarsApplicationMixin(api.ApplicationV2) {
       static PARTS = {
         tracker: {
-          template: "systems/discworld/templates/apps/discroller.hbs"
+          template: 'systems/discworld/templates/apps/discroller.hbs'
         },
       };
 
@@ -83,7 +82,7 @@ export class DiscRoller {
 
       async _onRollDice(event) {
         event.preventDefault();
-        const button = event.target.closest("button");
+        const button = event.target.closest('button');
         const diceType = button.dataset.dice;
         const formula = `1${diceType}`;
         const roll = new Roll(formula);
@@ -91,7 +90,7 @@ export class DiscRoller {
         await roll.evaluate();
 
         roll.toMessage({
-          speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+          speaker: ChatMessage.getSpeaker({actor: this.actor}),
           flavor: `${game.i18n.localize('application.rolling')} ${formula}`
         });
       }
@@ -101,5 +100,5 @@ export class DiscRoller {
 }
 
 Hooks.on('renderSidebar', (controls) => {
-    DiscRoller.DiceRollerButtonV13();
+  DiscRoller.DiceRollerButtonV13();
 });
