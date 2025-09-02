@@ -48,19 +48,24 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     const items = this.actor.items?.contents || [];
     const itemsSorted = [...items].sort((a, b) => (a.sort ?? 0) - (b.sort ?? 0));
     const availableParties = game.items
-      .filter((target) => target.type === 'party' && target.isOwner)
-      .map((actor) => ({
-        id: actor.id,
-        name: actor.name
-      }));
+      .filter((i) =>
+        i.type === 'party' &&
+        i.testUserPermission?.(game.user, CONST.DOCUMENT_OWNERSHIP_LEVELS.OBSERVER)
+      )
+      .map((i) => ({id: i.id, name: i.name}));
 
-    const context = {
+    const selectedPartyId = this.actor.system?.child;
+    if (selectedPartyId && !availableParties.some((p) => p.id === selectedPartyId)) {
+      const sel = game.items.get(selectedPartyId);
+      if (sel) availableParties.push({id: sel.id, name: sel.name});
+    }
+
+    return {
       actor: this.actor,
       items: itemsSorted,
       availableParties,
       maxLuck: game.settings.get('discworld', 'maxNumberOfLuck'),
     };
-    return context;
   }
 
   async _onIncreaseLuck(event) {
