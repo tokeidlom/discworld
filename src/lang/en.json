@@ -1,6 +1,7 @@
 {
 	"character": {
 		"name": "Name",
+		"fullname": "Full Name",
 		"pronouns": "Pronouns",
 		"outcomedice": "Outcome Dice",
 		"luck": "Luck",

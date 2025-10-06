@@ -256,11 +256,13 @@ export class NpcCreatorService {
     const updates = {
       name: displayName,
       flags: {
-        discworldRandomizer: {
-          nameParts: {first, last, nick},
-          species, niche, features: featureLabels, mannerism,
-          sources: TABLES,
-          timestamp: Date.now()
+        discworld: {
+          randomizer: {
+            nameParts: {first, last, nick},
+            species, niche, features: featureLabels, mannerism,
+            sources: TABLES,
+            timestamp: Date.now()
+          }
         }
       }
     };
@@ -273,7 +275,7 @@ export class NpcCreatorService {
         name: niche,
         type: nicheType,
         system: {},
-        flags: {'discworld.randomizer': {kind: 'niche', sourceTable: TABLES.niche}}
+        flags: {discworld: {randomizer: {kind: 'niche', sourceTable: TABLES.niche}}}
       });
     }
     if (mannerism) {
@@ -281,7 +283,7 @@ export class NpcCreatorService {
         name: mannerism,
         type: 'mannerism',
         system: {},
-        flags: {'discworld.randomizer': {kind: 'mannerism', sourceTable: TABLES.mannerism}}
+        flags: {discworld: {randomizer: {kind: 'mannerism', sourceTable: TABLES.mannerism}}}
       });
     }
     if (traitType && featureLabels.length) {
@@ -290,7 +292,7 @@ export class NpcCreatorService {
           name: label,
           type: traitType,
           system: {},
-          flags: {'discworld.randomizer': {kind: 'feature', sourceTable: TABLES.features}}
+          flags: {discworld: {randomizer: {kind: 'feature', sourceTable: TABLES.features}}}
         });
       }
     }

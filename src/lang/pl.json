@@ -1,6 +1,7 @@
 {
 	"character": {
 		"name": "Imię",
+		"fullname": "Pełne imię i nazwisko",
 		"pronouns": "Zaimek Osobowy",
 		"outcomedice": "Wynik Kości",
 		"luck": "Szczęście",

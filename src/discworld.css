@@ -93,11 +93,17 @@
   font-size: 2rem;
 }
 
+.discworld-actor .fullname-field {
+  flex-basis: 81%;
+  padding-right: 10px;
+}
+
 .discworld-actor .pronouns-field {
   flex-basis: 17%;
   padding-right: 10px;
 }
 
+.discworld-actor .fullname-field .fullname-input,
 .discworld-actor .species-field .species-input,
 .discworld-actor .mannerism-field .mannerism-input,
 .discworld-actor .party-field .party-input,

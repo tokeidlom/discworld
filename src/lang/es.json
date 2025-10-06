@@ -1,6 +1,7 @@
 {
 	"character": {
 		"name": "Nombre",
+		"fullname": "Nombre completo",
 		"pronouns": "Pronombres",
 		"outcomedice": "Dados de Resultado",
 		"luck": "Suerte",
