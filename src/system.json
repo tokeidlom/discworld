@@ -58,6 +58,20 @@
       "flags": {}
     }
   ],
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "NPC": {}
+    },
+    "Item": {
+      "trait": {},
+      "quirk": {},
+      "core": {},
+      "niche": {},
+      "party": {},
+      "mannerism": {}
+    }
+  },
   "grid": {
     "distance": 5,
     "units": "m"

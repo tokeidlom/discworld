@@ -6,25 +6,79 @@ import {DiscworldTraitsItem} from './items/traits-sheet.js';
 import {DiscworldPartyItem} from './items/party-sheet.js';
 import {NpcCreatorService} from './apps/npc-creator.js';
 
-// Register sheets
-foundry.documents.collections.Actors.unregisterSheet('core', foundry.appv1.sheets.ActorSheet);
-foundry.documents.collections.Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
-foundry.documents.collections.Actors.registerSheet('core', DiscworldCharacterSheet, {
-  types: ['character'],
-  label: 'Character',
-  makeDefault: true
-});
-foundry.documents.collections.Actors.registerSheet('core', DiscworldNPCSheet, {
-  types: ['NPC'],
-  label: 'NPC'
-});
-foundry.documents.collections.Items.registerSheet('discworld', DiscworldTraitsItem, {
-  types: ['core', 'trait', 'quirk', 'niche', 'mannerism'],
-  label: 'Trait'
-});
-foundry.documents.collections.Items.registerSheet('discworld', DiscworldPartyItem, {
-  types: ['party'],
-  label: 'Party'
+import { CharacterData, NPCData } from './actors/actor-data-models.js';
+import { TraitData, QuirkData, CoreData, NicheData, PartyData, MannerismData } from './items/item-data-models.js';
+
+// Register system settings and data models
+Hooks.once('init', async function() {
+  // Register settings
+  game.settings.register('discworld', 'sendLuckToChat', {
+    name: 'See Luck Updates in Chat:',
+    hint: 'Uncheck this if you do not want to see luck update messages in chat.',
+    scope: 'world',
+    type: Boolean,
+    default: true,
+    config: true
+  });
+  game.settings.register('discworld', 'maxNumberOfLuck', {
+    name: 'Maximum amount of Luck:',
+    hint: 'Maximum amount of Luck each player can have at a time (4 is default).',
+    scope: 'world',
+    type: Number,
+    default: 4,
+    config: true
+  });
+  game.settings.register('discworld', 'diceButtonPosition', {
+    name: 'Screen position of the dice button',
+    hint: 'Where on the screen should the dice button be?',
+    scope: 'world',
+    type: String,
+    default: 'BottomRight',
+    config: true,
+    choices: {
+      'BottomRight': 'Bottom Right',
+      'TopLeft': 'Top Left',
+    }
+  });
+
+  // Register Actor data models FIRST
+  CONFIG.Actor.dataModels = {
+    character: CharacterData,
+    NPC: NPCData
+  };
+
+  // Register Item data models
+  CONFIG.Item.dataModels = {
+    trait: TraitData,
+    quirk: QuirkData,
+    core: CoreData,
+    niche: NicheData,
+    party: PartyData,
+    mannerism: MannerismData
+  };
+
+  // Register sheets AFTER data models
+  foundry.documents.collections.Actors.unregisterSheet('core', foundry.appv1.sheets.ActorSheet);
+  foundry.documents.collections.Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
+  foundry.documents.collections.Actors.registerSheet('core', DiscworldCharacterSheet, {
+    types: ['character'],
+    label: 'Character',
+    makeDefault: true
+  });
+  foundry.documents.collections.Actors.registerSheet('core', DiscworldNPCSheet, {
+    types: ['NPC'],
+    label: 'NPC'
+  });
+  foundry.documents.collections.Items.registerSheet('discworld', DiscworldTraitsItem, {
+    types: ['core', 'trait', 'quirk', 'niche', 'mannerism'],
+    label: 'Trait'
+  });
+  foundry.documents.collections.Items.registerSheet('discworld', DiscworldPartyItem, {
+    types: ['party'],
+    label: 'Party'
+  });
+
+  console.log("Discworld | Data models and sheets registered");
 });
 
 // Item type hooks
@@ -78,38 +132,6 @@ Hooks.on('preCreateItem', (item, options, userId) => {
   }
 
   return true;
-});
-
-// Register system settings
-Hooks.once('init', async function() {
-  game.settings.register('discworld', 'sendLuckToChat', {
-    name: 'See Luck Updates in Chat:',
-    hint: 'Uncheck this if you do not want to see luck update messages in chat.',
-    scope: 'world',
-    type: Boolean,
-    default: true,
-    config: true
-  });
-  game.settings.register('discworld', 'maxNumberOfLuck', {
-    name: 'Maximum amount of Luck:',
-    hint: 'Maximum amount of Luck each player can have at a time (4 is default).',
-    scope: 'world',
-    type: Number,
-    default: 4,
-    config: true
-  });
-  game.settings.register('discworld', 'diceButtonPosition', {
-    name: 'Screen position of the dice button',
-    hint: 'Where on the screen should the dice button be?',
-    scope: 'world',
-    type: String,
-    default: 'BottomRight',
-    config: true,
-    choices: {
-      'BottomRight': 'Bottom Right',
-      'TopLeft': 'Top Left',
-    }
-  });
 });
 
 // NPC actor creator script
