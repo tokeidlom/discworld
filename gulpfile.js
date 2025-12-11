@@ -115,7 +115,6 @@ function buildWatch() {
 async function clean() {
   const name = path.basename(path.resolve('.'));
   const files = [];
-  console.log(path.join('src', 'styles', `${name}.scss`));
 
   files.push(
     'lang',
@@ -380,7 +379,7 @@ function gitTag() {
 const execGit = gulp.series(gitAdd, gitCommit, gitTag);
 
 // Updated build task to include pack building
-const execBuild = gulp.series(buildSASS, buildPacks, copyFiles);
+const execBuild = gulp.series(buildPacks, copyFiles);
 
 exports.build = gulp.series(clean, execBuild);
 exports.watch = buildWatch;
