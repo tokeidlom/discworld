@@ -1,0 +1,23 @@
+{
+  "name": "discworld",
+  "version": "1.0.0",
+  "description": "An Unofficial FoundryVTT system for Modiphius' Discworld: Adventures in Ankh-Morpork. Shared with Modiphius kind permission.",
+  "homepage": "https://github.com/tokeidlom/discworld#readme",
+  "bugs": {
+    "url": "https://github.com/tokeidlom/discworld/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokeidlom/discworld.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.2"
+  }
+}

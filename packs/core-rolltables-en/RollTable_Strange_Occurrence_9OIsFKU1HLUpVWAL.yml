@@ -1,0 +1,301 @@
+name: Strange Occurrence
+_id: 9OIsFKU1HLUpVWAL
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: pq57Vesap4lgL5w1
+    name: One of Leonard of Quirm’s inventions has fallen into the wrong hands.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754907932950
+      modifiedTime: 1754907945475
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.pq57Vesap4lgL5w1'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: XF0U5eEmGJwocvG7
+    name: An ancient magic has awoken.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754907950815
+      modifiedTime: 1754907954248
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.XF0U5eEmGJwocvG7'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: wQAoLYdztcEEBGZg
+    name: One of Bloody Stupid Johnson’s inventions is involved.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754907960742
+      modifiedTime: 1754907963879
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.wQAoLYdztcEEBGZg'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: 9jCHLd2bNOWdstO1
+    name: Feegles are on the lash.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754907970772
+      modifiedTime: 1754907975225
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.9jCHLd2bNOWdstO1'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: oz9hLzx4b3E2rwF1
+    name: Death has taken a holiday.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754907980354
+      modifiedTime: 1754907984304
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.oz9hLzx4b3E2rwF1'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: wS5Tmv9AMwsbHv2S
+    name: Some people aren’t happy about the inclusion of certain species.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754907990392
+      modifiedTime: 1754907994430
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.wS5Tmv9AMwsbHv2S'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    _id: s5CMWh0YDP0VQXXW
+    name: Someone did it for the in-sewer-ants money.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908001071
+      modifiedTime: 1754908006132
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.s5CMWh0YDP0VQXXW'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    _id: eWMg6geG4BsvP9On
+    name: A golem has taken matters into its own hands.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908011800
+      modifiedTime: 1754908015527
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.eWMg6geG4BsvP9On'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    _id: BVMpG3vDnTuwMgrC
+    name: Wizards are doing something weird.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908022178
+      modifiedTime: 1754908026542
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.BVMpG3vDnTuwMgrC'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    _id: SozZrXy9ldmdaiUL
+    name: The method is quite ingenious.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908031626
+      modifiedTime: 1754908035112
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.SozZrXy9ldmdaiUL'
+  - type: text
+    weight: 1
+    range:
+      - 11
+      - 11
+    _id: n5ZxOIxw7NXPnIyv
+    name: Time is getting a bit uncertain.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908039630
+      modifiedTime: 1754908043596
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.n5ZxOIxw7NXPnIyv'
+  - type: text
+    weight: 1
+    range:
+      - 12
+      - 12
+    _id: lHYQvj369GEJrwQS
+    name: Someone is providing minor deities with a lot more followers and power.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908049059
+      modifiedTime: 1754908052717
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!9OIsFKU1HLUpVWAL.lHYQvj369GEJrwQS'
+replacement: true
+displayRoll: true
+folder: null
+sort: 100000
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754907927636
+  modifiedTime: 1754910643256
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: 1d12
+_key: '!tables!9OIsFKU1HLUpVWAL'

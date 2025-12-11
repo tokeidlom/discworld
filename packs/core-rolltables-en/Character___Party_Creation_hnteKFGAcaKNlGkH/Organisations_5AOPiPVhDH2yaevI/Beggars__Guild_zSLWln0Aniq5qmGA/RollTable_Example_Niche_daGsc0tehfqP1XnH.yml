@@ -1,0 +1,163 @@
+folder: zSLWln0Aniq5qmGA
+name: Example Niche
+_id: daGsc0tehfqP1XnH
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: MD21MxwK1g2GQqRp
+    name: Dribbler
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913235265
+      modifiedTime: 1754913238151
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!daGsc0tehfqP1XnH.MD21MxwK1g2GQqRp'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: wKwyaVsMWlqVFdaF
+    name: Mumbler
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913242227
+      modifiedTime: 1754913245053
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!daGsc0tehfqP1XnH.wKwyaVsMWlqVFdaF'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: ESEa0jlYno6hcqoI
+    name: Mutterer
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913248117
+      modifiedTime: 1754913251231
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!daGsc0tehfqP1XnH.ESEa0jlYno6hcqoI'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: aq5Tgpa1Vd61s7CT
+    name: Walk-Along-Shouter
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913254760
+      modifiedTime: 1754913257397
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!daGsc0tehfqP1XnH.aq5Tgpa1Vd61s7CT'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: YHp3MwmLD9YVCuRV
+    name: Demander of Chips
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913261267
+      modifiedTime: 1754913264240
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!daGsc0tehfqP1XnH.YHp3MwmLD9YVCuRV'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: akCPNqybvW9IDmIM
+    name: Need Tuppence For A Cup Of Tea
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913267973
+      modifiedTime: 1754913271136
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!daGsc0tehfqP1XnH.akCPNqybvW9IDmIM'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754913225222
+  modifiedTime: 1754913269317
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!daGsc0tehfqP1XnH'

@@ -1,0 +1,121 @@
+folder: mtMmk90sn746QGs4
+name: Example Goal
+_id: x6XpCRdoQOehYho5
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: rA463Kn4c4C2f3li
+    name: >-
+      Get the local potholes filled in. None of you will raise a finger to do it
+      yourselves, of course.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912563557
+      modifiedTime: 1754912568560
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!x6XpCRdoQOehYho5.rA463Kn4c4C2f3li'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: xsGs8D2TuDNHxlUp
+    name: Prevent the building of a tannery in your district.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912574903
+      modifiedTime: 1754912578778
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!x6XpCRdoQOehYho5.xsGs8D2TuDNHxlUp'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: tapv8nsBA7dhn5dg
+    name: Try to set up a new guild recognised by the Palace.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912588100
+      modifiedTime: 1754912591376
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!x6XpCRdoQOehYho5.tapv8nsBA7dhn5dg'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: TfUDSyTFb59RlW7h
+    name: >-
+      Roll another organisation’s goal, and get yourselves involved in their
+      business.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912598000
+      modifiedTime: 1754912603183
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!x6XpCRdoQOehYho5.TfUDSyTFb59RlW7h'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754912553559
+  modifiedTime: 1754912599889
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!x6XpCRdoQOehYho5'

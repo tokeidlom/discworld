@@ -1,0 +1,177 @@
+name: EXAMPLE MENTAL CONSEQUENCE
+_id: dvA1NmSglhp7n8TZ
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: HpFBlzLlfR7cAL2J
+    name: >-
+      The situation sends a shiver down your spine. If you don’t leave
+      immediately, gain the On edge Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908219712
+      modifiedTime: 1754908222707
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dvA1NmSglhp7n8TZ.HpFBlzLlfR7cAL2J'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: yLbtnBljvrb4ek4L
+    name: >-
+      You get a splitting headache, making you irritable for the rest of the
+      scene. Gain the Banging headache Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908226831
+      modifiedTime: 1754908233836
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dvA1NmSglhp7n8TZ.yLbtnBljvrb4ek4L'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: n8jqucMmWlZCza8D
+    name: >-
+      You learn that you absolutely cannot do something most people take for
+      granted. Gain the Terrible at X Trait, where X could be anything from
+      gardening to remembering names.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908240616
+      modifiedTime: 1754908244025
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dvA1NmSglhp7n8TZ.n8jqucMmWlZCza8D'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: ajGPVRrJ6oHYMUXL
+    name: >-
+      You become certain of something false, be it an errant clue or a misplaced
+      belief. If the errant certainty is something personal to you, gain the
+      Contradictory philosophy Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908250441
+      modifiedTime: 1754908254277
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dvA1NmSglhp7n8TZ.ajGPVRrJ6oHYMUXL'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: UXPRGB5w7JKdyrOp
+    name: >-
+      Your body has made an executive decision, you immediately fall
+      unconscious. Gain the Temporarily absent Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908259068
+      modifiedTime: 1754908262064
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dvA1NmSglhp7n8TZ.UXPRGB5w7JKdyrOp'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: v8A08VBQjZJNipOp
+    name: >-
+      You’re far too sober for any of this and you’re incredibly aware of it.
+      Gain the Knurd Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908267080
+      modifiedTime: 1754908271061
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dvA1NmSglhp7n8TZ.v8A08VBQjZJNipOp'
+replacement: true
+displayRoll: true
+folder: H9bRUjU73mwoh3MF
+sort: 100000
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754908214624
+  modifiedTime: 1754908305016
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!dvA1NmSglhp7n8TZ'

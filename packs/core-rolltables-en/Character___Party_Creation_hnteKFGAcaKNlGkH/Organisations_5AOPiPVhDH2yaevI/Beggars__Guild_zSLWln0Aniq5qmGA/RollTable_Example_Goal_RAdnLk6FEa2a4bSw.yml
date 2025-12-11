@@ -1,0 +1,121 @@
+folder: zSLWln0Aniq5qmGA
+name: Example Goal
+_id: RAdnLk6FEa2a4bSw
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: J4HX1NrIJORnWvlB
+    name: Convince Foul Ole Ron (p. 147) to return to the guild.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913169489
+      modifiedTime: 1754913172170
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!RAdnLk6FEa2a4bSw.J4HX1NrIJORnWvlB'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: 1BlB8gqRQgcOxGsi
+    name: Live a night of the high life without spending a penny.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913177891
+      modifiedTime: 1754913181188
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!RAdnLk6FEa2a4bSw.1BlB8gqRQgcOxGsi'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: 4wyF4lBWS2MycKoq
+    name: >-
+      Beg the most expensive item you can from the notoriously tight-fisted (and
+      litigious) Mr Slant.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913190022
+      modifiedTime: 1754913196159
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!RAdnLk6FEa2a4bSw.4wyF4lBWS2MycKoq'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: V3uoSTJqKJcKEabx
+    name: >-
+      Get rid of this briefcase containing 10,000 dollars without Chrysoprase
+      breaking your arms and legs.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913203205
+      modifiedTime: 1754913206398
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!RAdnLk6FEa2a4bSw.V3uoSTJqKJcKEabx'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754913161378
+  modifiedTime: 1754913204756
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!RAdnLk6FEa2a4bSw'

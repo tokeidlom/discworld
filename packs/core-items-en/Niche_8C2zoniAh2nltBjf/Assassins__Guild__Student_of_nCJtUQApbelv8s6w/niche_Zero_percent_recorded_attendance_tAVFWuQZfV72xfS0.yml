@@ -1,0 +1,24 @@
+folder: nCJtUQApbelv8s6w
+name: Zero percent recorded attendance
+type: niche
+_id: tAVFWuQZfV72xfS0
+img: systems/discworld/assets/items/niches.webp
+system:
+  description: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: discworld
+  systemVersion: 1.0.0
+  createdTime: 1754997300513
+  modifiedTime: 1754997300513
+  lastModifiedBy: SVK9hlY73qymO5SM
+_key: '!items!tAVFWuQZfV72xfS0'

@@ -1,0 +1,185 @@
+folder: uZOG3sAqDzBgBf34
+name: Quirk Question
+_id: xUNb6uq01iTnvArs
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: CGQJbfp9GeAEGe65
+    name: What class do you excel in and why?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Strategy and poison theory, I find plants and their many uses
+      fascinating; Music and modern language, I enjoy being able to insult
+      people in as many languages as possible; Alchemy and metalwork, there’s
+      something about creating new and ingenious inhumation devices that just
+      clicks.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912366950
+      modifiedTime: 1754912392282
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!xUNb6uq01iTnvArs.CGQJbfp9GeAEGe65'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: 160yoeGk67LaCIh3
+    name: What class do you struggle with and why?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Political expediency, I can never remember who outranks who; Climbing,
+      traps, and locks, I’m afraid of depths; Fencing and edged weaponry, I
+      don’t like blood and all that running around is far too energetic for
+      me.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912399464
+      modifiedTime: 1754912417068
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!xUNb6uq01iTnvArs.160yoeGk67LaCIh3'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: 7xjwKvTUfBcrWcOH
+    name: What lesson will you never forget?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Traps and deadfalls, they set both on the door on the first day; Never
+      accept food from someone with a friendly smile, Lord Downey and C.M.O.T.
+      Dibbler taught me well; There’s no point striking first if you do not know
+      where you’re striking.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912423375
+      modifiedTime: 1754912439276
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!xUNb6uq01iTnvArs.7xjwKvTUfBcrWcOH'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: w4fdVG8Bl3PQqVff
+    name: How many of your original class are left?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>A lot less once I passed advanced camouflage; Oh, we’re a robust lot,
+      around half of us are still here; What do you mean? They’re not going to
+      set us on each other are they?</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912444361
+      modifiedTime: 1754912458120
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!xUNb6uq01iTnvArs.w4fdVG8Bl3PQqVff'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: Rz0PVhF5g5WWvhOT
+    name: What do you look forward to most about being an assassin?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Briefly meeting all sorts of very interesting people; The sheer amount
+      of money you could make; Putting all my skills to the test.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912467773
+      modifiedTime: 1754912483763
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!xUNb6uq01iTnvArs.Rz0PVhF5g5WWvhOT'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: yV1PEzo0doIh2d6v
+    name: How did you secure your place at the guild?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I earned a scholarship when I impressed one of the masters; I’m a
+      legacy student, my family have attended the guild for generations; My
+      family are new money and wanted me to have every advantage they
+      didn’t.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912492281
+      modifiedTime: 1754912507209
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!xUNb6uq01iTnvArs.yV1PEzo0doIh2d6v'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754912327325
+  modifiedTime: 1754912493706
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!xUNb6uq01iTnvArs'

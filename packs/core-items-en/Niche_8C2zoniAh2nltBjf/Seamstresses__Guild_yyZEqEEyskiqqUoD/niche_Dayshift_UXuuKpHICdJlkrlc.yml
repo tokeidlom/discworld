@@ -1,0 +1,24 @@
+folder: yyZEqEEyskiqqUoD
+name: Dayshift
+type: niche
+_id: UXuuKpHICdJlkrlc
+img: systems/discworld/assets/items/niches.webp
+system:
+  description: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: discworld
+  systemVersion: 1.0.0
+  createdTime: 1754997672738
+  modifiedTime: 1754997672738
+  lastModifiedBy: SVK9hlY73qymO5SM
+_key: '!items!UXuuKpHICdJlkrlc'

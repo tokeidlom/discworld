@@ -1,0 +1,163 @@
+folder: mtMmk90sn746QGs4
+name: Example Niche
+_id: dXqljZYfU3NJ5sMm
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: tkKX4pjt1BNJJUXO
+    name: Organisational mastermind
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912619191
+      modifiedTime: 1754912622645
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dXqljZYfU3NJ5sMm.tkKX4pjt1BNJJUXO'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: FVsDAWTUvCJ3x2wC
+    name: Provider of tea and biscuits
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912626394
+      modifiedTime: 1754912630140
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dXqljZYfU3NJ5sMm.FVsDAWTUvCJ3x2wC'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: IjE2ViGqGdpiiltE
+    name: Remembers what we’re angry about
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912634316
+      modifiedTime: 1754912637851
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dXqljZYfU3NJ5sMm.IjE2ViGqGdpiiltE'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: HC7TZaLZGPJEUwom
+    name: Reckoner
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912641962
+      modifiedTime: 1754912644900
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dXqljZYfU3NJ5sMm.HC7TZaLZGPJEUwom'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: 9yeE2Q9oqrR7Uv9O
+    name: Treasurer
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912649384
+      modifiedTime: 1754912652056
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dXqljZYfU3NJ5sMm.9yeE2Q9oqrR7Uv9O'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: kXsqoMwV49FAQi0X
+    name: Gossipmonger
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912655825
+      modifiedTime: 1754912658916
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!dXqljZYfU3NJ5sMm.kXsqoMwV49FAQi0X'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754912614608
+  modifiedTime: 1754912657082
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!dXqljZYfU3NJ5sMm'

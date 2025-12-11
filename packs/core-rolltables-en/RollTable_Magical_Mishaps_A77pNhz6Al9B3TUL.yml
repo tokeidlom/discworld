@@ -1,0 +1,235 @@
+name: Magical Mishaps
+_id: A77pNhz6Al9B3TUL
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: ZyXDDp7TjXifOQiR
+    name: >-
+      The Auditors of Reality look upon your mockery of the laws of physics and
+      decide you are worth watching. Any further attempts at magic will result
+      in you being unceremoniously winked out of existence. Gain the On
+      probation Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908413841
+      modifiedTime: 1754908417878
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!A77pNhz6Al9B3TUL.ZyXDDp7TjXifOQiR'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: nRowphuBnqgJaKnD
+    name: >-
+      Your magical focus has been transferred to a nearby object, such as your
+      hat, which now talks. Decide its personality based on the spell being
+      cast.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908423095
+      modifiedTime: 1754908427480
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!A77pNhz6Al9B3TUL.nRowphuBnqgJaKnD'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: R6II3fUAGSKUaIln
+    name: >-
+      The laws of physics in your immediate area loosen considerably. For the
+      next hour, objects will float, doors will open into different rooms, and
+      gravity might occasionally reverse itself.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908431404
+      modifiedTime: 1754908435160
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!A77pNhz6Al9B3TUL.R6II3fUAGSKUaIln'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: 7XZdwiqhYzfZ0Pj4
+    name: >-
+      The spell works, but far too well. For example, the minor light spell you
+      cast now illuminates the entire district and night will not fall for the
+      next 24 hours.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908442234
+      modifiedTime: 1754908445089
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!A77pNhz6Al9B3TUL.7XZdwiqhYzfZ0Pj4'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: LQt6sZGzSG0slBuj
+    name: >-
+      You give yourself a Magical Misshape. Roll a d100 and open the nearest
+      non-roleplay related book to the rolled page. You have been turned into
+      the first noun you see on that page. Change your character sheet
+      accordingly.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908448706
+      modifiedTime: 1754908451618
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!A77pNhz6Al9B3TUL.LQt6sZGzSG0slBuj'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: azKhkTUFxzz88DhV
+    name: >-
+      You’ve accidentally poked a hole into the Dungeon Dimensions. A creature
+      with an ungodly* number of tentacles begins writhing its way into
+      existence. This is probably the most important thing to deal with for a
+      while.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908455619
+      modifiedTime: 1754908458780
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!A77pNhz6Al9B3TUL.azKhkTUFxzz88DhV'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    _id: 2ks0xOzA5JNlAOHw
+    name: >-
+      The spell causes random weather patterns in a 10-metre radius. It could be
+      raining frogs, snowing in midsummer, or you might find yourself surrounded
+      by a permanent gust of wind.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908462756
+      modifiedTime: 1754908465579
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!A77pNhz6Al9B3TUL.2ks0xOzA5JNlAOHw'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    _id: cjK9qMUWRPyirMYh
+    name: >-
+      You begin to float upward. Assuming someone manages to grab you, you may
+      want to invest in some heavy boots. Gain the Lighter than air Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908469888
+      modifiedTime: 1754908473788
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!A77pNhz6Al9B3TUL.cjK9qMUWRPyirMYh'
+replacement: true
+displayRoll: true
+folder: null
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754908406779
+  modifiedTime: 1754910625119
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!A77pNhz6Al9B3TUL'

@@ -1,0 +1,181 @@
+folder: dX7biROCLOPjCZ6j
+name: Quirk Question
+_id: ZuqF0x72BYembTix
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: 2bzRQ0fUwtJwqfKk
+    name: What nearly caused you to fail at UU?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I spent more time at the Drum than in the library; I’ve got a mind like
+      a sieve; A near crippling fear of books.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911647940
+      modifiedTime: 1754911660837
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ZuqF0x72BYembTix.2bzRQ0fUwtJwqfKk'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: DrSjPYjH8DK5IEQw
+    name: How did you pass your finals?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Sheer bloody minded determination; How else, I cheated of course;
+      Finals? Back in my day it was dead man’s pointy shoes!</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911664931
+      modifiedTime: 1754911677857
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ZuqF0x72BYembTix.DrSjPYjH8DK5IEQw'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: lzoVD91LzmZIENrn
+    name: What spell always goes wrong for you and why/how?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>The one for cleaning me pipe, always end up with soot coming out me
+      ears; Every spell goes wrong, it’s safer to ask someone else to do it; The
+      rite of AshkEnte, never gets Death, just some aspect of Death that’s not
+      too busy at the moment.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911685705
+      modifiedTime: 1754911698927
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ZuqF0x72BYembTix.lzoVD91LzmZIENrn'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: fgupGTGmY9vuOV7c
+    name: What do other wizards best know you for?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I have an excellent wine cellar somewhere around here; I always speak
+      my mind, no matter who’s listening; My skill at eldritch lacemaking is
+      second to none.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911702738
+      modifiedTime: 1754911714770
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ZuqF0x72BYembTix.fgupGTGmY9vuOV7c'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: ukr2oMiZJFOr2YEG
+    name: What other duties do you perform at UU?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I make sure that no one attempts to put anything alive, pink, or bigger
+      than one cubic foot in the Cabinet of Curiosities; I check in on the
+      research students every week or so to see if they’re still there; I ensure
+      the Librarian has a steady supply of bananas. You’d be amazed how out of
+      hand the books can get otherwise.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911719394
+      modifiedTime: 1754911742769
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ZuqF0x72BYembTix.ukr2oMiZJFOr2YEG'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: 7jGDg1YoAY5PVwRr
+    name: How long have you been a wizard?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>What?! Speak up, I’m not as young as i used to be; Nearly eigh—.... 7
+      and a bit years; I’ve just graduated…What do I do now?</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911747822
+      modifiedTime: 1754911783344
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ZuqF0x72BYembTix.7jGDg1YoAY5PVwRr'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754911643351
+  modifiedTime: 1754911749161
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!ZuqF0x72BYembTix'

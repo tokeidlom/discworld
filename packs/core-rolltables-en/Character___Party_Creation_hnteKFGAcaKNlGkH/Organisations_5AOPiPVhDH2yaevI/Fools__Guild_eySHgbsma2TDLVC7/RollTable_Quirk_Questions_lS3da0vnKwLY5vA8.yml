@@ -1,0 +1,185 @@
+folder: eySHgbsma2TDLVC7
+name: Quirk Questions
+_id: lS3da0vnKwLY5vA8
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: zUBAfZGZ0Ip94IQc
+    name: Who did you offend with your Foolery and how?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Lord Rust, the man has no sense of humour — everyone else thought the
+      whitewash was hilarious; Mr Stronginthearm, he’s got a ‘short’ fuse… get
+      it?; Anyone with coulrophobia. It’s not my fault they’re terrified of my
+      mere existence.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754914190530
+      modifiedTime: 1754914210196
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!lS3da0vnKwLY5vA8.zUBAfZGZ0Ip94IQc'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: GPFRTO8zcgcMh7DB
+    name: Why did you become a Fool?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Following in my family’s traditions, we’ve been foolish for
+      generations; I thought it’d be a foolproof career choice, I was wrong; I
+      was a foundling left on the steps of the Fools’ Guild. I didn’t see the
+      rest of the city until I already had my cap and bells.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754914215502
+      modifiedTime: 1754914230787
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!lS3da0vnKwLY5vA8.GPFRTO8zcgcMh7DB'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: 7AjglzSdI20kTHxS
+    name: What brought you to the attention of the Bloody Fools?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I used unregistered jokes in my act; I avoided a banana peel, stepped
+      around an open manhole, and allowed two dwarfs carrying a sheet of glass
+      to pass without even a second glance; I repeatedly forgot to honk sadly
+      (and humorously) when forcibly ejected from several drinking
+      establishments.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754914235590
+      modifiedTime: 1754914257681
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!lS3da0vnKwLY5vA8.7AjglzSdI20kTHxS'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: 45MA87kIxLWRoIkW
+    name: Why were you called in to see Dr Whiteface?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I suggested that we might be allowed a holiday without whitewash and
+      custard pies; I injured several brother Fools, a sausage-inna-bun
+      salesman, and multiple passing pigeons when my act went horribly wrong; I
+      attempted the bucket-of-whitewash-above-the-door trick on his office.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754914263503
+      modifiedTime: 1754914284750
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!lS3da0vnKwLY5vA8.45MA87kIxLWRoIkW'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: fTxYB1lE71KZwUNF
+    name: What is your routine?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I risk the Patrician’s displeasure as a mime; The classics: pratfalls
+      and tomfoolery all the way; Freestyle humour, no monster fun book for
+      me.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754914288814
+      modifiedTime: 1754914300691
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!lS3da0vnKwLY5vA8.fTxYB1lE71KZwUNF'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: yScRYxPpvZVsSUnH
+    name: What is the purpose of a Fool?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>To make people laugh?; To ensure the proper telling of jokes and japes;
+      Everyone needs someone to feel superior to.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754914305485
+      modifiedTime: 1754914331089
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!lS3da0vnKwLY5vA8.yScRYxPpvZVsSUnH'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754914183303
+  modifiedTime: 1754914307002
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!lS3da0vnKwLY5vA8'

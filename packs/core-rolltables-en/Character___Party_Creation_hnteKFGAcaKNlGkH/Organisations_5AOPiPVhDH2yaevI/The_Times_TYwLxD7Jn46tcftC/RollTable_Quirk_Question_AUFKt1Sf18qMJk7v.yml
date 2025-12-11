@@ -1,0 +1,182 @@
+folder: TYwLxD7Jn46tcftC
+name: Quirk Question
+_id: AUFKt1Sf18qMJk7v
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: X7zO6KnxY95SIi0L
+    name: What is your best story that’s gone to print?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I covered the Humorously Shaped Vegetable of the Year Competition; I
+      wrote an expose on some of the richest families and how they got rich; I
+      penned the timeless ELVES STOLE MY HUSBAND … Wait no, WOMAN GIVES BIRTH TO
+      COBRA.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913609602
+      modifiedTime: 1754913627154
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!AUFKt1Sf18qMJk7v.X7zO6KnxY95SIi0L'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: tbeOuSZHmPBKXkY4
+    name: What story of yours was cut and why?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>A piece decrying the state of things, no one wants to be reminded how
+      bad things are; My report on the Ankh-Morpork Cock and Hen Fanciers’
+      annual meeting — there was a bit of a misunderstanding; My interview with
+      a vampire, he didn’t really have anything to say.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913636291
+      modifiedTime: 1754913656715
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!AUFKt1Sf18qMJk7v.tbeOuSZHmPBKXkY4'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: db1vwJJUxrtvAOD9
+    name: How long have you been reporting?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Since I could wear short trousers and a newsboy’s hat; I’ve been
+      reporting long before anyone was bothering to write it down; Let’s see…
+      about, oh, twenty minutes at least?</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913666207
+      modifiedTime: 1754913680538
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!AUFKt1Sf18qMJk7v.db1vwJJUxrtvAOD9'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: hDEtl1XgyCGlKSKZ
+    name: What’s your best source of information?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>The beggars, they see everything; Gargoyles, they have a different view
+      of events; I’ve got friends in the guilds who keep me in the loop.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913685311
+      modifiedTime: 1754913696402
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!AUFKt1Sf18qMJk7v.hDEtl1XgyCGlKSKZ'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: iNAyLsXFspo3rJiA
+    name: What sells papers?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Names sell papers, everyone likes to see their name in print;
+      Sensationalism, no one wants to read about the everyday; Paper
+      sellers.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913701346
+      modifiedTime: 1754913712466
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!AUFKt1Sf18qMJk7v.iNAyLsXFspo3rJiA'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: NAfDDXgzEC5Z9bc3
+    name: Which paper did you previously work for and what is it known for?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>The Inquirer, known to care more for sensationalism than truth; Cabbage
+      Growers Weekly, known for its hot takes on radishes; Radish Growers
+      Weekly, known for its hot takes on cabbages.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913718769
+      modifiedTime: 1754913731956
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!AUFKt1Sf18qMJk7v.NAfDDXgzEC5Z9bc3'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754913605117
+  modifiedTime: 1754913720124
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!AUFKt1Sf18qMJk7v'

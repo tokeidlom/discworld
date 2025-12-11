@@ -1,0 +1,24 @@
+folder: y7KbCT11nlSvxvaX
+name: An impressive collection of boils.
+type: trait
+_id: TUg4uAAmufvHnKfi
+img: systems/discworld/assets/items/traits.webp
+system:
+  description: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: discworld
+  systemVersion: 1.0.0
+  createdTime: 1754996955392
+  modifiedTime: 1754996955392
+  lastModifiedBy: SVK9hlY73qymO5SM
+_key: '!items!TUg4uAAmufvHnKfi'

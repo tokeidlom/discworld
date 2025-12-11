@@ -1,0 +1,24 @@
+folder: 8C2zoniAh2nltBjf
+name: Smuggler
+type: niche
+_id: b60TyS591k3rMMee
+img: systems/discworld/assets/items/niches.webp
+system:
+  description: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: discworld
+  systemVersion: 1.0.0
+  createdTime: 1754996741313
+  modifiedTime: 1754996741313
+  lastModifiedBy: SVK9hlY73qymO5SM
+_key: '!items!b60TyS591k3rMMee'

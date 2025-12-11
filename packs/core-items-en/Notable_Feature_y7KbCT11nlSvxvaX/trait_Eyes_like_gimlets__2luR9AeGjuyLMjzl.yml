@@ -1,0 +1,24 @@
+folder: y7KbCT11nlSvxvaX
+name: Eyes like gimlets.
+type: trait
+_id: 2luR9AeGjuyLMjzl
+img: systems/discworld/assets/items/traits.webp
+system:
+  description: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: discworld
+  systemVersion: 1.0.0
+  createdTime: 1754996917865
+  modifiedTime: 1754996917865
+  lastModifiedBy: SVK9hlY73qymO5SM
+_key: '!items!2luR9AeGjuyLMjzl'

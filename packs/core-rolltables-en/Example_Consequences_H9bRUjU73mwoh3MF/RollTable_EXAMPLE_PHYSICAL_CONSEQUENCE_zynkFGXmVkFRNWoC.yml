@@ -1,0 +1,171 @@
+name: EXAMPLE PHYSICAL CONSEQUENCE
+_id: zynkFGXmVkFRNWoC
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: dnGbzA4DMXDl4I98
+    name: You injured yourself quite badly. Gain the Limping and bloodied Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908152794
+      modifiedTime: 1754908157440
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!zynkFGXmVkFRNWoC.dnGbzA4DMXDl4I98'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: P6ivVqNFGGAfZaTz
+    name: >-
+      Whatever you were doing, it got messy. Gain the Covered in X Trait, where
+      X could be anything from the River Ankh to the insides of a dragon.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908162316
+      modifiedTime: 1754908165809
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!zynkFGXmVkFRNWoC.P6ivVqNFGGAfZaTz'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: GqmOpta60oLfxVTR
+    name: >-
+      You fall and smash your head. Luckily, you are only unconscious for a
+      short amount of time before gaining the Temporary amnesia Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908176010
+      modifiedTime: 1754908179787
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!zynkFGXmVkFRNWoC.GqmOpta60oLfxVTR'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: j9xVKMmypP6lFyyl
+    name: >-
+      You break something valuable, such as a precious vase, a friend’s arm, or
+      a shelf of collectible figurines.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908184122
+      modifiedTime: 1754908187795
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!zynkFGXmVkFRNWoC.j9xVKMmypP6lFyyl'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: tTncizsxC0EoOEzU
+    name: >-
+      You actually succeed at what you were trying to do, but it very shortly
+      becomes obvious that what you were trying to do was a terrible idea.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908192182
+      modifiedTime: 1754908195639
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!zynkFGXmVkFRNWoC.tTncizsxC0EoOEzU'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: f933Wu969x2RkPqS
+    name: Something went wrong. Damn wrong. You undergo a Near-Death Experience.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908199800
+      modifiedTime: 1754908203218
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!zynkFGXmVkFRNWoC.f933Wu969x2RkPqS'
+replacement: true
+displayRoll: true
+folder: H9bRUjU73mwoh3MF
+sort: 200000
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754908148606
+  modifiedTime: 1754908306105
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!zynkFGXmVkFRNWoC'

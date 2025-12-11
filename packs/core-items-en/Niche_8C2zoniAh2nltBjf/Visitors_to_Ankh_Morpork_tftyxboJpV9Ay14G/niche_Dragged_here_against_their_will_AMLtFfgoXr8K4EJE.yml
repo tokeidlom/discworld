@@ -1,0 +1,24 @@
+folder: tftyxboJpV9Ay14G
+name: Dragged here against their will
+type: niche
+_id: AMLtFfgoXr8K4EJE
+img: systems/discworld/assets/items/niches.webp
+system:
+  description: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: discworld
+  systemVersion: 1.0.0
+  createdTime: 1755001211903
+  modifiedTime: 1755001211903
+  lastModifiedBy: SVK9hlY73qymO5SM
+_key: '!items!AMLtFfgoXr8K4EJE'

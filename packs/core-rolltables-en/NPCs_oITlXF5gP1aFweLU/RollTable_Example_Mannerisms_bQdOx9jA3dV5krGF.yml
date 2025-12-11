@@ -1,0 +1,489 @@
+folder: oITlXF5gP1aFweLU
+name: Example Mannerisms
+_id: bQdOx9jA3dV5krGF
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: 8c4NpGFH7rKUvJ6D
+    name: Pauses in the mid-dle of words. Not a stutter, just misplac-ed spaces.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754920786893
+      modifiedTime: 1754920791639
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.8c4NpGFH7rKUvJ6D'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: qsIaK086WjuVfY6X
+    name: Speaks a near indecipherable language of their own.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754920796398
+      modifiedTime: 1754920798858
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.qsIaK086WjuVfY6X'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: PtjlBYYtt1vlcKiz
+    name: So whell-bred they put H’s hwhere there really shouldn’t be hany.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754920805491
+      modifiedTime: 1754920808621
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.PtjlBYYtt1vlcKiz'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: 4LNjil0VX44uwlAO
+    name: Incapable of swearing but tries their —ing best.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754920813396
+      modifiedTime: 1754920817663
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.4LNjil0VX44uwlAO'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: Gftr8PLDHROTI6wj
+    name: >-
+      Uses incomprehensibly convoluted language to obscure and befuddle the
+      listener into believing they know what they are talking about.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921124353
+      modifiedTime: 1754921128694
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.Gftr8PLDHROTI6wj'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: y1dzWQu3J3GNO00W
+    name: >-
+      Extremely enthusiastic to share their knowledge of an incredibly niche
+      subject.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921133647
+      modifiedTime: 1754921136785
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.y1dzWQu3J3GNO00W'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    _id: bBcegqCSBWJtjjYD
+    name: Trails off in the middle of….
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921140239
+      modifiedTime: 1754921143306
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.bBcegqCSBWJtjjYD'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    _id: K3pCbEHzpgaPSw6N
+    name: Always several minutes behind everyone else in the conversation.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921148082
+      modifiedTime: 1754921151817
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.K3pCbEHzpgaPSw6N'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    _id: 1RioTQgbuQB4rDZ5
+    name: Never looks anyone directly in the eye.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921157083
+      modifiedTime: 1754921159934
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.1RioTQgbuQB4rDZ5'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    _id: 5v04rQFCNSoR85le
+    name: Blunt and to the point, always speaks their mind.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921163366
+      modifiedTime: 1754921166647
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.5v04rQFCNSoR85le'
+  - type: text
+    weight: 1
+    range:
+      - 11
+      - 11
+    _id: FvczCD62WOMZ8Wv2
+    name: Points at people when it’s their turn to speak.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921170993
+      modifiedTime: 1754921174317
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.FvczCD62WOMZ8Wv2'
+  - type: text
+    weight: 1
+    range:
+      - 12
+      - 12
+    _id: 4vSeraYPnWldwnrJ
+    name: Constantly interrupts people.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921178230
+      modifiedTime: 1754921181286
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.4vSeraYPnWldwnrJ'
+  - type: text
+    weight: 1
+    range:
+      - 13
+      - 13
+    _id: JHcASi6obn1jR6la
+    name: Devoid of anything resembling a personality.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921185823
+      modifiedTime: 1754921189378
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.JHcASi6obn1jR6la'
+  - type: text
+    weight: 1
+    range:
+      - 14
+      - 14
+    _id: hqhItH8nqar88L3Z
+    name: The attention span of your average duck.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921192713
+      modifiedTime: 1754921195767
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.hqhItH8nqar88L3Z'
+  - type: text
+    weight: 1
+    range:
+      - 15
+      - 15
+    _id: QvzYOf1GY5zcjWBI
+    name: Always aims for the best deal.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921199438
+      modifiedTime: 1754921202898
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.QvzYOf1GY5zcjWBI'
+  - type: text
+    weight: 1
+    range:
+      - 16
+      - 16
+    _id: OyCqdqn3vaeUFhcY
+    name: Incredibly pedantic.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921206821
+      modifiedTime: 1754921209929
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.OyCqdqn3vaeUFhcY'
+  - type: text
+    weight: 1
+    range:
+      - 17
+      - 17
+    _id: UQqQTtw6b99qrwWb
+    name: Cocks their head when confused, which is often.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921214576
+      modifiedTime: 1754921217768
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.UQqQTtw6b99qrwWb'
+  - type: text
+    weight: 1
+    range:
+      - 18
+      - 18
+    _id: kgeum1t3lnwvIdDV
+    name: Ernest and genuine in everything they do.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921220894
+      modifiedTime: 1754921225149
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.kgeum1t3lnwvIdDV'
+  - type: text
+    weight: 1
+    range:
+      - 19
+      - 19
+    _id: zyl7hpfLz3L3Vqxj
+    name: Alludes to dark secrets and a mysterious past they may, or may not, have.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921231257
+      modifiedTime: 1754921236151
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.zyl7hpfLz3L3Vqxj'
+  - type: text
+    weight: 1
+    range:
+      - 20
+      - 20
+    _id: cIBcNmfkuM0dcolJ
+    name: Has trouble speaking with an inside voice.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921241438
+      modifiedTime: 1754921244700
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bQdOx9jA3dV5krGF.cIBcNmfkuM0dcolJ'
+replacement: true
+displayRoll: true
+sort: 300000
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754920776210
+  modifiedTime: 1754922267028
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!bQdOx9jA3dV5krGF'
