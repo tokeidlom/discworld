@@ -6,8 +6,8 @@ import {DiscworldTraitsItem} from './items/traits-sheet.js';
 import {DiscworldPartyItem} from './items/party-sheet.js';
 import {NpcCreatorService} from './apps/npc-creator.js';
 
-import { CharacterData, NPCData } from './actors/actor-data-models.js';
-import { TraitData, QuirkData, CoreData, NicheData, PartyData, MannerismData } from './items/item-data-models.js';
+import {CharacterData, NPCData} from './actors/actor-data-models.js';
+import {TraitData, QuirkData, CoreData, NicheData, PartyData, MannerismData} from './items/item-data-models.js';
 
 // Register system settings and data models
 Hooks.once('init', async function() {
@@ -78,7 +78,7 @@ Hooks.once('init', async function() {
     label: 'Party'
   });
 
-  console.log("Discworld | Data models and sheets registered");
+  console.log('Discworld | Data models and sheets registered');
 });
 
 // Item type hooks
