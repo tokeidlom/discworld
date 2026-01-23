@@ -309,10 +309,10 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       el.setAttribute('data-tooltip-direction', 'UP');
     }
 
-    if (!Array.isArray(this._dragDrop) || !this._dragDrop.length) {
-      this._dragDrop = this._createDragDropHandlers();
+    if (!Array.isArray(this._dragDrophandler) || !this._dragDrophandler.length) {
+      this._dragDrophandler = this._createDragDropHandlers();
     }
-    this._dragDrop.forEach((d) => d.bind(this.element));
+    this._dragDrophandler.forEach((d) => d.bind(this.element));
 
     this.element.querySelectorAll('a.edit[data-action="onItemEdit"], a.delete[data-action="onItemDelete"]')?.forEach((li) => {
       li.setAttribute('draggable', 'true');
@@ -429,7 +429,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
   }
 
   get dragDrop() {
-    return this._dragDrop || [];
+    return this._dragDrophandler || [];
   }
 
   _createDragDropHandlers() {
