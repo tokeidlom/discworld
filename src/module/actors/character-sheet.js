@@ -134,29 +134,29 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     }, 1000);
   }
 
-      async _onRollDice(event) {
-        event.preventDefault();
-        const button = event.target.closest('button');
-        const diceType = button.dataset.dice;
-        const formula = `1${diceType}`;
-        const roll = new Roll(formula);
+  async _onRollDice(event) {
+    event.preventDefault();
+    const button = event.target.closest('button');
+    const diceType = button.dataset.dice;
+    const formula = `1${diceType}`;
+    const roll = new Roll(formula);
 
-        await roll.evaluate();
+    await roll.evaluate();
 
-        const messageData = {
-          content: `
-            <div class="chat-card">
-              <div class="formula">${game.i18n.localize('application.rolling')} ${diceType}</div>
-              <div class="result">${roll.total}</div>
-            </div>
-          `,
-          speaker: ChatMessage.getSpeaker({actor: this.actor}),
-          flags: {
-            'core.canPopout': true
-          }
-        };
-        await roll.toMessage(messageData);
+    const messageData = {
+      content: `
+        <div class="chat-card">
+          <div class="formula">${game.i18n.localize('application.rolling')} ${diceType}</div>
+          <div class="result">${roll.total}</div>
+        </div>
+      `,
+      speaker: ChatMessage.getSpeaker({actor: this.actor}),
+      flags: {
+        'core.canPopout': true
       }
+    };
+    await roll.toMessage(messageData);
+  }
 
   async _onItemNameChange(event) {
     const input = event.currentTarget;
