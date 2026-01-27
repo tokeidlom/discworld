@@ -1,1 +1,9 @@
-/src/assets/packs/**
+# IDE
+.idea
+.vs
+node_modules
+dist
+
+# exception to maintain pack folder
+!src/assets/packs/.gitkeep
+/src/assets/packs

@@ -1,0 +1,124 @@
+folder: mjx4J1DqgL0l2fIP
+name: Example Goal
+_id: hpcBox4Ogckszqvw
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: Ojrd9bS1YzEg0oaU
+    name: >-
+      One of the Agony Aunts (p. 140) has gone missing down near the docks. You
+      should find her before she hurts someone.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913771114
+      modifiedTime: 1754913774907
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!hpcBox4Ogckszqvw.Ojrd9bS1YzEg0oaU'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: RDWNpNz4bjxYdPkz
+    name: >-
+      Your clothing is in need of repair. Discreetly find someone who can
+      actually sew.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913782030
+      modifiedTime: 1754913784988
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!hpcBox4Ogckszqvw.RDWNpNz4bjxYdPkz'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: YThbFLuOrtFxbC44
+    name: Find out if a wizard’s staff has a knob on the end.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913791111
+      modifiedTime: 1754913794005
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!hpcBox4Ogckszqvw.YThbFLuOrtFxbC44'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: 2ehIknaRYDPt1uGS
+    name: >-
+      Choose a player whose hen/stag party you are celebrating. Your goal is
+      simply to give them the best night of their life before they become an
+      honest* person.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913800350
+      modifiedTime: 1754913804477
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!hpcBox4Ogckszqvw.2ehIknaRYDPt1uGS'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754913762366
+  modifiedTime: 1754913801558
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!hpcBox4Ogckszqvw'

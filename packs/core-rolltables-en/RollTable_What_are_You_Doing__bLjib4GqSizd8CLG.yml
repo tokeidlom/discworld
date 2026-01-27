@@ -1,0 +1,320 @@
+name: What are You Doing?
+_id: bLjib4GqSizd8CLG
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: 5WkwO4XdwGmdsIFN
+    name: >-
+      Bearing witness to a crime. What is the crime and are you involved in some
+      way?
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919350382
+      modifiedTime: 1754919354263
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.5WkwO4XdwGmdsIFN'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: l3xQfOrHTh8WizIM
+    name: >-
+      Going through your morning routine. Each player should describe their
+      morning routine until the party meets in their usual hangout.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919362822
+      modifiedTime: 1754919366176
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.l3xQfOrHTh8WizIM'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: VGtlx0UqkpX8whlk
+    name: >-
+      Attempting a spell. Drippy candles in an awkward polygon sit before each
+      of you. Was this such a good idea, and how does this spell relate to your
+      party’s goal?
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919375828
+      modifiedTime: 1754919379112
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.VGtlx0UqkpX8whlk'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: dHHQBlywz53SwhHN
+    name: >-
+      Just lost a fight. Your head hurts and you may have been de-possessed. Who
+      attacked you and did you deserve it?
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919386390
+      modifiedTime: 1754919388933
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.dHHQBlywz53SwhHN'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: lBHPae8qMjZRH1Qy
+    name: >-
+      On a night out. Half-cut and ready to party! What kind of bar are you in?
+      What’s the occasion?
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919393890
+      modifiedTime: 1754919397300
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.lBHPae8qMjZRH1Qy'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: MrewjdefzJFGaBTT
+    name: >-
+      Trying to remember what happened last night. Waking up in the cells of the
+      Watch is bad enough, but your hangover is making it even worse.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919403534
+      modifiedTime: 1754919407016
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.MrewjdefzJFGaBTT'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    _id: guYERcPJDAv7dRT8
+    name: Having just the worst day of your life. What’s been going wrong?
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919411326
+      modifiedTime: 1754919414190
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.guYERcPJDAv7dRT8'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    _id: vbsxfo1ZXqBHFUfb
+    name: >-
+      Standing before a great treasure. What is it, and how did you come about
+      it?
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919418118
+      modifiedTime: 1754919421207
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.vbsxfo1ZXqBHFUfb'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    _id: mVlfdXPQ21VRPxle
+    name: >-
+      Looking down at a fellow party member who is… yep, pretty sure they’re
+      dead. How did they die and is the danger still about?
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919427277
+      modifiedTime: 1754919431100
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.mVlfdXPQ21VRPxle'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    _id: 2jkRWjAxwaN2dCPk
+    name: Covering your tracks. What did you do and how are you covering your arses?
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919435938
+      modifiedTime: 1754919439462
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.2jkRWjAxwaN2dCPk'
+  - type: text
+    weight: 1
+    range:
+      - 11
+      - 11
+    _id: jXIQlL433PFabWJR
+    name: >-
+      Frantically searching for something. What have you lost, how did you lose
+      it, and why is it so important?
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919443553
+      modifiedTime: 1754919446643
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.jXIQlL433PFabWJR'
+  - type: text
+    weight: 1
+    range:
+      - 12
+      - 12
+    _id: HdYEJzXsAu1vqHc1
+    name: Roll on this table twice and link both results together.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919450089
+      modifiedTime: 1754919453723
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bLjib4GqSizd8CLG.HdYEJzXsAu1vqHc1'
+replacement: true
+displayRoll: true
+folder: null
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754919345357
+  modifiedTime: 1754919451672
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!bLjib4GqSizd8CLG'

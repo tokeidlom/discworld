@@ -1,0 +1,124 @@
+folder: tpQtGSG3Gv6pHzqY
+name: Example Goal
+_id: sH0WRjjjrZUmJbRS
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: GJauuR2azD92QWzx
+    name: >-
+      You have accidentally stolen a bag of glowing jewels from a wizard. Not
+      only are they pulsing with eldritch energies, UU are fully paid up this
+      year. Find a way to return the jewels without admitting fault.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912867456
+      modifiedTime: 1754912872039
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!sH0WRjjjrZUmJbRS.GJauuR2azD92QWzx'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: 94gtO4EPw83Nwfmd
+    name: Sneak back into the Thieves’ Guild after a night out on the town.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912881719
+      modifiedTime: 1754912885059
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!sH0WRjjjrZUmJbRS.94gtO4EPw83Nwfmd'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: 4XeoDh1mBZPWFqrR
+    name: >-
+      Track down Five-Fingers Frank, the One- Armed Bandit. Show him why it’s a
+      bad idea to thieve without a licence.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912894319
+      modifiedTime: 1754912897758
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!sH0WRjjjrZUmJbRS.4XeoDh1mBZPWFqrR'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: k5sr8peG1zhAAORS
+    name: >-
+      Choose another organisation. You must plan a heist on their headquarters
+      to ensure they stay up to date with their in- sewer-ants.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912913364
+      modifiedTime: 1754912916945
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!sH0WRjjjrZUmJbRS.k5sr8peG1zhAAORS'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754912857923
+  modifiedTime: 1754912914675
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!sH0WRjjjrZUmJbRS'

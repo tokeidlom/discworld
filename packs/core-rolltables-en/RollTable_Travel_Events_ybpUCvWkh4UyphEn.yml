@@ -1,0 +1,535 @@
+name: Travel Events
+_id: ybpUCvWkh4UyphEn
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: ZOtKNIkZ0aakIgew
+    name: >-
+      C.M.O.T. Dibbler: Cut-Me-Own-Throat Dibbler tries to sell you a genuine,
+      completely non-lethal sausage-inna-bun.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908504040
+      modifiedTime: 1754910364812
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.ZOtKNIkZ0aakIgew'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: pEKphMgGkAAHHeyb
+    name: >-
+      Cheesejousting: A small crowd cheers on a cheesejousting competition.
+      Cheeses are lined up at either end of the street and rolled at great speed
+      toward each other. The winner is the last cheese standing.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908515502
+      modifiedTime: 1754908518570
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.pEKphMgGkAAHHeyb'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: 4Fy59rCxVMszMBd6
+    name: >-
+      Smashed Potatoes: A cartload of potatoes careens down the street, pursued
+      by a panicked greengrocer shouting, ‘Stop those taters!’
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908522947
+      modifiedTime: 1754908525850
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.4Fy59rCxVMszMBd6'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: EasjuYJG8NMabPzU
+    name: >-
+      Gridlock: Around a dozen carts are managing to block the road, their
+      horses frustrated enough to hoof anyone who gets too close. If any one of
+      them were to move backward just a few inches, the jam could be solved.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908531843
+      modifiedTime: 1754908535402
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.EasjuYJG8NMabPzU'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: d5l1PPf9dHdvEMGp
+    name: >-
+      Official Mugging: A couple of thieves will violently dispossess the party
+      of their valuables…unless they have an insurance policy with the guild, of
+      course.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908539960
+      modifiedTime: 1754908542962
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.d5l1PPf9dHdvEMGp'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: r15BX4U0GU6dX2bM
+    name: >-
+      Lads on the Town: A barrel of whisky wobbles down the street, carried by a
+      swarm of tiny, blue, kilt-clad men shouting ‘Wha’hey, ‘sa fair big’yin!’
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908548418
+      modifiedTime: 1754908551814
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.r15BX4U0GU6dX2bM'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    _id: rGaYwnIhcFTQk5fG
+    name: >-
+      Campaign for Equal Heights: A group of people with placards reading,
+      ‘Don’t tread on me’, ‘Lower workers, not lower standards’, and ‘Desks are
+      too tall’ block the way ahead. Almost the entire group are humans.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908556559
+      modifiedTime: 1754908560229
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.rGaYwnIhcFTQk5fG'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    _id: JiSSgNik8bLI10jk
+    name: >-
+      Sinkhole: The cobbles here break away dangerously, revealing a little of
+      the undercity below. This secret entrance could be used to walk under and
+      around nearby businesses.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908564334
+      modifiedTime: 1754908568477
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.JiSSgNik8bLI10jk'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    _id: IubjRwYmkmU8lh1P
+    name: >-
+      Street Theatre: Choose a random Discworld novel. The play is a
+      dramatisation of its events.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908576446
+      modifiedTime: 1754908580476
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.IubjRwYmkmU8lh1P'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    _id: jVVrb7Iy3DDtRjQ0
+    name: >-
+      Find the Lady: A charming man shuffles three cards together and invites a
+      PC to find the Lady. If they interact, a woman picks their pocket from
+      behind.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908584458
+      modifiedTime: 1754908588672
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.jVVrb7Iy3DDtRjQ0'
+  - type: text
+    weight: 1
+    range:
+      - 11
+      - 11
+    _id: aXNbVmRle5hAdUWq
+    name: >-
+      Not Their Finest Hour: A small group of Watchmen are frantically trying to
+      catch a runaway goose. The goose seems to have the upper hand.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908592847
+      modifiedTime: 1754908596643
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.aXNbVmRle5hAdUWq'
+  - type: text
+    weight: 1
+    range:
+      - 12
+      - 12
+    _id: iq5b8IIfGjL5HE7l
+    name: >-
+      Foul-mouthed: A Klatchian merchant is selling ‘Authentic Klatchian
+      Scimitars’ but the parrot on his shoulder will tell PCs their true
+      quality.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908601291
+      modifiedTime: 1754908605780
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.iq5b8IIfGjL5HE7l'
+  - type: text
+    weight: 1
+    range:
+      - 13
+      - 13
+    _id: 6R63vYDx351vJ3P5
+    name: >-
+      Omnian Preachers: A simply dressed man stands on the street corner
+      shouting at the top of his lungs about how thou should submit to Om or
+      thou will surely regret it.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908610618
+      modifiedTime: 1754908614586
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.6R63vYDx351vJ3P5'
+  - type: text
+    weight: 1
+    range:
+      - 14
+      - 14
+    _id: VbGcdT7HDymtW0jL
+    name: >-
+      Mime: A furtive mime practises their art. This is highly dangerous and
+      illegal, but they refuse to be silenced by the government. Metaphorically
+      silenced, obviously.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908618762
+      modifiedTime: 1754908622453
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.VbGcdT7HDymtW0jL'
+  - type: text
+    weight: 1
+    range:
+      - 15
+      - 15
+    _id: lKl52f70IO8csrIU
+    name: >-
+      Dwarf Baker: Fresh dwarf bread is being sold from a stall, still hot from
+      the forge and as hard as steel.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908626857
+      modifiedTime: 1754908630365
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.lKl52f70IO8csrIU'
+  - type: text
+    weight: 1
+    range:
+      - 16
+      - 16
+    _id: Iiz0puquzJWDbngL
+    name: >-
+      The Flock: A group of thuggish pigeons begin to encircle the party. If fed
+      they will leave, otherwise they will grow in number throughout the next
+      scene until the party is surrounded by hundreds of faintly threatening
+      birds.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908635066
+      modifiedTime: 1754908640471
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.Iiz0puquzJWDbngL'
+  - type: text
+    weight: 1
+    range:
+      - 17
+      - 17
+    _id: 6u4rfXPuqog1WS9V
+    name: >-
+      Fell Off a Cart: A one-eyed man in a long coat is selling iconographs,
+      personal Dis-organisers, and expensive watches. The imps inside these
+      devices will protest that they are stolen.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908644293
+      modifiedTime: 1754908648065
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.6u4rfXPuqog1WS9V'
+  - type: text
+    weight: 1
+    range:
+      - 18
+      - 18
+    _id: VdDV3S7sGRKnaGk8
+    name: >-
+      Times Salesman: A beggar shuffles closer, proffering a stack of the Times,
+      Ankh-Morpork’s premier newspaper.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908653798
+      modifiedTime: 1754908657516
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.VdDV3S7sGRKnaGk8'
+  - type: text
+    weight: 1
+    range:
+      - 19
+      - 19
+    _id: Bq7auVAtkNqHns0j
+    name: >-
+      Bridge for Sale: A grubby-looking man claims to have the deeds to the
+      Brass Bridge, complete with hippos, going for a bargain price.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908664832
+      modifiedTime: 1754908668867
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.Bq7auVAtkNqHns0j'
+  - type: text
+    weight: 1
+    range:
+      - 20
+      - 20
+    _id: te2hYeKVnuVQAFpW
+    name: 'Double Feature: Roll twice on this table and resolve both encounters.'
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908674055
+      modifiedTime: 1754908678511
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!ybpUCvWkh4UyphEn.te2hYeKVnuVQAFpW'
+replacement: true
+displayRoll: true
+folder: null
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754908500541
+  modifiedTime: 1754910657606
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!ybpUCvWkh4UyphEn'

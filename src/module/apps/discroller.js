@@ -10,7 +10,7 @@ export class DiscRoller {
         <form>
           <button type="button" class="roller-button" title="${game.i18n.localize('application.discworlddiceroller')}">
             <img src="systems/discworld/assets/dice/fancy-dice.png" alt="${game.i18n.localize('application.discworlddiceroller')}">
-            </button>
+          </button>
         </form>
       `;
       document.body.appendChild(diceForm);
@@ -30,23 +30,23 @@ export class DiscRoller {
     let buttonRect;
 
     switch (position) {
-    case 'TopLeft': {
-      targetButton = document.querySelector('#scene-navigation-active');
-      buttonRect = targetButton?.getBoundingClientRect();
-      if (!buttonRect) return;
-      diceForm.style.top = `${buttonRect.top}px`;
-      diceForm.style.left = `${buttonRect.right + 36}px`;
-      break;
-    }
-    case 'BottomRight':
-    default: {
-      targetButton = document.querySelector('#sidebar button.collapse');
-      buttonRect = targetButton?.getBoundingClientRect();
-      if (!buttonRect) return;
-      diceForm.style.top = `${buttonRect.bottom + 8}px`;
-      diceForm.style.left = `${buttonRect.left}px`;
-      break;
-    }
+      case 'TopLeft': {
+        targetButton = document.querySelector('#scene-navigation-active');
+        buttonRect = targetButton?.getBoundingClientRect();
+        if (!buttonRect) return;
+        diceForm.style.top = `${buttonRect.top}px`;
+        diceForm.style.left = `${buttonRect.right + 36}px`;
+        break;
+      }
+      case 'BottomRight':
+      default: {
+        targetButton = document.querySelector('#sidebar button.collapse');
+        buttonRect = targetButton?.getBoundingClientRect();
+        if (!buttonRect) return;
+        diceForm.style.top = `${buttonRect.bottom + 8}px`;
+        diceForm.style.left = `${buttonRect.left}px`;
+        break;
+      }
     }
   }
 
@@ -89,10 +89,18 @@ export class DiscRoller {
 
         await roll.evaluate();
 
-        roll.toMessage({
-          speaker: ChatMessage.getSpeaker({actor: this.actor}),
-          flavor: `${game.i18n.localize('application.rolling')} ${formula}`
-        });
+        const messageData = {
+          content: `
+            <div class="chat-card">
+              <div class="formula">${game.i18n.localize('application.rolling')} ${diceType}</div>
+              <div class="result">${roll.total}</div>
+            </div>
+          `,
+          flags: {
+            'core.canPopout': true
+          }
+        };
+        await roll.toMessage(messageData);
       }
     };
     new DiceRollerApp().render(true);

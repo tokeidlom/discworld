@@ -1,0 +1,163 @@
+folder: hnteKFGAcaKNlGkH
+name: Downright Bizarre Suspects
+_id: CmmZWCGWEzsU3ep6
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: wW0jDmfUYDUAVgr0
+    name: Cow
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909269539
+      modifiedTime: 1754909273715
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CmmZWCGWEzsU3ep6.wW0jDmfUYDUAVgr0'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: NXIFOCHs1d59j454
+    name: Candlestick
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909276876
+      modifiedTime: 1754909279664
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CmmZWCGWEzsU3ep6.NXIFOCHs1d59j454'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: qyStX0DWaBOVx7jx
+    name: Sword’s always a classic
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909283291
+      modifiedTime: 1754909286097
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CmmZWCGWEzsU3ep6.qyStX0DWaBOVx7jx'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: yPbFEsU04ydYX109
+    name: The left arm of another PC
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909289426
+      modifiedTime: 1754909293365
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CmmZWCGWEzsU3ep6.yPbFEsU04ydYX109'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: GafSLavbJz4uEYjS
+    name: Book of fairytales
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909298234
+      modifiedTime: 1754909302095
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CmmZWCGWEzsU3ep6.GafSLavbJz4uEYjS'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: fLsoaUJaXR9nj0RQ
+    name: Swarm of bees
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909305937
+      modifiedTime: 1754909310015
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CmmZWCGWEzsU3ep6.fLsoaUJaXR9nj0RQ'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754909265978
+  modifiedTime: 1754910564836
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!CmmZWCGWEzsU3ep6'

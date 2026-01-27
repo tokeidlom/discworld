@@ -1,0 +1,163 @@
+folder: tpQtGSG3Gv6pHzqY
+name: Example Niche
+_id: kSBS8U62GPxtaCxl
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: Vm9hMk79uTxhjcjy
+    name: Designated distraction
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912935020
+      modifiedTime: 1754912938208
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kSBS8U62GPxtaCxl.Vm9hMk79uTxhjcjy'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: SAPWJwKUJlHoYObl
+    name: Accountant
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912942054
+      modifiedTime: 1754912945000
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kSBS8U62GPxtaCxl.SAPWJwKUJlHoYObl'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: uzyhG3gXEPWs3FO0
+    name: Knower of those who know people
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912948491
+      modifiedTime: 1754912951093
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kSBS8U62GPxtaCxl.uzyhG3gXEPWs3FO0'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: Ji4CZ44yjsYzySoZ
+    name: Property evaluator
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912954966
+      modifiedTime: 1754912957688
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kSBS8U62GPxtaCxl.Ji4CZ44yjsYzySoZ'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: orBPB6hnLH9Pmljr
+    name: Records keeper
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912961632
+      modifiedTime: 1754912965016
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kSBS8U62GPxtaCxl.orBPB6hnLH9Pmljr'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: FzOFZFfZcEidQNiC
+    name: Acquisitions specialist
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912969232
+      modifiedTime: 1754912972630
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kSBS8U62GPxtaCxl.FzOFZFfZcEidQNiC'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754912931167
+  modifiedTime: 1754912970584
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!kSBS8U62GPxtaCxl'

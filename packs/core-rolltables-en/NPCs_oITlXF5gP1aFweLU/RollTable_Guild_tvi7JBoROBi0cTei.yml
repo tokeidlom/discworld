@@ -1,0 +1,1177 @@
+folder: oITlXF5gP1aFweLU
+name: Guild
+_id: tvi7JBoROBi0cTei
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: HeU6Oc2XmwXuntkI
+    name: Accountants’ and Usurers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921492494
+      modifiedTime: 1754921496135
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.HeU6Oc2XmwXuntkI'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: 3dIWwZktVbymWMhs
+    name: Actors’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921500996
+      modifiedTime: 1754921504871
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.3dIWwZktVbymWMhs'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: Vad6U3xmcxFi6O2f
+    name: Alchemists’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921508462
+      modifiedTime: 1754921511449
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.Vad6U3xmcxFi6O2f'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: AUifFmkxxtzzu0OK
+    name: Architects’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921517731
+      modifiedTime: 1754921521376
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.AUifFmkxxtzzu0OK'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: HRpAlYVymgVAq2A1
+    name: Armourers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921524571
+      modifiedTime: 1754921527161
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.HRpAlYVymgVAq2A1'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: oUZARB5L1qL2li8U
+    name: Artificers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921530611
+      modifiedTime: 1754921533686
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.oUZARB5L1qL2li8U'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    _id: HDEKATBF8dPIT6bA
+    name: Assassins’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921536885
+      modifiedTime: 1754921540081
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.HDEKATBF8dPIT6bA'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    _id: uyoUHZXzAemDcoKb
+    name: Bakers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921543596
+      modifiedTime: 1754921546194
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.uyoUHZXzAemDcoKb'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    _id: LAzE4EUY1KFdpplr
+    name: Bandits’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921549832
+      modifiedTime: 1754921552563
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.LAzE4EUY1KFdpplr'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    _id: kz1ZD2opbf3c7WsM
+    name: Barber-Surgeons’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921556663
+      modifiedTime: 1754921561086
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.kz1ZD2opbf3c7WsM'
+  - type: text
+    weight: 1
+    range:
+      - 11
+      - 11
+    _id: I6nHaOsbEmdShGJ8
+    name: Beggars’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921569388
+      modifiedTime: 1754921572390
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.I6nHaOsbEmdShGJ8'
+  - type: text
+    weight: 1
+    range:
+      - 12
+      - 12
+    _id: anNtlokMWYIVvKrv
+    name: Butchers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921576531
+      modifiedTime: 1754921579976
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.anNtlokMWYIVvKrv'
+  - type: text
+    weight: 1
+    range:
+      - 13
+      - 13
+    _id: NuitInjaE4GAoAuX
+    name: Butlers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921583973
+      modifiedTime: 1754921587323
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.NuitInjaE4GAoAuX'
+  - type: text
+    weight: 1
+    range:
+      - 14
+      - 14
+    _id: UlanLPXXABvUbB7T
+    name: Carters’ and Drovers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921593118
+      modifiedTime: 1754921596613
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.UlanLPXXABvUbB7T'
+  - type: text
+    weight: 1
+    range:
+      - 15
+      - 15
+    _id: lAN5SVUy2w1VHsnz
+    name: Carpenters’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921601691
+      modifiedTime: 1754921605476
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.lAN5SVUy2w1VHsnz'
+  - type: text
+    weight: 1
+    range:
+      - 16
+      - 16
+    _id: 5CustE6SRqrWXJpr
+    name: Chefs’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921609386
+      modifiedTime: 1754921620014
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.5CustE6SRqrWXJpr'
+  - type: text
+    weight: 1
+    range:
+      - 17
+      - 17
+    _id: azwwSVhEQGGT67iC
+    name: Confectioners’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921615695
+      modifiedTime: 1754921626108
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.azwwSVhEQGGT67iC'
+  - type: text
+    weight: 1
+    range:
+      - 18
+      - 18
+    _id: 4Xc2GhsKFeKwpuYI
+    name: Conjurers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921629289
+      modifiedTime: 1754921632835
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.4Xc2GhsKFeKwpuYI'
+  - type: text
+    weight: 1
+    range:
+      - 19
+      - 19
+    _id: DUTuLZ12jWgQeSf5
+    name: Dog Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921637315
+      modifiedTime: 1754921640345
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.DUTuLZ12jWgQeSf5'
+  - type: text
+    weight: 1
+    range:
+      - 20
+      - 20
+    _id: MesWPK6Yh37ukL0Y
+    name: Engravers’ and Printers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921643946
+      modifiedTime: 1754921647131
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.MesWPK6Yh37ukL0Y'
+  - type: text
+    weight: 1
+    range:
+      - 21
+      - 21
+    _id: YqJgWcZkPhkB9sgM
+    name: Firefighters’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921650708
+      modifiedTime: 1754921653612
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.YqJgWcZkPhkB9sgM'
+  - type: text
+    weight: 1
+    range:
+      - 22
+      - 22
+    _id: FF3h1XtqWU0RjbIY
+    name: Gamblers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921657355
+      modifiedTime: 1754921660980
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.FF3h1XtqWU0RjbIY'
+  - type: text
+    weight: 1
+    range:
+      - 23
+      - 23
+    _id: WB8xMkHJkduyVpSL
+    name: Game Designers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921665261
+      modifiedTime: 1754921668072
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.WB8xMkHJkduyVpSL'
+  - type: text
+    weight: 1
+    range:
+      - 24
+      - 24
+    _id: LoFVURNAZcb6c2J5
+    name: Glassblowers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921671107
+      modifiedTime: 1754921674307
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.LoFVURNAZcb6c2J5'
+  - type: text
+    weight: 1
+    range:
+      - 25
+      - 25
+    _id: kAfzR3ySTIq1xoFC
+    name: Guild of C.M.O.T. Dibblers
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921678123
+      modifiedTime: 1754921681038
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.kAfzR3ySTIq1xoFC'
+  - type: text
+    weight: 1
+    range:
+      - 26
+      - 26
+    _id: hCrtrCK4Xe52V39I
+    name: >-
+      Guild of Ecdysiasts, Nautchers, Cancanières and Exponents of Exotic Dance
+      (Strippers’ Guild)
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921711067
+      modifiedTime: 1754921715436
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.hCrtrCK4Xe52V39I'
+  - type: text
+    weight: 1
+    range:
+      - 27
+      - 27
+    _id: Hh6n310uf1XRGB1T
+    name: Guild of Embalmers and Allied trades
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921718971
+      modifiedTime: 1754921730645
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.Hh6n310uf1XRGB1T'
+  - type: text
+    weight: 1
+    range:
+      - 28
+      - 28
+    _id: Qc5tDG5OFGeOLYsx
+    name: Guild of Fools and Joculators and College of Clowns (Fools’ Guild)
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921732405
+      modifiedTime: 1754921735527
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.Qc5tDG5OFGeOLYsx'
+  - type: text
+    weight: 1
+    range:
+      - 29
+      - 29
+    _id: VYQe0WbnRvWKwty8
+    name: Guild of Independent Traders
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921739548
+      modifiedTime: 1754921743937
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.VYQe0WbnRvWKwty8'
+  - type: text
+    weight: 1
+    range:
+      - 30
+      - 30
+    _id: T7viEdpPCdLDnXDZ
+    name: Guild of Plumbers and Dunnikin Divers
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921748207
+      modifiedTime: 1754921751808
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.T7viEdpPCdLDnXDZ'
+  - type: text
+    weight: 1
+    range:
+      - 31
+      - 31
+    _id: sG1ZHW0b8S8LfxEz
+    name: Guild of Thieves, Burglars and Allied Trades (Thieves’ Guild)
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921755979
+      modifiedTime: 1754921759449
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.sG1ZHW0b8S8LfxEz'
+  - type: text
+    weight: 1
+    range:
+      - 32
+      - 32
+    _id: zGx9Cq0QyOMCqpFZ
+    name: Haberdashers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921762845
+      modifiedTime: 1754921766352
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.zGx9Cq0QyOMCqpFZ'
+  - type: text
+    weight: 1
+    range:
+      - 33
+      - 33
+    _id: LCvBBDFJUQkdhno3
+    name: Handlemens’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921770173
+      modifiedTime: 1754921773765
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.LCvBBDFJUQkdhno3'
+  - type: text
+    weight: 1
+    range:
+      - 34
+      - 34
+    _id: nKO46EM6MgDoA1pV
+    name: Historians’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921778205
+      modifiedTime: 1754921781170
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.nKO46EM6MgDoA1pV'
+  - type: text
+    weight: 1
+    range:
+      - 35
+      - 35
+    _id: R0lU2h4tX0G0rr7t
+    name: Lags’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921784780
+      modifiedTime: 1754921787980
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.R0lU2h4tX0G0rr7t'
+  - type: text
+    weight: 1
+    range:
+      - 36
+      - 36
+    _id: bhjmSHRFwFg2Ioci
+    name: Lawyers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921792524
+      modifiedTime: 1754921795738
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.bhjmSHRFwFg2Ioci'
+  - type: text
+    weight: 1
+    range:
+      - 37
+      - 37
+    _id: qn5Kgx5tvZC4IAh4
+    name: Merchants’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921799528
+      modifiedTime: 1754921802404
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.qn5Kgx5tvZC4IAh4'
+  - type: text
+    weight: 1
+    range:
+      - 38
+      - 38
+    _id: UVYNXWPUqsZbPSis
+    name: Guild of Priests, Sacerdotes and Occult Intermediaries
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921808865
+      modifiedTime: 1754921812968
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.UVYNXWPUqsZbPSis'
+  - type: text
+    weight: 1
+    range:
+      - 39
+      - 39
+    _id: K55NyIoan19go21S
+    name: Rat-Catchers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921816505
+      modifiedTime: 1754921819708
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.K55NyIoan19go21S'
+  - type: text
+    weight: 1
+    range:
+      - 40
+      - 40
+    _id: mw6lidpjbUhfDiMS
+    name: Seamstresses’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921822895
+      modifiedTime: 1754921826323
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.mw6lidpjbUhfDiMS'
+  - type: text
+    weight: 1
+    range:
+      - 41
+      - 41
+    _id: enoPLbJsvCbBT2pu
+    name: Shoemakers’, Cobblers’ and Leatherworkers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921836996
+      modifiedTime: 1754921840991
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.enoPLbJsvCbBT2pu'
+  - type: text
+    weight: 1
+    range:
+      - 42
+      - 42
+    _id: yAhe8vlQ3uFQD4Bq
+    name: Smugglers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921844651
+      modifiedTime: 1754921848842
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.yAhe8vlQ3uFQD4Bq'
+  - type: text
+    weight: 1
+    range:
+      - 43
+      - 43
+    _id: rfEwThKQ4l0Xwx9N
+    name: Tailors’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921852395
+      modifiedTime: 1754921855722
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.rfEwThKQ4l0Xwx9N'
+  - type: text
+    weight: 1
+    range:
+      - 44
+      - 44
+    _id: 7T9UGaCmzbcAiWoH
+    name: Teachers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921861230
+      modifiedTime: 1754921864717
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.7T9UGaCmzbcAiWoH'
+  - type: text
+    weight: 1
+    range:
+      - 45
+      - 45
+    _id: UIkYPVIirPyCqOl1
+    name: Thatchers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921868407
+      modifiedTime: 1754921871953
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.UIkYPVIirPyCqOl1'
+  - type: text
+    weight: 1
+    range:
+      - 46
+      - 46
+    _id: hWOnsFPArzLrN0aD
+    name: Tourists’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921875040
+      modifiedTime: 1754921878222
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.hWOnsFPArzLrN0aD'
+  - type: text
+    weight: 1
+    range:
+      - 47
+      - 47
+    _id: p7KJmMQkz0Xr4coJ
+    name: Town Criers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921881458
+      modifiedTime: 1754921884892
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.p7KJmMQkz0Xr4coJ'
+  - type: text
+    weight: 1
+    range:
+      - 48
+      - 48
+    _id: h3iz2IIWduAKJ7Vz
+    name: Victims’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921888060
+      modifiedTime: 1754921891402
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.h3iz2IIWduAKJ7Vz'
+  - type: text
+    weight: 1
+    range:
+      - 49
+      - 49
+    _id: gWbyaAVrTAFGrYT9
+    name: Watch and Clockmakers’ Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921894960
+      modifiedTime: 1754921897945
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.gWbyaAVrTAFGrYT9'
+  - type: text
+    weight: 1
+    range:
+      - 50
+      - 50
+    _id: cnWxN5sLoP7gO2nc
+    name: Watchmen’s Guild
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754921904735
+      modifiedTime: 1754921908663
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!tvi7JBoROBi0cTei.cnWxN5sLoP7gO2nc'
+replacement: true
+displayRoll: true
+sort: 500000
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754921487024
+  modifiedTime: 1754922267028
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!tvi7JBoROBi0cTei'

@@ -1,0 +1,179 @@
+folder: NtoIl4T4Ex04almD
+name: Quirk Question
+_id: 47OQB6pfwa14gPRy
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: BM8Njk46Qvtgff6J
+    name: Why Ankh-Morpork?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I didn’t want to come but it’s the only place we can get what we need;
+      It’s the city of a thousand stories, of course I had to come; If you can
+      make it here, you can make it anywhere!</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919083521
+      modifiedTime: 1754919099138
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!47OQB6pfwa14gPRy.BM8Njk46Qvtgff6J'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: 2lDfF4PdIsW5FESw
+    name: What has shocked you the most about the city?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>The Watch, they’re too bloody efficient for my liking; The introductory
+      offer from the Thieves’ Guild — I may have been mugged, but I got a new
+      barbecue set out of it; The stench, how do locals live with it?</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919105978
+      modifiedTime: 1754919120791
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!47OQB6pfwa14gPRy.2lDfF4PdIsW5FESw'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: 2Bwv3DfiTYUliwSx
+    name: What did you forget to bring that would have been useful?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Bribes, everyone seems to want one; A sense of direction, all these
+      streets look the same to me; A bodyguard, or failing that, a really big
+      weapon.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919129036
+      modifiedTime: 1754919141601
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!47OQB6pfwa14gPRy.2Bwv3DfiTYUliwSx'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: UqF7FvKQODFBFEdl
+    name: Have you ever been to Ankh-Morpork before?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Unfortunately yes; Only ever been passing through, be nice to see more
+      of the city this time; No never, and I can’t believe I’m finally here!</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919154500
+      modifiedTime: 1754919169121
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!47OQB6pfwa14gPRy.UqF7FvKQODFBFEdl'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: VZKE5FuckhkTPx8z
+    name: Who do you know in the city?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Rosie Palm is a dear old friend; No one, but a kind gentleman called
+      ‘Throat’ gave us excellent advice; I’ve got a few contacts at the
+      Drum.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919205632
+      modifiedTime: 1754919250566
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!47OQB6pfwa14gPRy.VZKE5FuckhkTPx8z'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: Cetdbnf8Am9Ttfwc
+    name: Where are you staying?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>In the Shades, it’s cheap; With an old school friend in uptown Ankh; We
+      didn’t plan that far ahead, but there’s gotta be somewhere right?</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754919255691
+      modifiedTime: 1754919269844
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!47OQB6pfwa14gPRy.Cetdbnf8Am9Ttfwc'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754919078455
+  modifiedTime: 1754919257278
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!47OQB6pfwa14gPRy'

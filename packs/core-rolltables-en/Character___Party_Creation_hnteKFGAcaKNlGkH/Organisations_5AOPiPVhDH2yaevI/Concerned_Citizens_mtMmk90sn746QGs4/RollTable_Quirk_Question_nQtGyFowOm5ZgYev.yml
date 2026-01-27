@@ -1,0 +1,189 @@
+folder: mtMmk90sn746QGs4
+name: Quirk Question
+_id: nQtGyFowOm5ZgYev
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: FdlmamIF9WGnlOKZ
+    name: >-
+      What are you so worked up about? (This does not have to be the same as the
+      rest of the party.)
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>The carts go down my street something fierce, we need to slow them
+      down; Potholes have ruined more of my wagon’s wheels than you can shake a
+      stick at; The state of the city, things were better in the good old
+      days!</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912681785
+      modifiedTime: 1754912697450
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!nQtGyFowOm5ZgYev.FdlmamIF9WGnlOKZ'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: EZh0tPCb8TA3uCLC
+    name: What was the tipping point that caused you to take action?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>We were promised this issue would be sorted and it hasn’t, someone pays
+      taxes for this; Everyone else was so riled up, I didn’t want to bring the
+      mood down; I couldn’t let others take the city down this path, it’s for
+      its own good.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912702858
+      modifiedTime: 1754912717226
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!nQtGyFowOm5ZgYev.EZh0tPCb8TA3uCLC'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: gGvCoxaHbcKdyuUD
+    name: >-
+      Who have you tried to approach about your concern, and how have they
+      reacted?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I went straight to the Patrician — well his palace anyway — and I was
+      asked to leave; I went to the Watch, they told me it wasn’t within their
+      jurisdiction; Some friends in high places, we’re setting up a meeting.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912726036
+      modifiedTime: 1754912743731
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!nQtGyFowOm5ZgYev.gGvCoxaHbcKdyuUD'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: BZXKrUwb7nXVYpMr
+    name: How have you been attempting to fix whatever is concerning you?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Subtly and from the shadows, otherwise someone might try to stop us;
+      Pamphlets, fliers, we even got a piece in the Times; Violent and bloody
+      revolution! Well, one day, maybe — right now we’re just sitting around
+      working out what is to be done.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912758137
+      modifiedTime: 1754912773453
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!nQtGyFowOm5ZgYev.BZXKrUwb7nXVYpMr'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: Yh4y1H9HgH1X1u1N
+    name: How did you know others were also concerned?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I attend meetings of the concerned neighbours and acquaintances group
+      every Tuesday; When you move in the right circles, you know that you share
+      common goals; I canvassed the neighbourhood and made sure everyone was as
+      concerned as I was.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912779259
+      modifiedTime: 1754912799133
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!nQtGyFowOm5ZgYev.Yh4y1H9HgH1X1u1N'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: uQ0EYCCOU711f3hT
+    name: How do you deal with unconcerned citizens?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I don’t, I employ people to deal with them for me; Flyers, shaking
+      hands with doorknobs, whatever it takes to get the message out there;
+      Nothing gets concerns across like shouting loudly on a street corner.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912804919
+      modifiedTime: 1754912818594
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!nQtGyFowOm5ZgYev.uQ0EYCCOU711f3hT'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754912673180
+  modifiedTime: 1754912806373
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!nQtGyFowOm5ZgYev'

@@ -1,0 +1,287 @@
+folder: IqyQ6Rz8kEr2bHex
+name: Party Present
+_id: TDoSsN8n178bg0zY
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: fjv54iYWRImPMRsc
+    name: Who are we in debt to and what do we owe?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>We owe Chrysoprase the troll an arm and a leg; We have an overdue
+      library book and have no idea where it is; We are not exactly ‘paid up’
+      with our guild.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909042156
+      modifiedTime: 1754910177684
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TDoSsN8n178bg0zY.fjv54iYWRImPMRsc'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: pWTnzErlUquZ57v9
+    name: >-
+      Who do you know? Name three NPCs or groups: a friend, a rival, and an
+      acquaintance. Describe them in a short sentence.
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Horace the troll, who makes beautiful sculptures; Beatrice, a beggar
+      who knows something we wish she didn't; Jane von Naseweis, a vampire who
+      owes us something.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909051299
+      modifiedTime: 1754910189630
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TDoSsN8n178bg0zY.pWTnzErlUquZ57v9'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: UdQ5MnJz5hSzb35m
+    name: What are you proud to be known for?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Our speed and efficiency; Our signature way of solving problems; With
+      us, discretion is assured.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909059318
+      modifiedTime: 1754910203819
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TDoSsN8n178bg0zY.UdQ5MnJz5hSzb35m'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: rkURFdcWTleWfFp6
+    name: What do you wish you weren’t known for?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Making a mess of things; Being the ‘cheap’ of ‘quick, good, or cheap’;
+      Being the last resort.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909066109
+      modifiedTime: 1754910213013
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TDoSsN8n178bg0zY.rkURFdcWTleWfFp6'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: KK6mpVWis5qxHo1F
+    name: How would someone describe your group?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>An incompetent collection of troublemakers; The only reason you can’t
+      call them criminals is they can’t even get caught properly; A fine
+      collection of anthropoids.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909075603
+      modifiedTime: 1754910223977
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TDoSsN8n178bg0zY.KK6mpVWis5qxHo1F'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: 9RRnbf7QArCKimO4
+    name: Who do you refuse to work with and why?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Wizards, they’re pompous and don't understand what hard work is;
+      Dibbler, we once had him as a caterer and lost several party members; The
+      Watch, who watches them eh?</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909082244
+      modifiedTime: 1754910231692
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TDoSsN8n178bg0zY.9RRnbf7QArCKimO4'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    _id: oHg2fUhD6yNHkT2c
+    name: What is your group’s slogan?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>We do it because you can’t be bothered; As fine a collection of people
+      as your money can buy; We put the ‘good’ in ‘good enough’.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909089819
+      modifiedTime: 1754910240504
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TDoSsN8n178bg0zY.oHg2fUhD6yNHkT2c'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    _id: vfBSYC4THHLhzAvV
+    name: >-
+      Describe where you usually hang out, what is it like and why did you
+      choose it?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>The back alley behind the Bunch o’ Grapes, it’s filthy so works well
+      for drawing up plans; Behind a dread portal on Bitwash Street every other
+      Tuesday because the morris dancers have it the other week; The fourth
+      sleaziest pub in Ankh-Morpork, because we’re not quite ready for a higher
+      level of sleaze.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909096827
+      modifiedTime: 1754910257214
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TDoSsN8n178bg0zY.vfBSYC4THHLhzAvV'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    _id: ff90AvoMaHu7kWht
+    name: Who can you always rely on, and what can you rely on them for?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>A local barman, a free drink promotes loyalty; Dave, they will always
+      disagree with everything we say; The gods, they’re never there when you
+      need them.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909104586
+      modifiedTime: 1754910276894
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TDoSsN8n178bg0zY.ff90AvoMaHu7kWht'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    _id: YYqSE6tgwJw1JlaK
+    name: Why do you stick together?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>We trust each other and get on; It’s easier than going our separate
+      ways; We know too much about each other to let anyone leave.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909112427
+      modifiedTime: 1754910306642
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TDoSsN8n178bg0zY.YYqSE6tgwJw1JlaK'
+replacement: true
+displayRoll: true
+sort: 100000
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754909016291
+  modifiedTime: 1754910718174
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!TDoSsN8n178bg0zY'

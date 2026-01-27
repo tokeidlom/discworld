@@ -1,0 +1,24 @@
+folder: 8C2zoniAh2nltBjf
+name: History Monk
+type: niche
+_id: 6yQNqr3WLbcBk175
+img: systems/discworld/assets/items/niches.webp
+system:
+  description: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: discworld
+  systemVersion: 1.0.0
+  createdTime: 1754996583652
+  modifiedTime: 1754996583652
+  lastModifiedBy: SVK9hlY73qymO5SM
+_key: '!items!6yQNqr3WLbcBk175'

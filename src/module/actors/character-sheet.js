@@ -143,10 +143,19 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
 
     await roll.evaluate();
 
-    roll.toMessage({
+    const messageData = {
+      content: `
+        <div class="chat-card">
+          <div class="formula">${game.i18n.localize('application.rolling')} ${diceType}</div>
+          <div class="result">${roll.total}</div>
+        </div>
+      `,
       speaker: ChatMessage.getSpeaker({actor: this.actor}),
-      flavor: `${game.i18n.localize('application.rolling')} ${formula}`
-    });
+      flags: {
+        'core.canPopout': true
+      }
+    };
+    await roll.toMessage(messageData);
   }
 
   async _onItemNameChange(event) {
@@ -309,10 +318,10 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       el.setAttribute('data-tooltip-direction', 'UP');
     }
 
-    if (!Array.isArray(this._dragDrop) || !this._dragDrop.length) {
-      this._dragDrop = this._createDragDropHandlers();
+    if (!Array.isArray(this._dragDrophandler) || !this._dragDrophandler.length) {
+      this._dragDrophandler = this._createDragDropHandlers();
     }
-    this._dragDrop.forEach((d) => d.bind(this.element));
+    this._dragDrophandler.forEach((d) => d.bind(this.element));
 
     this.element.querySelectorAll('a.edit[data-action="onItemEdit"], a.delete[data-action="onItemDelete"]')?.forEach((li) => {
       li.setAttribute('draggable', 'true');
@@ -429,7 +438,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
   }
 
   get dragDrop() {
-    return this._dragDrop || [];
+    return this._dragDrophandler || [];
   }
 
   _createDragDropHandlers() {

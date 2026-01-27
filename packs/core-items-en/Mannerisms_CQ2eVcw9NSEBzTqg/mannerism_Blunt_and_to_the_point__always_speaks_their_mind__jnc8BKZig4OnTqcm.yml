@@ -1,0 +1,24 @@
+folder: CQ2eVcw9NSEBzTqg
+name: Blunt and to the point, always speaks their mind.
+type: mannerism
+_id: jnc8BKZig4OnTqcm
+img: systems/discworld/assets/items/mannerism.webp
+system:
+  description: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: discworld
+  systemVersion: 1.0.0
+  createdTime: 1754996264324
+  modifiedTime: 1754996264324
+  lastModifiedBy: SVK9hlY73qymO5SM
+_key: '!items!jnc8BKZig4OnTqcm'

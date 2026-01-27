@@ -1,0 +1,123 @@
+folder: dX7biROCLOPjCZ6j
+name: Example Goal
+_id: GJJ27xXl8e2djgQB
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: br2MYoJaTg3Wxgu9
+    name: Roll on the Magical Mishap Table. You will need to sort that out.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911518696
+      modifiedTime: 1754911531525
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!GJJ27xXl8e2djgQB.br2MYoJaTg3Wxgu9'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: k5NzMfQCyISr9iAU
+    name: >-
+      A creature from the Dungeon Dimensions has escaped into downtown Ankh-
+      Morpork. Capture it for study.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911543449
+      modifiedTime: 1754911547095
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!GJJ27xXl8e2djgQB.k5NzMfQCyISr9iAU'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: XjhM3YMkmjgki3Ia
+    name: >-
+      You need a specific book from the Library, but the Librarian (p. 112) is
+      nowhere to be found.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911553015
+      modifiedTime: 1754911556179
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!GJJ27xXl8e2djgQB.XjhM3YMkmjgki3Ia'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: aJSaW46FaRb7Buc1
+    name: >-
+      One of you has caught a magical malady and has exactly 24 hours to live
+      before they explode. Stop that from happening, please?
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911562655
+      modifiedTime: 1754911566644
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!GJJ27xXl8e2djgQB.aJSaW46FaRb7Buc1'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754911507813
+  modifiedTime: 1754911564523
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!GJJ27xXl8e2djgQB'

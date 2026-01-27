@@ -1,0 +1,1165 @@
+name: Sobriquets
+img: icons/svg/d20-grey.svg
+description: <p>A list of discworld sobriquets for Discworld-style adventures.</p>
+results:
+  - weight: 1
+    range:
+      - 1
+      - 1
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: The Barbarian
+    _id: vsvpcjs4OehASHEP
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.vsvpcjs4OehASHEP'
+  - weight: 1
+    range:
+      - 2
+      - 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Snatcher
+    _id: zvUSLyjFIDlv8QK9
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.zvUSLyjFIDlv8QK9'
+  - weight: 1
+    range:
+      - 3
+      - 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Boltcutter
+    _id: nDAZN3fF9Lqkd4dD
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.nDAZN3fF9Lqkd4dD'
+  - weight: 1
+    range:
+      - 4
+      - 4
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: You Bastard
+    _id: Gm3jBXTtSbY5yrtS
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.Gm3jBXTtSbY5yrtS'
+  - weight: 1
+    range:
+      - 5
+      - 5
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Oi You
+    _id: 6W6caYrInVgzSAi2
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.6W6caYrInVgzSAi2'
+  - weight: 1
+    range:
+      - 6
+      - 6
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: One Drop
+    _id: 0zHpAFmwH2VxTsdh
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.0zHpAFmwH2VxTsdh'
+  - weight: 1
+    range:
+      - 7
+      - 7
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: No Nose
+    _id: ylJJM98k4ARNmtuw
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.ylJJM98k4ARNmtuw'
+  - weight: 1
+    range:
+      - 8
+      - 8
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Rope Dancer
+    _id: jjb79JFOMhYHiwyn
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.jjb79JFOMhYHiwyn'
+  - weight: 1
+    range:
+      - 9
+      - 9
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Nutcracker
+    _id: PFZu6fen5GBbAE1F
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.PFZu6fen5GBbAE1F'
+  - weight: 1
+    range:
+      - 10
+      - 10
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Madame
+    _id: tWrF9qtLEKST8ADL
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.tWrF9qtLEKST8ADL'
+  - weight: 1
+    range:
+      - 11
+      - 11
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Bendy
+    _id: LO341ODA7jHdRFqV
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.LO341ODA7jHdRFqV'
+  - weight: 1
+    range:
+      - 12
+      - 12
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Idiot
+    _id: pShrKNQqfQHcYMLw
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.pShrKNQqfQHcYMLw'
+  - weight: 1
+    range:
+      - 13
+      - 13
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Bloody Stupid
+    _id: 2F8JEmZfuHStkgKS
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.2F8JEmZfuHStkgKS'
+  - weight: 1
+    range:
+      - 14
+      - 14
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Baron
+    _id: n8CZVJtcBpvr4o9v
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.n8CZVJtcBpvr4o9v'
+  - weight: 1
+    range:
+      - 15
+      - 15
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Duke
+    _id: iZJFasjArn8zvrRY
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.iZJFasjArn8zvrRY'
+  - weight: 1
+    range:
+      - 16
+      - 16
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Oyster
+    _id: vphdhUq6rDMTYAKD
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.vphdhUq6rDMTYAKD'
+  - weight: 1
+    range:
+      - 17
+      - 17
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Knuckles
+    _id: RSH6bqwtIfSkqTEH
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.RSH6bqwtIfSkqTEH'
+  - weight: 1
+    range:
+      - 18
+      - 18
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Bottler
+    _id: mRtMcI1yXxzgM89J
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.mRtMcI1yXxzgM89J'
+  - weight: 1
+    range:
+      - 19
+      - 19
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Pointy
+    _id: f6TtjY450tkK3Tty
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.f6TtjY450tkK3Tty'
+  - weight: 1
+    range:
+      - 20
+      - 20
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Mucky
+    _id: Pt6MM0EZ9IjiWzzt
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.Pt6MM0EZ9IjiWzzt'
+  - weight: 1
+    range:
+      - 21
+      - 21
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Dragonbreath
+    _id: xzmh3TovUD1jvx87
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.xzmh3TovUD1jvx87'
+  - weight: 1
+    range:
+      - 22
+      - 22
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Devious
+    _id: wH8Sov0dG5B6Wh6J
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.wH8Sov0dG5B6Wh6J'
+  - weight: 1
+    range:
+      - 23
+      - 23
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Nosher
+    _id: fcEsuAbJSGmVzKAU
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.fcEsuAbJSGmVzKAU'
+  - weight: 1
+    range:
+      - 24
+      - 24
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Skullbreaker
+    _id: JKaRvr9v7E5LIxA9
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.JKaRvr9v7E5LIxA9'
+  - weight: 1
+    range:
+      - 25
+      - 25
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Leadpipe
+    _id: cPcQIXHTHKvVHljz
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.cPcQIXHTHKvVHljz'
+  - weight: 1
+    range:
+      - 26
+      - 26
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Some Nose
+    _id: bNgRBFAnNgkbpNzE
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.bNgRBFAnNgkbpNzE'
+  - weight: 1
+    range:
+      - 27
+      - 27
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Grandad
+    _id: 4OYEf6SrdooDKdtM
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.4OYEf6SrdooDKdtM'
+  - weight: 1
+    range:
+      - 28
+      - 28
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Wheezy
+    _id: ljQJ1kwMB3mFe8NY
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.ljQJ1kwMB3mFe8NY'
+  - weight: 1
+    range:
+      - 29
+      - 29
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Princess
+    _id: qh5SfLFtVx2Y3Spb
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.qh5SfLFtVx2Y3Spb'
+  - weight: 1
+    range:
+      - 30
+      - 30
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Mad
+    _id: TTXMYSvNeTvqnIGN
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.TTXMYSvNeTvqnIGN'
+  - weight: 1
+    range:
+      - 31
+      - 31
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: 71-Hour
+    _id: pDVavnM0kE8pzbkG
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.pDVavnM0kE8pzbkG'
+  - weight: 1
+    range:
+      - 32
+      - 32
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: The Hon.
+    _id: 3JteuMbGF0ZFCQy5
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.3JteuMbGF0ZFCQy5'
+  - weight: 1
+    range:
+      - 33
+      - 33
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Destroyer
+    _id: ZBP5tH0Dwyzf1SvN
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.ZBP5tH0Dwyzf1SvN'
+  - weight: 1
+    range:
+      - 34
+      - 34
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Evil
+    _id: 7TfR0Q2j5iuT2O1C
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.7TfR0Q2j5iuT2O1C'
+  - weight: 1
+    range:
+      - 35
+      - 35
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Snouty
+    _id: 2IwsXMldIZRrW9zC
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.2IwsXMldIZRrW9zC'
+  - weight: 1
+    range:
+      - 36
+      - 36
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Dr
+    _id: Ef8xEYDRVQlzVAWb
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.Ef8xEYDRVQlzVAWb'
+  - weight: 1
+    range:
+      - 37
+      - 37
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Professor
+    _id: Cf1qFmVNRL9iHfBF
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.Cf1qFmVNRL9iHfBF'
+  - weight: 1
+    range:
+      - 38
+      - 38
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Eternally Surprised
+    _id: kLsBkeR0H5w7QgHP
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.kLsBkeR0H5w7QgHP'
+  - weight: 1
+    range:
+      - 39
+      - 39
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Gaffer
+    _id: kIe8IG2CjUEZhhxl
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.kIe8IG2CjUEZhhxl'
+  - weight: 1
+    range:
+      - 40
+      - 40
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Miss
+    _id: nlhrHylDlpuYBBtT
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.nlhrHylDlpuYBBtT'
+  - weight: 1
+    range:
+      - 41
+      - 41
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Kind
+    _id: UUzvdGVCnryiX6ow
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.UUzvdGVCnryiX6ow'
+  - weight: 1
+    range:
+      - 42
+      - 42
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Bloody Minded
+    _id: 9W8T7uuODY3akH9b
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.9W8T7uuODY3akH9b'
+  - weight: 1
+    range:
+      - 43
+      - 43
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Henna-Haired
+    _id: AVIR9TUKOnrz21yw
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.AVIR9TUKOnrz21yw'
+  - weight: 1
+    range:
+      - 44
+      - 44
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Soft-Boiled
+    _id: bk7KP52qs3EiQ5pd
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.bk7KP52qs3EiQ5pd'
+  - weight: 1
+    range:
+      - 45
+      - 45
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Bravekidney
+    _id: 1OJBJKhiIxXZePiT
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.1OJBJKhiIxXZePiT'
+  - weight: 1
+    range:
+      - 46
+      - 46
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Sour-faced
+    _id: ctlhgXoodPbsuT2l
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.ctlhgXoodPbsuT2l'
+  - weight: 1
+    range:
+      - 47
+      - 47
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Drippy
+    _id: tciKcDYFuIapMdwM
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.tciKcDYFuIapMdwM'
+  - weight: 1
+    range:
+      - 48
+      - 48
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Medium
+    _id: fWJNO1bsQBRkjweD
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.fWJNO1bsQBRkjweD'
+  - weight: 1
+    range:
+      - 49
+      - 49
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Big
+    _id: PGHNsXabGoy4wJFk
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.PGHNsXabGoy4wJFk'
+  - weight: 1
+    range:
+      - 50
+      - 50
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Bigger
+    _id: ug4riE3IclT4c6Ei
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.ug4riE3IclT4c6Ei'
+  - weight: 1
+    range:
+      - 51
+      - 51
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Biggest
+    _id: 0ehahCs3cNOUNt1T
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.0ehahCs3cNOUNt1T'
+  - weight: 1
+    range:
+      - 52
+      - 52
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Small
+    _id: spomkx8H1HCcCxyf
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.spomkx8H1HCcCxyf'
+  - weight: 1
+    range:
+      - 53
+      - 53
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Wee
+    _id: J7SPLO3YY87SgXSp
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.J7SPLO3YY87SgXSp'
+  - weight: 1
+    range:
+      - 54
+      - 54
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Crunch
+    _id: iLlLzT711AmJxBde
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.iLlLzT711AmJxBde'
+  - weight: 1
+    range:
+      - 55
+      - 55
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Broken
+    _id: TmjqrY71G9OrintQ
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.TmjqrY71G9OrintQ'
+  - weight: 1
+    range:
+      - 56
+      - 56
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: Tuesday
+    _id: K30gDDHIkqrsjyDC
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.K30gDDHIkqrsjyDC'
+  - weight: 1
+    range:
+      - 57
+      - 57
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      lastModifiedBy: null
+    description: the Disagreeable
+    _id: YcknsCBmsIOTMYyj
+    type: text
+    name: ''
+    img: icons/svg/d20-black.svg
+    drawn: false
+    flags: {}
+    _key: '!tables.results!Wx7CbT1hiCH24tVE.YcknsCBmsIOTMYyj'
+replacement: true
+displayRoll: true
+folder: oITlXF5gP1aFweLU
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754922269843
+  modifiedTime: 1754922269843
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_id: Wx7CbT1hiCH24tVE
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+_key: '!tables!Wx7CbT1hiCH24tVE'

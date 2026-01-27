@@ -1,0 +1,24 @@
+folder: oTEG26VKihg5VBFG
+name: Knower of those who know people
+type: niche
+_id: eMyyqj33kCxnJdNz
+img: systems/discworld/assets/items/niches.webp
+system:
+  description: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: discworld
+  systemVersion: 1.0.0
+  createdTime: 1755001033001
+  modifiedTime: 1755001033001
+  lastModifiedBy: SVK9hlY73qymO5SM
+_key: '!items!eMyyqj33kCxnJdNz'

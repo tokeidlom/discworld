@@ -1,0 +1,279 @@
+folder: IqyQ6Rz8kEr2bHex
+name: Party Past
+_id: CDhEmy7QHBmltegd
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: VLCvaUwgvQvyEQXj
+    name: How long have you been working together?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Since the dragon came; A week last Tuesday; Long enough to be sick of
+      each other.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908918406
+      modifiedTime: 1754910059058
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CDhEmy7QHBmltegd.VLCvaUwgvQvyEQXj'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: f8q86dpU0CisFSx8
+    name: What was something unusual about your initial meeting?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>We were all suffering the Hangunder of our celebratory drinks; It was
+      snowing in summer; We were all in the wrong place at the wrong time.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908928011
+      modifiedTime: 1754910075300
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CDhEmy7QHBmltegd.f8q86dpU0CisFSx8'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: Bvo5y1OsIJV9xZBa
+    name: What ‘incident’ does the party not speak of?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>The thing with the Alchemists’ Guild; The job we royally cocked up;
+      That time we lost a party member at cards and had to win them back through
+      increasingly specific and ridiculous challenges.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908937431
+      modifiedTime: 1754910085129
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CDhEmy7QHBmltegd.Bvo5y1OsIJV9xZBa'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: pyrv8CUwCbAJ5apb
+    name: What originally brought the party together?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>We inherited the party from our parents; We were all headhunted for a
+      job; We were drinking and thought it would be a good idea.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908945114
+      modifiedTime: 1754910093036
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CDhEmy7QHBmltegd.pyrv8CUwCbAJ5apb'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: 9eN6q27cL6yxloCN
+    name: What ‘incident’ does the party not stop mentioning?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>That time when we ended up in the cesspit; When we showed up our
+      rivals; When we pulled off a job with seconds to spare.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908955034
+      modifiedTime: 1754910102560
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CDhEmy7QHBmltegd.9eN6q27cL6yxloCN'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: MDMhCx452hLoYymb
+    name: Are you the original members of your party?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>No, we inherited from our parents; Some of us weren’t the first choice;
+      Yes but there were originally more of us.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908962749
+      modifiedTime: 1754910112790
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CDhEmy7QHBmltegd.MDMhCx452hLoYymb'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    _id: y75h7895n4SWIrZy
+    name: What was the incident that almost caused the party to split apart?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>The jockstrap incident; Eric — they know what they did; When we were
+      falsely accused.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908969523
+      modifiedTime: 1754910128454
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CDhEmy7QHBmltegd.y75h7895n4SWIrZy'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    _id: RDOYStFUOGSoWMuG
+    name: When did the party work seamlessly together?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>We never have; Whenever we’re showing up someone else; When we forget
+      what we’re supposed to be doing and get sidetracked.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908978198
+      modifiedTime: 1754910137591
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CDhEmy7QHBmltegd.RDOYStFUOGSoWMuG'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    _id: FwB2i7OHY7FOaevH
+    name: How long did it take to get comfortable with each other?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Oh, we’re friends from way back; We’re not, we tolerate one another; It
+      took a while but we know each other well enough by now.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908986491
+      modifiedTime: 1754910149749
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CDhEmy7QHBmltegd.FwB2i7OHY7FOaevH'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    _id: g22uhRfDpkbiob3Q
+    name: >-
+      Who is, or was, your patron and how did you gain, or lose, their
+      patronage?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>The Patrician, he summoned us and didn’t give us much of a choice;
+      Queen Molly, but she found out we were in paid employment and cut us
+      loose; A mysterious benefactor, and we don’t know.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908997837
+      modifiedTime: 1754910161501
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!CDhEmy7QHBmltegd.g22uhRfDpkbiob3Q'
+replacement: true
+displayRoll: true
+sort: 200000
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754908913669
+  modifiedTime: 1754910720059
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!CDhEmy7QHBmltegd'

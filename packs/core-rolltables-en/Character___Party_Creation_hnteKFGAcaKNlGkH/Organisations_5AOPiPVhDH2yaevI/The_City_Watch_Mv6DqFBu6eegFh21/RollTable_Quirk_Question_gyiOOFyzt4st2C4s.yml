@@ -1,0 +1,178 @@
+folder: Mv6DqFBu6eegFh21
+name: Quirk Question
+_id: gyiOOFyzt4st2C4s
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: Cf9d1L2GpqqkNdgu
+    name: Any history of policing in your family?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>My family is coppers all the way back; Yeah loads, my uncle’s in the
+      cells right now; Not as such, the Watch doesn’t go where I grew up.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911333610
+      modifiedTime: 1754911350492
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!gyiOOFyzt4st2C4s.Cf9d1L2GpqqkNdgu'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: GYAFPtGxfU7f1sar
+    name: Why did you join the Watch?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I’m out on the streets anyway, may as well get paid for it; I was court
+      ordered to join; I applied as a joke and honestly didn’t expect to get
+      hired.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911355264
+      modifiedTime: 1754911374271
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!gyiOOFyzt4st2C4s.GYAFPtGxfU7f1sar'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: 1JSRaEtj8j3efvAq
+    name: What makes you stand out from the crowd?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I’m bloody massive; I can sell a sausage back to C.M.O.T. Dibbler; I’d
+      much rather stand in the crowd, you get a better view that way.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911379004
+      modifiedTime: 1754911392611
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!gyiOOFyzt4st2C4s.1JSRaEtj8j3efvAq'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: NNngjtbKDwKzDDKo
+    name: What do you bring to the job?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>My winning personality; A determination to do what I have to; A very
+      literal mind.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911396676
+      modifiedTime: 1754911412899
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!gyiOOFyzt4st2C4s.NNngjtbKDwKzDDKo'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: 5aE6DMLvQLUZVqh4
+    name: What are you known for?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Always getting the job done, eventually; I cross the Is and dot the Ts,
+      my paper work is impeccable, and mostly incomprehensible; You can always
+      find me in the Watchhouse, even when I’m not supposed to be there.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911417197
+      modifiedTime: 1754911434303
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!gyiOOFyzt4st2C4s.5aE6DMLvQLUZVqh4'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: cF69SL0DxE8g8Meq
+    name: Why have you had complaints filed against you in the past?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I mistook a dwarf in fancy dress for a garden gnome; I arrested a
+      member of the Thieves’ Guild; When someone shouts for help, you help! How
+      was I supposed to know it was a play?</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911441706
+      modifiedTime: 1754911458663
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!gyiOOFyzt4st2C4s.cF69SL0DxE8g8Meq'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754911328919
+  modifiedTime: 1754911442942
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!gyiOOFyzt4st2C4s'

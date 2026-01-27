@@ -1,0 +1,301 @@
+name: What Could Be Happening?
+_id: 0dMayHMlLyKGWBOR
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: wgDf9IevRwZbxfCt
+    name: Someone is trying to overthrow the Patrician.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754905926869
+      modifiedTime: 1754905982993
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.wgDf9IevRwZbxfCt'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: aKkAgSKTgcXmRR8w
+    name: People are being drawn away from the city.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754905996649
+      modifiedTime: 1754906000155
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.aKkAgSKTgcXmRR8w'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: pE5e1Bt3de3AtqxL
+    name: Mysterious packages are appearing all over the city.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754906862670
+      modifiedTime: 1754906867197
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.pE5e1Bt3de3AtqxL'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: 3caZ2yjZuw1wzbTR
+    name: Pubs are being destroyed and rebuilt backwards.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754906872996
+      modifiedTime: 1754906876285
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.3caZ2yjZuw1wzbTR'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: d8Mpxp9rM0BDaAYa
+    name: Absolutely everything is coming to life.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754906883057
+      modifiedTime: 1754906887737
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.d8Mpxp9rM0BDaAYa'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: EcQPrphWudNZWVfo
+    name: The Watch is undergoing another affirmative hiring movement.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754906895071
+      modifiedTime: 1754906900638
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.EcQPrphWudNZWVfo'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    _id: vHLB1fzbC7EajKsO
+    name: The city is on fire.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754906940003
+      modifiedTime: 1754906946049
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.vHLB1fzbC7EajKsO'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    _id: oWmuTbTaTZTNR716
+    name: Animals are rampaging through the streets.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754906955153
+      modifiedTime: 1754906959118
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.oWmuTbTaTZTNR716'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    _id: B5pcsP8foOzNRIes
+    name: None can move because of everyone else in the way.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754906964896
+      modifiedTime: 1754906968749
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.B5pcsP8foOzNRIes'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    _id: xlThkaVNj7kSrvKq
+    name: Someone is trying to overthrow the Patrician, again.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754906973844
+      modifiedTime: 1754906978008
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.xlThkaVNj7kSrvKq'
+  - type: text
+    weight: 1
+    range:
+      - 11
+      - 11
+    _id: kxQRfVADIxMN4Stf
+    name: Errant bursts of magic are emanating from Unseen University.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754906984135
+      modifiedTime: 1754906988260
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.kxQRfVADIxMN4Stf'
+  - type: text
+    weight: 1
+    range:
+      - 12
+      - 12
+    _id: WiTlA98BqBu3z5UR
+    name: The gods’ game is not going to plan.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754906994697
+      modifiedTime: 1754906998342
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!0dMayHMlLyKGWBOR.WiTlA98BqBu3z5UR'
+replacement: true
+displayRoll: true
+folder: null
+sort: 200000
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754905913856
+  modifiedTime: 1754910682114
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!0dMayHMlLyKGWBOR'

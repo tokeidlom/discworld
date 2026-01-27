@@ -1,0 +1,163 @@
+folder: mjx4J1DqgL0l2fIP
+name: Example Niche
+_id: u8lI0eO7FGeZZcL8
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: ka9V7Lt590lTfFGg
+    name: Discreet security supplier
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913840753
+      modifiedTime: 1754913843403
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!u8lI0eO7FGeZZcL8.ka9V7Lt590lTfFGg'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: AdICr0v5qiufjlQi
+    name: Negotiator of affection
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913846960
+      modifiedTime: 1754913849662
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!u8lI0eO7FGeZZcL8.AdICr0v5qiufjlQi'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: 72CcUKKXhVsim8yX
+    name: Dayshift
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913853515
+      modifiedTime: 1754913856391
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!u8lI0eO7FGeZZcL8.72CcUKKXhVsim8yX'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: ayBmClyX0DmlmN9R
+    name: Leatherworker
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913859984
+      modifiedTime: 1754913863177
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!u8lI0eO7FGeZZcL8.ayBmClyX0DmlmN9R'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: kv13evv7Tdh8O7Qr
+    name: High-end services
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913867792
+      modifiedTime: 1754913870752
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!u8lI0eO7FGeZZcL8.kv13evv7Tdh8O7Qr'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: yrKD1JgFUbRS7M2c
+    name: Other-end services
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913874651
+      modifiedTime: 1754913877550
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!u8lI0eO7FGeZZcL8.yrKD1JgFUbRS7M2c'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754913836326
+  modifiedTime: 1754913875706
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!u8lI0eO7FGeZZcL8'

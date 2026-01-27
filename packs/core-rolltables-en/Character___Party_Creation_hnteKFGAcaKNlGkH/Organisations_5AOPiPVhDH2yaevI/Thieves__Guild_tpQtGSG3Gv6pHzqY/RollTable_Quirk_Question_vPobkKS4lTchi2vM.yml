@@ -1,0 +1,185 @@
+folder: tpQtGSG3Gv6pHzqY
+name: Quirk Question
+_id: vPobkKS4lTchi2vM
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: NWrkTm393H7NvLTT
+    name: What job are you most proud of?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Mugging around Sator Square, a classic and clean job — no mess, no
+      fuss; The cabbage patch investment, I’ve sold that patch at least one
+      hundred times; Find the Lady: the mark is always so pleased to have found
+      the Lady they don’t realise they’ve lost their purse.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754912990793
+      modifiedTime: 1754913011126
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!vPobkKS4lTchi2vM.NWrkTm393H7NvLTT'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: rY9Q37MqVqF6a8YK
+    name: What do you regret stealing and why?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>The statue from Anoia’s temple, my drawers haven’t stopped rattling
+      since I gave it back; The keys to C.M.O.T. Dibbler’s cellar, how does he
+      sell all this junk? The staff from some wizard, it keeps moving when I’m
+      not looking and no one will buy it off me.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913015678
+      modifiedTime: 1754913034946
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!vPobkKS4lTchi2vM.rY9Q37MqVqF6a8YK'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: zROPjidjIiboesEx
+    name: Why did you become a member of the Thieves’ Guild?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>It’s a career with real prospects; Well, I sure as hell wasn’t going to
+      steal without a licence; I was in the Tanty anyway, may as well get paid
+      for it.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913041209
+      modifiedTime: 1754913062939
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!vPobkKS4lTchi2vM.zROPjidjIiboesEx'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: IJW8Vyt08dVgUQeV
+    name: What do you dream of stealing and why/ how?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>The Archchancellor’s hat, could you imagine how much those octarines
+      are worth? The Assassins’ Guild weathervane. I’d give it right back, I
+      just want the bragging rights; A hippo from the Brass Bridge, I just think
+      it would look better in my living room.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913067906
+      modifiedTime: 1754913086238
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!vPobkKS4lTchi2vM.IJW8Vyt08dVgUQeV'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: fatTJ6gUmR8Z40Bi
+    name: What is something that the guild taught you that you’ll never forget?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Always get a receipt; Remember to bring the catalogue and remind people
+      of the introductory offers; Always have your licence on you.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913096003
+      modifiedTime: 1754913108672
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!vPobkKS4lTchi2vM.fatTJ6gUmR8Z40Bi'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: RSWsfEzsVbcLO4Fn
+    name: What is your specialism?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I’m a breaker and decorator, people pay a fortune to have their homes
+      look exactly as they left them; A lack of confidence trickster, make them
+      feel sorry for you and they’ll give you anything to make themselves feel
+      better; A gentle thief, steal from the rich give to the me (minus a guild
+      percentage, obviously).</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913112588
+      modifiedTime: 1754913130461
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!vPobkKS4lTchi2vM.RSWsfEzsVbcLO4Fn'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754912985418
+  modifiedTime: 1754913114338
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!vPobkKS4lTchi2vM'

@@ -1,0 +1,535 @@
+folder: hnteKFGAcaKNlGkH
+name: Quirk Question
+_id: Qh7KNXsxCaVWsCnr
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: TYBUgyBYDUinq9dM
+    name: What is the first thing people notice about you?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Built like the proverbial brickhouse; I listen more than I talk; I
+      exude confidence.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909334147
+      modifiedTime: 1754909350801
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.TYBUgyBYDUinq9dM'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: sIKCt0CT7kCmecHF
+    name: What is something you’ve always had?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>An excellent sense of humour; More money than sense; A good judge of
+      character.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909375137
+      modifiedTime: 1754909384545
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.sIKCt0CT7kCmecHF'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: uiadKQ9fZLNRXOxU
+    name: What is your secret?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I’m not who I say I am; I know more than I let on; Someone is keeping a
+      close eye on me.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909393351
+      modifiedTime: 1754909401465
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.uiadKQ9fZLNRXOxU'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: 9mkJbu2wnzd2s3iG
+    name: What is your defining feature?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I’m always well turned out, especially when things are going wrong;
+      I’ve got a mind like a trap; I can find my way through Ankh-Morpork
+      blindfolded on a moonless night.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909407748
+      modifiedTime: 1754909415191
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.9mkJbu2wnzd2s3iG'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: hIgpxsvzmAMkZVLp
+    name: What do you wish you weren’t?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Such a coward, but it’s kept me alive so far; Part of my family, we
+      have nothing in common; Late, in every sense of the word.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909421897
+      modifiedTime: 1754909429671
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.hIgpxsvzmAMkZVLp'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: amodKkSilXQgSwsj
+    name: What is something you need?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>A steady supply of paints and brushes; Whatever illegal and illicit
+      substances you happen to have lying around; Some bloody peace and
+      quiet.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909444707
+      modifiedTime: 1754909452089
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.amodKkSilXQgSwsj'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    _id: 2Bu5TuqUmbj7OR9A
+    name: What is something you no longer are?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Someone who solves ALL their problems with violence; Someone who speaks
+      before they think; A member of a guild.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909457498
+      modifiedTime: 1754909466148
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.2Bu5TuqUmbj7OR9A'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    _id: FSSYUtmxxMt8ymj2
+    name: How do people see you?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>They don’t, their eyes always slide off me; As an upstanding example of
+      my craft; From a long way away, often through some kind of instrument.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909471418
+      modifiedTime: 1754909479391
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.FSSYUtmxxMt8ymj2'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    _id: Kf7qHXvZUtMWF8Nq
+    name: What is your favourite hobby?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Folk dancing; I’m a great patroniser of the opera; Cripple Mr
+      Onion.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909484816
+      modifiedTime: 1754909493700
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.Kf7qHXvZUtMWF8Nq'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    _id: KCs7h3z2JJ4dLIPH
+    name: What is something you’ve always struggled with?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Other people, they just can’t grasp my ideas; The truth, no matter what
+      I just can’t seem to tell it; Finding somewhere I can just be myself.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909501835
+      modifiedTime: 1754909509518
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.KCs7h3z2JJ4dLIPH'
+  - type: text
+    weight: 1
+    range:
+      - 11
+      - 11
+    _id: 3Nci2b3qqSml1pA2
+    name: What do you do for fun?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I love museums and galleries, there’s hundreds if you know where to
+      look; Drinking down the Drum, you either get drunk, get in a fight or
+      both; I enjoy a quiet game of Thud.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909511275
+      modifiedTime: 1754909523226
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.3Nci2b3qqSml1pA2'
+  - type: text
+    weight: 1
+    range:
+      - 12
+      - 12
+    _id: r41fVxzdQzRsMBYE
+    name: What is your greatest achievement?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I won the most prestigious award offered by my guild; I have eaten
+      multiple sausages from Mr. Dibbler without being ill; I was detained at
+      the Patrician’s pleasure, turns out he was actually quite pleased.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909541030
+      modifiedTime: 1754909551514
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.r41fVxzdQzRsMBYE'
+  - type: text
+    weight: 1
+    range:
+      - 13
+      - 13
+    _id: jWqOZmD8XGURwbZX
+    name: What is your greatest failure?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I can’t hold down a job for more than a few weeks without something
+      going wrong; I invested in Dibbler’s latest scheme; I got caught.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909558166
+      modifiedTime: 1754909569167
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.jWqOZmD8XGURwbZX'
+  - type: text
+    weight: 1
+    range:
+      - 14
+      - 14
+    _id: 2z0suukeqb74Ya5c
+    name: >-
+      What is something that you have always relied upon, and what do you rely
+      upon it for?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>My lucky coin, it’s never led me wrong so far; My winning smile, it’s
+      gotten me out of many a scrape; The gods, they can be relied upon to
+      bugger off when you need them.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909776718
+      modifiedTime: 1754909785786
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.2z0suukeqb74Ya5c'
+  - type: text
+    weight: 1
+    range:
+      - 15
+      - 15
+    _id: CnBPmk0pV2Uj6yQG
+    name: What is something you are good at?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I’ve got an ear for languages; I can outstare a cat; Knowing when to
+      cut my losses.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909791568
+      modifiedTime: 1754909799765
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.CnBPmk0pV2Uj6yQG'
+  - type: text
+    weight: 1
+    range:
+      - 16
+      - 16
+    _id: iCUcOJdk1jfONLdq
+    name: What is something you’re bad at?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Knowing when to cut my losses; Holding my beer; Reading, books are a
+      closed book to me.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909825203
+      modifiedTime: 1754909833395
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.iCUcOJdk1jfONLdq'
+  - type: text
+    weight: 1
+    range:
+      - 17
+      - 17
+    _id: wmqOBQRzqwvknlYd
+    name: What thing did you acquire recently and how?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Nothin’, I’ve owned these watches for years, ’onest guv; The interest
+      of some influential people, they think I can help them somehow; The error
+      of my ways, an angel told me to do better.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909839736
+      modifiedTime: 1754909848170
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.wmqOBQRzqwvknlYd'
+  - type: text
+    weight: 1
+    range:
+      - 18
+      - 18
+    _id: MhnCYXle7vIBeHD4
+    name: What thing did you lose recently and how?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>My last dollar to some con-man in Sator Square; My pride, those
+      bloodsucking guilds take everything they can; My patience, but he was
+      asking for it.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909855855
+      modifiedTime: 1754909865500
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.MhnCYXle7vIBeHD4'
+  - type: text
+    weight: 1
+    range:
+      - 19
+      - 19
+    _id: 4WDHcmpJQEbMr8KS
+    name: What is your greatest weakness?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>My stubbornness, I just don’t know when to back down; I can’t help but
+      see the best in people; My need for that rush you get when the game’s
+      afoot, it’s intoxicating.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909871728
+      modifiedTime: 1754909882056
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.4WDHcmpJQEbMr8KS'
+  - type: text
+    weight: 1
+    range:
+      - 20
+      - 20
+    _id: Y4jnVNyZZ7zJlXlu
+    name: What is your greatest strength?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>My instincts, I’ve survived for years on them; My great strength, and
+      knowing when to use it; My mind’s so sharp I sometimes cut myself.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909888141
+      modifiedTime: 1754909894708
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Qh7KNXsxCaVWsCnr.Y4jnVNyZZ7zJlXlu'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754909332262
+  modifiedTime: 1754910609461
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: 1d1
+_key: '!tables!Qh7KNXsxCaVWsCnr'

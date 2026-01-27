@@ -1,0 +1,173 @@
+name: EXAMPLE SOCIAL CONSEQUENCE
+_id: 1Rrh6wi3gBHE05YY
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: xzGrQeNWOza2shS1
+    name: >-
+      The folk you are talking to take a dislike to you. If the person is likely
+      to come up again, gain the Disliked by X Trait, where X could be an
+      individual or a whole group of people.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908093794
+      modifiedTime: 1754908097173
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!1Rrh6wi3gBHE05YY.xzGrQeNWOza2shS1'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: iUSolzFuWE3auz2N
+    name: >-
+      You find yourself beholden to somebody, whether literally in debt or
+      simply too grateful. If you cannot give the person something to assuage
+      your debt, gain the Indebted Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908101481
+      modifiedTime: 1754908104644
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!1Rrh6wi3gBHE05YY.iUSolzFuWE3auz2N'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: SNr8EPdXhH9eZbzQ
+    name: >-
+      You are thrown out of the establishment, or have to leave to avoid further
+      embarrassment.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908108670
+      modifiedTime: 1754908112232
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!1Rrh6wi3gBHE05YY.SNr8EPdXhH9eZbzQ'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: ybOZcK2kPe23fazY
+    name: That went pretty well, you think. Gain the Unearned confidence Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908116680
+      modifiedTime: 1754908119957
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!1Rrh6wi3gBHE05YY.ybOZcK2kPe23fazY'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: 4vwS5pbP8hPONvvE
+    name: That was awful. Gain the Self-conscious Trait.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908126430
+      modifiedTime: 1754908129903
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!1Rrh6wi3gBHE05YY.4vwS5pbP8hPONvvE'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: jHAGdQwPxPQSRELs
+    name: >-
+      Your words inspire someone to do something foolish or brave, whether it’s
+      charging into danger or quitting their job to become a writer.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754908134371
+      modifiedTime: 1754908137585
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!1Rrh6wi3gBHE05YY.jHAGdQwPxPQSRELs'
+replacement: true
+displayRoll: true
+folder: H9bRUjU73mwoh3MF
+sort: 150000
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754908088710
+  modifiedTime: 1754908307055
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!1Rrh6wi3gBHE05YY'

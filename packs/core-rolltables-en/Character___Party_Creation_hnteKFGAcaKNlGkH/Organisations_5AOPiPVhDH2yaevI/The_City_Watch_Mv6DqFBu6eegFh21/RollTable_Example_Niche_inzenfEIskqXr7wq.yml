@@ -1,0 +1,163 @@
+folder: Mv6DqFBu6eegFh21
+name: Example Niche
+_id: inzenfEIskqXr7wq
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: DoKJHXtvJDNdIVlN
+    name: Scene-of-crime iconographer
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754910856409
+      modifiedTime: 1754910859485
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!inzenfEIskqXr7wq.DoKJHXtvJDNdIVlN'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: AKtkzfKtmtXigOMw
+    name: Plainclothes officer
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754910863784
+      modifiedTime: 1754910866961
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!inzenfEIskqXr7wq.AKtkzfKtmtXigOMw'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: VofmAuMjkvRAwZxc
+    name: Public relations
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754910870870
+      modifiedTime: 1754910873280
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!inzenfEIskqXr7wq.VofmAuMjkvRAwZxc'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: 7X5uziYTXQkYWGZT
+    name: Designated noticer
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754910877185
+      modifiedTime: 1754910880216
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!inzenfEIskqXr7wq.7X5uziYTXQkYWGZT'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: H2QWG7kTCr9NfLJ7
+    name: Forensics
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754910883819
+      modifiedTime: 1754910887677
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!inzenfEIskqXr7wq.H2QWG7kTCr9NfLJ7'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: R1Xwx9rDVzBAKGlD
+    name: Loose siege catapult
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754910892760
+      modifiedTime: 1754910895895
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!inzenfEIskqXr7wq.R1Xwx9rDVzBAKGlD'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754910851780
+  modifiedTime: 1754910894165
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!inzenfEIskqXr7wq'

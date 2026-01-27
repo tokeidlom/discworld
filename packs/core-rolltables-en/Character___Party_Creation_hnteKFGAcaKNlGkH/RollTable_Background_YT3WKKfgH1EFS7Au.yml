@@ -1,0 +1,255 @@
+folder: hnteKFGAcaKNlGkH
+name: Background
+_id: YT3WKKfgH1EFS7Au
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: sEWdN7JDqbjqxxRJ
+    name: From the Shades
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909183079
+      modifiedTime: 1754909186299
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YT3WKKfgH1EFS7Au.sEWdN7JDqbjqxxRJ'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: sClCY6h9rhMhl7fB
+    name: From a distinguished heritage
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909189877
+      modifiedTime: 1754909193978
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YT3WKKfgH1EFS7Au.sClCY6h9rhMhl7fB'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: BR06ghNf3rLFRhDR
+    name: From a family who runs a modest business in Ankh-Morpork
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909197820
+      modifiedTime: 1754909201043
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YT3WKKfgH1EFS7Au.BR06ghNf3rLFRhDR'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: T7WMrL7gb9mpNzhZ
+    name: Born under an auspicious star
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909204865
+      modifiedTime: 1754909207634
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YT3WKKfgH1EFS7Au.T7WMrL7gb9mpNzhZ'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: FJ8drlG6me8Qzy3q
+    name: Raised by doting, if unwise, parents
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909211134
+      modifiedTime: 1754909214101
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YT3WKKfgH1EFS7Au.FJ8drlG6me8Qzy3q'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: dgXLVA15Cgk4mm3O
+    name: Raised by a different species
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909224396
+      modifiedTime: 1754909228049
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YT3WKKfgH1EFS7Au.dgXLVA15Cgk4mm3O'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    _id: f0v0W2Ck1vqj30WA
+    name: Been around the block
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909232327
+      modifiedTime: 1754909235545
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YT3WKKfgH1EFS7Au.f0v0W2Ck1vqj30WA'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    _id: emHaiJXJH0QGRJeF
+    name: Doesn’t get out much
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909239350
+      modifiedTime: 1754909242137
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YT3WKKfgH1EFS7Au.emHaiJXJH0QGRJeF'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    _id: 8qINO3lynCabwYuF
+    name: Ain’t from ’round ’ere
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909245826
+      modifiedTime: 1754909248637
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YT3WKKfgH1EFS7Au.8qINO3lynCabwYuF'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    _id: Sq5iaJQKfsSAGWSy
+    name: Trying something new
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754909252066
+      modifiedTime: 1754909255032
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YT3WKKfgH1EFS7Au.Sq5iaJQKfsSAGWSy'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754909178161
+  modifiedTime: 1754910545115
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!YT3WKKfgH1EFS7Au'

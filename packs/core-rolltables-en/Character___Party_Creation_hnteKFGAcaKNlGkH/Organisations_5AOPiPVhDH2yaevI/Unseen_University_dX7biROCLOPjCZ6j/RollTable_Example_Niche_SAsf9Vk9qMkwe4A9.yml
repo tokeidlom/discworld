@@ -1,0 +1,163 @@
+folder: dX7biROCLOPjCZ6j
+name: Example Niche
+_id: SAsf9Vk9qMkwe4A9
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: vDJblZL0BhXyWKlt
+    name: Specialist in Cruel and Unusual Geography
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911591734
+      modifiedTime: 1754911595560
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!SAsf9Vk9qMkwe4A9.vDJblZL0BhXyWKlt'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: fUcNwPJOImwBm5Si
+    name: Applied Vindictive Astronomy
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911599611
+      modifiedTime: 1754911603107
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!SAsf9Vk9qMkwe4A9.fUcNwPJOImwBm5Si'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: AiUEuCJ8VQjbMu9r
+    name: High-Energy-Magic Technician
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911606785
+      modifiedTime: 1754911609862
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!SAsf9Vk9qMkwe4A9.AiUEuCJ8VQjbMu9r'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: 02uO1PqiP4W6xb5v
+    name: Theoretical Thaumaturgist
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911614164
+      modifiedTime: 1754911617521
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!SAsf9Vk9qMkwe4A9.02uO1PqiP4W6xb5v'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: acSLq14T6NESEb0Z
+    name: Post-Mortem Communicator
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911621286
+      modifiedTime: 1754911624636
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!SAsf9Vk9qMkwe4A9.acSLq14T6NESEb0Z'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: S2beoYRo2QuiVfiH
+    name: Pre-Doctorate in Divination
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911628260
+      modifiedTime: 1754911631384
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!SAsf9Vk9qMkwe4A9.S2beoYRo2QuiVfiH'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754911579517
+  modifiedTime: 1754911629628
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!SAsf9Vk9qMkwe4A9'

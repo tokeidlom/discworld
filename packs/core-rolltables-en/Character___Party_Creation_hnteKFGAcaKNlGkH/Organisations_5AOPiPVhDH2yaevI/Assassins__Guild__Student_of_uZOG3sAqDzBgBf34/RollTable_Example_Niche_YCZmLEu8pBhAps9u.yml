@@ -1,0 +1,163 @@
+folder: uZOG3sAqDzBgBf34
+name: Example Niche
+_id: YCZmLEu8pBhAps9u
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: SeFgByivumUaUERq
+    name: Fashionable rogue
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911922690
+      modifiedTime: 1754911926913
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YCZmLEu8pBhAps9u.SeFgByivumUaUERq'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: 7El5ImNU8xxFgRcv
+    name: Dabbler in poisons
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911931024
+      modifiedTime: 1754911934737
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YCZmLEu8pBhAps9u.7El5ImNU8xxFgRcv'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: UR5xJCoN48pZgcwn
+    name: Zero percent recorded attendance
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911947474
+      modifiedTime: 1754911951763
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YCZmLEu8pBhAps9u.UR5xJCoN48pZgcwn'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: j6AWInk5L0aFEgCN
+    name: Second-storey work
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911956014
+      modifiedTime: 1754911958873
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YCZmLEu8pBhAps9u.j6AWInk5L0aFEgCN'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: 1T7D5oZ5cek5vauU
+    name: Appraiser of human worth
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911963776
+      modifiedTime: 1754911968530
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YCZmLEu8pBhAps9u.1T7D5oZ5cek5vauU'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: e8FJwUbG2acxIwn0
+    name: Knifethrower
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911973997
+      modifiedTime: 1754911976675
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!YCZmLEu8pBhAps9u.e8FJwUbG2acxIwn0'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754911917098
+  modifiedTime: 1754911975243
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!YCZmLEu8pBhAps9u'

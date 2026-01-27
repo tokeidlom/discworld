@@ -1,0 +1,179 @@
+folder: mjx4J1DqgL0l2fIP
+name: Quirk Question
+_id: kroKoBOZ7diXHLfG
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: LQ4RjSkBD821odGQ
+    name: How’s your needlework?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>No complaints; I’ve got excellent coordination, I can even have one in
+      each hand; Needles cost extra.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913896611
+      modifiedTime: 1754913914601
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kroKoBOZ7diXHLfG.LQ4RjSkBD821odGQ'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: YcsI3uKhcmcCpqtM
+    name: What’s your favourite fabric to work with?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I mainly work with leather; Something firm enough to take some
+      punishment; Something delicate and refined — it takes a lot of gentle
+      skill to bring out its true colours.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913918914
+      modifiedTime: 1754913941609
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kroKoBOZ7diXHLfG.YcsI3uKhcmcCpqtM'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: yYrXI6r5NRV17BEr
+    name: What do you know about the Agony Aunts?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Not much but Dotsie’s handbag scares me; I know I can rely on them if
+      I’m ever in trouble; They’re lovely old dears, I always make sure to offer
+      them a cup of tea if I see them out and about.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913946209
+      modifiedTime: 1754913962431
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kroKoBOZ7diXHLfG.yYrXI6r5NRV17BEr'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: zb90oZJIqTdBAQEF
+    name: Why did you choose to become a seamstress?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I love a busy schedule and interesting clothes, and you see a lot with
+      the Seamstresses’ Guild; I’ve always been skilled with my hands; I enjoy
+      working in fine ladies’ dresses, hem-hem.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913968349
+      modifiedTime: 1754913985038
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kroKoBOZ7diXHLfG.zb90oZJIqTdBAQEF'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: yMEUuK2073DkaqI8
+    name: Why do people come to you?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>I provide a specialist service you’d struggle to find elsewhere; I’m
+      just a joy to be around; I can stitch with my tongue.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913990140
+      modifiedTime: 1754914003124
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kroKoBOZ7diXHLfG.yMEUuK2073DkaqI8'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: 803lQNkLiXwWOQVk
+    name: How can people recognise your work?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>There’s always some glitter where I’ve been working; Subtlety is
+      guaranteed, I never leave recognisable marks where people can see them; I
+      always leave a signature.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754914007359
+      modifiedTime: 1754914022890
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!kroKoBOZ7diXHLfG.803lQNkLiXwWOQVk'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754913891059
+  modifiedTime: 1754914008799
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!kroKoBOZ7diXHLfG'

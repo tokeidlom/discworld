@@ -361,3 +361,20 @@ textarea {
 .observer [data-tooltip] {
   pointer-events: auto !important;
 }
+
+/*Chat card styling*/
+.chat-card {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.chat-card .formula {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.chat-card .result {
+  font-size: 1.5em;
+  font-weight: bold;
+}

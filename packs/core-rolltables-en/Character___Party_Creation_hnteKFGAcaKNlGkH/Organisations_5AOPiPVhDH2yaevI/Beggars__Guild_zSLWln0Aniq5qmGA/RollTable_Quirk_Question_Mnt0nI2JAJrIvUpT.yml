@@ -1,0 +1,180 @@
+folder: zSLWln0Aniq5qmGA
+name: Quirk Question
+_id: Mnt0nI2JAJrIvUpT
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: UM8vgyATPh6wf1TT
+    name: Where’s your best begging spot?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Misbegot Bridge, just got to avoid the Canting Crew; Sator Square,
+      markets always make for good beggin’; Outside the Opera House, they’ll pay
+      a decent amount to make you go away before a performance.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913288984
+      modifiedTime: 1754913306289
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Mnt0nI2JAJrIvUpT.UM8vgyATPh6wf1TT'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: FY3udeJsqzSvqRRh
+    name: What are some words to live by?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Begging is an artform, and I’m an old master; Why pay for what you can
+      beg?; Bugrit, I tells ‘em, millennium hand and shrimp.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913310401
+      modifiedTime: 1754913322045
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Mnt0nI2JAJrIvUpT.FY3udeJsqzSvqRRh'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: bHZRZmnlNI4MI9lS
+    name: Why did you become a beggar?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Following in my family’s footsteps, we’ve not worked a day in
+      generations; My hat fell off and someone put money in it, now here we are;
+      I never chose to be one, beggars can’t be choosers.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913339472
+      modifiedTime: 1754913366748
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Mnt0nI2JAJrIvUpT.bHZRZmnlNI4MI9lS'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: A6ITcIynq2cwUbQA
+    name: What makes begging ‘not so bad’?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>You never have to work a day in your life; You get plenty of fresh air;
+      You meet all sorts of very interesting people, usually quite briefly.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913373058
+      modifiedTime: 1754913387651
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Mnt0nI2JAJrIvUpT.A6ITcIynq2cwUbQA'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: 0Y8waQtLBDybY0Qi
+    name: What’s your ‘never fails’ begging strategy
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Hang around outside troll bars — it’s risky, but sometimes you get a
+      tooth; If I had one I wouldn’t be a beggar anymore would I?; Not begging.
+      For a very reasonable rate, I don’t turn up and start begging outside
+      someone’s house.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913393076
+      modifiedTime: 1754913411782
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Mnt0nI2JAJrIvUpT.0Y8waQtLBDybY0Qi'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: xkkk0TiFK1dMl3tP
+    name: What would be your perfect score?
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>Dripping sandwich from Harga’s House of Ribs, crusty bits and all; A
+      banquet and sixteen-bed mansion; Good solid boots and a warm spot for the
+      winter.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754913417039
+      modifiedTime: 1754913429146
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!Mnt0nI2JAJrIvUpT.xkkk0TiFK1dMl3tP'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754913282241
+  modifiedTime: 1754913418368
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!Mnt0nI2JAJrIvUpT'

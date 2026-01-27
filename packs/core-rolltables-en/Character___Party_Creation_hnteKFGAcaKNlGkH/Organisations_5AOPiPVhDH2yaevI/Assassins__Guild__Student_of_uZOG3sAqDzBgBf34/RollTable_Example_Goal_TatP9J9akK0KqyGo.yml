@@ -1,0 +1,126 @@
+folder: uZOG3sAqDzBgBf34
+name: Example Goal
+_id: TatP9J9akK0KqyGo
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: XkfknekWRjp4bBRV
+    name: >-
+      Race to be the first to inhume a target by any stylish means necessary.
+      The winner graduates.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911833506
+      modifiedTime: 1754911837815
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TatP9J9akK0KqyGo.XkfknekWRjp4bBRV'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: i5OxbOWqaZwvXxxj
+    name: >-
+      Enter the Patrician’s Palace and get as close to Vetinari as possible.
+      Whoever gets closest without dying graduates.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911848020
+      modifiedTime: 1754911868641
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TatP9J9akK0KqyGo.i5OxbOWqaZwvXxxj'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: 1i3ABNAwmkJRJH1i
+    name: >-
+      It is tradition for students to try and kill Commander Vimes at least
+      once. Maybe with a group effort you could impress your teachers?
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911876670
+      modifiedTime: 1754911893908
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TatP9J9akK0KqyGo.1i3ABNAwmkJRJH1i'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: y2T2WKtPLp8lY660
+    name: >-
+      Due to a clerical error, you have taken out a contract on the high priest
+      of Blind Io. Assassin rules clearly state that killing in a temple is
+      strictly forbidden.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754911901028
+      modifiedTime: 1754911904425
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!TatP9J9akK0KqyGo.y2T2WKtPLp8lY660'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754911826510
+  modifiedTime: 1754911902575
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!TatP9J9akK0KqyGo'

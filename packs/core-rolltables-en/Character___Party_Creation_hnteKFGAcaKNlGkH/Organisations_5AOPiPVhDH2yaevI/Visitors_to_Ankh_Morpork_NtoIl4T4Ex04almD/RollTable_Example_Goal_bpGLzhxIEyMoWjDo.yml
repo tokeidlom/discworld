@@ -1,0 +1,119 @@
+folder: NtoIl4T4Ex04almD
+name: Example Goal
+_id: bpGLzhxIEyMoWjDo
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: gfWl6NCdaqMCiMWU
+    name: Find your hotel, you know it’s somewhere in the Shades.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754914413905
+      modifiedTime: 1754914418713
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bpGLzhxIEyMoWjDo.gfWl6NCdaqMCiMWU'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: 0tt03fljhggackOm
+    name: >-
+      Eat a sausage-inna-bun…But C.M.O.T Dibbler is uncharacteristically
+      difficult to find.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754914424729
+      modifiedTime: 1754914434589
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bpGLzhxIEyMoWjDo.0tt03fljhggackOm'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: vDWb71UMi2ECixHb
+    name: Spend every last penny you have in the most impressive way possible.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754914444474
+      modifiedTime: 1754914447747
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bpGLzhxIEyMoWjDo.vDWb71UMi2ECixHb'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: mtcz7wXjbSBaDjMJ
+    name: Get out of Ankh-Morpork…It’s harder than it looks.
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: discworld
+      systemVersion: 0.4.1
+      createdTime: 1754914461937
+      modifiedTime: 1754914466043
+      lastModifiedBy: SVK9hlY73qymO5SM
+    documentUuid: null
+    _key: '!tables.results!bpGLzhxIEyMoWjDo.mtcz7wXjbSBaDjMJ'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  SVK9hlY73qymO5SM: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: discworld
+  systemVersion: 0.4.1
+  createdTime: 1754914406291
+  modifiedTime: 1754914463175
+  lastModifiedBy: SVK9hlY73qymO5SM
+formula: ''
+_key: '!tables!bpGLzhxIEyMoWjDo'

@@ -1,0 +1,18 @@
+type: Item
+folder: 8C2zoniAh2nltBjf
+name: Unseen University
+color: null
+sorting: a
+_id: BFBG4JFZtDojS9lC
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: discworld
+  systemVersion: 1.0.0
+  lastModifiedBy: null
+_key: '!folders!BFBG4JFZtDojS9lC'
