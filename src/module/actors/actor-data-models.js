@@ -5,6 +5,7 @@ export class CharacterData extends foundry.abstract.TypeDataModel {
       pronouns: new fields.StringField({initial: ''}),
       luck: new fields.NumberField({required: true, integer: true, initial: 4}),
       organisation: new fields.StringField({initial: ''}),
+      child: new fields.StringField({initial: ''}),
       background: new fields.StringField({initial: ''}),
       consequences: new fields.StringField({initial: ''}),
       notes: new fields.StringField({initial: ''})
