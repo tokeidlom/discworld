@@ -247,7 +247,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     }).render(true);
   }
 
-  // Merge the background and description fields
+  // Merge the background and description fields depreciate later
   async _convertFields(event) {
     const actor = this.actor;
     if (!actor) return;
