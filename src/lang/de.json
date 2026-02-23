@@ -30,6 +30,8 @@
 		"no": "Nein",
 		"discworlddiceroller": "Discworld Würfelroller",
 		"roll": "Würfeln",
+		"selectedtrait": "Ausgewähltes Merkmal",
+		"result": "Ergebnis",
 		"reroll": "Neu würfeln",
 		"rolling": "Würfeln...",
 		"close": "Schließen",

@@ -1,109 +1,100 @@
+export class DiscRoller {
+  static async DiceRoller(event) {
+    // Create the dice roller element
+    const diceForm = document.createElement('div');
+    diceForm.className = 'dice-roller';
+    diceForm.innerHTML = `
+      <div class="row">
+        <button type="button" class="roller-button d8" data-dice="d8">d8</button>
+      </div>
+      <div class="row">
+        <button type="button" class="roller-button d4" data-dice="d4">d4</button>
+        <button type="button" class="roller-button d6" data-dice="d6">d6</button>
+      </div>
+      <div class="row">
+        <button type="button" class="roller-button d10" data-dice="d10">d10</button>
+        <button type="button" class="roller-button d12" data-dice="d12">d12</button>
+      </div>
+      <div class="row">
+        <button type="button" class="roller-button d20" data-dice="d20">d20</button>
+        <button type="button" class="roller-button d100" data-dice="d100">d100</button>
+      </div>
+    `;
 
-const api = foundry.applications.api;
+    document.body.appendChild(diceForm);
 
-export class DiscRoller extends api.HandlebarsApplicationMixin(api.ApplicationV2) {
-  static PARTS = {
-    tracker: {
-      template: 'systems/discworld/templates/apps/discroller.hbs'
-    },
-  };
+    this.positionDiceRoller(diceForm);
+    
+    const updatePosition = () => {
+      this.positionDiceRoller(diceForm);
+      requestAnimationFrame(updatePosition);
+    };
+    requestAnimationFrame(updatePosition);
 
-  static DEFAULT_OPTIONS = {
-    classes: ['dice-roller'],
-    actions: {
-
-    },
-    form: {
-      submitOnChange: true,
-      closeOnSubmit: false,
-    },
-    window: {
-      frame: false,
-      positioned: false
-    },
-  };
-
-  constructor(options = {}) {
-    super(options);
+    diceForm.querySelectorAll('button').forEach(button => {
+      button.addEventListener('click', (event) => {
+        const diceType = button.dataset.dice;
+        if (diceType) {
+          const formula = `1${diceType}`;
+          const roll = new Roll(formula);
+          roll.evaluate().then(async () => {
+            const messageData = {
+              content: `
+                <div class="chat-card">
+                  <div class="formula">${game.i18n.localize('application.rolling')} ${diceType}</div>
+                  <div class="result">${roll.total}</div>
+                </div>
+              `,
+              flags: {
+                'core.canPopout': true
+              }
+            };
+            await roll.toMessage(messageData);
+          });
+        }
+      });
+    });
   }
 
-  static async RollerPosition(event) {
-    let rollerForm = document.querySelector('.dice-roller');
-    if (!rollerForm) {
-      rollerForm = document.createElement('div');
-      document.body.appendChild(rollerForm);
-    }
-    this.startPositionUpdater(rollerForm);
-  }
-
-  static positionDiceRoller(rollerForm) {
+  static positionDiceRoller(diceForm) {
     const position = game.settings.get('discworld', 'diceButtonPosition');
-    rollerForm.style.position = 'absolute';
-    const clickable = document.querySelector('.dice-roller');
+    diceForm.style.position = 'absolute';
 
     let targetButton;
     let buttonRect;
 
     switch (position) {
-    case 'TopLeft':
-      targetButton = document.querySelector('#scene-navigation-active');
-      buttonRect = targetButton?.getBoundingClientRect();
-      trackerForm.style.top = `${buttonRect.top - 18}px`;
-      trackerForm.style.left = `${buttonRect.right + 35}px`;
-      clickable.style.paddingLeft = '0px';
-      break;
-
-    case 'TopRight':
-      targetButton = document.querySelector('#sidebar button.fa-comments');
-      buttonRect = targetButton?.getBoundingClientRect();
-      trackerForm.style.top = `${buttonRect.top - 18}px`;
-      trackerForm.style.left = `${buttonRect.left - 165}px`;
-      clickable.style.paddingLeft = '130px';
-      break;
-
-    case 'BottomLeft':
-      targetButton = document.querySelector('#players');
-      buttonRect = targetButton?.getBoundingClientRect();
-      trackerForm.style.top = `${buttonRect.top - 130}px`;
-      trackerForm.style.left = `${buttonRect.left}px`;
-      clickable.style.paddingLeft = '0px';
-      break;
-
-    case 'BottomRight':
-    default:
-      targetButton = document.querySelector('#sidebar button.collapse');
-      buttonRect = targetButton?.getBoundingClientRect();
-      trackerForm.style.top = `${buttonRect.bottom + 4}px`;
-      trackerForm.style.left = `${buttonRect.left - 110}px`;
-      clickable.style.paddingLeft = '119px';
-      break;
+      case 'TopLeft': {
+        targetButton = document.querySelector('#scene-navigation-active');
+        buttonRect = targetButton?.getBoundingClientRect();
+        diceForm.style.top = `${buttonRect.top}px`;
+        diceForm.style.left = `${buttonRect.right + 36}px`;
+        break;
+      }
+      case 'TopRight':
+        targetButton = document.querySelector('#sidebar button.fa-comments');
+        buttonRect = targetButton?.getBoundingClientRect();
+        diceForm.style.top = `${buttonRect.top - 18}px`;
+        diceForm.style.left = `${buttonRect.left - 165}px`;
+        break;
+      case 'BottomLeft':
+        targetButton = document.querySelector('#players');
+        buttonRect = targetButton?.getBoundingClientRect();
+        diceForm.style.top = `${buttonRect.top - 130}px`;
+        diceForm.style.left = `${buttonRect.left}px`;
+        break;
+      case 'BottomRight':
+      default: {
+        targetButton = document.querySelector('#sidebar button.collapse');
+        buttonRect = targetButton?.getBoundingClientRect();
+        diceForm.style.top = `${buttonRect.bottom + 8}px`;
+        diceForm.style.left = `${buttonRect.left - 50}px`;
+        break;
+      }
     }
-  }
-
-
-
-  static _onMinimise() {
-    document.getElementById('tracker-clickable-minus').classList.add('hide');
-    document.getElementById('tracker-clickable-plus').classList.remove('hide');
-    document.querySelectorAll('.tracker-container').forEach((el) => el.classList.add('hide'));
-  }
-
-  static _onMaximise() {
-    document.getElementById('tracker-clickable-plus').classList.add('hide');
-    document.getElementById('tracker-clickable-minus').classList.remove('hide');
-    document.querySelectorAll('.tracker-container').forEach((el) => el.classList.remove('hide'));
-  }
-
-
-  _onRender(context, options) {
-
-    
   }
 }
 
-  Hooks.once('renderSidebar', async function() {
-    if (game.DiscRoller) return;
-    const roller = new DiscRoller();
-    game.DiscRoller = roller;
-    await roller.render(true);
-  });
+Hooks.on('renderSidebar', (controls) => {
+  DiscRoller.DiceRoller();
+});

@@ -30,6 +30,8 @@
 		"no": "No",
 		"discworlddiceroller": "Discworld Dice Roller",
 		"roll": "Roll",
+		"selectedtrait": "Selected Trait",
+		"result": "Result",
 		"reroll": "Reroll",
 		"rolling": "Rolling",
 		"close": "Close",

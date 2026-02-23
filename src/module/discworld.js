@@ -33,10 +33,12 @@ Hooks.once('init', async function() {
     hint: 'Where on the screen should the dice button be?',
     scope: 'world',
     type: String,
-    default: 'BottomRight',
+    default: 'BottomLeft',
     config: true,
     choices: {
+      'BottomLeft': 'Bottom Left',
       'BottomRight': 'Bottom Right',
+      'TopRight': 'Top Right',
       'TopLeft': 'Top Left',
     }
   });
