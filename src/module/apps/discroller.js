@@ -41,8 +41,10 @@ export class DiscRoller {
             const messageData = {
               content: `
                 <div class="chat-card">
-                  <div class="formula">${game.i18n.localize('application.rolling')} ${diceType}</div>
-                  <div class="result">${roll.total}</div>
+                  <div class="rolled">
+                    <div class="formula">${game.i18n.localize('application.rolling')} ${diceType}</div>
+                    <div class="result">${roll.total}</div>
+                  </div>
                 </div>
               `,
               flags: {
@@ -74,13 +76,13 @@ export class DiscRoller {
       case 'TopRight':
         targetButton = document.querySelector('#sidebar button.fa-comments');
         buttonRect = targetButton?.getBoundingClientRect();
-        diceForm.style.top = `${buttonRect.top - 18}px`;
+        diceForm.style.top = `${buttonRect.top - 16}px`;
         diceForm.style.left = `${buttonRect.left - 165}px`;
         break;
       case 'BottomLeft':
         targetButton = document.querySelector('#players');
         buttonRect = targetButton?.getBoundingClientRect();
-        diceForm.style.top = `${buttonRect.top - 130}px`;
+        diceForm.style.top = `${buttonRect.top - 180}px`;
         diceForm.style.left = `${buttonRect.left}px`;
         break;
       case 'BottomRight':
@@ -88,7 +90,7 @@ export class DiscRoller {
         targetButton = document.querySelector('#sidebar button.collapse');
         buttonRect = targetButton?.getBoundingClientRect();
         diceForm.style.top = `${buttonRect.bottom + 8}px`;
-        diceForm.style.left = `${buttonRect.left - 50}px`;
+        diceForm.style.left = `${buttonRect.left - 120}px`;
         break;
       }
     }

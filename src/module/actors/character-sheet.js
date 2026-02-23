@@ -234,10 +234,10 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
           </div>
         ` : ''}
 
-      <div class="rolled">
-          <div class="formula ${diceType}">${diceType}</div>
+        <div class="rolled">
+          <div class="formula">${game.i18n.localize('application.rolling')} ${diceType}</div>
           <div class="result">${roll.total}</div>
-          </div>
+        </div>
       </div>
     `;
 
