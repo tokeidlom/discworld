@@ -31,6 +31,11 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     },
   };
 
+  constructor(...args) {
+    super(...args);
+    this.selectedText = '';
+  }
+
   get title() {
     return `${this.actor.name}`;
   }
@@ -67,6 +72,55 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       maxLuck: game.settings.get('discworld', 'maxNumberOfLuck'),
     };
   }
+
+
+  async _onRender(context, options) {
+    if (this.document.limited) return;
+	
+    if (!this.document.isOwner) this._setObserver();
+
+    if (this.document.isOwner) this._convertFields();
+
+    this.element.addEventListener('mouseup', this._onTextSelected.bind(this));
+
+    document.querySelectorAll('.luck-input').forEach((input) => {
+      input.addEventListener('change', this._onLuckEntry.bind(this));
+    });
+
+    document.querySelectorAll('.item-name').forEach((input) => {
+      input.addEventListener('change', this._onItemNameChange.bind(this));
+    });
+
+    const els = Array.from(document.querySelectorAll('.item-name[data-item-id]'));
+    for (const el of els) {
+      const item = this.actor.items.get(el.dataset.itemId);
+      const raw = (item?.system?.description ?? '').trim();
+      if (!raw) continue;
+
+      const enriched = await foundry.applications.ux.TextEditor.enrichHTML(raw, {
+        async: true,
+        documents: true,
+        rolls: true,
+        secrets: false
+      });
+
+      el.setAttribute('data-tooltip', enriched);
+      el.setAttribute('data-tooltip-direction', 'UP');
+    }
+
+    if (!Array.isArray(this._dragDrophandler) || !this._dragDrophandler.length) {
+      this._dragDrophandler = this._createDragDropHandlers();
+    }
+    this._dragDrophandler.forEach((d) => d.bind(this.element));
+
+    this.element.querySelectorAll('a.edit[data-action="onItemEdit"], a.delete[data-action="onItemDelete"]')?.forEach((li) => {
+      li.setAttribute('draggable', 'true');
+    });
+  }
+
+//  ######################################################################
+//  #                        Actions from here                           #
+//  ######################################################################
 
   async _onIncreaseLuck(event) {
     const maxLuck = game.settings.get('discworld', 'maxNumberOfLuck');
@@ -134,6 +188,33 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     }, 1000);
   }
 
+  async _onTextSelected(event) {
+    const selection = window.getSelection();
+    const text = selection.toString().trim();
+
+    if (text) {
+      this.selectedText = text;
+      if (this._selectionTimer) {
+        clearTimeout(this._selectionTimer);
+      }
+
+      this._selectionTimer = setTimeout(() => {
+        this.selectedText = null;
+        this._selectionTimer = null;
+
+        if (this.rendered) this.render(false);
+      }, 8000);
+
+    } else {
+      this.selectedText = null;
+
+      if (this._selectionTimer) {
+        clearTimeout(this._selectionTimer);
+        this._selectionTimer = null;
+      }
+    }
+  }
+
   async _onRollDice(event) {
     event.preventDefault();
     const button = event.target.closest('button');
@@ -143,19 +224,35 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
 
     await roll.evaluate();
 
-    const messageData = {
-      content: `
-        <div class="chat-card">
+    const messageContent = `
+      <div class="chat-card">
+        ${this.selectedText ? `
+          <div class="selected-text-box">
+            <div class="selected-text">
+             "${this.selectedText}"
+            </div>
+          </div>
+        ` : ''}
+
+        <div class="rolled">
           <div class="formula">${game.i18n.localize('application.rolling')} ${diceType}</div>
           <div class="result">${roll.total}</div>
         </div>
-      `,
+      </div>
+    `;
+
+    const messageData = {
+      content: messageContent,
       speaker: ChatMessage.getSpeaker({actor: this.actor}),
       flags: {
         'core.canPopout': true
       }
     };
     await roll.toMessage(messageData);
+
+this.selectedText = null;
+
+if (this.rendered) this.render(false);
   }
 
   async _onItemNameChange(event) {
@@ -247,7 +344,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     }).render(true);
   }
 
-  // Merge the background and description fields
+  // Merge the background and description fields depreciate later
   async _convertFields(event) {
     const actor = this.actor;
     if (!actor) return;
@@ -269,7 +366,6 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     }
   }
 
-
   // Limit to view only for observers
   async _setObserver() {
     const selectors = [
@@ -286,47 +382,9 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     }
   }
 
-  async _onRender(context, options) {
-    if (this.document.limited) return;
-	
-    if (!this.document.isOwner) this._setObserver();
-
-    if (this.document.isOwner) this._convertFields();
-
-    document.querySelectorAll('.luck-input').forEach((input) => {
-      input.addEventListener('change', this._onLuckEntry.bind(this));
-    });
-
-    document.querySelectorAll('.item-name').forEach((input) => {
-      input.addEventListener('change', this._onItemNameChange.bind(this));
-    });
-
-    const els = Array.from(document.querySelectorAll('.item-name[data-item-id]'));
-    for (const el of els) {
-      const item = this.actor.items.get(el.dataset.itemId);
-      const raw = (item?.system?.description ?? '').trim();
-      if (!raw) continue;
-
-      const enriched = await foundry.applications.ux.TextEditor.enrichHTML(raw, {
-        async: true,
-        documents: true,
-        rolls: true,
-        secrets: false
-      });
-
-      el.setAttribute('data-tooltip', enriched);
-      el.setAttribute('data-tooltip-direction', 'UP');
-    }
-
-    if (!Array.isArray(this._dragDrophandler) || !this._dragDrophandler.length) {
-      this._dragDrophandler = this._createDragDropHandlers();
-    }
-    this._dragDrophandler.forEach((d) => d.bind(this.element));
-
-    this.element.querySelectorAll('a.edit[data-action="onItemEdit"], a.delete[data-action="onItemDelete"]')?.forEach((li) => {
-      li.setAttribute('draggable', 'true');
-    });
-  }
+//  ######################################################################
+//  #                      Drag & Drop from here                         #
+//  ######################################################################
 
   _canDragStart(selector) {
     return this.isEditable;

@@ -30,6 +30,8 @@
 		"no": "Non",
 		"discworlddiceroller": "Lanceur de dés Discworld",
 		"roll": "Lancer",
+		"selectedtrait": "Caractéristique sélectionnée",
+		"result": "Résultat",
 		"reroll": "Relancer",
 		"rolling": "Lancer en cours...",
 		"close": "Fermer",
@@ -45,6 +47,7 @@
 		"blank": "Vierge"
 	},
 	"item": {
+		"trait": "Trait",
 		"name": "Nom du groupe",
 		"description": "Description",
 		"organisation": "Organisation",

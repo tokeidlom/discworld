@@ -1,25 +1,61 @@
-const api = foundry.applications.api;
-
 export class DiscRoller {
-  static async DiceRollerButtonV13(event) {
-    let diceForm = document.querySelector('.disc-roller-form');
-    if (!diceForm) {
-      diceForm = document.createElement('div');
-      diceForm.classList.add('disc-roller-form');
-      diceForm.innerHTML = `
-        <form>
-          <button type="button" class="roller-button" title="${game.i18n.localize('application.discworlddiceroller')}">
-            <img src="systems/discworld/assets/dice/fancy-dice.png" alt="${game.i18n.localize('application.discworlddiceroller')}">
-          </button>
-        </form>
-      `;
-      document.body.appendChild(diceForm);
+  static async DiceRoller(event) {
+    // Create the dice roller element
+    const diceForm = document.createElement('div');
+    diceForm.className = 'dice-roller';
+    diceForm.innerHTML = `
+      <div class="row">
+        <button type="button" class="roller-button d8" data-dice="d8">d8</button>
+      </div>
+      <div class="row">
+        <button type="button" class="roller-button d4" data-dice="d4">d4</button>
+        <button type="button" class="roller-button d6" data-dice="d6">d6</button>
+      </div>
+      <div class="row">
+        <button type="button" class="roller-button d10" data-dice="d10">d10</button>
+        <button type="button" class="roller-button d12" data-dice="d12">d12</button>
+      </div>
+      <div class="row">
+        <button type="button" class="roller-button d20" data-dice="d20">d20</button>
+        <button type="button" class="roller-button d100" data-dice="d100">d100</button>
+      </div>
+    `;
 
-      diceForm.querySelector('.roller-button').addEventListener('click', (ev) => {
-        this.CreateDiceRoller(ev);
+    document.body.appendChild(diceForm);
+
+    this.positionDiceRoller(diceForm);
+    
+    const updatePosition = () => {
+      this.positionDiceRoller(diceForm);
+      requestAnimationFrame(updatePosition);
+    };
+    requestAnimationFrame(updatePosition);
+
+    diceForm.querySelectorAll('button').forEach(button => {
+      button.addEventListener('click', (event) => {
+        const diceType = button.dataset.dice;
+        if (diceType) {
+          const formula = `1${diceType}`;
+          const roll = new Roll(formula);
+          roll.evaluate().then(async () => {
+            const messageData = {
+              content: `
+                <div class="chat-card">
+                  <div class="rolled">
+                    <div class="formula">${game.i18n.localize('application.rolling')} ${diceType}</div>
+                    <div class="result">${roll.total}</div>
+                  </div>
+                </div>
+              `,
+              flags: {
+                'core.canPopout': true
+              }
+            };
+            await roll.toMessage(messageData);
+          });
+        }
       });
-    }
-    this.startPositionUpdater(diceForm);
+    });
   }
 
   static positionDiceRoller(diceForm) {
@@ -33,80 +69,34 @@ export class DiscRoller {
       case 'TopLeft': {
         targetButton = document.querySelector('#scene-navigation-active');
         buttonRect = targetButton?.getBoundingClientRect();
-        if (!buttonRect) return;
         diceForm.style.top = `${buttonRect.top}px`;
         diceForm.style.left = `${buttonRect.right + 36}px`;
         break;
       }
+      case 'TopRight':
+        targetButton = document.querySelector('#sidebar button.fa-comments');
+        buttonRect = targetButton?.getBoundingClientRect();
+        diceForm.style.top = `${buttonRect.top - 16}px`;
+        diceForm.style.left = `${buttonRect.left - 165}px`;
+        break;
+      case 'BottomLeft':
+        targetButton = document.querySelector('#players');
+        buttonRect = targetButton?.getBoundingClientRect();
+        diceForm.style.top = `${buttonRect.top - 165}px`;
+        diceForm.style.left = `${buttonRect.left}px`;
+        break;
       case 'BottomRight':
       default: {
         targetButton = document.querySelector('#sidebar button.collapse');
         buttonRect = targetButton?.getBoundingClientRect();
-        if (!buttonRect) return;
         diceForm.style.top = `${buttonRect.bottom + 8}px`;
-        diceForm.style.left = `${buttonRect.left}px`;
+        diceForm.style.left = `${buttonRect.left - 120}px`;
         break;
       }
     }
   }
-
-  static startPositionUpdater(diceForm) {
-    const updatePosition = () => {
-      this.positionDiceRoller(diceForm);
-      requestAnimationFrame(updatePosition);
-    };
-    requestAnimationFrame(updatePosition);
-  }
-
-  static async CreateDiceRoller(event) {
-    const DiceRollerApp = class extends api.HandlebarsApplicationMixin(api.ApplicationV2) {
-      static PARTS = {
-        tracker: {
-          template: 'systems/discworld/templates/apps/discroller.hbs'
-        },
-      };
-
-      static DEFAULT_OPTIONS = {
-        actions: {
-          onRollDice: this.prototype._onRollDice,
-        },
-        form: {
-          submitOnChange: true,
-          closeOnSubmit: false,
-        },
-      };
-
-      get title() {
-        return `DiscRoller`;
-      }
-
-      async _onRollDice(event) {
-        event.preventDefault();
-        const button = event.target.closest('button');
-        const diceType = button.dataset.dice;
-        const formula = `1${diceType}`;
-        const roll = new Roll(formula);
-
-        await roll.evaluate();
-
-        const messageData = {
-          content: `
-            <div class="chat-card">
-              <div class="formula">${game.i18n.localize('application.rolling')} ${diceType}</div>
-              <div class="result">${roll.total}</div>
-            </div>
-          `,
-          flags: {
-            'core.canPopout': true
-          }
-        };
-        await roll.toMessage(messageData);
-      }
-    };
-    new DiceRollerApp().render(true);
-  }
 }
 
 Hooks.on('renderSidebar', (controls) => {
-  DiscRoller.DiceRollerButtonV13();
+  DiscRoller.DiceRoller();
 });

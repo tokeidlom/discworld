@@ -30,6 +30,8 @@
 		"no": "No",
 		"discworlddiceroller": "Discworld Dice Roller",
 		"roll": "Roll",
+		"selectedtrait": "Selected Trait",
+		"result": "Result",
 		"reroll": "Reroll",
 		"rolling": "Rolling",
 		"close": "Close",
@@ -45,7 +47,8 @@
 		"blank": "Blank"
 	},
 	"item": {
-		"name": "Party Name",
+		"trait": "Trait",
+		"partyname": "Party Name",
 		"description": "Description",
 		"organisation": "Organisation",
 		"goal": "Party Goal",

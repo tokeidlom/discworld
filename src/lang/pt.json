@@ -30,6 +30,8 @@
 		"no": "Não",
 		"discworlddiceroller": "Rolador de dados Discworld",
 		"roll": "Rolar",
+		"selectedtrait": "Traço Selecionado",
+		"result": "Resultado",
 		"reroll": "Rolar novamente",
 		"rolling": "Rolando...",
 		"close": "Fechar",
@@ -45,6 +47,7 @@
 		"blank": "Em branco"
 	},
 	"item": {
+		"trait": "Trait",
 		"name": "Nome do grupo",
 		"description": "Descrição",
 		"organisation": "Organização",

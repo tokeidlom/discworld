@@ -1,45 +1,218 @@
 # Discworld
-An Unofficial FoundryVTT system for Modiphius' Discworld: Adventures in Ankh-Morpork. Shared with Modiphius kind permission.
 
-This system is more cobbled together than the streets of Ankh-Morpork. It is intended for occasional use. As the Modiphius description of the game, the system is intended to be played as a one shot providing respite between sessions of a more serious system. As such the rules are light and easy to follow. in that spirit this VTT system is little more than an online character sheet and dice roller for you to use to assist your play sessions.
+An unofficial FoundryVTT system for Modiphius’ *Discworld: Adventures in Ankh-Morpork*. Shared with Modiphius’ kind permission.
 
-Add this manifest to your FoundryVTT: https://raw.githubusercontent.com/tokeidlom/discworld/main/src/system.json
-Or browse for Discworld in your foundry "Game Systems" section: https://foundryvtt.com/packages/discworld 
+This system is more cobbled together than the streets of Ankh-Morpork. It is intended for occasional use. As Modiphius describe the game, it’s designed to be played as a one-shot, providing respite between sessions of a more serious system. As such, the rules are light and easy to follow.
 
-<img width="839" height="981" alt="image" src="https://github.com/user-attachments/assets/84a7fcb4-2b05-4d5d-b096-84e109494f54" />
+In that spirit, this VTT system is little more than an online character sheet and dice roller to assist your play sessions.
 
-It terms of collaboration or support, I'm open to suggestions for improvement, code submissions, PRs and generally anything that makes this better for everyone! If you do want to PR, please do that onto the develop branch.
+---
+
+## Installation
+
+Add this manifest to your FoundryVTT: 
+
+https://raw.githubusercontent.com/tokeidlom/discworld/main/src/system.json
+
+
+Or browse for **Discworld** in your Foundry “Game Systems” section:
+
+https://foundryvtt.com/packages/discworld
+
+---
+
+## Collaboration & Support
+
+I’m open to suggestions for improvement, code submissions, PRs, and generally anything that makes this better for everyone.
+
+If you would like to submit a PR, please target the **develop** branch.
+
+---
 
 # Instructions
-Click on to the character tab and select "Create Actor" you will be able to make a choice from "character" and "NPC". Name your character and create them:
-![image](https://github.com/user-attachments/assets/7b98373a-1655-4480-af5d-2ee4377d1ac5)
 
-Once you have your character or NPC sheet you can fill it up with your character's details from the campaign.
+Go to the **Characters** tab and click **Create Actor**.  
+Choose either **Character** or **NPC**, name your actor, and create it.
+
+![Create Actor](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/create-actor.png)
+
+---
 
 ## Character Sheet
-<img width="804" height="823" alt="image" src="https://github.com/user-attachments/assets/e1677133-cffc-412e-949d-67aa33798399" />
+
+![Character Sheet](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/character.png)
+
+The following fields can be typed into directly:
+
+- Name  
+- Pronoun  
+- Organisation  
+- Background  
+- Consequences  
+- Notes  
+
+### Party Field
+
+The **Party** field is a dropdown list. Users can select any “Party” items (see Items below) in the world for which they have at least Limited permission.
+
+Clicking the 👁 icon opens the Party sheet.
+
+### Trait Fields
+
+The **Niche**, **Quirks**, and **Core** fields are item-based (see Items below).
+
+- Click **+** to add
+- Click 🗑 to delete
+- Click ✏ to edit
+
+Any description added to an item can be viewed by hovering over the entry on the character sheet for one second, a tooltip will appear.
+
+### Dice Rolls
+
+The character sheet includes buttons for:
+
+- d4  
+- d6  
+- d10  
+- d12  
+
+If you highlight text on your character or Party sheet before clicking a roll button, the selected text will be added to the chat card. This follows the principle that:
+
+> “Anything on your character sheet can be a trait.”
+
+If no text is highlighted, the roll proceeds normally.
+
+These are all the dice players should need. For additional dice, use the Dice Roller (see below).
+
+![Chat Output](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/chat.png)
+
+---
 
 ## NPC Sheet
-<img width="814" height="703" alt="image" src="https://github.com/user-attachments/assets/3b6fdaba-93a3-4f2e-b2fb-37b96d3526ab" />
 
-The Name, Pronoun, Orgsnisation, Background, and Role fields can be directly typed into.
-The Description, Consequences, and Notes fields can also be directly edited, they can also be resized up and down a little as requred to fit your screen and the ammount of text you entered.
-The Niche, Core, Quirks, and Traits fields are special as they are item fields (see items below), they can be added to by clicking on the + next to the title, or delete by clicking on the bin on the same row. If you need some further details to explain these you can edit by clicking on the pen icon, any description added to the item can be viewed easily in the main page if you hover the mouse over the line for 1 second a tooltip will pop up:
+![NPC Sheet](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/npc.png)
 
-![image](https://github.com/user-attachments/assets/2f20ce22-5fbd-445f-8f51-2d6fe481ff1e)
+When creating an NPC, you can:
 
-You will find buttons on the character sheet to make d4, d6, d10, and d12 rolls. These are all the dice the player should need. In case of extra dice being required you can use the dice roller (see the dice roller below).
+- Use the auto-generation wizard
+- Choose **Blank** and fill it out manually
+
+![NPC Creation](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/npc-creator-1.png)
+
+If using the wizard:
+
+- Click **Confirm** to accept
+- Click **Reroll** to generate another option
+- Select **Blank** if you change your mind
+
+![NPC Wizard](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/npc-creator-2.png)
+
+### NPC Generator Data
+
+The NPC creator pulls data from rollable tables in the core book, located in the Compendia.
+
+If you import these tables into your world — or create new ones with the same names — the generator will use your world’s versions first, falling back to the Compendia if needed.
+
+This allows you to customise or extend the lists.
+
+---
 
 ## Items
-By using the item menu, and clicking on "Create Item" you can create one of core, niche, quirk, or trait. These appear on your items menu bar, and can be dragged onto any character sheet. This is a useful way of adding the same of any of these type of traits to a group of characters without needing to type them for each one. In the future when there is a system released with lists of these published then they can also be added to a compendia for convenience.
-![image](https://github.com/user-attachments/assets/260988c5-54b5-4c0f-868a-eebcb56ad163)
+
+From the **Items** directory, click **Create Item** to create:
+
+- Core  
+- Feature  
+- Mannerism  
+- Niche  
+- Quirk  
+- Party  
+
+![Items Menu](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/items.png)
+
+Items can be dragged onto character sheets.
+
+You can also:
+
+- Drag between character sheets (creates a copy)
+- Drag to the Items directory
+- Hold **ALT** while dragging to move instead of copy
+
+### Item Compatibility
+
+- **Niche, Quirk, Core** → Character sheets  
+- **Niche, Feature, Mannerism** → NPC sheets  
+
+If you attempt to add an incompatible item, you will receive a warning and nothing bad will happen.
+
+All trait items share the same design and functionality.
+
+![Trait Sheet](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/trait.png)
+
+The **Party** item is selected via the dropdown on the Character sheet.
+
+![Party Sheet](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/party.png)
+
+---
 
 ## Dice Roller
-At the end of the left hand menu bar you will find a button to launch the dice roller (this will be in the right hand side menu for Foundry V13)
 
-![image](https://github.com/user-attachments/assets/7c6db09a-640c-4bb4-b5b8-19f8a2d730ac) ![image](https://github.com/user-attachments/assets/a827bf94-9366-468a-8c3d-dcce4c049fb7)
+![Dice Roller](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/roller.png)
 
+A small bundled dice roller stays on screen and allows rolling any dice type.
 
-And, that is it!
+Unlike the character sheet roll buttons, it:
 
-I made this system for fun, and for use with my own group. I invite everyone to use it for free. I have however been requested to create a tips jar, and so if you would like to leave a tip please do so <a href="https://ko-fi.com/calinstar">HERE</a>.
+- Does not capture highlighted text  
+- Performs simple dice rolls only  
+
+You can choose one of four screen positions in the **Settings** menu.
+
+---
+
+## Compendia
+
+The Compendia contain:
+
+- **Core Items** — traits from the user-facing section of the core book  
+- **Rollable Tables** — rollable tables from the user-facing section  
+
+These can be:
+
+- Used directly
+- Dragged onto sheets
+- Imported into your world for customisation
+
+![Compendia Menu](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/compendia.png)
+![Compendia Items](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/compendia-items.png)
+![Compendia Tables](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/compendia-tables.png)
+
+---
+
+## Settings
+
+The Settings menu allows you to:
+
+- Toggle character Luck messages in chat  
+- Set the maximum Luck value (for house rules)  
+- Choose the Dice Roller screen position  
+
+![Settings Menu](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/settings.png)
+
+---
+
+## Dark & Light Mode
+
+The system supports both light and dark modes (excluding the chat window, which FoundryVTT does not yet support).
+
+By default, it follows your browser setting, but this can be changed in the Foundry menu.
+
+---
+
+## Final Notes
+
+I made this system for fun and for use with my own group. You are welcome to use it freely.
+
+I’ve been asked to create a tips jar, if you’d like to leave a tip, you can do so here:
+
+☕ https://ko-fi.com/calinstar

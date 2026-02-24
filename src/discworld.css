@@ -1,14 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
-.window-content:has(.dice-roller-container),
-.window-content:has(.discworld-actor) {
-  padding: 0;
+:root {
+--darkmodetext: rgb(231, 209, 177);
+--lightmodetext: rgb(34, 34, 34);
+--hovercolour: #FF5722;
+--scrollbar: rgb(128, 128, 128);
+--edithover: #ffc105;
+--deletehover: #dc3848; 
+--chattextpink: #FF8DA1;
+--chatbackground: #b89c6d;
+--chatrolling: #4a2125;
 }
 
+.window-content:has(.dice-roller-container),
+.window-content:has(.discworld-trait),
+.window-content:has(.discworld-actor) {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.discworld-trait,
 .discworld-actor {
   overflow-y: scroll;
   overflow-x: hidden;
   padding-left: 10px;
+  background-image: url('/systems/discworld/assets/backgrounds/dark.png');
+  background-size: stretch;
+  background-position: center;
+  background-repeat: no-repeat;
+  scrollbar-color: var(--scrollbar) transparent;
+}
+
+.theme-light .discworld-trait,
+.theme-light .discworld-actor {
+  background-image: url('/systems/discworld/assets/backgrounds/light.png');
 }
 
 /* Character sheet roll button styling*/
@@ -56,13 +82,19 @@
   flex-direction: column;
 }
 
-.discworld-actor .luck-increase, .luck-decrease {
+.discworld-actor .luck-increase, 
+.discworld-actor .luck-decrease {
   border: none;
+  box-shadow: none;
   height: 1.5rem;
   min-height: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: transparent;
+  &:hover{
+    background: var(--hovercolour);
+  }
 }
 
 .discworld-actor .luck-input {
@@ -70,9 +102,16 @@
   margin-right: 5px;
   height: 3rem;
   border: none;
+  box-shadow: none;
+  border-bottom: 1px dashed var(--darkmodetext);
   text-align: right;
   font-family: "Kalam", cursive;
   font-size: 2rem;
+  background: transparent;
+}
+
+.theme-light  .luck-input {
+  border-bottom: 1px dashed var(--lightmodetext);
 }
 
 .discworld-actor .luck-max {
@@ -89,8 +128,15 @@
 .discworld-actor .name-field .name-input {
   height: 3rem;
   border: none;
+  box-shadow: none;
+  border-bottom: 1px dashed var(--darkmodetext);
   font-family: "Kalam", cursive;
   font-size: 2rem;
+  background: transparent;
+}
+
+.theme-light .discworld-actor .name-field .name-input {
+  border-bottom: 1px dashed var(--lightmodetext);
 }
 
 .discworld-actor .fullname-field {
@@ -110,8 +156,20 @@
 .discworld-actor .organisation-field .organisation-input,
 .discworld-actor .pronouns-field .pronouns-input {
   border: none;
+  box-shadow: none;
+  border-bottom: 1px dashed var(--darkmodetext);
   font-family: "Kalam", cursive;
   font-size: 1rem;
+  background: transparent;
+}
+
+.theme-light .discworld-actor .fullname-field .fullname-input,
+.theme-light .discworld-actor .species-field .species-input,
+.theme-light .discworld-actor .mannerism-field .mannerism-input,
+.theme-light .discworld-actor .party-field .party-input,
+.theme-light .discworld-actor .organisation-field .organisation-input,
+.theme-light .discworld-actor .pronouns-field .pronouns-input {
+  border-bottom: 1px dashed var(--lightmodetext);
 }
 
 .discworld-actor .organisation-field {
@@ -138,7 +196,7 @@
 }
 
 .discworld-actor .field-group.party-field a.view:hover i {
-  color: #00FF00;
+  color: var(--hovercolour);
 }
 
 .discworld-actor .species-field {
@@ -199,25 +257,26 @@
 }
 
 textarea {
-  height: 165px;
-  resize: vertical;
-  max-height: 250px;
-  min-height: 80px;
+  height: 180px;
+  resize: none;
+  box-shadow: none;
   border: none;
+  border: 1px dashed var(--darkmodetext);
   font-family: "Kalam", cursive;
   font-size: 1rem;
+  background: transparent;
+  scrollbar-color: var(--scrollbar) transparent;
+}
+
+.theme-light textarea {
+  border: 1px dashed var(--lightmodetext);
 }
 
 /*Image fields styling*/
-.image-field {
-  width: 200px;
-  height: 390px;
-  overflow: hidden;
-}
-
+.image-field,
 .npc-image-field {
   width: 200px;
-  height: 290px;
+  height: 390px;
   overflow: hidden;
 }
 
@@ -259,7 +318,14 @@ textarea {
   margin-right: 5px;
   font-family: "Kalam", cursive;
   font-size: 1rem;
+  box-shadow: none;
   border: none;
+  border-bottom: 1px dashed var(--darkmodetext);
+  background: transparent;
+}
+
+.theme-light .discworld-actor .item-name {
+  border-bottom: 1px dashed var(--lightmodetext);
 }
 
 /* Style the control buttons */
@@ -273,85 +339,95 @@ textarea {
 }
 
 .discworld-actor .control a.edit:hover {
-  color: #ffc107;
+  color: var(--edithover);
 }
 
 .discworld-actor .control a.delete:hover {
-  color: #dc3545;
-}
-
-/*Item tooltop styling*/
-.item-tooltip {
-  position: absolute;
-  padding: 5px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 4px;
-  pointer-events: none;
-  z-index: 1000;
-  white-space: normal;
-  overflow-wrap: break-word;
-  max-width: 550px;
-  font-family: "Kalam", cursive;
-  font-size: 0.9rem;
+  color: var(--deletehover);
 }
 
 /*Traits item sheet styling*/
 .discworld-trait .organisation-input,
 .discworld-trait .name-input {
   border: none;
+  box-shadow: none;
+  border-bottom: 1px dashed var(--darkmodetext);
+  background: transparent;
   font-family: "Kalam", cursive;
   font-size: 1rem;
 }
 
+.theme-light .discworld-trait .organisation-input,
+.theme-light .discworld-trait .name-input {
+  border-bottom: 1px dashed var(--lightmodetext);
+}
+
 /*Side bar roller button styling here*/
-.dice-roller-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.dice-roller {
+  background-image: url('/systems/discworld/assets/backgrounds/roller-dark.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.theme-light .dice-roller {
+  background-image: url('/systems/discworld/assets/backgrounds/roller-light.png');
 }
 
 .roller-button {
   cursor: pointer;
   font-family: "Kalam", cursive;
   font-size: 1rem;
-  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80px;
+  height: 45px;
+  background-color: transparent;
+  transition: none;
 }
 
-.roller-button img.dice-icon {
-  width: 40px;
-  height: 40px;
-  vertical-align: middle;
-  border: none;
-  margin-right: 5px;
+.roller-button:hover {
+  color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
 
-.disc-roller-form {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.8);
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: right 0.15s linear;
+.d4 {
+  background-image: url('/systems/discworld/assets/dice/d4.png');
 }
 
-.disc-roller-form .roller-button {
-  background: none;
-  border: none;
-  padding: 0;
+.d6 {
+  background-image: url('/systems/discworld/assets/dice/d6.png');
 }
 
-.disc-roller-form .roller-button img {
-  width: 100%;
-  height: auto;
+.d8 {
+  background-image: url('/systems/discworld/assets/dice/d8.png');
+  width: 160px;
+}
+
+.d10 {
+  background-image: url('/systems/discworld/assets/dice/d10.png');
+}
+
+.d12 {
+  background-image: url('/systems/discworld/assets/dice/d12.png');
+}
+
+.d20 {
+  background-image: url('/systems/discworld/assets/dice/d20.png');
+}
+
+.d100 {
+  background-image: url('/systems/discworld/assets/dice/d100.png');
 }
 
 /*Restricted view for observers*/
@@ -365,16 +441,28 @@ textarea {
 /*Chat card styling*/
 .chat-card {
   text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.1);
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
+}
+
+.chat-card .selected-text-box {
+  text-align: center;
+}
+
+.chat-card .selected-text-box .selected-text {
+  text-shadow: 0 0 10px var(--chattextpink), 0 0 20px var(--chattextpink);
+}
+
+.chat-card .rolled {
+  background: radial-gradient(ellipse at center top, var(--chatbackground) 0%, transparent 100%);
 }
 
 .chat-card .formula {
-  color: rgba(0, 0, 0, 0.7);
+  color: var(--chatrolling);
+  padding: 6px;
 }
 
-.chat-card .result {
-  font-size: 1.5em;
+.chat-card .rolled .result {
+  font-size: 1.5rem;
   font-weight: bold;
 }

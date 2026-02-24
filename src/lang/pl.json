@@ -30,6 +30,8 @@
 		"no": "Nie",
 		"discworlddiceroller": "Kostkarka Discworld",
 		"roll": "Rzuć",
+		"selectedtrait": "Wybrany atrybut",
+		"result": "Wynik",
 		"reroll": "Przerzuć",
 		"rolling": "Rzucanie...",
 		"close": "Zamknij",
@@ -45,6 +47,7 @@
 		"blank": "Puste"
 	},
 	"item": {
+		"trait": "Cechy",
 		"name": "Nazwa drużyny",
 		"description": "Opis",
 		"organisation": "Organizacja",

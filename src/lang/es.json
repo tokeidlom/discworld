@@ -30,6 +30,8 @@
 		"no": "No",
 		"discworlddiceroller": "Lanzador de dados de Discworld",
 		"roll": "Tirar",
+		"selectedtrait": "Rasgo seleccionado",
+		"result": "Resultado",
 		"reroll": "Volver a tirar",
 		"rolling": "Lanzando...",
 		"close": "Cerrar",
@@ -45,6 +47,7 @@
 		"blank": "En blanco"
 	},
 	"item": {
+		"trait": "Rasgo",
 		"name": "Nombre del grupo",
 		"description": "Descripción",
 		"organisation": "Organización",
