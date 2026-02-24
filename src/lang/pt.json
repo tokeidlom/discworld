@@ -47,6 +47,7 @@
 		"blank": "Em branco"
 	},
 	"item": {
+		"trait": "Trait",
 		"name": "Nome do grupo",
 		"description": "Descrição",
 		"organisation": "Organização",

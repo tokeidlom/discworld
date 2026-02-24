@@ -47,6 +47,7 @@
 		"blank": "Puste"
 	},
 	"item": {
+		"trait": "Cechy",
 		"name": "Nazwa drużyny",
 		"description": "Opis",
 		"organisation": "Organizacja",

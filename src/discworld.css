@@ -273,15 +273,10 @@ textarea {
 }
 
 /*Image fields styling*/
-.image-field {
-  width: 200px;
-  height: 390px;
-  overflow: hidden;
-}
-
+.image-field,
 .npc-image-field {
   width: 200px;
-  height: 290px;
+  height: 390px;
   overflow: hidden;
 }
 
@@ -355,13 +350,21 @@ textarea {
 .discworld-trait .organisation-input,
 .discworld-trait .name-input {
   border: none;
+  box-shadow: none;
+  border-bottom: 1px dashed var(--darkmodetext);
+  background: transparent;
   font-family: "Kalam", cursive;
   font-size: 1rem;
 }
 
+.theme-light .discworld-trait .organisation-input,
+.theme-light .discworld-trait .name-input {
+  border-bottom: 1px dashed var(--lightmodetext);
+}
+
 /*Side bar roller button styling here*/
 .dice-roller {
-  background-image: url('/systems/discworld/assets/backgrounds/rollerdark.png');
+  background-image: url('/systems/discworld/assets/backgrounds/roller-dark.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -374,11 +377,14 @@ textarea {
   }
 }
 
+.theme-light .dice-roller {
+  background-image: url('/systems/discworld/assets/backgrounds/roller-light.png');
+}
+
 .roller-button {
   cursor: pointer;
   font-family: "Kalam", cursive;
   font-size: 1rem;
-  color: var(--lightmodetext);
   display: flex;
   align-items: center;
   justify-content: center;

@@ -47,6 +47,7 @@
 		"blank": "En blanco"
 	},
 	"item": {
+		"trait": "Rasgo",
 		"name": "Nombre del grupo",
 		"description": "Descripción",
 		"organisation": "Organización",

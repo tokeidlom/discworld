@@ -47,6 +47,7 @@
 		"blank": "Vierge"
 	},
 	"item": {
+		"trait": "Trait",
 		"name": "Nom du groupe",
 		"description": "Description",
 		"organisation": "Organisation",

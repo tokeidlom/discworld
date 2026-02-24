@@ -47,6 +47,7 @@
 		"blank": "Leer"
 	},
 	"item": {
+		"trait": "Eigenschaften",
 		"name": "Gruppenname",
 		"description": "Beschreibung",
 		"organisation": "Organisation",

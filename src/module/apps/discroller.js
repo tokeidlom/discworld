@@ -82,7 +82,7 @@ export class DiscRoller {
       case 'BottomLeft':
         targetButton = document.querySelector('#players');
         buttonRect = targetButton?.getBoundingClientRect();
-        diceForm.style.top = `${buttonRect.top - 180}px`;
+        diceForm.style.top = `${buttonRect.top - 165}px`;
         diceForm.style.left = `${buttonRect.left}px`;
         break;
       case 'BottomRight':
