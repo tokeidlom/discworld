@@ -6,6 +6,8 @@ This system is more cobbled together than the streets of Ankh-Morpork. It is int
 
 In that spirit, this VTT system is little more than an online character sheet and dice roller to assist your play sessions.
 
+![Discworld](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/banner.png)
+
 ---
 
 ## Installation
@@ -66,6 +68,8 @@ The **Niche**, **Quirks**, and **Core** fields are item-based (see Items below).
 - Click ✏ to edit
 
 Any description added to an item can be viewed by hovering over the entry on the character sheet for one second, a tooltip will appear.
+
+![Tooltip](https://raw.githubusercontent.com/tokeidlom/discworld/main/screenshots/tooltip.png)
 
 ### Dice Rolls
 
