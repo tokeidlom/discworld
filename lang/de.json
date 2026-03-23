@@ -1,0 +1,72 @@
+{
+	"character": {
+		"name": "Name",
+		"fullname": "Vollständiger Name",
+		"pronouns": "Pronomen",
+		"outcomedice": "Ergebniswürfel",
+		"luck": "Glück",
+		"organisation": "Organisation",
+		"background": "Hintergrund",
+		"role": "Rolle",
+		"niche": "Nische",
+		"core": "Kern",
+		"quirks": "Macken",
+		"traits": "Eigenschaften",
+		"features": "Funktionen",
+		"consequences": "Konsequenzen",
+		"notes": "Notizen",
+		"species": "Spezies",
+		"mannerism": "Manierismus",
+		"party": "Gruppe",
+		"storyprompt": "Handlungseinstieg"
+	},
+	"application": {
+		"createitem": "Element erstellen",
+		"edititem": "Element bearbeiten",
+		"viewparty": "Gruppe anzeigen",
+		"deleteitem": "Element löschen",
+		"deleteconfirm": "Sind Sie sicher, dass Sie dieses Element löschen möchten?",
+		"yes": "Ja",
+		"no": "Nein",
+		"discworlddiceroller": "Discworld Würfelroller",
+		"roll": "Würfeln",
+		"selectedtrait": "Ausgewähltes Merkmal",
+		"result": "Ergebnis",
+		"reroll": "Neu würfeln",
+		"rolling": "Würfeln...",
+		"close": "Schließen",
+		"actorcannothold": "{actor} kann keine {item}-Elemente halten.",
+		"exceededmaxluck": "Glück darf das Maximum von {maxLuck} nicht überschreiten.",
+		"exceededminluck": "Glück darf nicht weniger als 0 sein.",
+		"luckadded": "Die Dame hat {actorName} {luckAmount} zusätzliches Glück gewährt.",
+		"luckspent": "{actorName} hat {luckAmount} Glück ausgegeben.",
+		"autogeneratenpc": "NPC automatisch erstellen",
+		"npcconfirmline": "Möchten Sie den Assistenten verwenden, um das NPC-Blatt automatisch auszufüllen, oder ein leeres verwenden?",
+		"reviewgeneratednpc": "Möchten Sie diesen Charakter bestätigen, neu würfeln oder zu einem leeren Blatt zurückkehren?",
+		"wizard": "Assistent",
+		"blank": "Leer"
+	},
+	"item": {
+		"trait": "Eigenschaften",
+		"name": "Gruppenname",
+		"description": "Beschreibung",
+		"organisation": "Organisation",
+		"goal": "Gruppenziel",
+		"partypast": "Vergangenheit der Gruppe",
+		"partypresent": "Gegenwart der Gruppe"
+	},
+	"TYPES": {
+		"Actor": {
+			"character": "Charakter",
+			"NPC": "NSC"
+		},
+		"Item": {
+			"trait": "Merkmal",
+			"quirk": "Macke",
+			"core": "Kern",
+			"niche": "Nische",
+			"party": "Partei",
+			"mannerism": "Manierismus"
+		}
+	}
+}
