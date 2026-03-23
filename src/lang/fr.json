@@ -1,1 +1,72 @@
-{}
+{
+	"character": {
+		"name": "Nom",
+		"fullname": "Nom complet",
+		"pronouns": "Pronoms",
+		"outcomedice": "Dés de Résultat",
+		"luck": "Chance",
+		"organisation": "Organisation",
+		"background": "Historique",
+		"role": "Rôle",
+		"niche": "Niche",
+		"core": "Essence",
+		"quirks": "Particularités",
+		"traits": "Traits",
+		"features": "Fonctionnalités",
+		"consequences": "Conséquences",
+		"notes": "Notes",
+		"species": "Espèce",
+		"mannerism": "Maniérisme",
+		"party": "Groupe",
+		"storyprompt": "Amorçe narratif"
+	},
+	"application": {
+		"createitem": "Créer un objet",
+		"edititem": "Modifier l'objet",
+		"viewparty": "Voir le groupe",
+		"deleteitem": "Supprimer l'objet",
+		"deleteconfirm": "Êtes-vous sûr de vouloir supprimer cet objet ?",
+		"yes": "Oui",
+		"no": "Non",
+		"discworlddiceroller": "Lanceur de dés Discworld",
+		"roll": "Lancer",
+		"selectedtrait": "Caractéristique sélectionnée",
+		"result": "Résultat",
+		"reroll": "Relancer",
+		"rolling": "Lancer en cours...",
+		"close": "Fermer",
+		"actorcannothold": "{actor} ne peut pas avoir d'objets de type {item}.",
+		"exceededmaxluck": "La chance ne peut pas dépasser le maximum de {maxLuck}.",
+		"exceededminluck": "La chance ne peut pas être inférieure à 0.",
+		"luckadded": "La Dame a accordé à {actorName} {luckAmount} de chance supplémentaire.",
+		"luckspent": "{actorName} a dépensé {luckAmount} de chance.",
+		"autogeneratenpc": "Générer un PNJ automatiquement",
+		"npcconfirmline": "Souhaitez-vous utiliser l'assistant pour remplir automatiquement la fiche PNJ ou en utiliser une vierge ?",
+		"reviewgeneratednpc": "Souhaitez-vous confirmer ce personnage, relancer ou revenir à une fiche vierge ?",
+		"wizard": "Assistant",
+		"blank": "Vierge"
+	},
+	"item": {
+		"trait": "Trait",
+		"name": "Nom du groupe",
+		"description": "Description",
+		"organisation": "Organisation",
+		"goal": "Objectif du groupe",
+		"partypast": "Passé du groupe",
+		"partypresent": "Présent du groupe"
+	},
+	"TYPES": {
+		"Actor": {
+			"character": "Personnage",
+			"NPC": "PNJ"
+		},
+		"Item": {
+			"trait": "Caractéristique",
+			"quirk": "Bizarrerie",
+			"core": "Noyau",
+			"niche": "Spécialité",
+			"party": "Groupe",
+			"mannerism": "Maniérisme"
+		}
+	}
+}
