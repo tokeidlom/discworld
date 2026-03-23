@@ -25,6 +25,8 @@
   overflow-y: scroll;
   overflow-x: hidden;
   padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
   background-image: url('/systems/discworld/assets/backgrounds/dark.png');
   background-size: stretch;
   background-position: center;
