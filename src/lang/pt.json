@@ -1,1 +1,72 @@
-{}
+{
+	"character": {
+		"name": "Nome",
+		"fullname": "Nome completo",
+		"pronouns": "Pronomes",
+		"outcomedice": "Dados de Resultado",
+		"luck": "Sorte",
+		"organisation": "Organização",
+		"background": "História",
+		"role": "Função",
+		"niche": "Nicho",
+		"core": "Essência",
+		"quirks": "Peculiaridades",
+		"traits": "Traços",
+		"features": "Recursos",
+		"consequences": "Consequências",
+		"notes": "Notas",
+		"species": "Espécie",
+		"mannerism": "Maneirismo",
+		"party": "Grupo",
+		"storyprompt": "Gancho narrativo"
+	},
+	"application": {
+		"createitem": "Criar item",
+		"edititem": "Editar item",
+		"viewparty": "Ver grupo",
+		"deleteitem": "Excluir item",
+		"deleteconfirm": "Tem certeza de que deseja excluir este item?",
+		"yes": "Sim",
+		"no": "Não",
+		"discworlddiceroller": "Rolador de dados Discworld",
+		"roll": "Rolar",
+		"selectedtrait": "Traço Selecionado",
+		"result": "Resultado",
+		"reroll": "Rolar novamente",
+		"rolling": "Rolando...",
+		"close": "Fechar",
+		"actorcannothold": "{actor} não pode possuir itens do tipo {item}.",
+		"exceededmaxluck": "A sorte não pode exceder o máximo de {maxLuck}.",
+		"exceededminluck": "A sorte não pode ser menor que 0.",
+		"luckadded": "A Senhora concedeu a {actorName} {luckAmount} de sorte extra.",
+		"luckspent": "{actorName} gastou {luckAmount} de sorte.",
+		"autogeneratenpc": "Gerar NPC automaticamente",
+		"npcconfirmline": "Deseja usar o assistente para preencher automaticamente a ficha do NPC ou usar uma em branco?",
+		"reviewgeneratednpc": "Deseja confirmar este personagem, rolar novamente ou reverter para uma ficha em branco?",
+		"wizard": "Assistente",
+		"blank": "Em branco"
+	},
+	"item": {
+		"trait": "Trait",
+		"name": "Nome do grupo",
+		"description": "Descrição",
+		"organisation": "Organização",
+		"goal": "Objetivo do grupo",
+		"partypast": "Passado do grupo",
+		"partypresent": "Presente do grupo"
+	},
+	"TYPES": {
+		"Actor": {
+			"character": "Personagem",
+			"NPC": "PNJ"
+		},
+		"Item": {
+			"trait": "Característica",
+			"quirk": "Excentricidade",
+			"core": "Núcleo",
+			"niche": "Especialidade",
+			"party": "Grupo",
+			"mannerism": "Maneirismo"
+		}
+	}
+}
