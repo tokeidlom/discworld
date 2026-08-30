@@ -1,1 +1,72 @@
-{}
+{
+	"character": {
+		"name": "Imię",
+		"fullname": "Pełne imię i nazwisko",
+		"pronouns": "Zaimek Osobowy",
+		"outcomedice": "Wynik Kości",
+		"luck": "Szczęście",
+		"organisation": "Organizacja",
+		"background": "Tło",
+		"role": "Rola",
+		"niche": "Specjalizacja",
+		"core": "Rdzeń",
+		"quirks": "Dziwactwa",
+		"traits": "Cechy",
+		"features": "Funkcje",
+		"consequences": "Konsekwencje",
+		"notes": "Notatki",
+		"species": "Gatunek",
+		"mannerism": "Maniery",
+		"party": "Drużyna",
+		"storyprompt": "Zaczepka fabularna"
+	},
+	"application": {
+		"createitem": "Utwórz przedmiot",
+		"edititem": "Edytuj przedmiot",
+		"viewparty": "Zobacz drużynę",
+		"deleteitem": "Usuń przedmiot",
+		"deleteconfirm": "Czy na pewno chcesz usunąć ten przedmiot?",
+		"yes": "Tak",
+		"no": "Nie",
+		"discworlddiceroller": "Kostkarka Discworld",
+		"roll": "Rzuć",
+		"selectedtrait": "Wybrany atrybut",
+		"result": "Wynik",
+		"reroll": "Przerzuć",
+		"rolling": "Rzucanie...",
+		"close": "Zamknij",
+		"actorcannothold": "{actor} nie może posiadać przedmiotów typu {item}.",
+		"exceededmaxluck": "Szczęście nie może przekroczyć maksymalnej wartości {maxLuck}.",
+		"exceededminluck": "Szczęście nie może być mniejsze niż 0.",
+		"luckadded": "Pani przyznała {actorName} dodatkowe {luckAmount} szczęścia.",
+		"luckspent": "{actorName} wydał {luckAmount} szczęścia.",
+		"autogeneratenpc": "Automatycznie wygeneruj NPC",
+		"npcconfirmline": "Czy chcesz użyć kreatora, aby automatycznie wypełnić kartę NPC, czy użyć pustej?",
+		"reviewgeneratednpc": "Czy chcesz potwierdzić tę postać, przerzucić czy wrócić do pustej karty?",
+		"wizard": "Kreator",
+		"blank": "Puste"
+	},
+	"item": {
+		"trait": "Cechy",
+		"name": "Nazwa drużyny",
+		"description": "Opis",
+		"organisation": "Organizacja",
+		"goal": "Cel drużyny",
+		"partypast": "Przeszłość drużyny",
+		"partypresent": "Teraźniejszość drużyny"
+	},
+	"TYPES": {
+		"Actor": {
+			"character": "Postać",
+			"NPC": "BN"
+		},
+		"Item": {
+			"trait": "Cecha",
+			"quirk": "Dziwactwo",
+			"core": "Rdzeń",
+			"niche": "Specjalność",
+			"party": "Drużyna",
+			"mannerism": "Manieryzm"
+		}
+	}
+}
