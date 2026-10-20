@@ -1,15 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+@font-face {
+  font-family: "Kalam";
+  src: url("assets/fonts/Kalam-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kalam";
+  src: url("assets/fonts/Kalam-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kalam";
+  src: url("assets/fonts/Kalam-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IM Fell English SC";
+  src: url("assets/fonts/IMFellEnglishSC-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
 :root {
---darkmodetext: rgb(231, 209, 177);
---lightmodetext: rgb(34, 34, 34);
+--dwtext: rgb(231, 209, 177);
 --hovercolour: #FF5722;
 --scrollbar: rgb(128, 128, 128);
+--addhover: #05ff1ab6;
 --edithover: #ffc105;
 --deletehover: #dc3848; 
 --chattextpink: #FF8DA1;
 --chatbackground: #b89c6d;
 --chatrolling: #4a2125;
+--titlecolour: #8c2dc4;
+--title-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.theme-light {
+--dwtext: rgb(34, 34, 34);
+--titlecolour: #490a6d;
+--title-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .window-content:has(.dice-roller-container),
@@ -24,7 +59,7 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  background-image: url('/systems/discworld/assets/backgrounds/dark.png');
+  background-image: url('assets/backgrounds/dark.png');
   background-size: stretch;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,7 +70,7 @@
   overflow-x: hidden;
   padding-left: 10px;
   padding-bottom: 10px;
-  background-image: url('/systems/discworld/assets/backgrounds/dark.png');
+  background-image: url('assets/backgrounds/dark.png');
   background-size: stretch;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,7 +79,7 @@
 
 .theme-light .discworld-trait,
 .theme-light .discworld-actor {
-  background-image: url('/systems/discworld/assets/backgrounds/light.png');
+  background-image: url('assets/backgrounds/light.png');
 }
 
 /* Character sheet roll button styling*/
@@ -68,7 +103,7 @@
   align-items: center;
   text-align: left;
   cursor: pointer;
-  font-family: "Kalam", cursive;
+  font-family: "IM Fell English SC";
   font-size: 1rem;
   border: none;
   height: 3rem;
@@ -113,20 +148,19 @@
   height: 3rem;
   border: none;
   box-shadow: none;
-  border-bottom: 1px dashed var(--darkmodetext);
+  border-bottom: 1px dashed var(--dwtext);
   text-align: right;
   font-family: "Kalam", cursive;
   font-size: 2rem;
   background: transparent;
 }
 
-.theme-light  .luck-input {
-  border-bottom: 1px dashed var(--lightmodetext);
-}
-
 .discworld-actor .luck-max {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-right: 15px;
+  font-family: "IM Fell English SC";
+  color: var(--titlecolour);
+  text-shadow: var(--title-shadow);
 }
 
 /*Input text box and field stylings*/
@@ -139,14 +173,10 @@
   height: 3rem;
   border: none;
   box-shadow: none;
-  border-bottom: 1px dashed var(--darkmodetext);
+  border-bottom: 1px dashed var(--dwtext);
   font-family: "Kalam", cursive;
   font-size: 2rem;
   background: transparent;
-}
-
-.theme-light .discworld-actor .name-field .name-input {
-  border-bottom: 1px dashed var(--lightmodetext);
 }
 
 .discworld-actor .fullname-field {
@@ -167,19 +197,10 @@
 .discworld-actor .pronouns-field .pronouns-input {
   border: none;
   box-shadow: none;
-  border-bottom: 1px dashed var(--darkmodetext);
+  border-bottom: 1px dashed var(--dwtext);
   font-family: "Kalam", cursive;
   font-size: 1rem;
   background: transparent;
-}
-
-.theme-light .discworld-actor .fullname-field .fullname-input,
-.theme-light .discworld-actor .species-field .species-input,
-.theme-light .discworld-actor .mannerism-field .mannerism-input,
-.theme-light .discworld-actor .party-field .party-input,
-.theme-light .discworld-actor .organisation-field .organisation-input,
-.theme-light .discworld-actor .pronouns-field .pronouns-input {
-  border-bottom: 1px dashed var(--lightmodetext);
 }
 
 .discworld-actor .organisation-field {
@@ -203,10 +224,11 @@
 
 .discworld-actor .party-field .party-row .party-eye {
   padding-left: 10px;
+  color: var(--dwtext);
 }
 
 .discworld-actor .field-group.party-field a.view:hover i {
-  color: var(--hovercolour);
+  color: var(--addhover);
 }
 
 .discworld-actor .species-field {
@@ -241,6 +263,10 @@
 .discworld-trait label,
 .discworld-actor label {
   margin-top: 5px;
+  font-family: "IM Fell English SC";
+  font-size: 1.3em;
+  color: var(--titlecolour);
+  text-shadow: var(--title-shadow);
 }
 
 .discworld-trait .form-group-notes,
@@ -271,15 +297,11 @@ textarea {
   resize: none;
   box-shadow: none;
   border: none;
-  border: 1px dashed var(--darkmodetext);
+  border: 1px dashed var(--dwtext);
   font-family: "Kalam", cursive;
   font-size: 1rem;
   background: transparent;
   scrollbar-color: var(--scrollbar) transparent;
-}
-
-.theme-light textarea {
-  border: 1px dashed var(--lightmodetext);
 }
 
 /*Image fields styling*/
@@ -307,6 +329,10 @@ textarea {
 
 /* item row styling from here */
 /* Style the label and create button */
+.discworld-actor .left-column > label {
+  display: inline-block;
+}
+
 .discworld-actor .newline {
   display: block;
   height: none;
@@ -330,12 +356,8 @@ textarea {
   font-size: 1rem;
   box-shadow: none;
   border: none;
-  border-bottom: 1px dashed var(--darkmodetext);
+  border-bottom: 1px dashed var(--dwtext);
   background: transparent;
-}
-
-.theme-light .discworld-actor .item-name {
-  border-bottom: 1px dashed var(--lightmodetext);
 }
 
 /* Style the control buttons */
@@ -343,9 +365,18 @@ textarea {
   display: flex;
 }
 
+.discworld-actor .control {
+  color: var(--dwtext);
+  font-size: 0.75em;
+}
+
 .discworld-actor .control a {
   cursor: pointer;
   margin-left: 5px;
+}
+
+.discworld-actor a.create:hover {
+  color: var(--addhover);
 }
 
 .discworld-actor .control a.edit:hover {
@@ -361,20 +392,15 @@ textarea {
 .discworld-trait .name-input {
   border: none;
   box-shadow: none;
-  border-bottom: 1px dashed var(--darkmodetext);
+  border-bottom: 1px dashed var(--dwtext);
   background: transparent;
   font-family: "Kalam", cursive;
   font-size: 1rem;
 }
 
-.theme-light .discworld-trait .organisation-input,
-.theme-light .discworld-trait .name-input {
-  border-bottom: 1px dashed var(--lightmodetext);
-}
-
 /*Side bar roller button styling here*/
 .dice-roller {
-  background-image: url('/systems/discworld/assets/backgrounds/roller-dark.png');
+  background-image: url('assets/backgrounds/roller-dark.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -388,13 +414,13 @@ textarea {
 }
 
 .theme-light .dice-roller {
-  background-image: url('/systems/discworld/assets/backgrounds/roller-light.png');
+  background-image: url('assets/backgrounds/roller-light.png');
 }
 
 .roller-button {
   cursor: pointer;
-  font-family: "Kalam", cursive;
-  font-size: 1rem;
+  font-family: "IM Fell English SC";
+  font-size: 1.5em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -412,32 +438,32 @@ textarea {
 }
 
 .d4 {
-  background-image: url('/systems/discworld/assets/dice/d4.png');
+  background-image: url('assets/dice/d4.png');
 }
 
 .d6 {
-  background-image: url('/systems/discworld/assets/dice/d6.png');
+  background-image: url('assets/dice/d6.png');
 }
 
 .d8 {
-  background-image: url('/systems/discworld/assets/dice/d8.png');
+  background-image: url('assets/dice/d8.png');
   width: 160px;
 }
 
 .d10 {
-  background-image: url('/systems/discworld/assets/dice/d10.png');
+  background-image: url('assets/dice/d10.png');
 }
 
 .d12 {
-  background-image: url('/systems/discworld/assets/dice/d12.png');
+  background-image: url('assets/dice/d12.png');
 }
 
 .d20 {
-  background-image: url('/systems/discworld/assets/dice/d20.png');
+  background-image: url('assets/dice/d20.png');
 }
 
 .d100 {
-  background-image: url('/systems/discworld/assets/dice/d100.png');
+  background-image: url('assets/dice/d100.png');
 }
 
 /*Restricted view for observers*/
@@ -457,10 +483,21 @@ textarea {
 
 .chat-card .selected-text-box {
   text-align: center;
+  margin-bottom: 4px;
 }
 
 .chat-card .selected-text-box .selected-text {
-  text-shadow: 0 0 10px var(--chattextpink), 0 0 20px var(--chattextpink);
+  display: block;
+  padding: 8px 14px;
+  color: #2b1d0e;
+  font-style: italic;
+  background:
+    radial-gradient(ellipse at 15% 0%, rgba(255, 255, 255, 0.3), transparent 60%),
+    #e6d8b0;
+  border-radius: 3px 6px 4px 7px / 6px 3px 7px 4px;
+  box-shadow:
+    inset 0 0 10px rgba(110, 70, 25, 0.3),
+    0 1px 3px rgba(0, 0, 0, 0.35);
 }
 
 .chat-card .rolled {
@@ -468,11 +505,13 @@ textarea {
 }
 
 .chat-card .formula {
+  font-family: "IM Fell English SC";
   color: var(--chatrolling);
-  padding: 6px;
+  padding-top: 6px;
+  letter-spacing: 0.08em;
 }
 
 .chat-card .rolled .result {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }

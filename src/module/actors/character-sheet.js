@@ -175,9 +175,17 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     clearTimeout(this.luckTimeout);
     this.luckTimeout = setTimeout(() => {
       if (this.luckDelta !== 0) {
-        const messageContent = this.luckDelta > 0 ?
+        const text = this.luckDelta > 0 ?
           game.i18n.format('application.luckadded', {actorName: this.actor.name, luckAmount: this.luckDelta}) :
           game.i18n.format('application.luckspent', {actorName: this.actor.name, luckAmount: Math.abs(this.luckDelta)});
+
+        const messageContent = `
+          <div class="chat-card">
+            <div class="selected-text-box">
+              <div class="selected-text">${text}</div>
+            </div>
+          </div>
+        `;
 
         if (game.settings.get('discworld', 'sendLuckToChat')) {
           ChatMessage.create({content: messageContent});
@@ -203,7 +211,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
         this._selectionTimer = null;
 
         if (this.rendered) this.render(false);
-      }, 8000);
+      }, 2000);
 
     } else {
       this.selectedText = null;
