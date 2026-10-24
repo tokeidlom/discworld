@@ -81,7 +81,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
 
     if (this.document.isOwner) this._convertFields();
 
-    this.element.addEventListener('mouseup', this._onTextSelected.bind(this));
+    this.element.addEventListener('selectionchange', this._onTextSelected.bind(this));
 
     document.querySelectorAll('.luck-input').forEach((input) => {
       input.addEventListener('change', this._onLuckEntry.bind(this));
@@ -197,30 +197,14 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
   }
 
   async _onTextSelected(event) {
-    const selection = window.getSelection();
-    const text = selection.toString().trim();
+    const text = window.getSelection()?.toString().trim();
 
-    if (text) {
-      this.selectedText = text;
-      if (this._selectionTimer) {
-        clearTimeout(this._selectionTimer);
-      }
+    if (!text) return;
 
-      this._selectionTimer = setTimeout(() => {
-        this.selectedText = null;
-        this._selectionTimer = null;
-
-        if (this.rendered) this.render(false);
-      }, 2000);
-
-    } else {
-      this.selectedText = null;
-
-      if (this._selectionTimer) {
-        clearTimeout(this._selectionTimer);
-        this._selectionTimer = null;
-      }
-    }
+    this.selectedText = {
+      text,
+      timestamp: Date.now()
+    };
   }
 
   async _onRollDice(event) {
@@ -229,15 +213,22 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
     const diceType = button.dataset.dice;
     const formula = `1${diceType}`;
     const roll = new Roll(formula);
+	  const selection = this.selectedText;
+	  this.selectedText = null;
+
+    const selectedText =
+      selection && Date.now() - selection.timestamp < 5000
+        ? selection.text
+        : null;
 
     await roll.evaluate();
 
     const messageContent = `
       <div class="chat-card">
-        ${this.selectedText ? `
+        ${selectedText ? `
           <div class="selected-text-box">
             <div class="selected-text">
-             "${this.selectedText}"
+             "${selectedText}"
             </div>
           </div>
         ` : ''}
@@ -257,10 +248,6 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       }
     };
     await roll.toMessage(messageData);
-
-this.selectedText = null;
-
-if (this.rendered) this.render(false);
   }
 
   async _onItemNameChange(event) {
