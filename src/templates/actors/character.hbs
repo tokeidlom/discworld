@@ -90,7 +90,7 @@
           <li class="row entry" data-item-id="{{item._id}}" data-item-type="{{item.type}}" data-item-value="{{item.name}}">
             <input type="text" class="item-name {{#if @root.blockQuirks}}{{#if (eq item.system.blocked true)}}strike-through{{/if}}{{/if}}" value="{{item.name}}" data-item-id="{{item._id}}">
             <div class="control">
-              {{#if @root.blockQuirks}}<a class="blocked"><i class="fas fa-toggle-{{#if (eq item.system.blocked true)}}on{{else}}off{{/if}}" data-action="onStrikeThrough"></i></a>{{/if}}
+              {{#if @root.blockQuirks}}<a class="blocked" title="{{localize 'application.blockitem'}}"><i class="fas fa-toggle-{{#if (eq item.system.blocked true)}}on{{else}}off{{/if}}" data-action="onStrikeThrough"></i></a>{{/if}}
               <a class="edit" title="{{localize 'application.edititem'}}" data-action="onItemEdit"><i class="fas fa-edit"></i></a>
               <a class="delete" title="{{localize 'application.deleteitem'}}" data-action="onItemDelete"><i class="fas fa-trash"></i></a>
             </div>

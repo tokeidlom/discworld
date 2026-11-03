@@ -23,6 +23,7 @@
 	"application": {
 		"createitem": "Criar item",
 		"edititem": "Editar item",
+		"blockitem": "Riscar item",
 		"viewparty": "Ver grupo",
 		"deleteitem": "Excluir item",
 		"deleteconfirm": "Tem certeza de que deseja excluir este item?",

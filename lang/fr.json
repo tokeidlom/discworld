@@ -23,6 +23,7 @@
 	"application": {
 		"createitem": "Créer un objet",
 		"edititem": "Modifier l'objet",
+		"blockitem": "Barrer l'objet",
 		"viewparty": "Voir le groupe",
 		"deleteitem": "Supprimer l'objet",
 		"deleteconfirm": "Êtes-vous sûr de vouloir supprimer cet objet ?",

@@ -23,6 +23,7 @@
 	"application": {
 		"createitem": "Create Item",
 		"edititem": "Edit Item",
+		"blockitem": "Strikethrough Item",
 		"viewparty": "View Party",
 		"deleteitem": "Delete Item",
 		"deleteconfirm": "Are you sure you want to delete this item?",

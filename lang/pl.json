@@ -23,6 +23,7 @@
 	"application": {
 		"createitem": "Utwórz przedmiot",
 		"edititem": "Edytuj przedmiot",
+		"blockitem": "Przekreśl element",
 		"viewparty": "Zobacz drużynę",
 		"deleteitem": "Usuń przedmiot",
 		"deleteconfirm": "Czy na pewno chcesz usunąć ten przedmiot?",

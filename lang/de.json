@@ -23,6 +23,7 @@
 	"application": {
 		"createitem": "Element erstellen",
 		"edititem": "Element bearbeiten",
+		"blockitem": "Element durchstreichen",
 		"viewparty": "Gruppe anzeigen",
 		"deleteitem": "Element löschen",
 		"deleteconfirm": "Sind Sie sicher, dass Sie dieses Element löschen möchten?",

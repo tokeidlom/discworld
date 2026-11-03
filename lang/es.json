@@ -23,6 +23,7 @@
 	"application": {
 		"createitem": "Crear objeto",
 		"edititem": "Editar objeto",
+		"blockitem": "Tachar objeto",
 		"viewparty": "Ver grupo",
 		"deleteitem": "Eliminar objeto",
 		"deleteconfirm": "¿Está seguro de que desea eliminar este objeto?",
