@@ -33,7 +33,8 @@
 --scrollbar: rgb(128, 128, 128);
 --addhover: #05ff1ab6;
 --edithover: #ffc105;
---deletehover: #dc3848; 
+--deletehover: #dc3848;
+--blockedhover: #b16ed8; 
 --chattextpink: #FF8DA1;
 --chatbackground: #b89c6d;
 --chatrolling: #4a2125;
@@ -385,6 +386,14 @@ textarea {
 
 .discworld-actor .control a.delete:hover {
   color: var(--deletehover);
+}
+
+.discworld-actor .control a.blocked:hover {
+  color: var(--blockedhover);
+}
+
+.strike-through {
+  text-decoration: line-through;
 }
 
 /*Traits item sheet styling*/

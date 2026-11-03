@@ -28,6 +28,14 @@ Hooks.once('init', async function() {
     default: 4,
     config: true
   });
+  game.settings.register('discworld', 'blockQuirks', {
+    name: 'Allow blocking of Quirks:',
+    hint: 'Check this if you want to see the option to block quirks on character sheets.',
+    scope: 'world',
+    type: Boolean,
+    default: false,
+    config: true
+  });
   game.settings.register('discworld', 'diceButtonPosition', {
     name: 'Screen position of the dice button',
     hint: 'Where on the screen should the dice button be?',

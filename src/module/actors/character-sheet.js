@@ -17,6 +17,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       onItemEdit: DiscworldCharacterSheet._onItemEdit,
       onItemDelete: DiscworldCharacterSheet._onItemDelete,
       onPartyView: DiscworldCharacterSheet._onPartyView,
+      onStrikeThrough: DiscworldCharacterSheet._onStrikeThrough,
       onIncreaseLuck: this.prototype._onIncreaseLuck,
       onDecreaseLuck: this.prototype._onDecreaseLuck,
       onRollDice: this.prototype._onRollDice,
@@ -70,6 +71,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       items: itemsSorted,
       availableParties,
       maxLuck: game.settings.get('discworld', 'maxNumberOfLuck'),
+      blockQuirks: game.settings.get('discworld', 'blockQuirks'),
     };
   }
 
@@ -337,6 +339,14 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       },],
       close: () => null,
     }).render(true);
+  }
+
+  static async _onStrikeThrough(event) {
+    event.preventDefault();
+    const entry = event.target.closest('.entry');
+    const item = this.actor.items.get(entry.dataset.itemId);
+    if (!item) return;
+    await item.update({'system.blocked': !item.system.blocked});
   }
 
   // Merge the background and description fields depreciate later

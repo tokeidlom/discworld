@@ -11,6 +11,7 @@ export class QuirkData extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     const fields = foundry.data.fields;
     return {
+      blocked: new fields.BooleanField({initial: false}),
       description: new fields.StringField({initial: ''})
     };
   }
