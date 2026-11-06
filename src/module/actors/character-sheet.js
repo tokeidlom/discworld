@@ -72,6 +72,7 @@ export class DiscworldCharacterSheet extends api.HandlebarsApplicationMixin(shee
       availableParties,
       maxLuck: game.settings.get('discworld', 'maxNumberOfLuck'),
       blockQuirks: game.settings.get('discworld', 'blockQuirks'),
+      characterD8: game.settings.get('discworld', 'characterD8'),
     };
   }
 

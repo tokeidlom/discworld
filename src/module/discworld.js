@@ -30,7 +30,15 @@ Hooks.once('init', async function() {
   });
   game.settings.register('discworld', 'blockQuirks', {
     name: 'Allow blocking of Quirks:',
-    hint: 'Check this if you want to see the option to block quirks on character sheets.',
+    hint: 'Check this if you want to see the option to block quirks on character sheets (Lancre & Überwald rules).',
+    scope: 'world',
+    type: Boolean,
+    default: false,
+    config: true
+  });
+  game.settings.register('discworld', 'characterD8', {
+    name: 'Show the D8 on character sheet:',
+    hint: 'Show the Roll D8 button on character sheet (Lancre & Überwald rules).',
     scope: 'world',
     type: Boolean,
     default: false,
